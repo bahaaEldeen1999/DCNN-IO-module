@@ -2,12 +2,12 @@
 // ADDRESS =><= DATA
 // calculate POS => Data DECOMPRESSED
 
-module decompress_handler(in1,in2,byteIndx,bitIndx,newByteIndx,newBitIndx,work,clk,RST,done);
+module decompress_handler(in1,in2,byteIndx,bitIndx,newByteIndx,newBitIndx,work,clk,RST,done,working);
 wire[255:0] buffer;
 input[7:0] in1,in2;
 input[31:0] byteIndx;
 input[2:0] bitIndx;
-input work;
+input work,working;
 input clk,RST;
 wire doneSignal;
 output done;
@@ -28,13 +28,13 @@ decompress decompress_module(.in1(in1),.in2(in2),.out(buffer),.byteIndx(byteIndx
 DMA DMA_module(ramAddress,ramData,read_signal,write_signal,ramDataOut,clk,RST);
 //read clock cyle falling 
 
-always @(doneSignal,in1,in2,buffer,work) begin
+always @(doneSignal,in1,in2,buffer,work,working) begin
     rep = in1[6:0];
     tempNewBitIndx =   (bitIndx-rep%8)%8;
     tempNewByteIndx =  (7-bitIndx+rep+byteIndx*8)/8;
     $display("done %d in1 %d in2 %d work %d\n",doneSignal,in1,in2,work);
     tempDone = 0;
-    if (doneSignal == 1) begin
+    if (doneSignal == 1 && working == 1) begin
         #500
         
         i = 0;
