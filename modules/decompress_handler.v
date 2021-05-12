@@ -81,11 +81,6 @@ always @(doneSignal,in1,in2,buffer,work,working) begin
                 #150
                 write_signal = 1;
                 ramAddress = byteIndx+shift_or_not+i;
-                j = 0;
-                repeat (8) begin
-                    ramData[j] = in1[7]==1?0:1;
-                    j=j+1;
-                end
                 j=0;
                 k=0;
                 repeat (8) begin   

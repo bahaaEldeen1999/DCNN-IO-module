@@ -20,7 +20,8 @@ sim:/decompress_handler/work \
 sim:/decompress_handler/buffer \
 sim:/decompress_handler/breakLoop \
 sim:/decompress_handler/clk \
-sim:/decompress_handler/RST
+sim:/decompress_handler/RST \
+sim:/decompress_handler/working
 
 
 force -freeze sim:/decompress_handler/clk 1 0, 0 {50 ps} -r 100
@@ -28,6 +29,7 @@ force -freeze sim:/decompress_handler/RST 1'd1 0
 run 100
 
 force -freeze sim:/decompress_handler/RST 1'd0 0
+force -freeze sim:/decompress_handler/working 1'd1 0
 run 100
 
 force -freeze sim:/decompress_handler/in1 00000111 0
