@@ -2,13 +2,15 @@
 // ADDRESS =><= DATA
 // calculate POS => Data DECOMPRESSED
 
-module decompress_handler(in1,in2,byteIndx,bitIndx,newByteIndx,newBitIndx,work);
+module decompress_handler(in1,in2,byteIndx,bitIndx,newByteIndx,newBitIndx,work,clk,RST,done);
 wire[255:0] buffer;
 input[7:0] in1,in2;
 input[31:0] byteIndx;
 input[2:0] bitIndx;
 input work;
+input clk,RST;
 wire doneSignal;
+output done;
 wire[31:0] byteIndxTemp; // index of the last byte that the buffer written 
 wire[2:0] bitIndxTemp;// index of the new bit to write to in the 
 
@@ -19,16 +21,19 @@ reg[7:0] ramData;
 wire[7:0] ramDataOut;
 reg read_signal,write_signal;
 // temporary integer values 
-integer i,j,k,rightTempByteIndex,rightTempBitIndex,shift,shift_or_not,tempNewByteIndx,tempNewBitIndx,breakLoop,noOfBitsWrittenInFirstByte;
+integer i,j,k,rightTempByteIndex,rightTempBitIndex,shift,shift_or_not,tempNewByteIndx,tempNewBitIndx,breakLoop,noOfBitsWrittenInFirstByte,rep,tempDone;
 // decompress module
 decompress decompress_module(.in1(in1),.in2(in2),.out(buffer),.byteIndx(byteIndxTemp),.bitIndx(bitIndxTemp),.done(doneSignal),.work(work));
 // ram DMA module
-DMA DMA_module(ramAddress,ramData,read_signal,write_signal,ramDataOut);
+DMA DMA_module(ramAddress,ramData,read_signal,write_signal,ramDataOut,clk,RST);
 //read clock cyle falling 
 
-always @(doneSignal,in1,in2,work,buffer) begin
- 
+always @(doneSignal,in1,in2,buffer,work) begin
+    rep = in1[6:0];
+    tempNewBitIndx =   (bitIndx-rep%8)%8;
+    tempNewByteIndx =  (7-bitIndx+rep+byteIndx*8)/8;
     $display("done %d in1 %d in2 %d work %d\n",doneSignal,in1,in2,work);
+    tempDone = 0;
     if (doneSignal == 1) begin
         #500
         
@@ -83,28 +88,8 @@ always @(doneSignal,in1,in2,work,buffer) begin
                 end
                 j=0;
                 k=0;
-                repeat (8) begin
-                // last bit 
-                // if the current bit is like the bit after it then write to ramData else stop writing as we reach the end
-                    if((buffer[255-shift-k-i*8] != buffer[255-shift-k-i*8-1]) && ( j  == 0)) begin
-                        /// newBitIndx , newByteIndex
-                        tempNewBitIndx = 7-( 8*byteIndx+(8-shift)+(-(-shift-k-i*8)))%8; // => 200;
-                        tempNewByteIndx = i + byteIndx+1;
-                        // there is a corner case when shift = 0 then we used the firstByteIndx so we will need to set byteIndx-1
-                        if (shift==0) begin
-                            tempNewByteIndx=tempNewByteIndx-1;
-                        end
-                        $display("inside new temp %d\n",tempNewBitIndx);
-                        j=1;
-
-                        // #10 
-                        // write_signal = 0;
-                        
-                    end
-                 
-                    ramData[7-k] = buffer[255-shift-k-i*8];
-                    
-                    
+                repeat (8) begin   
+                    ramData[7-k] = buffer[255-shift-k-i*8];             
                     k = k+1;
                 end
 
@@ -125,21 +110,15 @@ always @(doneSignal,in1,in2,work,buffer) begin
                 k = k+1;
             end
             read_signal = 0;
+            // ramData = mem[ByteIndx]
             #100
             write_signal = 1;
-            k=shift-1;
+            k=shift-1;// k = bitIndx
             repeat (8) begin
                 // write 
                 if (noOfBitsWrittenInFirstByte >0) begin
                     ramData[k] = buffer[255-(shift-1-k)];
                     noOfBitsWrittenInFirstByte = noOfBitsWrittenInFirstByte-1;
-                    
-                end
-                // check that the 2 bits after each other are different if it is in the same firstByteIndx
-                if (buffer[255-(shift-1-k)] != buffer[255-(shift-1-k)-1] && k>0) begin
-                    $display("new temp in first tempByteIndx %d\n",k-1);
-                    tempNewBitIndx =  k-1;
-                    tempNewByteIndx =  byteIndx;
                 end
                 k = k-1;
                 j = j+1;
@@ -147,8 +126,14 @@ always @(doneSignal,in1,in2,work,buffer) begin
         end
         #150 
         write_signal = 0;
+        tempDone  =1;
     end    
 end
-       
+// always @(negedge clk) begin
+    
+// end
+       assign  newByteIndx = tempNewByteIndx;
+       assign newBitIndx = tempNewBitIndx;
+       assign  done = tempDone;
 
 endmodule;

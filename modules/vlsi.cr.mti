@@ -1,8 +1,8 @@
 /run/media/bahaa/CMP/projects/VLSI20/modules/ram.v {2 {vlog -work work -stats=none /run/media/bahaa/CMP/projects/VLSI20/modules/ram.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module DMA
-** Warning: /run/media/bahaa/CMP/projects/VLSI20/modules/ram.v(18): (vlog-2283) Extra semicolon in $unit (global) scope.
-** Warning: /run/media/bahaa/CMP/projects/VLSI20/modules/ram.v(21): (vlog-2284) Empty $unit scope found.
+** Warning: /run/media/bahaa/CMP/projects/VLSI20/modules/ram.v(31): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: /run/media/bahaa/CMP/projects/VLSI20/modules/ram.v(34): (vlog-2284) Empty $unit scope found.
 -- Compiling package ram_v_unit
 
 Top level modules:
