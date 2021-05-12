@@ -8,4 +8,14 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	DMA
 
+} {} {}} /run/media/bahaa/CMP/projects/VLSI20/modules/decompress.v {2 {vlog -work work -stats=none /run/media/bahaa/CMP/projects/VLSI20/modules/decompress.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module decompress
+** Warning: /run/media/bahaa/CMP/projects/VLSI20/modules/decompress.v(89): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: /run/media/bahaa/CMP/projects/VLSI20/modules/decompress.v(89): (vlog-2284) Empty $unit scope found.
+-- Compiling package decompress_v_unit
+
+Top level modules:
+	decompress
+
 } {} {}}

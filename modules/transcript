@@ -5939,3 +5939,1381 @@ do decompress_handler.do
 # 
 # inside new temp        134
 # 
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+do decompress_handler.do
+# End time: 16:58:56 on May 11,2021, Elapsed time: 10:41:03
+# Errors: 0, Warnings: 1
+# vsim work.decompress_handler 
+# Start time: 16:58:56 on May 11,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# inside new temp         10
+# 
+# currValue           1
+# 
+# done 1 in1 131 in2 183 work 1
+# 
+# inside new temp         11
+# 
+# inside new temp        139
+# 
+do decompress_handler.do
+# End time: 16:59:20 on May 11,2021, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 1
+# vsim work.decompress_handler 
+# Start time: 16:59:20 on May 11,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# inside new temp         10
+# 
+# currValue           1
+# 
+# done 1 in1 131 in2 183 work 1
+# 
+# inside new temp         11
+# 
+# inside new temp        139
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 17:00:09 on May 11,2021, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 2
+# vsim work.decompress_handler 
+# Start time: 17:00:09 on May 11,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# inside new temp         10
+# 
+# currValue           1
+# 
+# done 1 in1 131 in2 183 work 1
+# 
+# inside new temp         11
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 17:00:38 on May 11,2021, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 2
+# vsim work.decompress_handler 
+# Start time: 17:00:38 on May 11,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# inside new temp         10
+# 
+# currValue           1
+# 
+# done 1 in1 131 in2 183 work 1
+# 
+# A time value could not be extracted from the current line
+do decompress_handler.do
+# End time: 17:02:10 on May 11,2021, Elapsed time: 0:01:32
+# Errors: 0, Warnings: 1
+# vsim work.decompress_handler 
+# Start time: 17:02:10 on May 11,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# inside new temp         11
+# 
+# currValue           1
+# 
+# done 1 in1 131 in2 183 work 1
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 17:04:05 on May 11,2021, Elapsed time: 0:01:55
+# Errors: 0, Warnings: 2
+# vsim work.decompress_handler 
+# Start time: 17:04:05 on May 11,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# inside new temp         11
+# 
+# currValue           1
+# 
+# done 1 in1 131 in2 183 work 1
+# 
+# new temp in first tempByteIndx           4
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 17:05:24 on May 11,2021, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 2
+# vsim work.decompress_handler 
+# Start time: 17:05:24 on May 11,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# inside new temp           4
+# 
+# currValue           1
+# 
+# done 1 in1 131 in2 183 work 1
+# 
+# new temp in first tempByteIndx           4
+# 
+do decompress_handler.do
+# End time: 17:07:01 on May 11,2021, Elapsed time: 0:01:37
+# Errors: 0, Warnings: 1
+# vsim work.decompress_handler 
+# Start time: 17:07:01 on May 11,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# inside new temp           4
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 17:07:54 on May 11,2021, Elapsed time: 0:00:53
+# Errors: 0, Warnings: 2
+# vsim work.decompress_handler 
+# Start time: 17:07:54 on May 11,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# inside new temp           4
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 17:08:13 on May 11,2021, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 2
+# vsim work.decompress_handler 
+# Start time: 17:08:13 on May 11,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# inside new temp           4
+# 
+# currValue           1
+# 
+# done 1 in1 131 in2 183 work 1
+# 
+# new temp in first tempByteIndx           4
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 17:13:34 on May 11,2021, Elapsed time: 0:05:21
+# Errors: 0, Warnings: 2
+# vsim work.decompress_handler 
+# Start time: 17:13:34 on May 11,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# inside new temp           4
+# 
+# currValue           1
+# 
+# done 1 in1 131 in2 183 work 1
+# 
+# inside new temp           4
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v failed with 4 errors.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 1 failed with 4 errors.
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+# Compile of decompress_handler.v was successful with warnings.
+do decompress_handler.do
+# End time: 17:19:44 on May 11,2021, Elapsed time: 0:06:10
+# Errors: 0, Warnings: 4
+# vsim work.decompress_handler 
+# Start time: 17:19:44 on May 11,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# currValue           1
+# 
+# done 1 in1 131 in2 183 work 1
+# 
+# new temp in first tempByteIndx           4
+# 
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 17:20:47 on May 11,2021, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 4
+# vsim work.decompress_handler 
+# Start time: 17:20:47 on May 11,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# shift           0
+# 
+# currValue           1
+# 
+# done 1 in1 131 in2 183 work 1
+# 
+# shift           5
+# 
+# new temp in first tempByteIndx           4
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 17:21:22 on May 11,2021, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 2
+# vsim work.decompress_handler 
+# Start time: 17:21:22 on May 11,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# shift           3
+# 
+# currValue           1
+# 
+# done 1 in1 131 in2 183 work 1
+# 
+# shift           3
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 17:28:41 on May 11,2021, Elapsed time: 0:07:19
+# Errors: 0, Warnings: 2
+# vsim work.decompress_handler 
+# Start time: 17:28:41 on May 11,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# shift           0
+# 
+# currValue           1
+# 
+# done 1 in1 131 in2 183 work 1
+# 
+# shift           5
+# 
+# new temp in first tempByteIndx           4
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 17:29:40 on May 11,2021, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 2
+# vsim work.decompress_handler 
+# Start time: 17:29:40 on May 11,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# shift           0 ensShift           5
+# 
+# currValue           1
+# 
+# done 1 in1 131 in2 183 work 1
+# 
+# shift           5 ensShift           5
+# 
+# new temp in first tempByteIndx           4
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 17:31:54 on May 11,2021, Elapsed time: 0:02:14
+# Errors: 0, Warnings: 2
+# vsim work.decompress_handler 
+# Start time: 17:31:54 on May 11,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# shift           0 ensShift          -1
+# 
+# currValue           1
+# 
+# done 1 in1 131 in2 183 work 1
+# 
+# shift           5 ensShift           2
+# 
+# new temp in first tempByteIndx           4
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 17:33:05 on May 11,2021, Elapsed time: 0:01:11
+# Errors: 0, Warnings: 2
+# vsim work.decompress_handler 
+# Start time: 17:33:05 on May 11,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# shift           0 ensShift          -1
+# 
+# currValue           1
+# 
+# done 1 in1 131 in2 183 work 1
+# 
+# shift           5 ensShift           2
+# 
+# new temp in first tempByteIndx           4
+# 
+do decompress_handler.do
+# End time: 17:33:55 on May 11,2021, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 1
+# vsim work.decompress_handler 
+# Start time: 17:33:55 on May 11,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# shift           0 ensShift          -1
+# 
+# currValue           1
+# 
+# done 1 in1 131 in2 183 work 1
+# 
+# shift           5 ensShift           2
+# 
+# new temp in first tempByteIndx           4
+# 
+# currValue           0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# shift           2 ensShift           5
+# 
+do decompress_handler.do
+# End time: 01:07:19 on May 12,2021, Elapsed time: 7:33:24
+# Errors: 0, Warnings: 1
+# vsim work.decompress_handler 
+# Start time: 01:07:19 on May 12,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   8 in2 183 work 0
+# 
+# done 1 in1   8 in2 183 work 0
+# 
+# shift           0 ensShift           0
+# 
+# currValue           1
+# 
+# done 1 in1 136 in2 183 work 1
+# 
+# shift           5 ensShift           0
+# 
+do decompress_handler.do
+# End time: 01:07:36 on May 12,2021, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 1
+# vsim work.decompress_handler 
+# Start time: 01:07:36 on May 12,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   8 in2 183 work 0
+# 
+# done 1 in1   8 in2 183 work 0
+# 
+# shift           0 ensShift           0
+# 
+# currValue           1
+# 
+# done 1 in1 136 in2 183 work 1
+# 
+# shift           0 ensShift           0
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 01:14:20 on May 12,2021, Elapsed time: 0:06:44
+# Errors: 0, Warnings: 2
+# vsim work.decompress_handler 
+# Start time: 01:14:20 on May 12,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   8 in2 183 work 0
+# 
+# done 1 in1   8 in2 183 work 0
+# 
+# shift           0 noOfBitsWrittenInFirstByte           0
+# 
+# currValue           1
+# 
+# done 1 in1 136 in2 183 work 1
+# 
+# shift           0 noOfBitsWrittenInFirstByte           0
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 01:16:02 on May 12,2021, Elapsed time: 0:01:42
+# Errors: 0, Warnings: 3
+# vsim work.decompress_handler 
+# Start time: 01:16:02 on May 12,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   8 in2 183 work 0
+# 
+# done 1 in1   8 in2 183 work 0
+# 
+# shift           0 noOfBitsWrittenInFirstByte           0
+# 
+# currValue           1
+# 
+# done 1 in1 136 in2 183 work 1
+# 
+# shift           0 noOfBitsWrittenInFirstByte           0
+# 
+# A time value could not be extracted from the current line
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 01:19:23 on May 12,2021, Elapsed time: 0:03:21
+# Errors: 0, Warnings: 2
+# vsim work.decompress_handler 
+# Start time: 01:19:23 on May 12,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   8 in2 183 work 0
+# 
+# done 1 in1   8 in2 183 work 0
+# 
+# shift           0 noOfBitsWrittenInFirstByte           0
+# 
+# currValue           1
+# 
+# done 1 in1 136 in2 183 work 1
+# 
+# shift           0 noOfBitsWrittenInFirstByte           0
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 01:19:56 on May 12,2021, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 2
+# vsim work.decompress_handler 
+# Start time: 01:19:56 on May 12,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   8 in2 183 work 0
+# 
+# done 1 in1   8 in2 183 work 0
+# 
+# shift           0 noOfBitsWrittenInFirstByte           0
+# 
+# currValue           1
+# 
+# done 1 in1 136 in2 183 work 1
+# 
+# shift           0 noOfBitsWrittenInFirstByte           0
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 01:26:04 on May 12,2021, Elapsed time: 0:06:08
+# Errors: 0, Warnings: 3
+# vsim work.decompress_handler 
+# Start time: 01:26:04 on May 12,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   8 in2 183 work 0
+# 
+# done 1 in1   8 in2 183 work 0
+# 
+# shift           0 noOfBitsWrittenInFirstByte           8
+# 
+# currValue           1
+# 
+# done 1 in1 136 in2 183 work 1
+# 
+# shift           0 noOfBitsWrittenInFirstByte           8
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 01:28:45 on May 12,2021, Elapsed time: 0:02:41
+# Errors: 0, Warnings: 2
+# vsim work.decompress_handler 
+# Start time: 01:28:45 on May 12,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   8 in2 183 work 0
+# 
+# done 1 in1   8 in2 183 work 0
+# 
+# shift           0 noOfBitsWrittenInFirstByte           8
+# 
+# currValue           1
+# 
+# done 1 in1 136 in2 183 work 1
+# 
+# shift           0 noOfBitsWrittenInFirstByte           8
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 01:30:18 on May 12,2021, Elapsed time: 0:01:33
+# Errors: 0, Warnings: 2
+# vsim work.decompress_handler 
+# Start time: 01:30:18 on May 12,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   8 in2 183 work 0
+# 
+# done 1 in1   8 in2 183 work 0
+# 
+# shift           0 noOfBitsWrittenInFirstByte           0
+# 
+# inside new temp           0
+# 
+# currValue           1
+# 
+# done 1 in1 136 in2 183 work 1
+# 
+# shift           0 noOfBitsWrittenInFirstByte           0
+# 
+# inside new temp           0
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 01:32:28 on May 12,2021, Elapsed time: 0:02:10
+# Errors: 0, Warnings: 2
+# vsim work.decompress_handler 
+# Start time: 01:32:28 on May 12,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   8 in2 183 work 0
+# 
+# done 1 in1   8 in2 183 work 0
+# 
+# shift           0 noOfBitsWrittenInFirstByte           0
+# 
+# inside new temp           0
+# 
+# currValue           1
+# 
+# done 1 in1 136 in2 183 work 1
+# 
+# shift           0 noOfBitsWrittenInFirstByte           0
+# 
+# inside new temp           0
+# 
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 02:46:31 on May 12,2021, Elapsed time: 1:14:03
+# Errors: 0, Warnings: 2
+# vsim work.decompress_handler 
+# Start time: 02:46:31 on May 12,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   8 in2 183 work 0
+# 
+# done 1 in1   8 in2 183 work 0
+# 
+# shift           0 noOfBitsWrittenInFirstByte           0
+# 
+# inside new temp           7
+# 
+# currValue           1
+# 
+# done 1 in1 136 in2 183 work 1
+# 
+# shift           0 noOfBitsWrittenInFirstByte           0
+# 
+# inside new temp           7
+# 
+do decompress_handler.do
+# End time: 02:47:54 on May 12,2021, Elapsed time: 0:01:23
+# Errors: 0, Warnings: 1
+# vsim work.decompress_handler 
+# Start time: 02:47:54 on May 12,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# shift           0 noOfBitsWrittenInFirstByte           0
+# 
+# inside new temp           4
+# 
+# currValue           1
+# 
+# done 1 in1 131 in2 183 work 1
+# 
+# shift           5 noOfBitsWrittenInFirstByte           3
+# 
+# new temp in first tempByteIndx           4
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 02:49:37 on May 12,2021, Elapsed time: 0:01:43
+# Errors: 0, Warnings: 2
+# vsim work.decompress_handler 
+# Start time: 02:49:37 on May 12,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# shift           0 noOfBitsWrittenInFirstByte           0
+# 
+# inside new temp           4
+# 
+# currValue           1
+# 
+# done 1 in1 131 in2 183 work 1
+# 
+# shift           5 noOfBitsWrittenInFirstByte           3
+# 
+# new temp in first tempByteIndx           4
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 02:54:21 on May 12,2021, Elapsed time: 0:04:44
+# Errors: 0, Warnings: 2
+# vsim work.decompress_handler 
+# Start time: 02:54:21 on May 12,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# shift           0 noOfBitsWrittenInFirstByte           0
+# 
+# inside new temp           4
+# 
+# currValue           1
+# 
+# done 1 in1 131 in2 183 work 1
+# 
+# shift           5 noOfBitsWrittenInFirstByte           3
+# 
+# new temp in first tempByteIndx           4
+# 
+do decompress_handler.do
+# End time: 02:55:55 on May 12,2021, Elapsed time: 0:01:34
+# Errors: 0, Warnings: 1
+# vsim work.decompress_handler 
+# Start time: 02:55:55 on May 12,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# shift           0 noOfBitsWrittenInFirstByte           0
+# 
+# inside new temp           4
+# 
+# currValue           1
+# 
+# done 1 in1 131 in2 183 work 1
+# 
+# shift           5 noOfBitsWrittenInFirstByte           3
+# 
+# new temp in first tempByteIndx           4
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 03:02:25 on May 12,2021, Elapsed time: 0:06:30
+# Errors: 0, Warnings: 2
+# vsim work.decompress_handler 
+# Start time: 03:02:25 on May 12,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'done'.
+#    Time: 0 ps  Iteration: 0  Instance: /decompress_handler/decompress_module File: /run/media/bahaa/CMP/projects/VLSI20/modules/decompress_handler.v Line: 24
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./decompress_handler.do PAUSED at line 1
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v failed with 1 errors.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 1 failed with 1 error.
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v failed with 1 errors.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 1 failed with 1 error.
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v failed with 1 errors.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 1 failed with 1 error.
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do test.do
+# vsim work.decompress_handler 
+# Start time: 03:02:25 on May 12,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           Z
+# 
+# done 0 in1   z in2   z work 0
+# 
+# done x in1   z in2   z work 0
+# 
+# currValue           Z
+# 
+# done x in1   z in2   z work 1
+# 
+# currValue           Z
+# 
+# done x in1   z in2   z work 0
+# 
+# currValue           Z
+# 
+# done x in1   z in2   z work 1
+# 
+# currValue           Z
+# 
+# done x in1   z in2   z work 0
+# 
+# currValue           Z
+# 
+# done x in1   z in2   z work 1
+# 
+# currValue           Z
+# 
+# done x in1   z in2   z work 0
+# 
+do decompress_handler.do
+# End time: 03:05:27 on May 12,2021, Elapsed time: 0:03:02
+# Errors: 1, Warnings: 5
+# vsim work.decompress_handler 
+# Start time: 03:05:27 on May 12,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   3 in2 183 work 0
+# 
+# done x in1   3 in2 183 work 0
+# 
+# currValue           1
+# 
+# done x in1 131 in2 183 work 1
+# 
+# done x in1 131 in2 183 work 1
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 03:07:42 on May 12,2021, Elapsed time: 0:02:15
+# Errors: 0, Warnings: 4
+# vsim work.decompress_handler 
+# Start time: 03:07:42 on May 12,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done x in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# shift           0 noOfBitsWrittenInFirstByte           0
+# 
+# inside new temp           4
+# 
+# currValue           1
+# 
+# done 1 in1 131 in2 183 work 1
+# 
+# shift           5 noOfBitsWrittenInFirstByte           3
+# 
+# new temp in first tempByteIndx           4
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 03:12:45 on May 12,2021, Elapsed time: 0:05:03
+# Errors: 0, Warnings: 2
+# vsim work.decompress_handler 
+# Start time: 03:12:45 on May 12,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done x in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# shift           0 noOfBitsWrittenInFirstByte           0
+# 
+# inside new temp           4
+# 
+# currValue           1
+# 
+# done 1 in1 131 in2 183 work 1
+# 
+# shift           5 noOfBitsWrittenInFirstByte           3
+# 
+# new temp in first tempByteIndx           2
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 03:13:23 on May 12,2021, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 2
+# vsim work.decompress_handler 
+# Start time: 03:13:23 on May 12,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done x in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# shift           0 noOfBitsWrittenInFirstByte           0
+# 
+# inside new temp           4
+# 
+# currValue           1
+# 
+# done 1 in1 131 in2 183 work 1
+# 
+# shift           5 noOfBitsWrittenInFirstByte           3
+# 
+# new temp in first tempByteIndx           3
+# 
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 03:16:20 on May 12,2021, Elapsed time: 0:02:57
+# Errors: 0, Warnings: 2
+# vsim work.decompress_handler 
+# Start time: 03:16:20 on May 12,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done x in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# shift           0 noOfBitsWrittenInFirstByte           0
+# 
+# inside new temp           4
+# 
+# currValue           1
+# 
+# done 1 in1 131 in2 183 work 1
+# 
+# shift           5 noOfBitsWrittenInFirstByte           3
+# 
+# new temp in first tempByteIndx           3
+# 
+do decompress_handler.do
+# End time: 03:16:51 on May 12,2021, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 1
+# vsim work.decompress_handler 
+# Start time: 03:16:51 on May 12,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done x in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# shift           0 noOfBitsWrittenInFirstByte           0
+# 
+# inside new temp           4
+# 
+# currValue           1
+# 
+# done 1 in1 131 in2 183 work 1
+# 
+# shift           5 noOfBitsWrittenInFirstByte           3
+# 
+# new temp in first tempByteIndx           3
+# 
+# currValue           0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# shift           2 noOfBitsWrittenInFirstByte           3
+# 
+# new temp in first tempByteIndx           0
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 03:22:10 on May 12,2021, Elapsed time: 0:05:19
+# Errors: 0, Warnings: 2
+# vsim work.decompress_handler 
+# Start time: 03:22:10 on May 12,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# shift           0 noOfBitsWrittenInFirstByte           0
+# 
+# inside new temp           4
+# 
+# currValue           1
+# 
+# done 1 in1 131 in2 183 work 1
+# 
+# shift           5 noOfBitsWrittenInFirstByte           3
+# 
+# new temp in first tempByteIndx           1
+# 
+# currValue           0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# shift           2 noOfBitsWrittenInFirstByte           2
+# 
+# new temp in first tempByteIndx          -2
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 03:22:58 on May 12,2021, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 2
+# vsim work.decompress_handler 
+# Start time: 03:22:58 on May 12,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# shift           0 noOfBitsWrittenInFirstByte           0
+# 
+# inside new temp           4
+# 
+# currValue           1
+# 
+# done 1 in1 131 in2 183 work 1
+# 
+# shift           5 noOfBitsWrittenInFirstByte           3
+# 
+# new temp in first tempByteIndx           1
+# 
+# currValue           0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# shift           2 noOfBitsWrittenInFirstByte           2
+# 
+# inside new temp           6
+# 
+# new temp in first tempByteIndx          -2
+# 
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 03:26:06 on May 12,2021, Elapsed time: 0:03:08
+# Errors: 0, Warnings: 2
+# vsim work.decompress_handler 
+# Start time: 03:26:06 on May 12,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# shift           0 noOfBitsWrittenInFirstByte           0
+# 
+# inside new temp           4
+# 
+# currValue           1
+# 
+# done 1 in1 131 in2 183 work 1
+# 
+# shift           5 noOfBitsWrittenInFirstByte           3
+# 
+# new temp in first tempByteIndx           1
+# 
+# currValue           0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# shift           2 noOfBitsWrittenInFirstByte           2
+# 
+# inside new temp           6
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 03:32:46 on May 12,2021, Elapsed time: 0:06:40
+# Errors: 0, Warnings: 2
+# vsim work.decompress_handler 
+# Start time: 03:32:46 on May 12,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# shift           0 noOfBitsWrittenInFirstByte           0
+# 
+# inside new temp           5
+# 
+# currValue           1
+# 
+# done 1 in1 131 in2 183 work 1
+# 
+# shift           5 noOfBitsWrittenInFirstByte           3
+# 
+# new temp in first tempByteIndx           1
+# 
+# currValue           0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# shift           2 noOfBitsWrittenInFirstByte           2
+# 
+# inside new temp           7
+# 
+# currValue           1
+# 
+# done 1 in1 130 in2 183 work 1
+# 
+# shift           7 noOfBitsWrittenInFirstByte           2
+# 
+# new temp in first tempByteIndx           4
+# 
+# A time value could not be extracted from the current line
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do decompress_handler.do
+# End time: 03:34:35 on May 12,2021, Elapsed time: 0:01:49
+# Errors: 0, Warnings: 2
+# vsim work.decompress_handler 
+# Start time: 03:34:35 on May 12,2021
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# currValue           0
+# 
+# done 0 in1   3 in2 183 work 0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# shift           0 noOfBitsWrittenInFirstByte           0
+# 
+# inside new temp           5
+# 
+# currValue           1
+# 
+# done 1 in1 131 in2 183 work 1
+# 
+# shift           5 noOfBitsWrittenInFirstByte           3
+# 
+# new temp in first tempByteIndx           1
+# 
+# currValue           0
+# 
+# done 1 in1   3 in2 183 work 0
+# 
+# shift           2 noOfBitsWrittenInFirstByte           2
+# 
+# inside new temp           7
+# 
+# currValue           1
+# 
+# done 1 in1 130 in2 183 work 1
+# 
+# shift           7 noOfBitsWrittenInFirstByte           2
+# 
+# new temp in first tempByteIndx           4
+# 
