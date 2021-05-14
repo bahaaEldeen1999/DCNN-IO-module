@@ -41,13 +41,16 @@ while pos < len(string):
     temp_string = (bin(repitions)[2:])
     #print(temp_string)
     temp_string = temp_string.zfill(7)
-    compressed_string = curr_val+temp_string
+    compressed_string = curr_val+temp_string #8 bits
     #print(compressed_string)
     #print(temp_string,curr_val,compressed_string)
     # 000000001 => 1 => 0b1
-    compressed_arr.append(int(compressed_string,2)) 
+    #compressed_arr.append(int(compressed_string,2))
     #print(compressed_arr[-1])
     #break
+    # 16
+    # >8 ..... 0000
+
 
 
 ### decompress 

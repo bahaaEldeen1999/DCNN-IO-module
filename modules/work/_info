@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 d/run/media/bahaa/CMP/projects/VLSI20/modules
 vdecompress
-Z1 !s110 1620851598
+Z1 !s110 1620989810
 !i10b 1
 !s100 FQ0`6:0aJfA6S8TjF7?Qj0
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,13 +20,13 @@ R0
 Z4 w1620782327
 Z5 8/run/media/bahaa/CMP/projects/VLSI20/modules/decompress.v
 Z6 F/run/media/bahaa/CMP/projects/VLSI20/modules/decompress.v
-!i122 650
+!i122 664
 L0 1 89
 Z7 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z8 !s108 1620851598.000000
+Z8 !s108 1620989810.000000
 Z9 !s107 /run/media/bahaa/CMP/projects/VLSI20/modules/decompress.v|
 Z10 !s90 -reportprogress|300|-work|work|-stats=none|/run/media/bahaa/CMP/projects/VLSI20/modules/decompress.v|
 !i113 1
@@ -40,10 +40,10 @@ R2
 IDKlB7GTGbQBAU5Afb[ABW3
 R3
 R0
-Z13 w1620851578
+Z13 w1620851640
 Z14 8/run/media/bahaa/CMP/projects/VLSI20/modules/decompress_handler.v
 Z15 F/run/media/bahaa/CMP/projects/VLSI20/modules/decompress_handler.v
-!i122 651
+!i122 665
 L0 5 130
 R7
 r1
@@ -70,7 +70,7 @@ R0
 R13
 R14
 R15
-!i122 651
+!i122 665
 L0 134 0
 R7
 31
@@ -95,7 +95,7 @@ R0
 R4
 R5
 R6
-!i122 650
+!i122 664
 L0 89 0
 R7
 31
@@ -116,7 +116,7 @@ R0
 Z19 w1620849492
 Z20 8/run/media/bahaa/CMP/projects/VLSI20/modules/ram.v
 Z21 F/run/media/bahaa/CMP/projects/VLSI20/modules/ram.v
-!i122 652
+!i122 666
 L0 1 31
 R7
 r1
@@ -129,6 +129,54 @@ Z23 !s90 -reportprogress|300|-work|work|-stats=none|/run/media/bahaa/CMP/project
 R11
 R12
 n@d@m@a
+vfile_handler
+R1
+!i10b 1
+!s100 ]>^23=<H04M8Y:j8=LBUO3
+R2
+ISWd5z[j2HPJmdYnfVHB]70
+R3
+R0
+Z24 w1620989772
+Z25 8/run/media/bahaa/CMP/projects/VLSI20/modules/file_handler.v
+Z26 F/run/media/bahaa/CMP/projects/VLSI20/modules/file_handler.v
+!i122 667
+L0 1 27
+R7
+r1
+!s85 0
+31
+R8
+!s107 /run/media/bahaa/CMP/projects/VLSI20/modules/file_handler.v|
+Z27 !s90 -reportprogress|300|-work|work|-stats=none|/run/media/bahaa/CMP/projects/VLSI20/modules/file_handler.v|
+!i113 1
+R11
+R12
+Xfile_handler_v_unit
+R18
+R1
+VOCOkjQQZ:oh_RNVcg1@mX1
+r1
+!s85 0
+!i10b 1
+!s100 374c_0HT2F]<SnVfjOB[E0
+IOCOkjQQZ:oh_RNVcg1@mX1
+!i103 1
+S1
+R0
+R24
+R25
+R26
+!i122 667
+L0 27 0
+R7
+31
+R8
+Z28 !s107 /run/media/bahaa/CMP/projects/VLSI20/modules/file_handler.v|
+R27
+!i113 1
+R11
+R12
 vram
 !s110 1620684451
 !i10b 1
@@ -167,7 +215,7 @@ R0
 R19
 R20
 R21
-!i122 652
+!i122 666
 L0 31 0
 R7
 31

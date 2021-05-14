@@ -124,9 +124,9 @@ always @(doneSignal,in1,in2,buffer,work,working) begin
         tempDone  =1;
     end    
 end
-// always @(negedge clk) begin
-    
-// end
+    // always @(negedge clk) begin
+        
+    // end
        assign  newByteIndx = tempNewByteIndx;
        assign newBitIndx = tempNewBitIndx;
        assign  done = tempDone;
