@@ -28,6 +28,7 @@ print(string[0:8])
 pos = 0 
 value = 0 
 repitions = 0
+final_string=""
 while pos < len(string):
     #print(pos)
     curr_val = string[pos]
@@ -42,10 +43,27 @@ while pos < len(string):
     #print(temp_string)
     temp_string = temp_string.zfill(7)
     compressed_string = curr_val+temp_string
+    final_string=final_string+compressed_string
+
+if len(final_string)%16!=0:
+    final_string=final_string+"00000000"
+to_txt_file=""
+final_i=int(len(final_string)/16)
+
+temp=0
+for i in range(final_i):
+               temp=int(i*16)
+               to_txt_file=to_txt_file+final_string[temp:temp+16]+'\n'
+                           
+# print(to_txt_file)
+f = open("compressed.txt", "w")
+f.write(to_txt_file)
+f.close()
+    # print (compressed_string)
     #print(compressed_string)
     #print(temp_string,curr_val,compressed_string)
     # 000000001 => 1 => 0b1
-    compressed_arr.append(int(compressed_string,2)) 
+    # compressed_arr.append(int(compressed_string,2)) 
     #print(compressed_arr[-1])
     #break
 
