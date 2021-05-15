@@ -14,18 +14,25 @@ always @(posedge clk) begin
         end
     end
 
-    else if(read_signal == 1) begin
+    if(read_signal == 1) begin
         temp = mem[address];
     end
-    else if (write_signal == 1) begin
-        mem[address] = data;
-    end
+    
 
 end
 
-// always @(negedge clk) begin
+always @(negedge clk) begin
+    i=0;
+    if (RST == 1) begin
+        for(i=0;i<32768;i=i+1) begin
+            mem[i] = 8'b00000000;
+        end
+    end
+    if (write_signal == 1) begin
+        mem[address] = data;
+    end
     
-// end
+end
 
 assign dataout = temp;
 endmodule;

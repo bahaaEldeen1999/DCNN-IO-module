@@ -127,7 +127,9 @@ always @(posedge clk) begin
     end
   
 end
-
+    // always @(negedge clk) begin
+        
+    // end
        assign  newByteIndx = tempNewByteIndx;
        assign newBitIndx = tempNewBitIndx;
        assign  done = tempDone;
