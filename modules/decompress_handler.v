@@ -2,7 +2,7 @@
 // ADDRESS =><= DATA
 // calculate POS => Data DECOMPRESSED
 
-module decompress_handler(in1,in2,byteIndx,bitIndx,newByteIndx,newBitIndx,work,clk,RST,done,working);
+module decompress_handler(in1,in2,byteIndx,bitIndx,newByteIndx,newBitIndx,work,clk,RST,done,working,ramAddress,ramDataOut,ramDataIn,ramReadSignal,ramWriteSignal);
 wire[255:0] buffer;
 input[7:0] in1,in2;
 input[31:0] byteIndx;
@@ -16,9 +16,9 @@ wire[2:0] bitIndxTemp;// index of the new bit to write to in the
 
 output[31:0] newByteIndx; // index of the last byte that the buffer written 
 output[2:0] newBitIndx;// index of the new bit to write to in the 
-reg[15:0] ramAddress;
-reg[7:0] ramData;
-wire[7:0] ramDataOut;
+reg[15:0] ramAddressReg;
+reg[7:0] ramDataReg;
+wire[7:0] ramDataOutReg;
 reg read_signal,write_signal;
 wire doneRead;
 wire doneWrite;
@@ -27,9 +27,14 @@ integer i=0,j,k,rightTempByteIndex,rightTempBitIndex,shift,shift_or_not,tempNewB
 // decompress module
 decompress decompress_module(.in1(in1),.in2(in2),.out(buffer),.byteIndx(byteIndxTemp),.bitIndx(bitIndxTemp),.done(doneSignal),.work(work));
 // ram DMA module
-DMA DMA_module(ramAddress,ramData,read_signal,write_signal,ramDataOut,clk,RST, doneRead, doneWrite);
+//DMA DMA_module(ramAddress,ramData,read_signal,write_signal,ramDataOut,clk,RST, doneRead, doneWrite);
 //read clock cyle falling 
 
+// to remove dma from decompress handlker we have to out ram info
+output[15:0] ramAddress;
+output[7:0] ramDataOut;
+input[7:0] ramDataIn;
+output ramReadSignal,ramWriteSignal;
 always @(posedge clk) begin
     $display("i %d\n",i);
 
@@ -80,7 +85,7 @@ always @(posedge clk) begin
             if(i==0)begin
             
                 write_signal = 0;
-                ramAddress = byteIndx;
+                ramAddressReg = byteIndx;
                 read_signal = 1;
             end
             else if(i==1)begin
@@ -88,18 +93,18 @@ always @(posedge clk) begin
                 // now data is availabe in ramDataOut
                 k=0;
                 repeat (8) begin
-                    ramData[k]=ramDataOut[k];
+                    ramDataReg[k]=ramDataIn[k];
                     k = k+1;
                 end
                 read_signal = 0;
-                // ramData = mem[ByteIndx]
+                // ramDataReg = mem[ByteIndx]
         
                 write_signal = 1;
                 k=shift-1;// k = bitIndx
                 repeat (8) begin
                     // write 
                     if (noOfBitsWrittenInFirstByte >0) begin
-                        ramData[k] = buffer[255-(shift-1-k)];
+                        ramDataReg[k] = buffer[255-(shift-1-k)];
                         noOfBitsWrittenInFirstByte = noOfBitsWrittenInFirstByte-1;
                     end
                     k = k-1;
@@ -114,11 +119,11 @@ always @(posedge clk) begin
     end
     else if(breakLoop == 0 && i<33) begin        
                 write_signal = 1;
-                ramAddress = byteIndx+shift_or_not+i-2;
+                ramAddressReg = byteIndx+shift_or_not+i-2;
                 j=0;
                 k=0;
                 repeat (8) begin   
-                    ramData[7-k] = buffer[255-shift-k-(i-2)*8];             
+                    ramDataReg[7-k] = buffer[255-shift-k-(i-2)*8];             
                     k = k+1;
                 end
                 i = i +1;
@@ -131,6 +136,10 @@ end
        assign  newByteIndx = tempNewByteIndx;
        assign newBitIndx = tempNewBitIndx;
        assign  done = tempDone;
+       assign ramAddress = ramAddressReg;
+       assign ramDataOut = ramDataReg;
+       assign ramReadSignal = read_signal;
+       assign ramWriteSignal = write_signal;
 
 endmodule;
 

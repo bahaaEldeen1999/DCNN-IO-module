@@ -43,7 +43,7 @@ run 6500
 
 force -freeze sim:/decompress_handler/in1 10001010 0
 force -freeze sim:/decompress_handler/in2 010110111 0
-force -freeze sim:/decompress_handler/work 1 0
+force -freeze sim:/decompress_handler/work 1 1
 force -freeze sim:/decompress_handler/byteIndx 32'd0 0
 force -freeze sim:/decompress_handler/bitIndx 3'd0 0
 
