@@ -11,7 +11,6 @@ input work;
 wire doneSignal;
 wire[31:0] byteIndxTemp; // index of the last byte that the buffer written 
 wire[2:0] bitIndxTemp;// index of the new bit to write to in the 
-
 output[31:0] newByteIndx; // index of the last byte that the buffer written 
 output[2:0] newBitIndx;// index of the new bit to write to in the 
 reg[15:0] ramAddress;
