@@ -10,23 +10,23 @@ z2
 cModel Technology
 Z0 d/run/media/bahaa/CMP/projects/VLSI20/modules
 vdecompress
-Z1 !s110 1620706671
+Z1 !s110 1620989810
 !i10b 1
-!s100 MjfE1=_QfP17^n9AZHC7l3
+!s100 FQ0`6:0aJfA6S8TjF7?Qj0
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IkKPkdK[ZK`]izMLlQ[3lL0
+I5m5WOA6YYOLW3E1go4Z5U0
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z4 w1620706664
+Z4 w1620782327
 Z5 8/run/media/bahaa/CMP/projects/VLSI20/modules/decompress.v
 Z6 F/run/media/bahaa/CMP/projects/VLSI20/modules/decompress.v
-!i122 461
-L0 1 81
+!i122 664
+L0 1 89
 Z7 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z8 !s108 1620706671.000000
+Z8 !s108 1620989810.000000
 Z9 !s107 /run/media/bahaa/CMP/projects/VLSI20/modules/decompress.v|
 Z10 !s90 -reportprogress|300|-work|work|-stats=none|/run/media/bahaa/CMP/projects/VLSI20/modules/decompress.v|
 !i113 1
@@ -35,16 +35,16 @@ Z12 tCvgOpt 0
 vdecompress_handler
 R1
 !i10b 1
-!s100 AKm8FJ>6`aF?jiN6e^dZ13
+!s100 EWgBRS==F^2k`UPFA]BUn0
 R2
-IC_RUDjaM__HFQ`]7L>n[a1
+IDKlB7GTGbQBAU5Afb[ABW3
 R3
 R0
-Z13 w1620706638
+Z13 w1620851640
 Z14 8/run/media/bahaa/CMP/projects/VLSI20/modules/decompress_handler.v
 Z15 F/run/media/bahaa/CMP/projects/VLSI20/modules/decompress_handler.v
-!i122 462
-L0 5 107
+!i122 665
+L0 5 130
 R7
 r1
 !s85 0
@@ -58,20 +58,20 @@ R12
 Xdecompress_handler_v_unit
 Z18 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
 R1
-VX?8E@a:F_J[1DbalQk4232
+Vz<>l?OzzXffBS6P6BY2iM3
 r1
 !s85 0
 !i10b 1
-!s100 iZ?<87RQTgRX]fQF6[2:C3
-IX?8E@a:F_J[1DbalQk4232
+!s100 Hg0f77^?SYzQJIHB0K6_e1
+Iz<>l?OzzXffBS6P6BY2iM3
 !i103 1
 S1
 R0
 R13
 R14
 R15
-!i122 462
-L0 111 0
+!i122 665
+L0 134 0
 R7
 31
 R8
@@ -83,20 +83,20 @@ R12
 Xdecompress_v_unit
 R18
 R1
-VB>h2moaI<VRJ4=zmAYzZS0
+Vh:cYBQ6>lBnnklo4XSS5H3
 r1
 !s85 0
 !i10b 1
-!s100 98WN_IQ9jbD>hVTN:M>^f3
-IB>h2moaI<VRJ4=zmAYzZS0
+!s100 E@1LF:;X34T6g>Ig0>YK;3
+Ih:cYBQ6>lBnnklo4XSS5H3
 !i103 1
 S1
 R0
 R4
 R5
 R6
-!i122 461
-L0 81 0
+!i122 664
+L0 89 0
 R7
 31
 R8
@@ -108,27 +108,75 @@ R12
 vDMA
 R1
 !i10b 1
-!s100 P7bfF]hKoe>?ddV:j72`b3
+!s100 :IQQc1]@zIABHCgE_zC_;2
 R2
-IoiZ9f]<4HAcG>MCDCO3_j0
+IbeVWRh885eaAz@@;Xh=T`2
 R3
 R0
-Z19 w1620702704
+Z19 w1620849492
 Z20 8/run/media/bahaa/CMP/projects/VLSI20/modules/ram.v
 Z21 F/run/media/bahaa/CMP/projects/VLSI20/modules/ram.v
-!i122 463
-Z22 L0 1 18
+!i122 666
+L0 1 31
 R7
 r1
 !s85 0
 31
 R8
-Z23 !s107 /run/media/bahaa/CMP/projects/VLSI20/modules/ram.v|
-Z24 !s90 -reportprogress|300|-work|work|-stats=none|/run/media/bahaa/CMP/projects/VLSI20/modules/ram.v|
+Z22 !s107 /run/media/bahaa/CMP/projects/VLSI20/modules/ram.v|
+Z23 !s90 -reportprogress|300|-work|work|-stats=none|/run/media/bahaa/CMP/projects/VLSI20/modules/ram.v|
 !i113 1
 R11
 R12
 n@d@m@a
+vfile_handler
+R1
+!i10b 1
+!s100 ]>^23=<H04M8Y:j8=LBUO3
+R2
+ISWd5z[j2HPJmdYnfVHB]70
+R3
+R0
+Z24 w1620989772
+Z25 8/run/media/bahaa/CMP/projects/VLSI20/modules/file_handler.v
+Z26 F/run/media/bahaa/CMP/projects/VLSI20/modules/file_handler.v
+!i122 667
+L0 1 27
+R7
+r1
+!s85 0
+31
+R8
+!s107 /run/media/bahaa/CMP/projects/VLSI20/modules/file_handler.v|
+Z27 !s90 -reportprogress|300|-work|work|-stats=none|/run/media/bahaa/CMP/projects/VLSI20/modules/file_handler.v|
+!i113 1
+R11
+R12
+Xfile_handler_v_unit
+R18
+R1
+VOCOkjQQZ:oh_RNVcg1@mX1
+r1
+!s85 0
+!i10b 1
+!s100 374c_0HT2F]<SnVfjOB[E0
+IOCOkjQQZ:oh_RNVcg1@mX1
+!i103 1
+S1
+R0
+R24
+R25
+R26
+!i122 667
+L0 27 0
+R7
+31
+R8
+Z28 !s107 /run/media/bahaa/CMP/projects/VLSI20/modules/file_handler.v|
+R27
+!i113 1
+R11
+R12
 vram
 !s110 1620684451
 !i10b 1
@@ -141,39 +189,39 @@ w1620684412
 R20
 R21
 !i122 95
-R22
+L0 1 18
 R7
 r1
 !s85 0
 31
 !s108 1620684451.000000
+R22
 R23
-R24
 !i113 1
 R11
 R12
 Xram_v_unit
 R18
 R1
-V0Ilj;2^SF]8KVkbGS7d6h3
+VUV_9aoA>WzC1E[;R_g_411
 r1
 !s85 0
 !i10b 1
-!s100 `eZMZZS7_<7_K>AV=`>LW3
-I0Ilj;2^SF]8KVkbGS7d6h3
+!s100 J:`:QIRLVT8FzTYm8n`6Y2
+IUV_9aoA>WzC1E[;R_g_411
 !i103 1
 S1
 R0
 R19
 R20
 R21
-!i122 463
-L0 18 0
+!i122 666
+L0 31 0
 R7
 31
 R8
+R22
 R23
-R24
 !i113 1
 R11
 R12

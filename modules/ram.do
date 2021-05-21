@@ -5,8 +5,10 @@ sim:/DMA/data \
 sim:/DMA/dataout \
 sim:/DMA/address \
 sim:/DMA/read_signal \
-sim:/DMA/write_signal 
+sim:/DMA/write_signal \
+sim:/DMA/clk
 
+force -freeze sim:/DMA/clk 1 0, 0 {50 ns} -r 100
 
 force -freeze sim:/DMA/data 8'd2 0
 force -freeze sim:/DMA/address 16'd1 0

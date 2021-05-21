@@ -66,6 +66,9 @@ f.close()
     # compressed_arr.append(int(compressed_string,2)) 
     #print(compressed_arr[-1])
     #break
+    # 16
+    # >8 ..... 0000
+
 
 
 ### decompress 

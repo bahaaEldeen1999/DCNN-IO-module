@@ -5,23 +5,25 @@ output[255:0] out;
 output[31:0] byteIndx;
 output[2:0] bitIndx;
 
-integer i = 16;
-integer  j = 0;
-integer rep = 0;
-integer currValue = 0;
+integer i ;
+integer  j ;
+integer rep ;
+integer currValue ;
 reg[7:0] temp;
 reg[255:0] tempOut;
 integer k=7;
-integer doneTemp = 0;
+integer doneTemp=0;
 integer tempRepLoop ;
 integer  tempByteIndx,tempBitIndx;
 input work;
 always @(in1 , in2,work) begin
     
-
-    rep = in1[6:0]; 
+doneTemp = 0;
+rep = in1[6:0]; 
  currValue = in1[7];
  tempBitIndx = 7;
+ j=0;
+ i=16;
  $display("currValue %d\n",currValue);
      repeat (16) begin
 
@@ -58,18 +60,24 @@ always @(in1 , in2,work) begin
              
           //   $display("temp %d\n",temp);
              // tempOut[j*8:(j+1)*8-1] = temp;
+            
+         end
+         else begin 
              k =0;
+             repeat (8) begin
+                  temp[k] = currValue==1?0:1;
+                  k = k+1;
+             end
+         end 
+          k =0;
              repeat (8) begin
                   tempOut[255-(j*8+k)] = temp[8-k-1];
                   k = k+1;
              end
-         end
-         else begin 
-             doneTemp = 1;
-         end 
          rep = rep-8;
          j=j+1;
      end 
+     doneTemp = 1;
 
 
 end
