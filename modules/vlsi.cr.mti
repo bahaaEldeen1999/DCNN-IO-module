@@ -8,15 +8,15 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	DMA
 
-} {} {}} /run/media/bahaa/CMP/projects/VLSI20/modules/file_handler.v {2 {vlog -work work -stats=none /run/media/bahaa/CMP/projects/VLSI20/modules/file_handler.v
+} {} {}} /run/media/bahaa/CMP/projects/VLSI20/modules/cpu.v {2 {vlog -work work -stats=none /run/media/bahaa/CMP/projects/VLSI20/modules/cpu.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module file_handler
-** Warning: /run/media/bahaa/CMP/projects/VLSI20/modules/file_handler.v(27): (vlog-2283) Extra semicolon in $unit (global) scope.
-** Warning: /run/media/bahaa/CMP/projects/VLSI20/modules/file_handler.v(27): (vlog-2284) Empty $unit scope found.
--- Compiling package file_handler_v_unit
+-- Compiling module cpu
+** Warning: /run/media/bahaa/CMP/projects/VLSI20/modules/cpu.v(25): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: /run/media/bahaa/CMP/projects/VLSI20/modules/cpu.v(25): (vlog-2284) Empty $unit scope found.
+-- Compiling package cpu_v_unit
 
 Top level modules:
-	file_handler
+	cpu
 
 } {} {}} /run/media/bahaa/CMP/projects/VLSI20/modules/decompress.v {2 {vlog -work work -stats=none /run/media/bahaa/CMP/projects/VLSI20/modules/decompress.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -28,14 +28,14 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	decompress
 
-} {} {}} /run/media/bahaa/CMP/projects/VLSI20/modules/decompress_handler.v {2 {vlog -work work -stats=none /run/media/bahaa/CMP/projects/VLSI20/modules/decompress_handler.v
+} {} {}} /run/media/bahaa/CMP/projects/VLSI20/modules/file_handler.v {2 {vlog -work work -stats=none /run/media/bahaa/CMP/projects/VLSI20/modules/file_handler.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module decompress_handler
-** Warning: /run/media/bahaa/CMP/projects/VLSI20/modules/decompress_handler.v(144): (vlog-2283) Extra semicolon in $unit (global) scope.
-** Warning: /run/media/bahaa/CMP/projects/VLSI20/modules/decompress_handler.v(146): (vlog-2284) Empty $unit scope found.
--- Compiling package decompress_handler_v_unit
+-- Compiling module file_handler
+** Warning: /run/media/bahaa/CMP/projects/VLSI20/modules/file_handler.v(27): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: /run/media/bahaa/CMP/projects/VLSI20/modules/file_handler.v(27): (vlog-2284) Empty $unit scope found.
+-- Compiling package file_handler_v_unit
 
 Top level modules:
-	decompress_handler
+	file_handler
 
 } {} {}}

@@ -39,3 +39,11 @@ force -freeze sim:/cpu/byteIndx 32'd0 0
 force -freeze sim:/cpu/bitIndx 3'd7 0
 
 run 6500
+
+
+force -freeze sim:/cpu/in1 10001010 0
+force -freeze sim:/cpu/in2 010110111 0
+force -freeze sim:/cpu/byteIndx 32'd0 0
+force -freeze sim:/cpu/bitIndx 3'd0 0
+
+run 6500
