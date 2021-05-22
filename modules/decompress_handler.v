@@ -40,7 +40,7 @@ input[7:0] ramDataIn;
 output ramReadSignal,ramWriteSignal;
 
 always @(posedge clk) begin
-    $display("i %d working %d\n",i,working);
+    //$display("i %d working %d\n",i,working);
 
     if(i==0||i==1) begin
     rep = in1[6:0]+in2[6:0];
