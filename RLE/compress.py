@@ -93,17 +93,12 @@ while i < len(img_decompressed_string):
         break
     img_decompressed[j] = int(byte,2)
     j+=1
-
 img_decompressed = img_decompressed.reshape(img.shape)
 io.imshow(img_decompressed)
-
 pyplot.imshow(img_decompressed,cmap=cm.gray)
 pyplot.show()
-
 for i in range(img.shape[0]):
     for j in range(img.shape[1]):
         if img_decompressed[i][j] != img[i][j]:
            print("error ", img_decompressed[i][j] , img[i][j])
-
-
 '''

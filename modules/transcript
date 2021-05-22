@@ -405,3 +405,5098 @@ quit -sim
 project open /run/media/bahaa/CMP/projects/VLSI20/modules/vlsi
 # reading /home/bahaa/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
 # Loading project vlsi
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# Compile of file_handler.v was successful with warnings.
+# Compile of cpu.v was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+do cpu.do
+# vsim work.cpu 
+# Start time: 19:24:11 on May 22,2021
+# Loading work.cpu
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# i           0
+# 
+# done 0 in1   x in2   x work x
+# 
+# i           0
+# 
+# done 0 in1   x in2   x work x
+# 
+# i           0
+# 
+# done 0 in1   x in2   x work x
+# 
+# i           0
+# 
+# done 1 in1   7 in2 183 work x
+# 
+# i           1
+# 
+# done 1 in1   7 in2 183 work x
+# 
+# i           2
+# 
+# writeSignal 1
+# 
+# i           3
+# 
+# writeSignal 1
+# 
+# i           4
+# 
+# writeSignal 1
+# 
+# i           5
+# 
+# writeSignal 1
+# 
+# i           6
+# 
+# writeSignal 1
+# 
+# i           7
+# 
+# writeSignal 1
+# 
+# i           8
+# 
+# writeSignal 1
+# 
+# i           9
+# 
+# writeSignal 1
+# 
+# i          10
+# 
+# writeSignal 1
+# 
+# i          11
+# 
+# writeSignal 1
+# 
+# i          12
+# 
+# writeSignal 1
+# 
+# i          13
+# 
+# writeSignal 1
+# 
+# i          14
+# 
+# writeSignal 1
+# 
+# i          15
+# 
+# writeSignal 1
+# 
+# i          16
+# 
+# writeSignal 1
+# 
+# i          17
+# 
+# writeSignal 1
+# 
+# i          18
+# 
+# writeSignal 1
+# 
+# i          19
+# 
+# writeSignal 1
+# 
+# i          20
+# 
+# writeSignal 1
+# 
+# i          21
+# 
+# writeSignal 1
+# 
+# i          22
+# 
+# writeSignal 1
+# 
+# i          23
+# 
+# writeSignal 1
+# 
+# i          24
+# 
+# writeSignal 1
+# 
+# i          25
+# 
+# writeSignal 1
+# 
+# i          26
+# 
+# writeSignal 1
+# 
+# i          27
+# 
+# writeSignal 1
+# 
+# i          28
+# 
+# writeSignal 1
+# 
+# i          29
+# 
+# writeSignal 1
+# 
+# i          30
+# 
+# writeSignal 1
+# 
+# i          31
+# 
+# writeSignal 1
+# 
+# i          32
+# 
+# writeSignal 1
+# 
+# i          33
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+do cpu.do
+# End time: 19:25:10 on May 22,2021, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 2
+# vsim work.cpu 
+# Start time: 19:25:10 on May 22,2021
+# Loading work.cpu
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# i           0
+# 
+# done 0 in1   x in2   x work x
+# 
+# i           0
+# 
+# done 0 in1   x in2   x work x
+# 
+# i           0
+# 
+# done 0 in1   x in2   x work x
+# 
+# i           0
+# 
+# done 1 in1   7 in2 183 work x
+# 
+# i           1
+# 
+# done 1 in1   7 in2 183 work x
+# 
+# i           2
+# 
+# writeSignal 1
+# 
+# i           3
+# 
+# writeSignal 1
+# 
+# i           4
+# 
+# writeSignal 1
+# 
+# i           5
+# 
+# writeSignal 1
+# 
+# i           6
+# 
+# writeSignal 1
+# 
+# i           7
+# 
+# writeSignal 1
+# 
+# i           8
+# 
+# writeSignal 1
+# 
+# i           9
+# 
+# writeSignal 1
+# 
+# i          10
+# 
+# writeSignal 1
+# 
+# i          11
+# 
+# writeSignal 1
+# 
+# i          12
+# 
+# writeSignal 1
+# 
+# i          13
+# 
+# writeSignal 1
+# 
+# i          14
+# 
+# writeSignal 1
+# 
+# i          15
+# 
+# writeSignal 1
+# 
+# i          16
+# 
+# writeSignal 1
+# 
+# i          17
+# 
+# writeSignal 1
+# 
+# i          18
+# 
+# writeSignal 1
+# 
+# i          19
+# 
+# writeSignal 1
+# 
+# i          20
+# 
+# writeSignal 1
+# 
+# i          21
+# 
+# writeSignal 1
+# 
+# i          22
+# 
+# writeSignal 1
+# 
+# i          23
+# 
+# writeSignal 1
+# 
+# i          24
+# 
+# writeSignal 1
+# 
+# i          25
+# 
+# writeSignal 1
+# 
+# i          26
+# 
+# writeSignal 1
+# 
+# i          27
+# 
+# writeSignal 1
+# 
+# i          28
+# 
+# writeSignal 1
+# 
+# i          29
+# 
+# writeSignal 1
+# 
+# i          30
+# 
+# writeSignal 1
+# 
+# i          31
+# 
+# writeSignal 1
+# 
+# i          32
+# 
+# writeSignal 1
+# 
+# i          33
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+do cpu.do
+# End time: 19:25:42 on May 22,2021, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 1
+# vsim work.cpu 
+# Start time: 19:25:42 on May 22,2021
+# Loading work.cpu
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# i           0
+# 
+# done 0 in1   x in2   x work x
+# 
+# i           0
+# 
+# done 0 in1   x in2   x work x
+# 
+# i           0
+# 
+# done 0 in1   x in2   x work x
+# 
+# i           0
+# 
+# done 1 in1   7 in2  91 work x
+# 
+# i           1
+# 
+# done 1 in1   7 in2  91 work x
+# 
+# i           2
+# 
+# writeSignal 1
+# 
+# i           3
+# 
+# writeSignal 1
+# 
+# i           4
+# 
+# writeSignal 1
+# 
+# i           5
+# 
+# writeSignal 1
+# 
+# i           6
+# 
+# writeSignal 1
+# 
+# i           7
+# 
+# writeSignal 1
+# 
+# i           8
+# 
+# writeSignal 1
+# 
+# i           9
+# 
+# writeSignal 1
+# 
+# i          10
+# 
+# writeSignal 1
+# 
+# i          11
+# 
+# writeSignal 1
+# 
+# i          12
+# 
+# writeSignal 1
+# 
+# i          13
+# 
+# writeSignal 1
+# 
+# i          14
+# 
+# writeSignal 1
+# 
+# i          15
+# 
+# writeSignal 1
+# 
+# i          16
+# 
+# writeSignal 1
+# 
+# i          17
+# 
+# writeSignal 1
+# 
+# i          18
+# 
+# writeSignal 1
+# 
+# i          19
+# 
+# writeSignal 1
+# 
+# i          20
+# 
+# writeSignal 1
+# 
+# i          21
+# 
+# writeSignal 1
+# 
+# i          22
+# 
+# writeSignal 1
+# 
+# i          23
+# 
+# writeSignal 1
+# 
+# i          24
+# 
+# writeSignal 1
+# 
+# i          25
+# 
+# writeSignal 1
+# 
+# i          26
+# 
+# writeSignal 1
+# 
+# i          27
+# 
+# writeSignal 1
+# 
+# i          28
+# 
+# writeSignal 1
+# 
+# i          29
+# 
+# writeSignal 1
+# 
+# i          30
+# 
+# writeSignal 1
+# 
+# i          31
+# 
+# writeSignal 1
+# 
+# i          32
+# 
+# writeSignal 1
+# 
+# i          33
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+do cpu.do
+# End time: 19:26:03 on May 22,2021, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 1
+# vsim work.cpu 
+# Start time: 19:26:03 on May 22,2021
+# Loading work.cpu
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# i           0
+# 
+# done 0 in1   x in2   x work x
+# 
+# i           0
+# 
+# done 0 in1   x in2   x work x
+# 
+# i           0
+# 
+# done 0 in1   x in2   x work x
+# 
+# i           0
+# 
+# done 1 in1   7 in2 195 work x
+# 
+# i           1
+# 
+# done 1 in1   7 in2 195 work x
+# 
+# i           2
+# 
+# writeSignal 1
+# 
+# i           3
+# 
+# writeSignal 1
+# 
+# i           4
+# 
+# writeSignal 1
+# 
+# i           5
+# 
+# writeSignal 1
+# 
+# i           6
+# 
+# writeSignal 1
+# 
+# i           7
+# 
+# writeSignal 1
+# 
+# i           8
+# 
+# writeSignal 1
+# 
+# i           9
+# 
+# writeSignal 1
+# 
+# i          10
+# 
+# writeSignal 1
+# 
+# i          11
+# 
+# writeSignal 1
+# 
+# i          12
+# 
+# writeSignal 1
+# 
+# i          13
+# 
+# writeSignal 1
+# 
+# i          14
+# 
+# writeSignal 1
+# 
+# i          15
+# 
+# writeSignal 1
+# 
+# i          16
+# 
+# writeSignal 1
+# 
+# i          17
+# 
+# writeSignal 1
+# 
+# i          18
+# 
+# writeSignal 1
+# 
+# i          19
+# 
+# writeSignal 1
+# 
+# i          20
+# 
+# writeSignal 1
+# 
+# i          21
+# 
+# writeSignal 1
+# 
+# i          22
+# 
+# writeSignal 1
+# 
+# i          23
+# 
+# writeSignal 1
+# 
+# i          24
+# 
+# writeSignal 1
+# 
+# i          25
+# 
+# writeSignal 1
+# 
+# i          26
+# 
+# writeSignal 1
+# 
+# i          27
+# 
+# writeSignal 1
+# 
+# i          28
+# 
+# writeSignal 1
+# 
+# i          29
+# 
+# writeSignal 1
+# 
+# i          30
+# 
+# writeSignal 1
+# 
+# i          31
+# 
+# writeSignal 1
+# 
+# i          32
+# 
+# writeSignal 1
+# 
+# i          33
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+do cpu.do
+# End time: 19:26:30 on May 22,2021, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 1
+# vsim work.cpu 
+# Start time: 19:26:30 on May 22,2021
+# Loading work.cpu
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# i           0
+# 
+# done 0 in1   x in2   x work x
+# 
+# i           0
+# 
+# done 0 in1   x in2   x work x
+# 
+# i           0
+# 
+# done 0 in1   x in2   x work x
+# 
+# i           0
+# 
+# done 1 in1   7 in2 131 work x
+# 
+# i           1
+# 
+# done 1 in1   7 in2 131 work x
+# 
+# i           2
+# 
+# writeSignal 1
+# 
+# i           3
+# 
+# writeSignal 1
+# 
+# i           4
+# 
+# writeSignal 1
+# 
+# i           5
+# 
+# writeSignal 1
+# 
+# i           6
+# 
+# writeSignal 1
+# 
+# i           7
+# 
+# writeSignal 1
+# 
+# i           8
+# 
+# writeSignal 1
+# 
+# i           9
+# 
+# writeSignal 1
+# 
+# i          10
+# 
+# writeSignal 1
+# 
+# i          11
+# 
+# writeSignal 1
+# 
+# i          12
+# 
+# writeSignal 1
+# 
+# i          13
+# 
+# writeSignal 1
+# 
+# i          14
+# 
+# writeSignal 1
+# 
+# i          15
+# 
+# writeSignal 1
+# 
+# i          16
+# 
+# writeSignal 1
+# 
+# i          17
+# 
+# writeSignal 1
+# 
+# i          18
+# 
+# writeSignal 1
+# 
+# i          19
+# 
+# writeSignal 1
+# 
+# i          20
+# 
+# writeSignal 1
+# 
+# i          21
+# 
+# writeSignal 1
+# 
+# i          22
+# 
+# writeSignal 1
+# 
+# i          23
+# 
+# writeSignal 1
+# 
+# i          24
+# 
+# writeSignal 1
+# 
+# i          25
+# 
+# writeSignal 1
+# 
+# i          26
+# 
+# writeSignal 1
+# 
+# i          27
+# 
+# writeSignal 1
+# 
+# i          28
+# 
+# writeSignal 1
+# 
+# i          29
+# 
+# writeSignal 1
+# 
+# i          30
+# 
+# writeSignal 1
+# 
+# i          31
+# 
+# writeSignal 1
+# 
+# i          32
+# 
+# writeSignal 1
+# 
+# i          33
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# Compile of file_handler.v was successful with warnings.
+# Compile of cpu.v was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+do cpu.do
+# End time: 19:40:48 on May 22,2021, Elapsed time: 0:14:18
+# Errors: 0, Warnings: 2
+# vsim work.cpu 
+# Start time: 19:40:48 on May 22,2021
+# Loading work.cpu
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# i           0
+# 
+# done 0 in1   x in2   x work x
+# 
+# i           0
+# 
+# done 0 in1   x in2   x work x
+# 
+# i           0
+# 
+# done 0 in1   x in2   x work x
+# 
+# i           0
+# 
+# done 1 in1   7 in2 131 work x
+# 
+# i           1
+# 
+# done 1 in1   7 in2 131 work x
+# 
+# i           2
+# 
+# writeSignal 1
+# 
+# i           3
+# 
+# writeSignal 1
+# 
+# i           4
+# 
+# writeSignal 1
+# 
+# i           5
+# 
+# writeSignal 1
+# 
+# i           6
+# 
+# writeSignal 1
+# 
+# i           7
+# 
+# writeSignal 1
+# 
+# i           8
+# 
+# writeSignal 1
+# 
+# i           9
+# 
+# writeSignal 1
+# 
+# i          10
+# 
+# writeSignal 1
+# 
+# i          11
+# 
+# writeSignal 1
+# 
+# i          12
+# 
+# writeSignal 1
+# 
+# i          13
+# 
+# writeSignal 1
+# 
+# i          14
+# 
+# writeSignal 1
+# 
+# i          15
+# 
+# writeSignal 1
+# 
+# i          16
+# 
+# writeSignal 1
+# 
+# i          17
+# 
+# writeSignal 1
+# 
+# i          18
+# 
+# writeSignal 1
+# 
+# i          19
+# 
+# writeSignal 1
+# 
+# i          20
+# 
+# writeSignal 1
+# 
+# i          21
+# 
+# writeSignal 1
+# 
+# i          22
+# 
+# writeSignal 1
+# 
+# i          23
+# 
+# writeSignal 1
+# 
+# i          24
+# 
+# writeSignal 1
+# 
+# i          25
+# 
+# writeSignal 1
+# 
+# i          26
+# 
+# writeSignal 1
+# 
+# i          27
+# 
+# writeSignal 1
+# 
+# i          28
+# 
+# writeSignal 1
+# 
+# i          29
+# 
+# writeSignal 1
+# 
+# i          30
+# 
+# writeSignal 1
+# 
+# i          31
+# 
+# writeSignal 1
+# 
+# i          32
+# 
+# writeSignal 1
+# 
+# i          33
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# writeSignal 1
+# 
+# i          34
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# Compile of file_handler.v was successful with warnings.
+# Compile of cpu.v was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+do cpu.do
+# End time: 19:42:16 on May 22,2021, Elapsed time: 0:01:28
+# Errors: 0, Warnings: 2
+# vsim work.cpu 
+# Start time: 19:42:16 on May 22,2021
+# Loading work.cpu
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# i           0
+# 
+# done 0 in1   x in2   x work x
+# 
+# i           0
+# 
+# done 0 in1   x in2   x work x
+# 
+# i           0
+# 
+# done 0 in1   x in2   x work x
+# 
+# i           0
+# 
+# done 1 in1   7 in2 131 work x
+# 
+# i           1
+# 
+# done 1 in1   7 in2 131 work x
+# 
+# i           2
+# 
+# writeSignal 1
+# 
+# i           3
+# 
+# writeSignal 1
+# 
+# i           4
+# 
+# writeSignal 1
+# 
+# i           5
+# 
+# writeSignal 1
+# 
+# i           6
+# 
+# writeSignal 1
+# 
+# i           7
+# 
+# writeSignal 1
+# 
+# i           8
+# 
+# writeSignal 1
+# 
+# i           9
+# 
+# writeSignal 1
+# 
+# i          10
+# 
+# writeSignal 1
+# 
+# i          11
+# 
+# writeSignal 1
+# 
+# i          12
+# 
+# writeSignal 1
+# 
+# i          13
+# 
+# writeSignal 1
+# 
+# i          14
+# 
+# writeSignal 1
+# 
+# i          15
+# 
+# writeSignal 1
+# 
+# i          16
+# 
+# writeSignal 1
+# 
+# i          17
+# 
+# writeSignal 1
+# 
+# i          18
+# 
+# writeSignal 1
+# 
+# i          19
+# 
+# writeSignal 1
+# 
+# i          20
+# 
+# writeSignal 1
+# 
+# i          21
+# 
+# writeSignal 1
+# 
+# i          22
+# 
+# writeSignal 1
+# 
+# i          23
+# 
+# writeSignal 1
+# 
+# i          24
+# 
+# writeSignal 1
+# 
+# i          25
+# 
+# writeSignal 1
+# 
+# i          26
+# 
+# writeSignal 1
+# 
+# i          27
+# 
+# writeSignal 1
+# 
+# i          28
+# 
+# writeSignal 1
+# 
+# i          29
+# 
+# writeSignal 1
+# 
+# i          30
+# 
+# writeSignal 1
+# 
+# i          31
+# 
+# writeSignal 1
+# 
+# i          32
+# 
+# writeSignal 1
+# 
+# i          33
+# 
+# writeSignal 1
+# 
+# i           0
+# 
+# done 1 in1   7 in2 131 work x
+# 
+# writeSignal 1
+# 
+# i           1
+# 
+# done 1 in1   7 in2 131 work x
+# 
+# writeSignal 1
+# 
+# i           2
+# 
+# writeSignal 1
+# 
+# i           3
+# 
+# writeSignal 1
+# 
+# i           4
+# 
+# writeSignal 1
+# 
+# i           5
+# 
+# writeSignal 1
+# 
+# i           6
+# 
+# writeSignal 1
+# 
+# i           7
+# 
+# writeSignal 1
+# 
+# i           8
+# 
+# writeSignal 1
+# 
+# i           9
+# 
+# writeSignal 1
+# 
+# i          10
+# 
+# writeSignal 1
+# 
+# i          11
+# 
+# writeSignal 1
+# 
+# i          12
+# 
+# writeSignal 1
+# 
+# i          13
+# 
+# writeSignal 1
+# 
+# i          14
+# 
+# writeSignal 1
+# 
+# i          15
+# 
+# writeSignal 1
+# 
+# i          16
+# 
+# writeSignal 1
+# 
+# i          17
+# 
+# writeSignal 1
+# 
+# i          18
+# 
+# writeSignal 1
+# 
+# i          19
+# 
+# writeSignal 1
+# 
+# i          20
+# 
+# writeSignal 1
+# 
+# i          21
+# 
+# writeSignal 1
+# 
+# i          22
+# 
+# writeSignal 1
+# 
+# i          23
+# 
+# writeSignal 1
+# 
+# i          24
+# 
+# writeSignal 1
+# 
+# i          25
+# 
+# writeSignal 1
+# 
+# i          26
+# 
+# writeSignal 1
+# 
+# i          27
+# 
+# writeSignal 1
+# 
+# i          28
+# 
+# writeSignal 1
+# 
+# i          29
+# 
+# writeSignal 1
+# 
+# i          30
+# 
+# writeSignal 1
+# 
+# i          31
+# 
+# writeSignal 1
+# 
+# i          32
+# 
+# writeSignal 1
+# 
+# i          33
+# 
+# writeSignal 1
+# 
+# i           0
+# 
+# done 1 in1   7 in2 131 work x
+# 
+# read_signal 1 i           0
+# 
+# readSignal 1
+# 
+# i           1
+# 
+# done 1 in1   7 in2 131 work x
+# 
+# read_signal 0 i           1
+# 
+# temp x
+# 
+# temp x
+# 
+# writeSignal 1
+# 
+# i           2
+# 
+# writeSignal 1
+# 
+# i           3
+# 
+# writeSignal 1
+# 
+# i           4
+# 
+# writeSignal 1
+# 
+# i           5
+# 
+# writeSignal 1
+# 
+# i           6
+# 
+# writeSignal 1
+# 
+# i           7
+# 
+# writeSignal 1
+# 
+# i           8
+# 
+# writeSignal 1
+# 
+# i           9
+# 
+# writeSignal 1
+# 
+# i          10
+# 
+# writeSignal 1
+# 
+# i          11
+# 
+# writeSignal 1
+# 
+# i          12
+# 
+# writeSignal 1
+# 
+# i          13
+# 
+# writeSignal 1
+# 
+# i          14
+# 
+# writeSignal 1
+# 
+# i          15
+# 
+# writeSignal 1
+# 
+# i          16
+# 
+# writeSignal 1
+# 
+# i          17
+# 
+# writeSignal 1
+# 
+# i          18
+# 
+# writeSignal 1
+# 
+# i          19
+# 
+# writeSignal 1
+# 
+# i          20
+# 
+# writeSignal 1
+# 
+# i          21
+# 
+# writeSignal 1
+# 
+# i          22
+# 
+# writeSignal 1
+# 
+# i          23
+# 
+# writeSignal 1
+# 
+# i          24
+# 
+# writeSignal 1
+# 
+# i          25
+# 
+# writeSignal 1
+# 
+# i          26
+# 
+# writeSignal 1
+# 
+# i          27
+# 
+# writeSignal 1
+# 
+# i          28
+# 
+# writeSignal 1
+# 
+# i          29
+# 
+# writeSignal 1
+# 
+# i          30
+# 
+# writeSignal 1
+# 
+# i          31
+# 
+# writeSignal 1
+# 
+# i          32
+# 
+# writeSignal 1
+# 
+# i          33
+# 
+# writeSignal 1
+# 
+# i           0
+# 
+# done 1 in1   7 in2 131 work x
+# 
+# read_signal 1 i           0
+# 
+# readSignal 1
+# 
+# i           1
+# 
+# done 1 in1   7 in2 131 work x
+# 
+# read_signal 0 i           1
+# 
+# temp x
+# 
+# temp x
+# 
+# writeSignal 1
+# 
+# i           2
+# 
+# writeSignal 1
+# 
+# i           3
+# 
+# writeSignal 1
+# 
+# i           4
+# 
+# writeSignal 1
+# 
+# i           5
+# 
+# writeSignal 1
+# 
+# i           6
+# 
+# writeSignal 1
+# 
+# i           7
+# 
+# writeSignal 1
+# 
+# i           8
+# 
+# writeSignal 1
+# 
+# i           9
+# 
+# writeSignal 1
+# 
+# i          10
+# 
+# writeSignal 1
+# 
+# i          11
+# 
+# writeSignal 1
+# 
+# i          12
+# 
+# writeSignal 1
+# 
+# i          13
+# 
+# writeSignal 1
+# 
+# i          14
+# 
+# writeSignal 1
+# 
+# i          15
+# 
+# writeSignal 1
+# 
+# i          16
+# 
+# writeSignal 1
+# 
+# i          17
+# 
+# writeSignal 1
+# 
+# i          18
+# 
+# writeSignal 1
+# 
+# i          19
+# 
+# writeSignal 1
+# 
+# i          20
+# 
+# writeSignal 1
+# 
+# i          21
+# 
+# writeSignal 1
+# 
+# i          22
+# 
+# writeSignal 1
+# 
+# i          23
+# 
+# writeSignal 1
+# 
+# i          24
+# 
+# writeSignal 1
+# 
+# i          25
+# 
+# writeSignal 1
+# 
+# i          26
+# 
+# writeSignal 1
+# 
+# i          27
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# Compile of file_handler.v was successful with warnings.
+# Compile of cpu.v was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+do cpu.do
+# End time: 19:43:47 on May 22,2021, Elapsed time: 0:01:31
+# Errors: 0, Warnings: 2
+# vsim work.cpu 
+# Start time: 19:43:47 on May 22,2021
+# Loading work.cpu
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# i           0 working x
+# 
+# done 0 in1   x in2   x work x
+# 
+# i           0 working x
+# 
+# done 0 in1   x in2   x work x
+# 
+# i           0 working 0
+# 
+# done 0 in1   x in2   x work x
+# 
+# i           0 working 1
+# 
+# done 1 in1   7 in2 131 work x
+# 
+# i           1 working 1
+# 
+# done 1 in1   7 in2 131 work x
+# 
+# i           2 working 1
+# 
+# writeSignal 1
+# 
+# i           3 working 1
+# 
+# writeSignal 1
+# 
+# i           4 working 1
+# 
+# writeSignal 1
+# 
+# i           5 working 1
+# 
+# writeSignal 1
+# 
+# i           6 working 1
+# 
+# writeSignal 1
+# 
+# i           7 working 1
+# 
+# writeSignal 1
+# 
+# i           8 working 1
+# 
+# writeSignal 1
+# 
+# i           9 working 1
+# 
+# writeSignal 1
+# 
+# i          10 working 1
+# 
+# writeSignal 1
+# 
+# i          11 working 1
+# 
+# writeSignal 1
+# 
+# i          12 working 1
+# 
+# writeSignal 1
+# 
+# i          13 working 1
+# 
+# writeSignal 1
+# 
+# i          14 working 1
+# 
+# writeSignal 1
+# 
+# i          15 working 1
+# 
+# writeSignal 1
+# 
+# i          16 working 1
+# 
+# writeSignal 1
+# 
+# i          17 working 1
+# 
+# writeSignal 1
+# 
+# i          18 working 1
+# 
+# writeSignal 1
+# 
+# i          19 working 1
+# 
+# writeSignal 1
+# 
+# i          20 working 1
+# 
+# writeSignal 1
+# 
+# i          21 working 1
+# 
+# writeSignal 1
+# 
+# i          22 working 1
+# 
+# writeSignal 1
+# 
+# i          23 working 1
+# 
+# writeSignal 1
+# 
+# i          24 working 1
+# 
+# writeSignal 1
+# 
+# i          25 working 1
+# 
+# writeSignal 1
+# 
+# i          26 working 1
+# 
+# writeSignal 1
+# 
+# i          27 working 1
+# 
+# writeSignal 1
+# 
+# i          28 working 1
+# 
+# writeSignal 1
+# 
+# i          29 working 1
+# 
+# writeSignal 1
+# 
+# i          30 working 1
+# 
+# writeSignal 1
+# 
+# i          31 working 1
+# 
+# writeSignal 1
+# 
+# i          32 working 1
+# 
+# writeSignal 1
+# 
+# i          33 working 1
+# 
+# writeSignal 1
+# 
+# i           0 working 1
+# 
+# done 1 in1   7 in2 131 work x
+# 
+# writeSignal 1
+# 
+# i           1 working 1
+# 
+# done 1 in1   7 in2 131 work x
+# 
+# writeSignal 1
+# 
+# i           2 working 1
+# 
+# writeSignal 1
+# 
+# i           3 working 1
+# 
+# writeSignal 1
+# 
+# i           4 working 1
+# 
+# writeSignal 1
+# 
+# i           5 working 1
+# 
+# writeSignal 1
+# 
+# i           6 working 1
+# 
+# writeSignal 1
+# 
+# i           7 working 1
+# 
+# writeSignal 1
+# 
+# i           8 working 1
+# 
+# writeSignal 1
+# 
+# i           9 working 1
+# 
+# writeSignal 1
+# 
+# i          10 working 1
+# 
+# writeSignal 1
+# 
+# i          11 working 1
+# 
+# writeSignal 1
+# 
+# i          12 working 1
+# 
+# writeSignal 1
+# 
+# i          13 working 1
+# 
+# writeSignal 1
+# 
+# i          14 working 1
+# 
+# writeSignal 1
+# 
+# i          15 working 1
+# 
+# writeSignal 1
+# 
+# i          16 working 1
+# 
+# writeSignal 1
+# 
+# i          17 working 1
+# 
+# writeSignal 1
+# 
+# i          18 working 1
+# 
+# writeSignal 1
+# 
+# i          19 working 1
+# 
+# writeSignal 1
+# 
+# i          20 working 1
+# 
+# writeSignal 1
+# 
+# i          21 working 1
+# 
+# writeSignal 1
+# 
+# i          22 working 1
+# 
+# writeSignal 1
+# 
+# i          23 working 1
+# 
+# writeSignal 1
+# 
+# i          24 working 1
+# 
+# writeSignal 1
+# 
+# i          25 working 1
+# 
+# writeSignal 1
+# 
+# i          26 working 1
+# 
+# writeSignal 1
+# 
+# i          27 working 1
+# 
+# writeSignal 1
+# 
+# i          28 working 1
+# 
+# writeSignal 1
+# 
+# i          29 working 1
+# 
+# writeSignal 1
+# 
+# i          30 working 1
+# 
+# writeSignal 1
+# 
+# i          31 working 1
+# 
+# writeSignal 1
+# 
+# i          32 working 1
+# 
+# writeSignal 1
+# 
+# i          33 working 1
+# 
+# writeSignal 1
+# 
+# i           0 working 1
+# 
+# done 1 in1   7 in2 131 work x
+# 
+# readSignal 1
+# 
+# i           1 working 1
+# 
+# done 1 in1   7 in2 131 work x
+# 
+# writeSignal 1
+# 
+# i           2 working 1
+# 
+# writeSignal 1
+# 
+# i           3 working 1
+# 
+# writeSignal 1
+# 
+# i           4 working 1
+# 
+# writeSignal 1
+# 
+# i           5 working 1
+# 
+# writeSignal 1
+# 
+# i           6 working 1
+# 
+# writeSignal 1
+# 
+# i           7 working 1
+# 
+# writeSignal 1
+# 
+# i           8 working 1
+# 
+# writeSignal 1
+# 
+# i           9 working 1
+# 
+# writeSignal 1
+# 
+# i          10 working 1
+# 
+# writeSignal 1
+# 
+# i          11 working 1
+# 
+# writeSignal 1
+# 
+# i          12 working 1
+# 
+# writeSignal 1
+# 
+# i          13 working 1
+# 
+# writeSignal 1
+# 
+# i          14 working 1
+# 
+# writeSignal 1
+# 
+# i          15 working 1
+# 
+# writeSignal 1
+# 
+# i          16 working 1
+# 
+# writeSignal 1
+# 
+# i          17 working 1
+# 
+# writeSignal 1
+# 
+# i          18 working 1
+# 
+# writeSignal 1
+# 
+# i          19 working 1
+# 
+# writeSignal 1
+# 
+# i          20 working 1
+# 
+# writeSignal 1
+# 
+# i          21 working 1
+# 
+# writeSignal 1
+# 
+# i          22 working 1
+# 
+# writeSignal 1
+# 
+# i          23 working 1
+# 
+# writeSignal 1
+# 
+# i          24 working 1
+# 
+# writeSignal 1
+# 
+# i          25 working 1
+# 
+# writeSignal 1
+# 
+# i          26 working 1
+# 
+# writeSignal 1
+# 
+# i          27 working 1
+# 
+# writeSignal 1
+# 
+# i          28 working 1
+# 
+# writeSignal 1
+# 
+# i          29 working 1
+# 
+# writeSignal 1
+# 
+# i          30 working 1
+# 
+# writeSignal 1
+# 
+# i          31 working 1
+# 
+# writeSignal 1
+# 
+# i          32 working 1
+# 
+# writeSignal 1
+# 
+# i          33 working 1
+# 
+# writeSignal 1
+# 
+# i           0 working 1
+# 
+# done 1 in1   7 in2 131 work x
+# 
+# readSignal 1
+# 
+# i           1 working 1
+# 
+# done 1 in1   7 in2 131 work x
+# 
+# writeSignal 1
+# 
+# i           2 working 1
+# 
+# writeSignal 1
+# 
+# i           3 working 1
+# 
+# writeSignal 1
+# 
+# i           4 working 1
+# 
+# writeSignal 1
+# 
+# i           5 working 1
+# 
+# writeSignal 1
+# 
+# i           6 working 1
+# 
+# writeSignal 1
+# 
+# i           7 working 1
+# 
+# writeSignal 1
+# 
+# i           8 working 1
+# 
+# writeSignal 1
+# 
+# i           9 working 1
+# 
+# writeSignal 1
+# 
+# i          10 working 1
+# 
+# writeSignal 1
+# 
+# i          11 working 1
+# 
+# writeSignal 1
+# 
+# i          12 working 1
+# 
+# writeSignal 1
+# 
+# i          13 working 1
+# 
+# writeSignal 1
+# 
+# i          14 working 1
+# 
+# writeSignal 1
+# 
+# i          15 working 1
+# 
+# writeSignal 1
+# 
+# i          16 working 1
+# 
+# writeSignal 1
+# 
+# i          17 working 1
+# 
+# writeSignal 1
+# 
+# i          18 working 1
+# 
+# writeSignal 1
+# 
+# i          19 working 1
+# 
+# writeSignal 1
+# 
+# i          20 working 1
+# 
+# writeSignal 1
+# 
+# i          21 working 1
+# 
+# writeSignal 1
+# 
+# i          22 working 1
+# 
+# writeSignal 1
+# 
+# i          23 working 1
+# 
+# writeSignal 1
+# 
+# i          24 working 1
+# 
+# writeSignal 1
+# 
+# i          25 working 1
+# 
+# writeSignal 1
+# 
+# i          26 working 1
+# 
+# writeSignal 1
+# 
+# i          27 working 1
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# Compile of file_handler.v was successful with warnings.
+# Compile of cpu.v was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+do cpu.do
+# End time: 19:44:23 on May 22,2021, Elapsed time: 0:00:36
+# Errors: 0, Warnings: 2
+# vsim work.cpu 
+# Start time: 19:44:23 on May 22,2021
+# Loading work.cpu
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# i           0 working x
+# 
+# done 0 in1   x in2   x work x
+# 
+# i           0 working x
+# 
+# done 0 in1   x in2   x work x
+# 
+# i           0 working 0
+# 
+# done 0 in1   x in2   x work x
+# 
+# i           0 working 1
+# 
+# done 1 in1   7 in2 131 work x
+# 
+# i           1 working 1
+# 
+# done 1 in1   7 in2 131 work x
+# 
+# i           2 working 1
+# 
+# writeSignal 1
+# 
+# i           3 working 1
+# 
+# writeSignal 1
+# 
+# i           4 working 1
+# 
+# writeSignal 1
+# 
+# i           5 working 1
+# 
+# writeSignal 1
+# 
+# i           6 working 1
+# 
+# writeSignal 1
+# 
+# i           7 working 1
+# 
+# writeSignal 1
+# 
+# i           8 working 1
+# 
+# writeSignal 1
+# 
+# i           9 working 1
+# 
+# writeSignal 1
+# 
+# i          10 working 1
+# 
+# writeSignal 1
+# 
+# i          11 working 1
+# 
+# writeSignal 1
+# 
+# i          12 working 1
+# 
+# writeSignal 1
+# 
+# i          13 working 1
+# 
+# writeSignal 1
+# 
+# i          14 working 1
+# 
+# writeSignal 1
+# 
+# i          15 working 1
+# 
+# writeSignal 1
+# 
+# i          16 working 1
+# 
+# writeSignal 1
+# 
+# i          17 working 1
+# 
+# writeSignal 1
+# 
+# i          18 working 1
+# 
+# writeSignal 1
+# 
+# i          19 working 1
+# 
+# writeSignal 1
+# 
+# i          20 working 1
+# 
+# writeSignal 1
+# 
+# i          21 working 1
+# 
+# writeSignal 1
+# 
+# i          22 working 1
+# 
+# writeSignal 1
+# 
+# i          23 working 1
+# 
+# writeSignal 1
+# 
+# i          24 working 1
+# 
+# writeSignal 1
+# 
+# i          25 working 1
+# 
+# writeSignal 1
+# 
+# i          26 working 1
+# 
+# writeSignal 1
+# 
+# i          27 working 1
+# 
+# writeSignal 1
+# 
+# i          28 working 1
+# 
+# writeSignal 1
+# 
+# i          29 working 1
+# 
+# writeSignal 1
+# 
+# i          30 working 1
+# 
+# writeSignal 1
+# 
+# i          31 working 1
+# 
+# writeSignal 1
+# 
+# i          32 working 1
+# 
+# writeSignal 1
+# 
+# i          33 working 1
+# 
+# writeSignal 1
+# 
+# i           0 working 1
+# 
+# done 1 in1   7 in2 131 work x
+# 
+# writeSignal 1
+# 
+# i           1 working 1
+# 
+# done 1 in1   7 in2 131 work x
+# 
+# writeSignal 1
+# 
+# i           2 working 1
+# 
+# writeSignal 1
+# 
+# i           3 working 1
+# 
+# writeSignal 1
+# 
+# i           4 working 1
+# 
+# writeSignal 1
+# 
+# i           5 working 1
+# 
+# writeSignal 1
+# 
+# i           6 working 1
+# 
+# writeSignal 1
+# 
+# i           7 working 1
+# 
+# writeSignal 1
+# 
+# i           8 working 1
+# 
+# writeSignal 1
+# 
+# i           9 working 1
+# 
+# writeSignal 1
+# 
+# i          10 working 1
+# 
+# writeSignal 1
+# 
+# i          11 working 1
+# 
+# writeSignal 1
+# 
+# i          12 working 1
+# 
+# writeSignal 1
+# 
+# i          13 working 1
+# 
+# writeSignal 1
+# 
+# i          14 working 1
+# 
+# writeSignal 1
+# 
+# i          15 working 1
+# 
+# writeSignal 1
+# 
+# i          16 working 1
+# 
+# writeSignal 1
+# 
+# i          17 working 1
+# 
+# writeSignal 1
+# 
+# i          18 working 1
+# 
+# writeSignal 1
+# 
+# i          19 working 1
+# 
+# writeSignal 1
+# 
+# i          20 working 1
+# 
+# writeSignal 1
+# 
+# i          21 working 1
+# 
+# writeSignal 1
+# 
+# i          22 working 1
+# 
+# writeSignal 1
+# 
+# i          23 working 1
+# 
+# writeSignal 1
+# 
+# i          24 working 1
+# 
+# writeSignal 1
+# 
+# i          25 working 1
+# 
+# writeSignal 1
+# 
+# i          26 working 1
+# 
+# writeSignal 1
+# 
+# i          27 working 1
+# 
+# writeSignal 1
+# 
+# i          28 working 1
+# 
+# writeSignal 1
+# 
+# i          29 working 1
+# 
+# writeSignal 1
+# 
+# i          30 working 1
+# 
+# writeSignal 1
+# 
+# i          31 working 1
+# 
+# writeSignal 1
+# 
+# i          32 working 1
+# 
+# writeSignal 1
+# 
+# i          33 working 1
+# 
+# writeSignal 1
+# 
+# i           0 working 1
+# 
+# done 1 in1   7 in2 131 work x
+# 
+# readSignal 1
+# 
+# i           1 working 1
+# 
+# done 1 in1   7 in2 131 work x
+# 
+# writeSignal 1
+# 
+# i           2 working 1
+# 
+# writeSignal 1
+# 
+# i           3 working 1
+# 
+# writeSignal 1
+# 
+# i           4 working 1
+# 
+# writeSignal 1
+# 
+# i           5 working 1
+# 
+# writeSignal 1
+# 
+# i           6 working 1
+# 
+# writeSignal 1
+# 
+# i           7 working 1
+# 
+# writeSignal 1
+# 
+# i           8 working 1
+# 
+# writeSignal 1
+# 
+# i           9 working 1
+# 
+# writeSignal 1
+# 
+# i          10 working 1
+# 
+# writeSignal 1
+# 
+# i          11 working 1
+# 
+# writeSignal 1
+# 
+# i          12 working 1
+# 
+# writeSignal 1
+# 
+# i          13 working 1
+# 
+# writeSignal 1
+# 
+# i          14 working 1
+# 
+# writeSignal 1
+# 
+# i          15 working 1
+# 
+# writeSignal 1
+# 
+# i          16 working 1
+# 
+# writeSignal 1
+# 
+# i          17 working 1
+# 
+# writeSignal 1
+# 
+# i          18 working 1
+# 
+# writeSignal 1
+# 
+# i          19 working 1
+# 
+# writeSignal 1
+# 
+# i          20 working 1
+# 
+# writeSignal 1
+# 
+# i          21 working 1
+# 
+# writeSignal 1
+# 
+# i          22 working 1
+# 
+# writeSignal 1
+# 
+# i          23 working 1
+# 
+# writeSignal 1
+# 
+# i          24 working 1
+# 
+# writeSignal 1
+# 
+# i          25 working 1
+# 
+# writeSignal 1
+# 
+# i          26 working 1
+# 
+# writeSignal 1
+# 
+# i          27 working 1
+# 
+# writeSignal 1
+# 
+# i          28 working 1
+# 
+# writeSignal 1
+# 
+# i          29 working 1
+# 
+# writeSignal 1
+# 
+# i          30 working 1
+# 
+# writeSignal 1
+# 
+# i          31 working 1
+# 
+# writeSignal 1
+# 
+# i          32 working 1
+# 
+# writeSignal 1
+# 
+# i          33 working 1
+# 
+# writeSignal 1
+# 
+# i           0 working 1
+# 
+# done 1 in1   7 in2 131 work x
+# 
+# readSignal 1
+# 
+# i           1 working 1
+# 
+# done 1 in1   7 in2 131 work x
+# 
+# writeSignal 1
+# 
+# i           2 working 1
+# 
+# writeSignal 1
+# 
+# i           3 working 1
+# 
+# writeSignal 1
+# 
+# i           4 working 1
+# 
+# writeSignal 1
+# 
+# i           5 working 1
+# 
+# writeSignal 1
+# 
+# i           6 working 1
+# 
+# writeSignal 1
+# 
+# i           7 working 1
+# 
+# writeSignal 1
+# 
+# i           8 working 1
+# 
+# writeSignal 1
+# 
+# i           9 working 1
+# 
+# writeSignal 1
+# 
+# i          10 working 1
+# 
+# writeSignal 1
+# 
+# i          11 working 1
+# 
+# writeSignal 1
+# 
+# i          12 working 1
+# 
+# writeSignal 1
+# 
+# i          13 working 1
+# 
+# writeSignal 1
+# 
+# i          14 working 1
+# 
+# writeSignal 1
+# 
+# i          15 working 1
+# 
+# writeSignal 1
+# 
+# i          16 working 1
+# 
+# writeSignal 1
+# 
+# i          17 working 1
+# 
+# writeSignal 1
+# 
+# i          18 working 1
+# 
+# writeSignal 1
+# 
+# i          19 working 1
+# 
+# writeSignal 1
+# 
+# i          20 working 1
+# 
+# writeSignal 1
+# 
+# i          21 working 1
+# 
+# writeSignal 1
+# 
+# i          22 working 1
+# 
+# writeSignal 1
+# 
+# i          23 working 1
+# 
+# writeSignal 1
+# 
+# i          24 working 1
+# 
+# writeSignal 1
+# 
+# i          25 working 1
+# 
+# writeSignal 1
+# 
+# i          26 working 1
+# 
+# writeSignal 1
+# 
+# i          27 working 1
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# Compile of file_handler.v was successful with warnings.
+# Compile of cpu.v was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# Compile of file_handler.v was successful with warnings.
+# Compile of cpu.v was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+do cpu.do
+# End time: 19:45:26 on May 22,2021, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 3
+# vsim work.cpu 
+# Start time: 19:45:26 on May 22,2021
+# Loading work.cpu
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# i           0 working x
+# 
+# i           0 working x
+# 
+# i           0 working 0
+# 
+# i           0 working 1
+# 
+# i           1 working 1
+# 
+# i           2 working 1
+# 
+# i           3 working 1
+# 
+# i           4 working 1
+# 
+# i           5 working 1
+# 
+# i           6 working 1
+# 
+# i           7 working 1
+# 
+# i           8 working 1
+# 
+# i           9 working 1
+# 
+# i          10 working 1
+# 
+# i          11 working 1
+# 
+# i          12 working 1
+# 
+# i          13 working 1
+# 
+# i          14 working 1
+# 
+# i          15 working 1
+# 
+# i          16 working 1
+# 
+# i          17 working 1
+# 
+# i          18 working 1
+# 
+# i          19 working 1
+# 
+# i          20 working 1
+# 
+# i          21 working 1
+# 
+# i          22 working 1
+# 
+# i          23 working 1
+# 
+# i          24 working 1
+# 
+# i          25 working 1
+# 
+# i          26 working 1
+# 
+# i          27 working 1
+# 
+# i          28 working 1
+# 
+# i          29 working 1
+# 
+# i          30 working 1
+# 
+# i          31 working 1
+# 
+# i          32 working 1
+# 
+# i          33 working 1
+# 
+# i           0 working 1
+# 
+# i           1 working 1
+# 
+# i           2 working 1
+# 
+# i           3 working 1
+# 
+# i           4 working 1
+# 
+# i           5 working 1
+# 
+# i           6 working 1
+# 
+# i           7 working 1
+# 
+# i           8 working 1
+# 
+# i           9 working 1
+# 
+# i          10 working 1
+# 
+# i          11 working 1
+# 
+# i          12 working 1
+# 
+# i          13 working 1
+# 
+# i          14 working 1
+# 
+# i          15 working 1
+# 
+# i          16 working 1
+# 
+# i          17 working 1
+# 
+# i          18 working 1
+# 
+# i          19 working 1
+# 
+# i          20 working 1
+# 
+# i          21 working 1
+# 
+# i          22 working 1
+# 
+# i          23 working 1
+# 
+# i          24 working 1
+# 
+# i          25 working 1
+# 
+# i          26 working 1
+# 
+# i          27 working 1
+# 
+# i          28 working 1
+# 
+# i          29 working 1
+# 
+# i          30 working 1
+# 
+# i          31 working 1
+# 
+# i          32 working 1
+# 
+# i          33 working 1
+# 
+# i           0 working 1
+# 
+# i           1 working 1
+# 
+# i           2 working 1
+# 
+# i           3 working 1
+# 
+# i           4 working 1
+# 
+# i           5 working 1
+# 
+# i           6 working 1
+# 
+# i           7 working 1
+# 
+# i           8 working 1
+# 
+# i           9 working 1
+# 
+# i          10 working 1
+# 
+# i          11 working 1
+# 
+# i          12 working 1
+# 
+# i          13 working 1
+# 
+# i          14 working 1
+# 
+# i          15 working 1
+# 
+# i          16 working 1
+# 
+# i          17 working 1
+# 
+# i          18 working 1
+# 
+# i          19 working 1
+# 
+# i          20 working 1
+# 
+# i          21 working 1
+# 
+# i          22 working 1
+# 
+# i          23 working 1
+# 
+# i          24 working 1
+# 
+# i          25 working 1
+# 
+# i          26 working 1
+# 
+# i          27 working 1
+# 
+# i          28 working 1
+# 
+# i          29 working 1
+# 
+# i          30 working 1
+# 
+# i          31 working 1
+# 
+# i          32 working 1
+# 
+# i          33 working 1
+# 
+# i           0 working 1
+# 
+# i           1 working 1
+# 
+# i           2 working 1
+# 
+# i           3 working 1
+# 
+# i           4 working 1
+# 
+# i           5 working 1
+# 
+# i           6 working 1
+# 
+# i           7 working 1
+# 
+# i           8 working 1
+# 
+# i           9 working 1
+# 
+# i          10 working 1
+# 
+# i          11 working 1
+# 
+# i          12 working 1
+# 
+# i          13 working 1
+# 
+# i          14 working 1
+# 
+# i          15 working 1
+# 
+# i          16 working 1
+# 
+# i          17 working 1
+# 
+# i          18 working 1
+# 
+# i          19 working 1
+# 
+# i          20 working 1
+# 
+# i          21 working 1
+# 
+# i          22 working 1
+# 
+# i          23 working 1
+# 
+# i          24 working 1
+# 
+# i          25 working 1
+# 
+# i          26 working 1
+# 
+# i          27 working 1
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# Compile of file_handler.v was successful with warnings.
+# Compile of cpu.v was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+do cpu.do
+# End time: 19:47:05 on May 22,2021, Elapsed time: 0:01:39
+# Errors: 0, Warnings: 2
+# vsim work.cpu 
+# Start time: 19:47:05 on May 22,2021
+# Loading work.cpu
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# i           0 working x
+# 
+# i           0 working x
+# 
+# i           0 working 0
+# 
+# i           0 working 1
+# 
+# i           1 working 1
+# 
+# i           2 working 1
+# 
+# i           3 working 1
+# 
+# i           4 working 1
+# 
+# i           5 working 1
+# 
+# i           6 working 1
+# 
+# i           7 working 1
+# 
+# i           8 working 1
+# 
+# i           9 working 1
+# 
+# i          10 working 1
+# 
+# i          11 working 1
+# 
+# i          12 working 1
+# 
+# i          13 working 1
+# 
+# i          14 working 1
+# 
+# i          15 working 1
+# 
+# i          16 working 1
+# 
+# i          17 working 1
+# 
+# i          18 working 1
+# 
+# i          19 working 1
+# 
+# i          20 working 1
+# 
+# i          21 working 1
+# 
+# i          22 working 1
+# 
+# i          23 working 1
+# 
+# i          24 working 1
+# 
+# i          25 working 1
+# 
+# i          26 working 1
+# 
+# i          27 working 1
+# 
+# i          28 working 1
+# 
+# i          29 working 1
+# 
+# i          30 working 1
+# 
+# i          31 working 1
+# 
+# i          32 working 1
+# 
+# i          33 working 1
+# 
+# i           0 working 1
+# 
+# i           1 working 1
+# 
+# i           2 working 1
+# 
+# i           3 working 1
+# 
+# i           4 working 1
+# 
+# i           5 working 1
+# 
+# i           6 working 1
+# 
+# i           7 working 1
+# 
+# i           8 working 1
+# 
+# i           9 working 1
+# 
+# i          10 working 1
+# 
+# i          11 working 1
+# 
+# i          12 working 1
+# 
+# i          13 working 1
+# 
+# i          14 working 1
+# 
+# i          15 working 1
+# 
+# i          16 working 1
+# 
+# i          17 working 1
+# 
+# i          18 working 1
+# 
+# i          19 working 1
+# 
+# i          20 working 1
+# 
+# i          21 working 1
+# 
+# i          22 working 1
+# 
+# i          23 working 1
+# 
+# i          24 working 1
+# 
+# i          25 working 1
+# 
+# i          26 working 1
+# 
+# i          27 working 1
+# 
+# i          28 working 1
+# 
+# i          29 working 1
+# 
+# i          30 working 1
+# 
+# i          31 working 1
+# 
+# i          32 working 1
+# 
+# i          33 working 1
+# 
+# i           0 working 1
+# 
+# i           1 working 1
+# 
+# i           2 working 1
+# 
+# i           3 working 1
+# 
+# i           4 working 1
+# 
+# i           5 working 1
+# 
+# i           6 working 1
+# 
+# i           7 working 1
+# 
+# i           8 working 1
+# 
+# i           9 working 1
+# 
+# i          10 working 1
+# 
+# i          11 working 1
+# 
+# i          12 working 1
+# 
+# i          13 working 1
+# 
+# i          14 working 1
+# 
+# i          15 working 1
+# 
+# i          16 working 1
+# 
+# i          17 working 1
+# 
+# i          18 working 1
+# 
+# i          19 working 1
+# 
+# i          20 working 1
+# 
+# i          21 working 1
+# 
+# i          22 working 1
+# 
+# i          23 working 1
+# 
+# i          24 working 1
+# 
+# i          25 working 1
+# 
+# i          26 working 1
+# 
+# i          27 working 1
+# 
+# i          28 working 1
+# 
+# i          29 working 1
+# 
+# i          30 working 1
+# 
+# i          31 working 1
+# 
+# i          32 working 1
+# 
+# i          33 working 1
+# 
+# i           0 working 1
+# 
+# i           1 working 1
+# 
+# i           2 working 1
+# 
+# i           3 working 1
+# 
+# i           4 working 1
+# 
+# i           5 working 1
+# 
+# i           6 working 1
+# 
+# i           7 working 1
+# 
+# i           8 working 1
+# 
+# i           9 working 1
+# 
+# i          10 working 1
+# 
+# i          11 working 1
+# 
+# i          12 working 1
+# 
+# i          13 working 1
+# 
+# i          14 working 1
+# 
+# i          15 working 1
+# 
+# i          16 working 1
+# 
+# i          17 working 1
+# 
+# i          18 working 1
+# 
+# i          19 working 1
+# 
+# i          20 working 1
+# 
+# i          21 working 1
+# 
+# i          22 working 1
+# 
+# i          23 working 1
+# 
+# i          24 working 1
+# 
+# i          25 working 1
+# 
+# i          26 working 1
+# 
+# i          27 working 1
+# 
+do cpu.do
+# End time: 20:00:47 on May 22,2021, Elapsed time: 0:13:42
+# Errors: 0, Warnings: 1
+# vsim work.cpu 
+# Start time: 20:00:47 on May 22,2021
+# Loading work.cpu
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# i           0 working x
+# 
+# i           0 working x
+# 
+# i           0 working 0
+# 
+# i           0 working 1
+# 
+# i           1 working 1
+# 
+# i           2 working 1
+# 
+# i           3 working 1
+# 
+# i           4 working 1
+# 
+# i           5 working 1
+# 
+# i           6 working 1
+# 
+# i           7 working 1
+# 
+# i           8 working 1
+# 
+# i           9 working 1
+# 
+# i          10 working 1
+# 
+# i          11 working 1
+# 
+# i          12 working 1
+# 
+# i          13 working 1
+# 
+# i          14 working 1
+# 
+# i          15 working 1
+# 
+# i          16 working 1
+# 
+# i          17 working 1
+# 
+# i          18 working 1
+# 
+# i          19 working 1
+# 
+# i          20 working 1
+# 
+# i          21 working 1
+# 
+# i          22 working 1
+# 
+# i          23 working 1
+# 
+# i          24 working 1
+# 
+# i          25 working 1
+# 
+# i          26 working 1
+# 
+# i          27 working 1
+# 
+# i          28 working 1
+# 
+# i          29 working 1
+# 
+# i          30 working 1
+# 
+# i          31 working 1
+# 
+# i          32 working 1
+# 
+do cpu.do
+# End time: 20:01:32 on May 22,2021, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 1
+# vsim work.cpu 
+# Start time: 20:01:32 on May 22,2021
+# Loading work.cpu
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# i           0 working x
+# 
+# i           0 working x
+# 
+# i           0 working 0
+# 
+# i           0 working 1
+# 
+# i           1 working 1
+# 
+# i           2 working 1
+# 
+# i           3 working 1
+# 
+# i           4 working 1
+# 
+# i           5 working 1
+# 
+# i           6 working 1
+# 
+# i           7 working 1
+# 
+# i           8 working 1
+# 
+# i           9 working 1
+# 
+# i          10 working 1
+# 
+# i          11 working 1
+# 
+# i          12 working 1
+# 
+# i          13 working 1
+# 
+# i          14 working 1
+# 
+# i          15 working 1
+# 
+# i          16 working 1
+# 
+# i          17 working 1
+# 
+# i          18 working 1
+# 
+# i          19 working 1
+# 
+# i          20 working 1
+# 
+# i          21 working 1
+# 
+# i          22 working 1
+# 
+# i          23 working 1
+# 
+# i          24 working 1
+# 
+# i          25 working 1
+# 
+# i          26 working 1
+# 
+# i          27 working 1
+# 
+# i          28 working 1
+# 
+# i          29 working 1
+# 
+# i          30 working 1
+# 
+# i          31 working 1
+# 
+# i          32 working 1
+# 
+# i          33 working 1
+# 
+# i           0 working 1
+# 
+# i           1 working 1
+# 
+# i           2 working 1
+# 
+# i           3 working 1
+# 
+# i           4 working 1
+# 
+# i           5 working 1
+# 
+# i           6 working 1
+# 
+# i           7 working 1
+# 
+# i           8 working 1
+# 
+# i           9 working 1
+# 
+# i          10 working 1
+# 
+# i          11 working 1
+# 
+# i          12 working 1
+# 
+# i          13 working 1
+# 
+# i          14 working 1
+# 
+# i          15 working 1
+# 
+# i          16 working 1
+# 
+# i          17 working 1
+# 
+# i          18 working 1
+# 
+# i          19 working 1
+# 
+# i          20 working 1
+# 
+# i          21 working 1
+# 
+# i          22 working 1
+# 
+# i          23 working 1
+# 
+# i          24 working 1
+# 
+# i          25 working 1
+# 
+# i          26 working 1
+# 
+# i          27 working 1
+# 
+# i          28 working 1
+# 
+# i          29 working 1
+# 
+# i          30 working 1
+# 
+# i          31 working 1
+# 
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# Compile of file_handler.v was successful with warnings.
+# Compile of cpu.v was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+do cpu.do
+# End time: 20:04:45 on May 22,2021, Elapsed time: 0:03:13
+# Errors: 0, Warnings: 2
+# vsim work.cpu 
+# Start time: 20:04:46 on May 22,2021
+# Loading work.cpu
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# i           0 working x
+# 
+# i           0 working x
+# 
+# i           0 working 0
+# 
+# i           0 working 1
+# 
+# i           1 working 1
+# 
+# i           2 working 1
+# 
+# i           3 working 1
+# 
+# i           4 working 1
+# 
+# i           5 working 1
+# 
+# i           6 working 1
+# 
+# i           7 working 1
+# 
+# i           8 working 1
+# 
+# i           9 working 1
+# 
+# i          10 working 1
+# 
+# i          11 working 1
+# 
+# i          12 working 1
+# 
+# i          13 working 1
+# 
+# i          14 working 1
+# 
+# i          15 working 1
+# 
+# i          16 working 1
+# 
+# i          17 working 1
+# 
+# i          18 working 1
+# 
+# i          19 working 1
+# 
+# i          20 working 1
+# 
+# i          21 working 1
+# 
+# i          22 working 1
+# 
+# i          23 working 1
+# 
+# i          24 working 1
+# 
+# i          25 working 1
+# 
+# i          26 working 1
+# 
+# i          27 working 1
+# 
+# i          28 working 1
+# 
+# i          29 working 1
+# 
+# i          30 working 1
+# 
+# i          31 working 1
+# 
+# i          32 working 1
+# 
+# i          33 working 1
+# 
+# i           0 working 1
+# 
+# i           1 working 1
+# 
+# i           2 working 1
+# 
+# i           3 working 1
+# 
+# i           4 working 1
+# 
+# i           5 working 1
+# 
+# i           6 working 1
+# 
+# i           7 working 1
+# 
+# i           8 working 1
+# 
+# i           9 working 1
+# 
+# i          10 working 1
+# 
+# i          11 working 1
+# 
+# i          12 working 1
+# 
+# i          13 working 1
+# 
+# i          14 working 1
+# 
+# i          15 working 1
+# 
+# i          16 working 1
+# 
+# i          17 working 1
+# 
+# i          18 working 1
+# 
+# i          19 working 1
+# 
+# i          20 working 1
+# 
+# i          21 working 1
+# 
+# i          22 working 1
+# 
+# i          23 working 1
+# 
+# i          24 working 1
+# 
+# i          25 working 1
+# 
+# i          26 working 1
+# 
+# i          27 working 1
+# 
+# i          28 working 1
+# 
+# i          29 working 1
+# 
+# i          30 working 1
+# 
+# i          31 working 1
+# 
+do cpu.do
+# End time: 20:05:08 on May 22,2021, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 1
+# vsim work.cpu 
+# Start time: 20:05:08 on May 22,2021
+# Loading work.cpu
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.DMA
+# i           0 working x
+# 
+# i           0 working x
+# 
+# i           0 working 0
+# 
+# i           0 working 1
+# 
+# i           1 working 1
+# 
+# i           2 working 1
+# 
+# i           3 working 1
+# 
+# i           4 working 1
+# 
+# i           5 working 1
+# 
+# i           6 working 1
+# 
+# i           7 working 1
+# 
+# i           8 working 1
+# 
+# i           9 working 1
+# 
+# i          10 working 1
+# 
+# i          11 working 1
+# 
+# i          12 working 1
+# 
+# i          13 working 1
+# 
+# i          14 working 1
+# 
+# i          15 working 1
+# 
+# i          16 working 1
+# 
+# i          17 working 1
+# 
+# i          18 working 1
+# 
+# i          19 working 1
+# 
+# i          20 working 1
+# 
+# i          21 working 1
+# 
+# i          22 working 1
+# 
+# i          23 working 1
+# 
+# i          24 working 1
+# 
+# i          25 working 1
+# 
+# i          26 working 1
+# 
+# i          27 working 1
+# 
+# i          28 working 1
+# 
+# i          29 working 1
+# 
+# i          30 working 1
+# 
+# i          31 working 1
+# 
+# i          32 working 1
+# 
+# i          33 working 1
+# 
+# i           0 working 1
+# 
+# i           1 working 1
+# 
+# i           2 working 1
+# 
+# i           3 working 1
+# 
+# i           4 working 1
+# 
+# i           5 working 1
+# 
+# i           6 working 1
+# 
+# i           7 working 1
+# 
+# i           8 working 1
+# 
+# i           9 working 1
+# 
+# i          10 working 1
+# 
+# i          11 working 1
+# 
+# i          12 working 1
+# 
+# i          13 working 1
+# 
+# i          14 working 1
+# 
+# i          15 working 1
+# 
+# i          16 working 1
+# 
+# i          17 working 1
+# 
+# i          18 working 1
+# 
+# i          19 working 1
+# 
+# i          20 working 1
+# 
+# i          21 working 1
+# 
+# i          22 working 1
+# 
+# i          23 working 1
+# 
+# i          24 working 1
+# 
+# i          25 working 1
+# 
+# i          26 working 1
+# 
+# i          27 working 1
+# 
+# i          28 working 1
+# 
+# i          29 working 1
+# 
+# i          30 working 1
+# 
+# i          31 working 1
+# 
+# i          32 working 1
+# 
+# i          33 working 1
+# 
+# i           0 working 1
+# 
+# i           1 working 1
+# 
+# i           2 working 1
+# 
+# i           3 working 1
+# 
+# i           4 working 1
+# 
+# i           5 working 1
+# 
+# i           6 working 1
+# 
+# i           7 working 1
+# 
+# i           8 working 1
+# 
+# i           9 working 1
+# 
+# i          10 working 1
+# 
+# i          11 working 1
+# 
+# i          12 working 1
+# 
+# i          13 working 1
+# 
+# i          14 working 1
+# 
+# i          15 working 1
+# 
+# i          16 working 1
+# 
+# i          17 working 1
+# 
+# i          18 working 1
+# 
+# i          19 working 1
+# 
+# i          20 working 1
+# 
+# i          21 working 1
+# 
+# i          22 working 1
+# 
+# i          23 working 1
+# 
+# i          24 working 1
+# 
+# i          25 working 1
+# 
+# i          26 working 1
+# 
+# i          27 working 1
+# 
+# i          28 working 1
+# 
+# i          29 working 1
+# 
+# i          30 working 1
+# 
+# i          31 working 1
+# 
+# i          32 working 1
+# 
+# i          33 working 1
+# 
+# i           0 working 1
+# 
+# i           1 working 1
+# 
+# i           2 working 1
+# 
+# i           3 working 1
+# 
+# i           4 working 1
+# 
+# i           5 working 1
+# 
+# i           6 working 1
+# 
+# i           7 working 1
+# 
+# i           8 working 1
+# 
+# i           9 working 1
+# 
+# i          10 working 1
+# 
+# i          11 working 1
+# 
+# i          12 working 1
+# 
+# i          13 working 1
+# 
+# i          14 working 1
+# 
+# i          15 working 1
+# 
+# i          16 working 1
+# 
+# i          17 working 1
+# 
