@@ -9,6 +9,7 @@ sim:/decompress_handler/ramAddress \
 sim:/decompress_handler/ramDataOut \
 sim:/decompress_handler/ramData \
 sim:/decompress_handler/write_signal \
+sim:/decompress_handler/read_signal \
 sim:/decompress_handler/shift \
 sim:/decompress_handler/byteIndxTemp \
 sim:/decompress_handler/bitIndxTemp \
@@ -24,31 +25,20 @@ sim:/decompress_handler/RST \
 sim:/decompress_handler/working
 
 
-force -freeze sim:/decompress_handler/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/decompress_handler/clk 1 0, 0 {50 ns} -r 100
 force -freeze sim:/decompress_handler/RST 1'd1 0
-run 100
+run 500
 
 force -freeze sim:/decompress_handler/RST 1'd0 0
 force -freeze sim:/decompress_handler/working 1'd1 0
-run 100
-
-force -freeze sim:/decompress_handler/in1 00000111 0
-force -freeze sim:/decompress_handler/in2 010110111 0
+run 500
+force -freeze sim:/decompress_handler/in1 11111111 0
+force -freeze sim:/decompress_handler/in2 11111111 0
 force -freeze sim:/decompress_handler/work 0 0
-force -freeze sim:/decompress_handler/byteIndx 32'd0 0
-force -freeze sim:/decompress_handler/bitIndx 3'd7 0
-
-run 6500
-
-
-force -freeze sim:/decompress_handler/in1 10001010 0
-force -freeze sim:/decompress_handler/in2 010110111 0
-force -freeze sim:/decompress_handler/work 1 1
 force -freeze sim:/decompress_handler/byteIndx 32'd0 0
 force -freeze sim:/decompress_handler/bitIndx 3'd0 0
 
-run 6500
-
+run 3500
 
 
 
