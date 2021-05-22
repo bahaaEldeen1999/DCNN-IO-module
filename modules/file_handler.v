@@ -21,6 +21,7 @@ DMA DMA_module(tempramAddress,sendByte,read_signal,1,ramDataOut,clk,RST, doneRea
 
 initial begin
   //tempramAddress = 16'b0000000000001111;
+  // 10 files
   data_file = $fopen("bin.txt", "r");
   if (data_file == `NULL) begin
     $display("data_file handle was NULL");
