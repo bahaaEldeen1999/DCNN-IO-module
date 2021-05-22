@@ -33,17 +33,18 @@ force -freeze sim:/cpu/tempWorking 1'd0 0
 run 100
 
 force -freeze sim:/cpu/in1 00000111 0
-force -freeze sim:/cpu/in2 010110111 0
+force -freeze sim:/cpu/in2 10000011 0
 force -freeze sim:/cpu/tempWorking 1 0
 force -freeze sim:/cpu/byteIndx 32'd0 0
 force -freeze sim:/cpu/bitIndx 3'd7 0
 
-run 6500
+run 6000 
 
+force -freeze sim:/cpu/in1 00000111 0
+force -freeze sim:/cpu/in2 10000011 0
+force -freeze sim:/cpu/tempWorking 1 0
+force -freeze sim:/cpu/byteIndx 32'd1 0
+force -freeze sim:/cpu/bitIndx 3'd5 0
 
-force -freeze sim:/cpu/in1 10001010 0
-force -freeze sim:/cpu/in2 010110111 0
-force -freeze sim:/cpu/byteIndx 32'd0 0
-force -freeze sim:/cpu/bitIndx 3'd0 0
+run 6000
 
-run 6500

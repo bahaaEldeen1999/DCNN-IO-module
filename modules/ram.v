@@ -19,13 +19,13 @@ always @(negedge clk) begin
     end
 
     else if(read_signal == 1) begin
-                $display("readSignal %d\n",read_signal);
+                //$display("readSignal %d\n",read_signal);
         
         temp = mem[address];
         done_read=1;
     end
     else if (write_signal == 1) begin
-            $display("writeSignal %d\n",write_signal);
+           // $display("writeSignal %d\n",write_signal);
 
         mem[address] = data;
         done_write=1;

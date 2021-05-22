@@ -14,12 +14,12 @@ wire doneDecompressHandler;
 reg tempWork,tempWorking;
 wire ramReadSignal,ramWriteSignal,ramDoneRead,ramDoneWrite;
 wire[15:0] ramAddress;
-
 decompress_handler decompress_handler_module(in1,in2,byteIndx,bitIndx,newByteIndx,newBitIndx,tempWork,clk,RST,doneDecompressHandler,tempWorking,ramAddress,ramDataIn,ramDataOut,ramReadSignal,ramWriteSignal);
 DMA dma_module(ramAddress,ramDataIn,ramReadSignal,ramWriteSignal,ramDataOut,clk,RST,ramDoneRead,ramDoneWrite);
 
 // we may need different ream info for each module that will interact with the ram
 always @(clk) begin
-    
+   
 end
+
 endmodule;
