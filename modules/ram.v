@@ -10,7 +10,7 @@ integer done_read=0;
 integer done_write=0;
 output doneWrite;
 integer i;
-always @(posedge clk) begin
+always @(negedge clk) begin
     i=0;
     if (RST == 1) begin
         for(i=0;i<32768;i=i+1) begin
