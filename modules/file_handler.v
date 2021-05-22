@@ -10,7 +10,7 @@ reg read_signal;
 reg[7:0] firstByte;
 reg[7:0] secondByte;
 reg[7:0] sendByte;
-reg[15:0] tempramAddress= 16'b0000000000001110;
+reg[15:0] tempramAddress= 16'b0000000000001110; // less than the desired address by 1
 wire doneRead;
 wire doneWrite;
 wire[7:0] ramDataOut;
