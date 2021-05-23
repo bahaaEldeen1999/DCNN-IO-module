@@ -17,7 +17,7 @@ wire[7:0] ramDataOut;
 reg[15:0] captured_data;
 `define NULL 0    
 
-DMA DMA_module(tempramAddress,sendByte,read_signal,1,ramDataOut,clk,RST, doneRead, doneWrite);
+// DMA DMA_module(tempramAddress,sendByte,read_signal,1,ramDataOut,clk,RST, doneRead, doneWrite,layerNumber);
 
 initial begin
   //tempramAddress = 16'b0000000000001111;
@@ -35,6 +35,9 @@ always @(posedge clk,load) begin
             scan_file = $fscanf(data_file, "%b\n", captured_data); 
             if (!$feof(data_file)) begin
                 $display("line %b",captured_data);
+                ramAddress= 4+layerNumber;
+                write_signal  = 1;
+
             end
 	    firstByte = captured_data[15:8];
 	    secondByte = captured_data[7:0];
