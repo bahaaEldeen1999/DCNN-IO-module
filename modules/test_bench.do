@@ -10,4 +10,4 @@ sim:/test_bench/Dout
 
 force -freeze sim:/test_bench/clk 1 0, 0 {50 ps} -r 100
 
-run 1000000
+run 100000000

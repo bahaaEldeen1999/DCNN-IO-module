@@ -10,23 +10,23 @@ z2
 cModel Technology
 Z0 d/run/media/bahaa/CMP/projects/VLSI20/modules
 vcoordinator
-Z1 !s110 1621804196
+Z1 !s110 1621805385
 !i10b 1
 !s100 1UA]=ll@g5i576kXmD@?h2
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
 IZ_cBh6o:05a3F1D15^USf3
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z4 w1621803351
+Z4 w1621805266
 Z5 8/run/media/bahaa/CMP/projects/VLSI20/modules/coordinator.v
 Z6 F/run/media/bahaa/CMP/projects/VLSI20/modules/coordinator.v
-!i122 969
+!i122 1028
 L0 1 36
 Z7 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z8 !s108 1621804196.000000
+Z8 !s108 1621805385.000000
 Z9 !s107 /run/media/bahaa/CMP/projects/VLSI20/modules/coordinator.v|
 Z10 !s90 -reportprogress|300|-work|work|-stats=none|/run/media/bahaa/CMP/projects/VLSI20/modules/coordinator.v|
 !i113 1
@@ -47,7 +47,7 @@ R0
 R4
 R5
 R6
-!i122 969
+!i122 1028
 L0 36 0
 R7
 31
@@ -116,7 +116,7 @@ R0
 Z18 w1621712133
 Z19 8/run/media/bahaa/CMP/projects/VLSI20/modules/decompress.v
 Z20 F/run/media/bahaa/CMP/projects/VLSI20/modules/decompress.v
-!i122 965
+!i122 1024
 L0 1 50
 R7
 r1
@@ -139,7 +139,7 @@ R0
 Z23 w1621722817
 Z24 8/run/media/bahaa/CMP/projects/VLSI20/modules/decompress_handler.v
 Z25 F/run/media/bahaa/CMP/projects/VLSI20/modules/decompress_handler.v
-!i122 966
+!i122 1025
 L0 5 159
 R7
 r1
@@ -166,7 +166,7 @@ R0
 R23
 R24
 R25
-!i122 966
+!i122 1025
 L0 163 0
 R7
 31
@@ -191,7 +191,7 @@ R0
 R18
 R19
 R20
-!i122 965
+!i122 1024
 L0 50 0
 R7
 31
@@ -212,7 +212,7 @@ R0
 Z28 w1621705520
 Z29 8/run/media/bahaa/CMP/projects/VLSI20/modules/ram.v
 Z30 F/run/media/bahaa/CMP/projects/VLSI20/modules/ram.v
-!i122 967
+!i122 1026
 L0 1 42
 R7
 r1
@@ -236,7 +236,7 @@ R0
 Z33 w1621802864
 Z34 8/run/media/bahaa/CMP/projects/VLSI20/modules/file_handler.v
 Z35 F/run/media/bahaa/CMP/projects/VLSI20/modules/file_handler.v
-!i122 968
+!i122 1027
 L0 1 5
 R7
 r1
@@ -263,7 +263,7 @@ R0
 R33
 R34
 R35
-!i122 968
+!i122 1027
 L0 5 0
 R7
 31
@@ -311,7 +311,7 @@ R0
 R28
 R29
 R30
-!i122 967
+!i122 1026
 L0 42 0
 R7
 31
@@ -324,16 +324,16 @@ R12
 vtest_bench
 R1
 !i10b 1
-!s100 GnoN^_i2edAU`9@j59[aP1
+!s100 [Pf;UeVY6HfnWlNX`Dbo91
 R2
-IF4nMPcEeGJTZ4BcC5kOnI1
+I7SYonAzK=a@0Zh<^FMhdV1
 R3
 R0
-Z38 w1621804184
+Z38 w1621805381
 Z39 8/run/media/bahaa/CMP/projects/VLSI20/modules/test_bench.v
 Z40 F/run/media/bahaa/CMP/projects/VLSI20/modules/test_bench.v
-!i122 970
-L0 1 186
+!i122 1029
+L0 1 188
 R7
 r1
 !s85 0
@@ -347,20 +347,20 @@ R12
 Xtest_bench_v_unit
 R13
 R1
-VWHbDH@hfBfYcDAOd=[TB=1
+V4CDD7WB[eDd`=AI4CXYBC0
 r1
 !s85 0
 !i10b 1
-!s100 mWO?OEINW5bB=_RBc_V^L2
-IWHbDH@hfBfYcDAOd=[TB=1
+!s100 FaP6EjV7E`]QzRB::aEhj0
+I4CDD7WB[eDd`=AI4CXYBC0
 !i103 1
 S1
 R0
 R38
 R39
 R40
-!i122 970
-L0 186 0
+!i122 1029
+L0 188 0
 R7
 31
 R8

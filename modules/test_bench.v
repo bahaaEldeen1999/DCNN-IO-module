@@ -89,36 +89,38 @@ initial begin
     // set cnn to 1 to load file
     cnn=1;
     // layer 1
-    parameter_file = $fopen("parameters/filtersconv2d_1.txt", "r");
+    parameter_file = $fopen("parameters/bin_filtersconv2d_1.txt", "r");
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
     end
-    parameter_file = $fopen("parameters/biasessconv2d_1.txt", "r");
+    
+    parameter_file = $fopen("parameters/bin_biasesconv2d_1.txt", "r");
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
     end
+    
 
     // layer 2
-    parameter_file = $fopen("parameters/filtersconv2d_2.txt", "r");
+    parameter_file = $fopen("parameters/bin_filtersconv2d_2.txt", "r");
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
     end
-    parameter_file = $fopen("parameters/biasessconv2d_2.txt", "r");
+    parameter_file = $fopen("parameters/bin_biasesconv2d_2.txt", "r");
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
     end
 
     //layer 3
-    parameter_file = $fopen("parameters/filtersconv2d_3.txt", "r");
+    parameter_file = $fopen("parameters/bin_filtersconv2d_3.txt", "r");
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
     end
-    parameter_file = $fopen("parameters/biasessconv2d_3.txt", "r");
+    parameter_file = $fopen("parameters/bin_biasesconv2d_3.txt", "r");
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
@@ -127,24 +129,24 @@ initial begin
     // load dense 
 
     // layer 1
-    parameter_file = $fopen("parameters/biasesdense_1.txt", "r");
+    parameter_file = $fopen("parameters/bin_biasesdense_1.txt", "r");
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
     end
-    parameter_file = $fopen("parameters/weightsdense_1.txt", "r");
+    parameter_file = $fopen("parameters/bin_weightsdense_1.txt", "r");
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
     end
 
     // layer 2
-    parameter_file = $fopen("parameters/biasesdense_2.txt", "r");
+    parameter_file = $fopen("parameters/bin_biasesdense_2.txt", "r");
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
     end
-    parameter_file = $fopen("parameters/weightsdense_2.txt", "r");
+    parameter_file = $fopen("parameters/bin_weightsdense_2.txt", "r");
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
@@ -152,11 +154,11 @@ initial begin
 
 
 
+    
     // done loading can prcess now 
     load=0;
     $display("done loading CNN Parameters \n");
     #100
-
 
 
     // read compressed binary image file line by line 
