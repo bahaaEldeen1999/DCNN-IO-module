@@ -93,12 +93,14 @@ initial begin
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
+        ramAddress = ramAddress+1;
     end
     
     parameter_file = $fopen("parameters/bin_biasesconv2d_1.txt", "r");
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
+        ramAddress = ramAddress+2;
     end
     
 
@@ -107,11 +109,13 @@ initial begin
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
+        ramAddress = ramAddress+2;
     end
     parameter_file = $fopen("parameters/bin_biasesconv2d_2.txt", "r");
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
+        ramAddress = ramAddress+2;
     end
 
     //layer 3
@@ -119,11 +123,13 @@ initial begin
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
+        ramAddress = ramAddress+2;
     end
     parameter_file = $fopen("parameters/bin_biasesconv2d_3.txt", "r");
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
+        ramAddress = ramAddress+2;
     end
 
     // load dense 
@@ -133,11 +139,13 @@ initial begin
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
+        ramAddress = ramAddress+2;
     end
     parameter_file = $fopen("parameters/bin_weightsdense_1.txt", "r");
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
+        ramAddress = ramAddress+2;
     end
 
     // layer 2
@@ -145,11 +153,13 @@ initial begin
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
+        ramAddress = ramAddress+2;
     end
     parameter_file = $fopen("parameters/bin_weightsdense_2.txt", "r");
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
+        ramAddress = ramAddress+2;
     end
 
 
@@ -166,6 +176,7 @@ initial begin
     load = 1;
     // set cnn to 0 to load image
     cnn=0;
+    ramAddress = ramAddress-1;
     compressed_image = $fopen("compressed.txt", "r");
     while (!$feof(compressed_image) ) begin
         // set Din to value corresponding to in1 and in2 
