@@ -1,4 +1,4 @@
-module coordinator(clk,RST,interrupt,load,cnn,Din,Dout,layerIndex,layerType,ramAddress,ramDataIn,ramDataOut,readSignal,writeSignal);
+module coordinator(clk,RST,interrupt,load,cnn,Din,Dout,ramAddress,ramDataIn,ramDataOut,readSignal,writeSignal);
 
 input[15:0] ramAddress;
 input[7:0] ramDataIn;
@@ -19,8 +19,7 @@ wire doneDecompressHandler;
 reg tempWork,tempWorking;
 wire ramReadSignal,ramWriteSignal,ramDoneRead,ramDoneWrite;
 //wire[15:0] ramAddress;
-input[15:0] layerIndex;
-input[2:0] layerType;
+
 // test bench => read file image(decompress handler), read 10 files (1-10)
 // mux => WriteSignal+1/ReadSignal+1/RamDataIn (coordinator/MUX)
 // file handler
@@ -29,8 +28,9 @@ input[2:0] layerType;
 //DMA dma_module(ramAddress,ramDataIn,ramReadSignal,ramWriteSignal,ramDataOut,clk,RST,ramDoneRead,ramDoneWrite);
 
 // we may need different ream info for each module that will interact with the ram
-always @(Din) begin
-   $display("Din %b",Din);
+always @(Din,ramDataIn) begin
+   $display("Din %b\n",Din);
+   $display("ramDataIn %d\n",ramDataIn);
 end
 
 endmodule;
