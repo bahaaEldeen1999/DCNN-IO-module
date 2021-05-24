@@ -1,55 +1,52 @@
-module file_handler(load,clk, RST, write, ramAddress, ramData);
+module file_handler(load,clk,ramBase, RST, captured_data, write, ramAddress, ramData);
 input load;// determine to load file or not 
 input clk, RST;
+input[15:0] captured_data;
+input[15:0] ramBase;
 output write;
 output[15:0] ramAddress;
 output[8:0] ramData;
-integer data_file; 
-integer scan_file, i=0; 
-reg read_signal;
+integer i=0, temp_Write, temp_done; 
 reg[7:0] firstByte;
 reg[7:0] secondByte;
 reg[7:0] sendByte;
-reg[15:0] tempramAddress= 16'b0000000000001110; // less than the desired address by 1
-wire doneRead;
-wire doneWrite;
+reg[15:0] tempramAddress; // less than the desired address by 1
+reg[15:0] tempramBase; // less than the desired address by 1
 wire[7:0] ramDataOut;
-reg[15:0] captured_data;
+reg[15:0] temp_captured_data;
 `define NULL 0    
 
-DMA DMA_module(tempramAddress,sendByte,read_signal,1,ramDataOut,clk,RST, doneRead, doneWrite);
+DMA DMA_module(tempramAddress, sendByte, read_signal, temp_Write, ramDataOut, clk, RST, doneRead, doneWrite);
 
-initial begin
-  //tempramAddress = 16'b0000000000001111;
-  data_file = $fopen("bin.txt", "r");
-  if (data_file == `NULL) begin
-    $display("data_file handle was NULL");
-    $finish;
-  end
-end
+// initial begin
+//     tempramAddress = startingOffset - 1; 
+// end
 
-always @(posedge clk,load) begin
+always @(posedge clk,load,captured_data) begin
     if (load == 1) begin
         if (i == 0) begin
-            scan_file = $fscanf(data_file, "%b\n", captured_data); 
-            if (!$feof(data_file)) begin
-                $display("line %b",captured_data);
-            end
-	    firstByte = captured_data[15:8];
-	    secondByte = captured_data[7:0];
-	    sendByte = firstByte;
-	end
-	else if (i == 1) begin
-	    sendByte = secondByte;
-	end
-	i = i + 1;
-        if ( i == 2 ) begin
-	    i = 0;
-	end
-        tempramAddress = tempramAddress + 1;
+            sendByte = captured_data[15:8];
+            tempramAddress = ramBase; 
+            temp_Write = 1; 
+
+	    end
+	    else if (i == 1) begin
+	        sendByte = captured_data[7:0];
+            tempramAddress = ramBase + 1; 
+            temp_Write = 1;  
+	    end
+        $display("data %d 1b %d 2b %d sb %d tempramAddress %d i %d\n",captured_data, firstByte, secondByte, sendByte, tempramAddress,i);
+
+        i = i + 1;
+        if ( i == 2 ) begin 
+            i = 0; 
+        end
+    end
+    else begin
+        temp_Write = 0;
     end
 end
 	assign ramData = sendByte;
 	assign ramAddress = tempramAddress;
-	assign write = 1;
+	assign write = temp_Write;
 endmodule;

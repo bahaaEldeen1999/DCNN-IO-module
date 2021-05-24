@@ -21,15 +21,18 @@ def float_to_bin(number):
 
     return result
 
-output_file = open("output.txt", "w")
+
+input_name = "weightsdense_2.txt"
+output_name = "output/bin_" + input_name
+output_file = open(output_name, "w")
 lines = []
-with open('filtersconv2d_1.txt') as f:
+
+with open(input_name) as f:
     lines = f.readlines()
 
 for line in lines:
     if (not line.startswith('--')) and (not line.startswith(' ')) and (not line.startswith('\n')):
         numbers = line.split()
         for i in numbers:
-            output_file.write(float_to_bin(float(i)))
+            output_file.write(float_to_bin('{:.10f}'.format(float(i))))
             output_file.write('\n')
-            
