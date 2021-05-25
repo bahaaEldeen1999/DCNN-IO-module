@@ -22,7 +22,20 @@ sim:/coordinator/ramReadSignal \
 sim:/coordinator/ramWriteSignal \
 sim:/coordinator/ramDoneRead \
 sim:/coordinator/ramDoneWrite \
-sim:/coordinator/ramAddress
+sim:/coordinator/ramAddress\
+sim:/coordinator/readsignal\
+sim:/coordinator/writesignal\
+sim:/coordinator/tempDataToRAM\
+sim:/coordinator/choosedRamWriteSignal\
+sim:/coordinator/ramData\
+sim:/coordinator/ramAdressCompressed\
+sim:/coordinator/ramAddressFile\
+sim:/coordinator/ramAdressCnn/
+sim:/coordinator/tempAdressToRAM
+
+
+
+
 
 force -freeze sim:/coordinator/clk 1 0, 0 {50 ps} -r 100
 force -freeze sim:/coordinator/RST 1'd1 0
