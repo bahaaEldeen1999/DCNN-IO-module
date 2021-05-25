@@ -3,11 +3,11 @@ parameter clockCycleTime = 100;
 parameter delayDecompress = (clockCycleTime*34);
 parameter numberOfLayers = 3;
 parameter maxnumberOfLayers = 10;
-parameter  filterSize = 5;
+parameter  filterSize = 1;
 
 // starting from the last
-parameter [8*(maxnumberOfLayers-1)-1:0] noOfFilterLayers  = {8'd10,8'd20,8'd30,8'd40,8'd50,8'd60,8'd70,8'd80,8'd90,8'd100}  ;
-parameter [8*(maxnumberOfLayers-2)-1:0] noOfDenseLayers = {8'd10,8'd20,8'd30,8'd40,8'd50,8'd60,8'd70,8'd80,8'd90}  ;
+parameter [8*(maxnumberOfLayers-1)-1:0] noOfFilterLayers  = {8'd10,8'd20,8'd30,8'd40,8'd50,8'd60,8'd70,8'd6,8'd6,8'd6}  ;
+parameter [8*(maxnumberOfLayers-2)-1:0] noOfDenseLayers = {8'd10,8'd20,8'd30,8'd40,8'd50,8'd60,8'd70,8'd12,8'd12}  ;
 input clk;
 reg RST,load,cnn,interrupt;
 reg[15:0] Din;
@@ -36,6 +36,7 @@ initial begin
     ramAddress = 0;
     ramDataIn = filterSize;
     writeSignal = 1;
+    $display("writeSignal %d\n",writeSignal);
     #100 
     // put number of layers in second byte in memory 
     ramAddress = 1;
@@ -93,7 +94,7 @@ initial begin
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
-        ramAddress = ramAddress+1;
+        ramAddress = ramAddress+2;
     end
     
     parameter_file = $fopen("parameters/bin_biasesconv2d_1.txt", "r");
@@ -177,6 +178,7 @@ initial begin
     // set cnn to 0 to load image
     cnn=0;
     ramAddress = ramAddress-1;
+    $display(" ramAddress %d\n",ramAddress);
     compressed_image = $fopen("compressed.txt", "r");
     while (!$feof(compressed_image) ) begin
         // set Din to value corresponding to in1 and in2 

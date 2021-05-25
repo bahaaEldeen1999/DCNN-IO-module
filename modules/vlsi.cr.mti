@@ -1,4 +1,14 @@
-{D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/file_handler.v} {2 {vlog -work work -stats=none {D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/file_handler.v}
+{D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/one_bit_mux.v} {2 {vlog -work work -stats=none {D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/one_bit_mux.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module One_Bit_MUX
+** Warning: D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/one_bit_mux.v(45): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/one_bit_mux.v(45): (vlog-2284) Empty $unit scope found.
+-- Compiling package one_bit_mux_v_unit
+
+Top level modules:
+	One_Bit_MUX
+
+} {} {}} {D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/file_handler.v} {2 {vlog -work work -stats=none {D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/file_handler.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module file_handler
 ** Warning: D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/file_handler.v(52): (vlog-2283) Extra semicolon in $unit (global) scope.
@@ -7,16 +17,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	file_handler
-
-} {} {}} {D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/one_bit_mux.v} {2 {vlog -work work -stats=none {D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/one_bit_mux.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module One_Bit_MUX
-** Warning: D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/one_bit_mux.v(26): (vlog-2283) Extra semicolon in $unit (global) scope.
-** Warning: D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/one_bit_mux.v(26): (vlog-2284) Empty $unit scope found.
--- Compiling package one_bit_mux_v_unit
-
-Top level modules:
-	One_Bit_MUX
 
 } {} {}} {D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/decompress.v} {2 {vlog -work work -stats=none {D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/decompress.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -31,8 +31,8 @@ Top level modules:
 } {} {}} {D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/16_bit_mux.v} {2 {vlog -work work -stats=none {D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/16_bit_mux.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module ST_Bit_MUX
-** Warning: D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/16_bit_mux.v(29): (vlog-2283) Extra semicolon in $unit (global) scope.
-** Warning: D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/16_bit_mux.v(29): (vlog-2284) Empty $unit scope found.
+** Warning: D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/16_bit_mux.v(48): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/16_bit_mux.v(48): (vlog-2284) Empty $unit scope found.
 -- Compiling package _16_bit_mux_v_unit
 
 Top level modules:
@@ -51,12 +51,22 @@ Top level modules:
 } {} {}} {D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/test_bench.v} {2 {vlog -work work -stats=none {D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/test_bench.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module test_bench
-** Warning: D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/test_bench.v(199): (vlog-2283) Extra semicolon in $unit (global) scope.
-** Warning: D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/test_bench.v(199): (vlog-2284) Empty $unit scope found.
+** Warning: D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/test_bench.v(201): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/test_bench.v(201): (vlog-2284) Empty $unit scope found.
 -- Compiling package test_bench_v_unit
 
 Top level modules:
 	test_bench
+
+} {} {}} {D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/cpu.v} {2 {vlog -work work -stats=none {D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/cpu.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module coordinator
+** Warning: D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/cpu.v(47): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/cpu.v(47): (vlog-2284) Empty $unit scope found.
+-- Compiling package cpu_v_unit
+
+Top level modules:
+	coordinator
 
 } {} {}} {D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/ram.v} {2 {vlog -work work -stats=none {D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/ram.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020

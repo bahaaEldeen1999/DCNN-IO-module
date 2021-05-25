@@ -5,7 +5,7 @@ input[15:0] captured_data;
 input[15:0] ramBase;
 output write;
 output[15:0] ramAddress;
-output[8:0] ramData;
+output[7:0] ramData;
 integer i=0, temp_Write, temp_done; 
 reg[7:0] firstByte;
 reg[7:0] secondByte;

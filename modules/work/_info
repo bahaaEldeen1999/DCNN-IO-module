@@ -11,24 +11,24 @@ cModel Technology
 dD:/CMP/CMP 3/CMP 302/VLSI/In_Proj
 X_16_bit_mux_v_unit
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1621958856
-VT7m]W3>3jUjMlB3ZYY8UF0
+Z1 !s110 1621962748
+V@IU_:Zl@@DG63?Jl:N:8R1
 r1
 !s85 0
 !i10b 1
-!s100 a85i>O_n4KIdA9X2AX@Qj3
-IT7m]W3>3jUjMlB3ZYY8UF0
+!s100 `QheA1QZ`6B=[S@?edQlP2
+I@IU_:Zl@@DG63?Jl:N:8R1
 !i103 1
 S1
 Z2 dD:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules
-Z3 w1621958395
+Z3 w1621961637
 Z4 8D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/16_bit_mux.v
 Z5 FD:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/16_bit_mux.v
-!i122 54
-L0 29 0
+!i122 135
+L0 48 0
 Z6 OV;L;2020.1;71
 31
-Z7 !s108 1621958856.000000
+Z7 !s108 1621962748.000000
 Z8 !s107 D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/16_bit_mux.v|
 Z9 !s90 -reportprogress|300|-work|work|-stats=none|D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/16_bit_mux.v|
 !i113 1
@@ -36,25 +36,25 @@ Z10 o-work work
 Z11 tCvgOpt 0
 n@_16_bit_mux_v_unit
 vcoordinator
-Z12 !s110 1621958857
+Z12 !s110 1621962750
 !i10b 1
-!s100 MUDc:Z<WFDad:4gVP:9c[0
+!s100 McCVWnXPMabzSN1gBY]g00
 Z13 !s11b Dg1SIo80bB@j0V0VzS_@n1
-ISH8Ze^RId_>BM4O^bWB070
+I<IH^NVAGkUXRgE[L_6aXf3
 Z14 VDg1SIo80bB@j0V0VzS_@n1
 R2
-Z15 w1621958833
+Z15 w1621960451
 Z16 8D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/cpu.v
 Z17 FD:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/cpu.v
-!i122 60
-L0 1 47
+!i122 141
+Z18 L0 1 47
 R6
 r1
 !s85 0
 31
-Z18 !s108 1621958857.000000
-Z19 !s107 D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/cpu.v|
-Z20 !s90 -reportprogress|300|-work|work|-stats=none|D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/cpu.v|
+Z19 !s108 1621962750.000000
+Z20 !s107 D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/cpu.v|
+Z21 !s90 -reportprogress|300|-work|work|-stats=none|D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/cpu.v|
 !i113 1
 R10
 R11
@@ -73,65 +73,65 @@ R2
 R15
 R16
 R17
-!i122 60
-L0 47 0
+!i122 141
+Z22 L0 47 0
 R6
 31
-R18
 R19
 R20
+R21
 !i113 1
 R10
 R11
 vdecompress
-R1
+Z23 !s110 1621962749
 !i10b 1
 !s100 S[4aCY[K=eSjKPjoB?LPh2
 R13
 Ik=mCc0Z?ObW?T3aNEbHdj1
 R14
 R2
-Z21 w1621715597
-Z22 8D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/decompress.v
-Z23 FD:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/decompress.v
-!i122 55
+Z24 w1621715597
+Z25 8D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/decompress.v
+Z26 FD:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/decompress.v
+!i122 136
 L0 1 50
 R6
 r1
 !s85 0
 31
 R7
-Z24 !s107 D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/decompress.v|
-Z25 !s90 -reportprogress|300|-work|work|-stats=none|D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/decompress.v|
+Z27 !s107 D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/decompress.v|
+Z28 !s90 -reportprogress|300|-work|work|-stats=none|D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/decompress.v|
 !i113 1
 R10
 R11
 vdecompress_handler
-R1
+R23
 !i10b 1
 !s100 bWhG45B9:47M_2]GBWcaT0
 R13
 I8FNnA_GJVcji@UG]a__M23
 R14
 R2
-Z26 w1621958327
-Z27 8D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/decompress_handler.v
-Z28 FD:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/decompress_handler.v
-!i122 56
+Z29 w1621958327
+Z30 8D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/decompress_handler.v
+Z31 FD:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/decompress_handler.v
+!i122 137
 L0 5 158
 R6
 r1
 !s85 0
 31
-R7
-Z29 !s107 D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/decompress_handler.v|
-Z30 !s90 -reportprogress|300|-work|work|-stats=none|D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/decompress_handler.v|
+Z32 !s108 1621962749.000000
+Z33 !s107 D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/decompress_handler.v|
+Z34 !s90 -reportprogress|300|-work|work|-stats=none|D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/decompress_handler.v|
 !i113 1
 R10
 R11
 Xdecompress_handler_v_unit
 R0
-R1
+R23
 V66^O_CV21RG=TzjLJ51zX2
 r1
 !s85 0
@@ -141,22 +141,22 @@ I66^O_CV21RG=TzjLJ51zX2
 !i103 1
 S1
 R2
-R26
-R27
-R28
-!i122 56
+R29
+R30
+R31
+!i122 137
 L0 162 0
 R6
 31
-R7
-R29
-R30
+R32
+R33
+R34
 !i113 1
 R10
 R11
 Xdecompress_v_unit
 R0
-R1
+R23
 VFNEmkSHCUV2ZA@Rhc@f4W2
 r1
 !s85 0
@@ -166,39 +166,39 @@ IFNEmkSHCUV2ZA@Rhc@f4W2
 !i103 1
 S1
 R2
-R21
-R22
-R23
-!i122 55
+R24
+R25
+R26
+!i122 136
 L0 50 0
 R6
 31
 R7
-R24
-R25
+R27
+R28
 !i113 1
 R10
 R11
 vDMA
-Z31 !s110 1621958855
+R1
 !i10b 1
 !s100 L2hAATod74?ahk3?B<@A>0
 R13
 I2XkGmj@EzS`<MdY8nb[013
 R14
 R2
-Z32 w1621724149
-Z33 8D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/ram.v
-Z34 FD:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/ram.v
-!i122 53
+Z35 w1621724149
+Z36 8D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/ram.v
+Z37 FD:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/ram.v
+!i122 134
 L0 1 42
 R6
 r1
 !s85 0
 31
-Z35 !s108 1621958855.000000
-Z36 !s107 D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/ram.v|
-Z37 !s90 -reportprogress|300|-work|work|-stats=none|D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/ram.v|
+R7
+Z38 !s107 D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/ram.v|
+Z39 !s90 -reportprogress|300|-work|work|-stats=none|D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/ram.v|
 !i113 1
 R10
 R11
@@ -206,23 +206,23 @@ n@d@m@a
 vfile_handler
 R12
 !i10b 1
-!s100 mHlmMP>KabPAbgf_A7hZj3
+!s100 XVo@RLn[n4C2J0aK7jNY01
 R13
-I5g4S`Eb9UMJXmeX>FmZYo1
+IVkU>IYeXA0^MiA1bBHd962
 R14
 R2
-Z38 w1621958465
-Z39 8D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/file_handler.v
-Z40 FD:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/file_handler.v
-!i122 59
+Z40 w1621960838
+Z41 8D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/file_handler.v
+Z42 FD:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/file_handler.v
+!i122 140
 L0 1 52
 R6
 r1
 !s85 0
 31
-R18
-Z41 !s107 D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/file_handler.v|
-Z42 !s90 -reportprogress|300|-work|work|-stats=none|D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/file_handler.v|
+R19
+Z43 !s107 D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/file_handler.v|
+Z44 !s90 -reportprogress|300|-work|work|-stats=none|D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/file_handler.v|
 !i113 1
 R10
 R11
@@ -238,120 +238,120 @@ IndN3?Y2ZCVX@KJ4]]BmV[3
 !i103 1
 S1
 R2
-R38
-R39
 R40
-!i122 59
+R41
+R42
+!i122 140
 L0 52 0
 R6
 31
-R18
-R41
-R42
+R19
+R43
+R44
 !i113 1
 R10
 R11
 vMUX
-R1
+R23
 !i10b 1
-!s100 lN]MNP2ELn3@gS:4A=`XS1
+!s100 d7[Vz6[<8[J6[RCD0UFVW3
 R13
-I2WSJ;_mj8MTJ8z1DUAJ;C2
+IabF[U^`Mkg:5FQ?dhZ4@_1
 R14
 R2
-Z43 w1621958573
-Z44 8D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/mux.v
-Z45 FD:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/mux.v
-!i122 57
-L0 1 28
+Z45 w1621962734
+Z46 8D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/mux.v
+Z47 FD:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/mux.v
+!i122 138
+R18
 R6
 r1
 !s85 0
 31
-R7
-Z46 !s107 D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/mux.v|
-Z47 !s90 -reportprogress|300|-work|work|-stats=none|D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/mux.v|
+R32
+Z48 !s107 D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/mux.v|
+Z49 !s90 -reportprogress|300|-work|work|-stats=none|D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/mux.v|
 !i113 1
 R10
 R11
 n@m@u@x
 Xmux_v_unit
 R0
-R12
-V]T^kmS^P4ODmP^ZM<K0530
+R23
+V7>SX7A_K;zSFH6l0^ohX[2
 r1
 !s85 0
 !i10b 1
-!s100 J]CUdcGZ9JQenN6>dF>=51
-I]T^kmS^P4ODmP^ZM<K0530
+!s100 ]=W52c;hN1[zmFJEJJ8A<1
+I7>SX7A_K;zSFH6l0^ohX[2
 !i103 1
 S1
 R2
-R43
-R44
 R45
-!i122 57
-L0 28 0
-R6
-31
-R7
 R46
 R47
+!i122 138
+R22
+R6
+31
+R32
+R48
+R49
 !i113 1
 R10
 R11
 vOne_Bit_MUX
-R12
+R23
 !i10b 1
-!s100 4zUcdf>RMfGI`ehcjHL3[3
+!s100 D?PSVlIf[Uk]Lg8;00U[D0
 R13
-ICScPJ3F<g_cg7@hI[I6ae2
+I6NZ^jQ6`iCQ0eU>mj;@C_3
 R14
 R2
-Z48 w1621940970
-Z49 8D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/one_bit_mux.v
-Z50 FD:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/one_bit_mux.v
-!i122 58
-L0 1 26
+Z50 w1621961621
+Z51 8D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/one_bit_mux.v
+Z52 FD:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/one_bit_mux.v
+!i122 139
+L0 1 45
 R6
 r1
 !s85 0
 31
-R18
-Z51 !s107 D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/one_bit_mux.v|
-Z52 !s90 -reportprogress|300|-work|work|-stats=none|D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/one_bit_mux.v|
+R32
+Z53 !s107 D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/one_bit_mux.v|
+Z54 !s90 -reportprogress|300|-work|work|-stats=none|D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/one_bit_mux.v|
 !i113 1
 R10
 R11
 n@one_@bit_@m@u@x
 Xone_bit_mux_v_unit
 R0
-R12
-V0_GnEhKNabdC5f^0_L<4z1
+R23
+VK01S8Chn6cCKozQm5X9V=2
 r1
 !s85 0
 !i10b 1
-!s100 f;U[9zOoWXmcGPDbh9Kb`0
-I0_GnEhKNabdC5f^0_L<4z1
+!s100 cL^5dKRAAgz]J`S@[eBQN2
+IK01S8Chn6cCKozQm5X9V=2
 !i103 1
 S1
 R2
-R48
-R49
 R50
-!i122 58
-L0 26 0
-R6
-31
-R18
 R51
 R52
+!i122 139
+L0 45 0
+R6
+31
+R32
+R53
+R54
 !i113 1
 R10
 R11
 Xram_v_unit
 R0
-R31
+R1
 VCb2JbYEBXi1MFm<AX`Cba0
 r1
 !s85 0
@@ -361,32 +361,32 @@ ICb2JbYEBXi1MFm<AX`Cba0
 !i103 1
 S1
 R2
-R32
-R33
-R34
-!i122 53
-L0 42 0
-R6
-31
 R35
 R36
 R37
+!i122 134
+L0 42 0
+R6
+31
+R7
+R38
+R39
 !i113 1
 R10
 R11
 vST_Bit_MUX
 R1
 !i10b 1
-!s100 ISn?kTVW6D7hHj3EQn0QN1
+!s100 jNGe4Hf2FNPoN3`]`AzB>2
 R13
-I8nYJ@M=MCFz=ONHPabQ191
+I2;ZPlE<YPANNn;@7Z1a_G1
 R14
 R2
 R3
 R4
 R5
-!i122 54
-L0 1 29
+!i122 135
+L0 1 48
 R6
 r1
 !s85 0
@@ -399,23 +399,23 @@ R10
 R11
 n@s@t_@bit_@m@u@x
 vtest_bench
-Z53 !s110 1621958858
+R12
 !i10b 1
-!s100 Xo^?jQ9[]SXmK3]jF^Yn:3
+!s100 =P=Q@_F>b9k<L_5^aj[V]3
 R13
-I8753ZE8`8TTKQBea;0SY50
+IP7=LcSCf9<=PkWoQT`eQ?1
 R14
 R2
-Z54 w1621954123
-Z55 8D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/test_bench.v
-Z56 FD:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/test_bench.v
-!i122 61
-L0 1 199
+Z55 w1621962697
+Z56 8D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/test_bench.v
+Z57 FD:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/test_bench.v
+!i122 142
+L0 1 201
 R6
 r1
 !s85 0
 31
-Z57 !s108 1621958858.000000
+R19
 !s107 D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/test_bench.v|
 Z58 !s90 -reportprogress|300|-work|work|-stats=none|D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/test_bench.v|
 !i113 1
@@ -423,24 +423,24 @@ R10
 R11
 Xtest_bench_v_unit
 R0
-R53
-Vi41RD284@bW9A7JGj1JCz2
+R12
+VzKn:?]L60K0a6Ef7C5o3W3
 r1
 !s85 0
 !i10b 1
-!s100 =5g`2UJLhnAPnTNH?kK9B1
-Ii41RD284@bW9A7JGj1JCz2
+!s100 nbQoK:36FL9BhjKhR7aJn3
+IzKn:?]L60K0a6Ef7C5o3W3
 !i103 1
 S1
 R2
-R54
 R55
 R56
-!i122 61
-L0 199 0
+R57
+!i122 142
+L0 201 0
 R6
 31
-R57
+R19
 Z59 !s107 D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/test_bench.v|
 R58
 !i113 1
