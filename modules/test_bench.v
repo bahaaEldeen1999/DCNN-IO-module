@@ -177,7 +177,7 @@ initial begin
     load = 1;
     // set cnn to 0 to load image
     cnn=0;
-    ramAddress = ramAddress-1;
+    // ramAddress = ramAddress-1;
     $display(" ramAddress %d\n",ramAddress);
     compressed_image = $fopen("compressed.txt", "r");
     while (!$feof(compressed_image) ) begin

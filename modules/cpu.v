@@ -32,7 +32,7 @@ always @(clk) begin
    if (cnn==0 && load==1 &&FirstTime==1)
     begin
         byteIndx=ramAddress;
-        bitIndx=0;
+        bitIndx=7;
         FirstTime=0;
         tempWorking=1;
         $display("bit byte %d %d \n",bitIndx,byteIndx);
