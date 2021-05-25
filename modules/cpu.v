@@ -35,8 +35,8 @@ always @(clk) begin
         bitIndx=7;
         FirstTime=0;
         tempWorking=1;
-        $display("bit byte %d %d \n",bitIndx,byteIndx);
-        $display("D1 D2 %b %b \n",Din[15:8],Din[7:0]);
+        // $display("bit byte %d %d \n",bitIndx,byteIndx);
+        // $display("D1 D2 %b %b \n",Din[15:8],Din[7:0]);
     end
 
     if (doneDecompressHandler==1)
