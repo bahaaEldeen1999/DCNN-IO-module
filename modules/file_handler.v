@@ -16,7 +16,7 @@ wire[7:0] ramDataOut;
 reg[15:0] temp_captured_data;
 `define NULL 0    
 
-DMA DMA_module(tempramAddress, sendByte, read_signal, temp_Write, ramDataOut, clk, RST, doneRead, doneWrite);
+// DMA DMA_module(tempramAddress, sendByte, read_signal, temp_Write, ramDataOut, clk, RST, doneRead, doneWrite);
 
 // initial begin
 //     tempramAddress = startingOffset - 1; 
@@ -35,7 +35,7 @@ always @(posedge clk,load,captured_data) begin
             tempramAddress = ramBase + 1; 
             temp_Write = 1;  
 	    end
-        $display("data %d 1b %d 2b %d sb %d tempramAddress %d i %d\n",captured_data, firstByte, secondByte, sendByte, tempramAddress,i);
+        // $display("data %d 1b %d 2b %d sb %d tempramAddress %d i %d\n",captured_data, firstByte, secondByte, sendByte, tempramAddress,i);
 
         i = i + 1;
         if ( i == 2 ) begin 

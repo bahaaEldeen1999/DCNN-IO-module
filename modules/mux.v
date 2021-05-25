@@ -11,10 +11,9 @@ always@(*)
         TempSelec[1]=Image;
         TempSelec[0]=Layer;
 	// $display("Load,Image,Layer \n");
-    $display("TempSelec %d \n",TempSelec);
+    // $display("TempSelec %d \n",TempSelec);
         case(TempSelec)        
         3'b000: Temp=8'b00000000;
-	//3'b000: $display("Load,Image,Layer %d %d %d\n",Load,Image,Layer);
         3'b001: Temp=LayerInput;
         3'b010: Temp=8'b00000000;
         3'b011: Temp=8'b00000000;//change with cnn 

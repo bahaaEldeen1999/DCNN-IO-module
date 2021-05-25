@@ -20,5 +20,3 @@ force -freeze sim:/One_Bit_MUX/SignalLayer 1 0
 force -freeze sim:/One_Bit_MUX/Write_Files 0 0
 force -freeze sim:/One_Bit_MUX/Write_Layer 0 0
 run 
-force -freeze sim:/One_Bit_MUX/Write_Files 1 0
-run
