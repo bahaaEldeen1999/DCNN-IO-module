@@ -34,14 +34,19 @@ always @(clk) begin
         byteIndx=ramAddress;
         bitIndx=0;
         FirstTime=0;
-
+        tempWorking=1;
+        $display("bit byte %d %d \n",bitIndx,byteIndx);
+        $display("D1 D2 %b %b \n",Din[15:8],Din[7:0]);
     end
 
     if (doneDecompressHandler==1)
+
     begin
+        // $display("Decompressed\n");
         byteIndx=newByteIndx;
         bitIndx=newBitIndx;
     end
+
 end
 assign ramDataOut=ramDataOutModules;
 endmodule;

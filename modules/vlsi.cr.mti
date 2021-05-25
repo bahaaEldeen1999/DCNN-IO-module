@@ -28,6 +28,16 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	decompress
 
+} {} {}} {D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/mux.v} {2 {vlog -work work -stats=none {D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/mux.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX
+** Warning: D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/mux.v(47): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/mux.v(47): (vlog-2284) Empty $unit scope found.
+-- Compiling package mux_v_unit
+
+Top level modules:
+	MUX
+
 } {} {}} {D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/16_bit_mux.v} {2 {vlog -work work -stats=none {D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/16_bit_mux.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module ST_Bit_MUX
@@ -57,16 +67,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	test_bench
-
-} {} {}} {D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/cpu.v} {2 {vlog -work work -stats=none {D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/cpu.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module coordinator
-** Warning: D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/cpu.v(47): (vlog-2283) Extra semicolon in $unit (global) scope.
-** Warning: D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/cpu.v(47): (vlog-2284) Empty $unit scope found.
--- Compiling package cpu_v_unit
-
-Top level modules:
-	coordinator
 
 } {} {}} {D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/ram.v} {2 {vlog -work work -stats=none {D:/CMP/CMP 3/CMP 302/VLSI/project/work/VLSI_IO/modules/ram.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
