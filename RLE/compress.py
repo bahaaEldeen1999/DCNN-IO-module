@@ -19,12 +19,11 @@ string = ""
 for i in range(32):
     for j in range(32):
         number_bin = (bin(img[i][j])[2:]) 
-        number_bin = number_bin.zfill(8)
+        number_bin = number_bin.zfill(16)
         string += number_bin
 
 
 ##  compress
-print(string[0:8])
 pos = 0 
 value = 0 
 repitions = 0

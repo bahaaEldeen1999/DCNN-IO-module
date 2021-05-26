@@ -3,7 +3,7 @@ input[7:0] in1,in2;
 output done; 
 output[255:0] out;
 output[31:0] byteIndx;
-output[2:0] bitIndx;
+output[3:0] bitIndx;
 
 integer c;
 integer rep ;
@@ -43,8 +43,8 @@ rep = in1[6:0];
 
 
 end
-assign  byteIndx = (in1[6:0]+in2[6:0])/8;
-assign bitIndx = 7-(in1[6:0]+in2[6:0])%8;
+assign  byteIndx = (in1[6:0]+in2[6:0])/16;
+assign bitIndx = 15-(in1[6:0]+in2[6:0])%16;
 assign  out = tempOut;
 assign done = doneTemp;
 endmodule;

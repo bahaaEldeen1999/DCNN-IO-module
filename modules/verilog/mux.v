@@ -1,9 +1,9 @@
 module MUX(Load,Image,Layer,DataInDecompressed,DataInFile,DataInCNN,LayerInput,ToRAM);
 
 input Load,Image,Layer;
-input [7:0] DataInDecompressed,DataInFile,DataInCNN,LayerInput;
-reg [7:0] Temp,TempIn ;
-output[7:0] ToRAM;
+input [15:0] DataInDecompressed,DataInFile,DataInCNN,LayerInput;
+reg [15:0] Temp,TempIn ;
+output[15:0] ToRAM;
 reg [2:0] TempSelec ;
 always@(Load,Image,Layer,DataInDecompressed,DataInFile,DataInCNN,LayerInput)
     begin
@@ -29,7 +29,7 @@ always@(Load,Image,Layer,DataInDecompressed,DataInFile,DataInCNN,LayerInput)
         end
     else
         begin
-            Temp=8'b00000000;
+            Temp=16'b0000000000000000;
         end
     //     case(TempSelec)        
     //     3'b000: Temp=8'b00000000;
