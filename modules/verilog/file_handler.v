@@ -22,7 +22,7 @@ reg[15:0] temp_captured_data;
 //     tempramAddress = startingOffset - 1; 
 // end
 
-always @(posedge clk,load,captured_data) begin
+always @(posedge clk) begin
     if (load == 1) begin
         if (i == 0) begin
             sendByte = captured_data[15:8];

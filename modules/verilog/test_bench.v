@@ -7,6 +7,7 @@ parameter  filterSize = 1;
 
 // starting from the last
 parameter [8*(maxnumberOfLayers-1)-1:0] noOfFilterLayers  = {8'd10,8'd20,8'd30,8'd40,8'd50,8'd60,8'd70,8'd6,8'd6,8'd6}  ;
+parameter [8*(maxnumberOfLayers-1)-1:0] typeOfFilterLayers  = {8'd10,8'd20,8'd30,8'd40,8'd50,8'd60,8'd70,8'd1,8'd1,8'd0}  ;
 parameter [8*(maxnumberOfLayers-2)-1:0] noOfDenseLayers = {8'd10,8'd20,8'd30,8'd40,8'd50,8'd60,8'd70,8'd12,8'd12}  ;
 input clk;
 reg RST,load,cnn,interrupt;
@@ -43,7 +44,7 @@ initial begin
     ramDataIn = numberOfLayers;
     #100
     // calculate filter offset in ram 
-    filterStartingOffset = 2*numberOfLayers+5;
+    filterStartingOffset = 5+3*numberOfLayers;
     ramAddress = 2;
     ramDataIn = filterStartingOffset[15:8];
     #100 
@@ -67,8 +68,17 @@ initial begin
     // write no of filters of each layer in memory 
     i=0;
     repeat (numberOfLayers) begin
-        ramAddress = 6+i;
+        ramAddress = ramAddress+1;
         ramDataIn = noOfFilterLayers[8*i +: 8];
+        $display("accessing filters index %d value %d \n",i,noOfFilterLayers[8*i +: 8]);
+        #100
+        i = i+1;
+    end
+
+    // write types of filters 
+    repeat (numberOfLayers) begin
+        ramAddress = ramAddress+1;
+        ramDataIn = typeOfFilterLayers[8*i +: 8];
         $display("accessing filters index %d value %d \n",i,noOfFilterLayers[8*i +: 8]);
         #100
         i = i+1;
@@ -76,7 +86,7 @@ initial begin
     // write no of dense of each layer in memory 
     i=0;
     repeat (numberOfLayers-1) begin
-        ramAddress = 6+numberOfLayers+i;
+        ramAddress = ramAddress+1;
         ramDataIn = noOfDenseLayers[8*i +: 8];
         $display("accessing dense index %d value %d \n",i,noOfDenseLayers[8*i +: 8]);
         #100
