@@ -2178,3 +2178,13 @@ do do-files/test_bench.do
 # 
 # done loading image
 # 
+# Compile of 16_bit_mux.v was successful with warnings.
+# Compile of cpu.v was successful with warnings.
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of file_handler.v was successful with warnings.
+# Compile of mux.v was successful with warnings.
+# Compile of one_bit_mux.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# Compile of test_bench.v was successful with warnings.
+# 9 compiles, 0 failed with no errors.
