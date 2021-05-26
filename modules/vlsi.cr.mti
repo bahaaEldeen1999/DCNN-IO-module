@@ -8,16 +8,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	DMA
 
-} {} {}} /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/cpu.v {2 {vlog -work work -stats=none /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/cpu.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module coordinator
-** Warning: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/cpu.v(52): (vlog-2283) Extra semicolon in $unit (global) scope.
-** Warning: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/cpu.v(52): (vlog-2284) Empty $unit scope found.
--- Compiling package cpu_v_unit
-
-Top level modules:
-	coordinator
-
 } {} {}} /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/one_bit_mux.v {2 {vlog -work work -stats=none /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/one_bit_mux.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module One_Bit_MUX
