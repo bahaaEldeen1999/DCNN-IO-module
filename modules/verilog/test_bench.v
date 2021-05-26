@@ -90,6 +90,7 @@ initial begin
         ramAddress = ramAddress+1;
         ramDataIn = noOfDenseLayers[8*i +: 8];
         $display("accessing dense index %d value %d \n",i,noOfDenseLayers[8*i +: 8]);
+        #100
          ramAddress = ramAddress+1;
         ramDataIn = noOfWrightLayers[8*i +: 8];
         $display("accessing wight index %d value %d \n",i,noOfWrightLayers[8*i +: 8]);
