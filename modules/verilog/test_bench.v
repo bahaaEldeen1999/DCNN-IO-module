@@ -74,8 +74,8 @@ initial begin
         #100
         i = i+1;
     end
-
     // write types of filters 
+    i=0;
     repeat (numberOfLayers) begin
         ramAddress = ramAddress+1;
         ramDataIn = typeOfFilterLayers[8*i +: 8];
