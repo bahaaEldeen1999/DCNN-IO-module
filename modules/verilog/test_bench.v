@@ -180,7 +180,7 @@ initial begin
 
 
 
-    
+    #100
     // done loading can prcess now 
     load=0;
     $display("done loading CNN Parameters \n");
@@ -201,7 +201,7 @@ initial begin
         // add delay for 34 clockcycles
         #delayDecompress;
     end
-
+    #100
     // set cnn to 1 to load cnn files
 
     // done loading can prcess now 

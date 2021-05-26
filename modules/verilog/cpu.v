@@ -40,9 +40,7 @@ always @(clk) begin
     end
 
     if (doneDecompressHandler==1)
-
     begin
-        // $display("Decompressed\n");
         byteIndx=newByteIndx;
         bitIndx=newBitIndx;
     end
