@@ -99,14 +99,14 @@ initial begin
     // set cnn to 1 to load file
     cnn=1;
     // layer 1
-    parameter_file = $fopen("parameters/bin_filtersconv2d_1.txt", "r");
+    parameter_file = $fopen("bin_filtersconv2d_1.txt", "r");
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
         ramAddress = ramAddress+1;
     end
     
-    parameter_file = $fopen("parameters/bin_biasesconv2d_1.txt", "r");
+    parameter_file = $fopen("bin_biasesconv2d_1.txt", "r");
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
@@ -115,13 +115,13 @@ initial begin
     
 
     // layer 2
-    parameter_file = $fopen("parameters/bin_filtersconv2d_2.txt", "r");
+    parameter_file = $fopen("bin_filtersconv2d_2.txt", "r");
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
         ramAddress = ramAddress+1;
     end
-    parameter_file = $fopen("parameters/bin_biasesconv2d_2.txt", "r");
+    parameter_file = $fopen("bin_biasesconv2d_2.txt", "r");
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
@@ -129,13 +129,13 @@ initial begin
     end
 
     //layer 3
-    parameter_file = $fopen("parameters/bin_filtersconv2d_3.txt", "r");
+    parameter_file = $fopen("bin_filtersconv2d_3.txt", "r");
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
         ramAddress = ramAddress+1;
     end
-    parameter_file = $fopen("parameters/bin_biasesconv2d_3.txt", "r");
+    parameter_file = $fopen("bin_biasesconv2d_3.txt", "r");
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
@@ -145,13 +145,13 @@ initial begin
     // load dense 
 
     // layer 1
-    parameter_file = $fopen("parameters/bin_biasesdense_1.txt", "r");
+    parameter_file = $fopen("bin_biasesdense_1.txt", "r");
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
         ramAddress = ramAddress+1;
     end
-    parameter_file = $fopen("parameters/bin_weightsdense_1.txt", "r");
+    parameter_file = $fopen("bin_weightsdense_1.txt", "r");
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
@@ -159,13 +159,13 @@ initial begin
     end
 
     // layer 2
-    parameter_file = $fopen("parameters/bin_biasesdense_2.txt", "r");
+    parameter_file = $fopen("bin_biasesdense_2.txt", "r");
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
         ramAddress = ramAddress+1;
     end
-    parameter_file = $fopen("parameters/bin_weightsdense_2.txt", "r");
+    parameter_file = $fopen("bin_weightsdense_2.txt", "r");
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;

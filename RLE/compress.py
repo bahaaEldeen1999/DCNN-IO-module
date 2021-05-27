@@ -2,8 +2,7 @@
 
 from skimage import io
 import numpy as np
-import matplotlib as mb
-from matplotlib import pyplot,cm
+
 def convertImgToUINT8(img_o):
     img = np.copy(img_o)
     img = img.astype(np.float64) / np.max(img)
@@ -15,8 +14,9 @@ img = convertImgToUINT8(img)
 print(img[0][0])
 compressed_arr =[]
 
+
 string = ""
-f_data = open("data.txt", "w")
+f_data = open("compressOutput.txt", "w")
 data=""
 for i in range(img.shape[0]):
     for j in range(img.shape[1]):
@@ -58,7 +58,7 @@ for i in range(final_i):
                to_txt_file=to_txt_file+final_string[temp:temp+16]+'\n'
                            
 # print(to_txt_file)
-f = open("compressed.txt", "w")
+f = open("../modules/compressed.txt", "w")
 f.write(to_txt_file)
 f.close()
     # print (compressed_string)
