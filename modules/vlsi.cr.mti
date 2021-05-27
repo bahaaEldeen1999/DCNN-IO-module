@@ -48,6 +48,16 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	One_Bit_MUX
 
+} {} {}} /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/decompress_handler.v {2 {vlog -work work -stats=none /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/decompress_handler.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module decompress_handler
+** Warning: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/decompress_handler.v(114): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/decompress_handler.v(116): (vlog-2284) Empty $unit scope found.
+-- Compiling package decompress_handler_v_unit
+
+Top level modules:
+	decompress_handler
+
 } {} {}} /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/mux.v {2 {vlog -work work -stats=none /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/mux.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module MUX
@@ -67,15 +77,5 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	ST_Bit_MUX
-
-} {} {}} /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v {2 {vlog -work work -stats=none /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module test_bench
-** Warning: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v(210): (vlog-2283) Extra semicolon in $unit (global) scope.
-** Warning: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v(210): (vlog-2284) Empty $unit scope found.
--- Compiling package test_bench_v_unit
-
-Top level modules:
-	test_bench
 
 } {} {}}

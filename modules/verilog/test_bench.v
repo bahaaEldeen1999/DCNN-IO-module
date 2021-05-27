@@ -189,18 +189,20 @@ initial begin
     // ramAddress = ramAddress-1;
     $display(" ramAddress %d\n",ramAddress);
     compressed_image = $fopen("compressed.txt", "r");
+    i=0;
     while (!$feof(compressed_image) ) begin
         // set Din to value corresponding to in1 and in2 
         $fscanf(compressed_image, "%b\n", Din);
         // add delay for 34 clockcycles
         #delayDecompress;
+        i=i+1;
     end
     #100
     // set cnn to 1 to load cnn files
 
     // done loading can prcess now 
     load=0;
-    $display("done loading image\n");
+    $display("done loading image  \n");
 
 
 

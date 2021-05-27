@@ -3049,3 +3049,376 @@ do do-files/test_bench.do
 # 
 # done loading image
 # 
+# Compile of 16_bit_mux.v was successful with warnings.
+# Compile of cpu.v was successful with warnings.
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of file_handler.v was successful with warnings.
+# Compile of mux.v was successful with warnings.
+# Compile of one_bit_mux.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# Compile of test_bench.v was successful with warnings.
+# 9 compiles, 0 failed with no errors.
+# Compile of 16_bit_mux.v was successful with warnings.
+# Compile of cpu.v was successful with warnings.
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of file_handler.v was successful with warnings.
+# Compile of mux.v was successful with warnings.
+# Compile of one_bit_mux.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# Compile of test_bench.v was successful with warnings.
+# 9 compiles, 0 failed with no errors.
+do do-files/test_bench.do
+# End time: 02:13:10 on May 27,2021, Elapsed time: 0:36:06
+# Errors: 0, Warnings: 15
+# vsim work.test_bench 
+# Start time: 02:13:10 on May 27,2021
+# Loading work.test_bench
+# Loading work.coordinator
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.file_handler
+# Loading work.MUX
+# Loading work.ST_Bit_MUX
+# Loading work.One_Bit_MUX
+# Loading work.DMA
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 104
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 111
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 120
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 126
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 134
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 140
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 150
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 156
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 164
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 170
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 194
+# writeSignal 1
+# 
+# accessing filters index           0 value     6 
+# 
+# accessing filters index           1 value     6 
+# 
+# accessing filters index           2 value     6 
+# 
+# accessing filters index           0 value     6 
+# 
+# accessing filters index           1 value     6 
+# 
+# accessing filters index           2 value     6 
+# 
+# accessing dense index           0 value    12 
+# 
+# accessing wight index           0 value    12 
+# 
+# accessing dense index           1 value    12 
+# 
+# accessing wight index           1 value    12 
+# 
+# done loading CNN Parameters 
+# 
+#  ramAddress    74
+# 
+# Compile of 16_bit_mux.v was successful with warnings.
+# Compile of cpu.v was successful with warnings.
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of file_handler.v was successful with warnings.
+# Compile of mux.v was successful with warnings.
+# Compile of one_bit_mux.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# Compile of test_bench.v was successful with warnings.
+# 9 compiles, 0 failed with no errors.
+do do-files/test_bench.do
+# End time: 02:13:56 on May 27,2021, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 13
+# vsim work.test_bench 
+# Start time: 02:13:56 on May 27,2021
+# Loading work.test_bench
+# Loading work.coordinator
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.file_handler
+# Loading work.MUX
+# Loading work.ST_Bit_MUX
+# Loading work.One_Bit_MUX
+# Loading work.DMA
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 104
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 111
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 120
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 126
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 134
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 140
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 150
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 156
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 164
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 170
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 194
+# writeSignal 1
+# 
+# accessing filters index           0 value     6 
+# 
+# accessing filters index           1 value     6 
+# 
+# accessing filters index           2 value     6 
+# 
+# accessing filters index           0 value     6 
+# 
+# accessing filters index           1 value     6 
+# 
+# accessing filters index           2 value     6 
+# 
+# accessing dense index           0 value    12 
+# 
+# accessing wight index           0 value    12 
+# 
+# accessing dense index           1 value    12 
+# 
+# accessing wight index           1 value    12 
+# 
+# done loading CNN Parameters 
+# 
+#  ramAddress    74
+# 
+run
+run
+do do-files/test_bench.do
+# End time: 02:14:28 on May 27,2021, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 12
+# vsim work.test_bench 
+# Start time: 02:14:28 on May 27,2021
+# Loading work.test_bench
+# Loading work.coordinator
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.file_handler
+# Loading work.MUX
+# Loading work.ST_Bit_MUX
+# Loading work.One_Bit_MUX
+# Loading work.DMA
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 104
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 111
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 120
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 126
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 134
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 140
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 150
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 156
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 164
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 170
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 194
+# writeSignal 1
+# 
+# accessing filters index           0 value     6 
+# 
+# accessing filters index           1 value     6 
+# 
+# accessing filters index           2 value     6 
+# 
+# accessing filters index           0 value     6 
+# 
+# accessing filters index           1 value     6 
+# 
+# accessing filters index           2 value     6 
+# 
+# accessing dense index           0 value    12 
+# 
+# accessing wight index           0 value    12 
+# 
+# accessing dense index           1 value    12 
+# 
+# accessing wight index           1 value    12 
+# 
+# done loading CNN Parameters 
+# 
+#  ramAddress    74
+# 
+# done loading image address    74
+# 
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# Compile of 16_bit_mux.v was successful with warnings.
+# Compile of cpu.v was successful with warnings.
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of file_handler.v was successful with warnings.
+# Compile of mux.v was successful with warnings.
+# Compile of one_bit_mux.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# Compile of test_bench.v was successful with warnings.
+# 9 compiles, 0 failed with no errors.
+do do-files/test_bench.do
+# End time: 02:14:56 on May 27,2021, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 13
+# vsim work.test_bench 
+# Start time: 02:14:56 on May 27,2021
+# Loading work.test_bench
+# Loading work.coordinator
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.file_handler
+# Loading work.MUX
+# Loading work.ST_Bit_MUX
+# Loading work.One_Bit_MUX
+# Loading work.DMA
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 104
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 111
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 120
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 126
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 134
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 140
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 150
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 156
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 164
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 170
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 195
+# writeSignal 1
+# 
+# accessing filters index           0 value     6 
+# 
+# accessing filters index           1 value     6 
+# 
+# accessing filters index           2 value     6 
+# 
+# accessing filters index           0 value     6 
+# 
+# accessing filters index           1 value     6 
+# 
+# accessing filters index           2 value     6 
+# 
+# accessing dense index           0 value    12 
+# 
+# accessing wight index           0 value    12 
+# 
+# accessing dense index           1 value    12 
+# 
+# accessing wight index           1 value    12 
+# 
+# done loading CNN Parameters 
+# 
+#  ramAddress    74
+# 
+# done loading image address        137
+# 
+# Compile of 16_bit_mux.v was successful with warnings.
+# Compile of cpu.v was successful with warnings.
+# Compile of decompress.v was successful with warnings.
+# Compile of decompress_handler.v was successful with warnings.
+# Compile of file_handler.v was successful with warnings.
+# Compile of mux.v was successful with warnings.
+# Compile of one_bit_mux.v was successful with warnings.
+# Compile of ram.v was successful with warnings.
+# Compile of test_bench.v was successful with warnings.
+# 9 compiles, 0 failed with no errors.
+do do-files/test_bench.do
+# End time: 02:15:35 on May 27,2021, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 13
+# vsim work.test_bench 
+# Start time: 02:15:35 on May 27,2021
+# Loading work.test_bench
+# Loading work.coordinator
+# Loading work.decompress_handler
+# Loading work.decompress
+# Loading work.file_handler
+# Loading work.MUX
+# Loading work.ST_Bit_MUX
+# Loading work.One_Bit_MUX
+# Loading work.DMA
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 104
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 111
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 120
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 126
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 134
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 140
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 150
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 156
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 164
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 170
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_bench File: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v Line: 195
+# writeSignal 1
+# 
+# accessing filters index           0 value     6 
+# 
+# accessing filters index           1 value     6 
+# 
+# accessing filters index           2 value     6 
+# 
+# accessing filters index           0 value     6 
+# 
+# accessing filters index           1 value     6 
+# 
+# accessing filters index           2 value     6 
+# 
+# accessing dense index           0 value    12 
+# 
+# accessing wight index           0 value    12 
+# 
+# accessing dense index           1 value    12 
+# 
+# accessing wight index           1 value    12 
+# 
+# done loading CNN Parameters 
+# 
+#  ramAddress    74
+# 
+# done loading image  
+# 
+mem save -o exportedData.mem -f mti -data unsigned -addr decimal /test_bench/coordiantor_module/dma_module/mem
+mem save -o exportedData.mem -f mti -data unsigned -addr decimal /test_bench/coordiantor_module/dma_module/mem
+mem save -o exportedData.mem -f mti -data unsigned -addr decimal -wordsperline 1 /test_bench/coordiantor_module/dma_module/mem

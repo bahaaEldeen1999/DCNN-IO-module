@@ -16,12 +16,15 @@ print(img[0][0])
 compressed_arr =[]
 
 string = ""
-for i in range(32):
-    for j in range(32):
+f_data = open("data.txt", "w")
+data=""
+for i in range(img.shape[0]):
+    for j in range(img.shape[1]):
         number_bin = (bin(img[i][j])[2:]) 
         number_bin = number_bin.zfill(16)
+        f_data.write(str(img[i][j])+"\n")
         string += number_bin
-
+f_data.close()
 
 ##  compress
 pos = 0 
