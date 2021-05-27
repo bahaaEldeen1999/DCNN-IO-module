@@ -6,15 +6,17 @@ parameter maxnumberOfLayers = 10;
 parameter  filterSize = 1;
 
 // starting from the last
-parameter [8*(maxnumberOfLayers-1)-1:0] noOfFilterLayers  = {8'd10,8'd20,8'd30,8'd40,8'd50,8'd60,8'd70,8'd6,8'd6,8'd6}  ;
-parameter [8*(maxnumberOfLayers-2)-1:0] noOfDenseLayers = {8'd10,8'd20,8'd30,8'd40,8'd50,8'd60,8'd70,8'd12,8'd12}  ;
+parameter [8*(maxnumberOfLayers-1)-1:0] noOfFilterLayers  = {16'd10,16'd20,16'd30,16'd40,16'd50,16'd60,16'd70,16'd6,16'd6,16'd6}  ;
+parameter [8*(maxnumberOfLayers-1)-1:0] typeOfFilterLayers  = {16'd10,16'd20,16'd30,16'd40,16'd50,16'd60,16'd70,16'd1,16'd1,16'd0}  ;
+parameter [8*(maxnumberOfLayers-2)-1:0] noOfDenseLayers = {16'd10,16'd20,16'd30,16'd40,16'd50,16'd60,16'd70,16'd12,16'd12}  ;
+parameter [8*(maxnumberOfLayers-2)-1:0] noOfWrightLayers = {16'd10,16'd20,16'd30,16'd40,16'd50,16'd60,16'd70,16'd12,16'd12}  ;
 input clk;
 reg RST,load,cnn,interrupt;
 reg[15:0] Din;
 wire[3:0] Dout;
 reg[15:0] ramAddress;
-reg[7:0] ramDataIn;
-wire[7:0] ramDataOut;
+reg[15:0] ramDataIn;
+wire[15:0] ramDataOut;
 reg readSignal,writeSignal;
 
 reg[15:0] filterStartingOffset;
@@ -43,42 +45,49 @@ initial begin
     ramDataIn = numberOfLayers;
     #100
     // calculate filter offset in ram 
-    filterStartingOffset = 2*numberOfLayers+5;
+    filterStartingOffset = 2+4*numberOfLayers;
     ramAddress = 2;
-    ramDataIn = filterStartingOffset[15:8];
-    #100 
-    ramAddress = 3;
-    ramDataIn = filterStartingOffset[7:0];
+    ramDataIn = filterStartingOffset;
     #100 
     // write starting offset of dense
     denseStartingOffset = filterStartingOffset;
     i=0;
     repeat (numberOfLayers) begin
-        denseStartingOffset = denseStartingOffset+noOfFilterLayers[8*i +: 8] + noOfFilterLayers[8*i +: 8]*filterSize*filterSize;
+        denseStartingOffset = denseStartingOffset+noOfFilterLayers[16*i +: 16] + noOfFilterLayers[16*i +: 16]*filterSize*filterSize;
      
         i = i+1;
     end
-    ramAddress = 4;
-    ramDataIn = denseStartingOffset[15:8];
-    #100 
-    ramAddress = 5;
-    ramDataIn = denseStartingOffset[7:0];
+    ramAddress = 3;
+    ramDataIn = denseStartingOffset;
     #100 
     // write no of filters of each layer in memory 
     i=0;
     repeat (numberOfLayers) begin
-        ramAddress = 6+i;
-        ramDataIn = noOfFilterLayers[8*i +: 8];
-        $display("accessing filters index %d value %d \n",i,noOfFilterLayers[8*i +: 8]);
+        ramAddress = ramAddress+1;
+        ramDataIn = noOfFilterLayers[16*i +: 16];
+        $display("accessing filters index %d value %d \n",i,noOfFilterLayers[16*i +: 16]);
         #100
         i = i+1;
     end
-    // write no of dense of each layer in memory 
+    // write types of filters 
+    i=0;
+    repeat (numberOfLayers) begin
+        ramAddress = ramAddress+1;
+        ramDataIn = typeOfFilterLayers[16*i +: 16];
+        $display("accessing filters index %d value %d \n",i,noOfFilterLayers[16*i +: 16]);
+        #100
+        i = i+1;
+    end
+    // write no of dense of each layer in memory and weights
     i=0;
     repeat (numberOfLayers-1) begin
-        ramAddress = 6+numberOfLayers+i;
-        ramDataIn = noOfDenseLayers[8*i +: 8];
-        $display("accessing dense index %d value %d \n",i,noOfDenseLayers[8*i +: 8]);
+        ramAddress = ramAddress+1;
+        ramDataIn = noOfDenseLayers[16*i +: 16];
+        $display("accessing dense index %d value %d \n",i,noOfDenseLayers[16*i +: 16]);
+        #100
+         ramAddress = ramAddress+1;
+        ramDataIn = noOfWrightLayers[16*i +: 16];
+        $display("accessing wight index %d value %d \n",i,noOfWrightLayers[16*i +: 16]);
         #100
         i = i+1;
     end
@@ -94,14 +103,14 @@ initial begin
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
-        ramAddress = ramAddress+2;
+        ramAddress = ramAddress+1;
     end
     
     parameter_file = $fopen("parameters/bin_biasesconv2d_1.txt", "r");
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
-        ramAddress = ramAddress+2;
+        ramAddress = ramAddress+1;
     end
     
 
@@ -110,13 +119,13 @@ initial begin
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
-        ramAddress = ramAddress+2;
+        ramAddress = ramAddress+1;
     end
     parameter_file = $fopen("parameters/bin_biasesconv2d_2.txt", "r");
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
-        ramAddress = ramAddress+2;
+        ramAddress = ramAddress+1;
     end
 
     //layer 3
@@ -124,13 +133,13 @@ initial begin
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
-        ramAddress = ramAddress+2;
+        ramAddress = ramAddress+1;
     end
     parameter_file = $fopen("parameters/bin_biasesconv2d_3.txt", "r");
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
-        ramAddress = ramAddress+2;
+        ramAddress = ramAddress+1;
     end
 
     // load dense 
@@ -140,13 +149,13 @@ initial begin
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
-        ramAddress = ramAddress+2;
+        ramAddress = ramAddress+1;
     end
     parameter_file = $fopen("parameters/bin_weightsdense_1.txt", "r");
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
-        ramAddress = ramAddress+2;
+        ramAddress = ramAddress+1;
     end
 
     // layer 2
@@ -154,18 +163,18 @@ initial begin
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
-        ramAddress = ramAddress+2;
+        ramAddress = ramAddress+1;
     end
     parameter_file = $fopen("parameters/bin_weightsdense_2.txt", "r");
     while (!$feof(parameter_file) ) begin
         $fscanf(parameter_file, "%b\n", Din);
         #200;
-        ramAddress = ramAddress+2;
+        ramAddress = ramAddress+1;
     end
 
 
 
-    
+    #100
     // done loading can prcess now 
     load=0;
     $display("done loading CNN Parameters \n");
@@ -180,18 +189,20 @@ initial begin
     // ramAddress = ramAddress-1;
     $display(" ramAddress %d\n",ramAddress);
     compressed_image = $fopen("compressed.txt", "r");
+    i=0;
     while (!$feof(compressed_image) ) begin
         // set Din to value corresponding to in1 and in2 
         $fscanf(compressed_image, "%b\n", Din);
         // add delay for 34 clockcycles
         #delayDecompress;
+        i=i+1;
     end
-
+    #100
     // set cnn to 1 to load cnn files
 
     // done loading can prcess now 
     load=0;
-    $display("done loading image\n");
+    $display("done loading image  \n");
 
 
 
