@@ -3422,3 +3422,4 @@ do do-files/test_bench.do
 mem save -o exportedData.mem -f mti -data unsigned -addr decimal /test_bench/coordiantor_module/dma_module/mem
 mem save -o exportedData.mem -f mti -data unsigned -addr decimal /test_bench/coordiantor_module/dma_module/mem
 mem save -o exportedData.mem -f mti -data unsigned -addr decimal -wordsperline 1 /test_bench/coordiantor_module/dma_module/mem
+mem save -o exportedData.mem -f mti -noaddress -data unsigned -addr decimal -wordsperline 1 /test_bench/coordiantor_module/dma_module/mem
