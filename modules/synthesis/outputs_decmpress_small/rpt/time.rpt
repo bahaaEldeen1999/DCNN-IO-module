@@ -1,0 +1,26 @@
+Report for group default
+Report for group I2R
+Report for group I2O
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Startpoint: in1[0]
+    (Clocked by rtDefaultClock R)
+Endpoint: bitIndx[1]
+    (Clocked by vsysclk R)
+Path Group: I2O
+Data required time: 42000.0
+    (Clock shift: 60000.0, minus Uncertainty: 0.0, plus Latency 0.0, minus Out delay: 18000.0)
+Data arrival time: 947.7
+Slack: 41052.3
+Logic depth: 3
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                     Arrival               Arc      Net               Net    Total   fan-                                   
+Path                     Module/Cell           Edge     Time    Delay    Delay    Delay     Slew     Load     Load    out     Location Power Domain      (V)
+                                                        (ps)     (ps)     (ps)     (ps)     (ps)     (ff)     (ff)    (#)      (um,um)                      
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+in1[0]                   {set_input_delay}        f    700.0    700.0    700.0                        5.3     48.9      5    41,    0                       
+i_0_0_0/B->CO            HA_X1                   ff    769.2     69.2     68.7      0.5    100.0      0.8      3.5      1    41,   41  /PD_TOP        (1.10)
+i_0_0_1/CI->S            FA_X1                   fr    935.6    166.9    166.4      0.5      7.9      0.7     26.2      1    41,   41  /PD_TOP        (1.10)
+i_0_0_22/A->ZN           INV_X8                  rf    947.2     11.6     11.6      0.0     63.9      5.4     15.4      1    41,   41  /PD_TOP        (1.10)
+bitIndx[1]                                        f    947.7      0.5               0.5      4.7                              0,   41                       
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Report for group R2O

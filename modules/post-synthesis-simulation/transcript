@@ -1,0 +1,1924 @@
+# Loading project vlsi
+# Compile of NangateOpenCellLibrary.v was successful.
+# Compile of ram.syn.v was successful.
+# Compile of ram_test_bench.v was successful with warnings.
+# Compile of decompress.syn.v was successful.
+# Compile of decompress_test_bench.v was successful.
+# 5 compiles, 0 failed with no errors.
+do decompress_test_bench.do
+# vsim -gui work.decompress_test_bench 
+# Start time: 01:17:45 on Jun 10,2021
+# Loading work.decompress_test_bench
+# Loading work.decompress
+# Loading work.AOI21_X1
+# Loading work.AOI221_X1
+# Loading work.NOR2_X1
+# Loading work.AOI22_X1
+# Loading work.NAND2_X1
+# Loading work.OAI211_X1
+# Loading work.NAND3_X1
+# Loading work.INV_X1
+# Loading work.OAI21_X1
+# Loading work.AND2_X1
+# Loading work.AOI222_X1
+# Loading work.AOI211_X1
+# Loading work.datapath__0_2351
+# Loading work.NAND4_X1
+# Loading work.datapath__0_2384
+# Loading work.datapath__0_2386
+# Loading work.datapath__0_2385
+# Loading work.datapath__0_2538
+# Loading work.datapath__0_2383
+# Loading work.datapath__0_2382
+# Loading work.datapath__0_2387
+# Loading work.datapath__0_2380
+# Loading work.datapath__0_2388
+# Loading work.datapath__0_2381
+# Loading work.datapath__0_2390
+# Loading work.datapath__0_2391
+# Loading work.datapath__0_2392
+# Loading work.datapath__0_2389
+# Loading work.datapath__0_2394
+# Loading work.datapath__0_2393
+# Loading work.datapath__0_2396
+# Loading work.datapath__0_2395
+# Loading work.datapath__0_2374
+# Loading work.datapath__0_2376
+# Loading work.datapath__0_2377
+# Loading work.datapath__0_2361
+# Loading work.datapath__0_2379
+# Loading work.datapath__0_2378
+# Loading work.XNOR2_X1
+# Loading work.OR2_X1
+# Loading work.datapath__0_2373
+# Loading work.datapath__0_2366
+# Loading work.datapath__0_2365
+# Loading work.datapath__0_2368
+# Loading work.datapath__0_2367
+# Loading work.datapath__0_2372
+# Loading work.datapath__0_2369
+# Loading work.datapath__0_2364
+# Loading work.datapath__0_2363
+# Loading work.datapath__0_2371
+# Loading work.datapath__0_2370
+# Loading work.datapath__0_2362
+# Loading work.datapath__0_2357
+# Loading work.datapath__0_2356
+# Loading work.datapath__0_2355
+# Loading work.datapath__0_2540
+# Loading work.datapath__0_2353
+# Loading work.datapath__0_2354
+# Loading work.datapath__0_2358
+# Loading work.datapath__0_2352
+# Loading work.datapath__0_2360
+# Loading work.datapath__0_2359
+# Loading work.datapath__0_2470
+# Loading work.datapath__0_2481
+# Loading work.datapath__0_2482
+# Loading work.datapath__0_2471
+# Loading work.datapath__0_2469
+# Loading work.datapath__0_2468
+# Loading work.datapath__0_2480
+# Loading work.datapath__0_2479
+# Loading work.datapath__0_2467
+# Loading work.datapath__0_2477
+# Loading work.datapath__0_2476
+# Loading work.datapath__0_2475
+# Loading work.datapath__0_2474
+# Loading work.datapath__0_2478
+# Loading work.datapath__0_2472
+# Loading work.datapath__0_2473
+# Loading work.datapath__0_2483
+# Loading work.datapath__0_2487
+# Loading work.datapath__0_2485
+# Loading work.datapath__0_2486
+# Loading work.OR3_X1
+# Loading work.XOR2_X1
+# Loading work.NOR3_X1
+# Loading work.AND3_X1
+# Loading work.datapath__0_2490
+# Loading work.datapath__0_2491
+# Loading work.datapath__0_2492
+# Loading work.datapath__0_2493
+# Loading work.datapath__0_2496
+# Loading work.datapath__0_2495
+# Loading work.datapath__0_2494
+# Loading work.AND4_X1
+# Loading work.OAI22_X1
+# Loading work.OAI222_X1
+# Loading work.OAI221_X1
+# Loading work.OAI33_X1
+# Loading work.MUX2_X1
+# Loading work.datapath__0_2497
+# Loading work.datapath__0_2528
+# Loading work.datapath__0_2508
+# Loading work.datapath__0_2507
+# Loading work.datapath__0_2506
+# Loading work.datapath__0_2511
+# Loading work.datapath__0_2504
+# Loading work.datapath__0_2505
+# Loading work.datapath__0_2502
+# Loading work.datapath__0_2503
+# Loading work.datapath__0_2500
+# Loading work.datapath__0_2499
+# Loading work.datapath__0_2501
+# Loading work.datapath__0_2509
+# Loading work.datapath__0_2510
+# Loading work.datapath__0_2498
+# Loading work.NOR4_X1
+# Loading work.OR4_X1
+# Loading work.datapath__0_2458
+# Loading work.datapath__0_2455
+# Loading work.datapath__0_2456
+# Loading work.datapath__0_2454
+# Loading work.datapath__0_2462
+# Loading work.datapath__0_2461
+# Loading work.datapath__0_2465
+# Loading work.datapath__0_2464
+# Loading work.datapath__0_2463
+# Loading work.datapath__0_2459
+# Loading work.datapath__0_2532
+# Loading work.datapath__0_2446
+# Loading work.datapath__0_2444
+# Loading work.datapath__0_2450
+# Loading work.datapath__0_2449
+# Loading work.datapath__0_2448
+# Loading work.datapath__0_2445
+# Loading work.datapath__0_2457
+# Loading work.datapath__0_2438
+# Loading work.datapath__0_2437
+# Loading work.datapath__0_2428
+# Loading work.datapath__0_2439
+# Loading work.datapath__0_2440
+# Loading work.datapath__0_2441
+# Loading work.datapath__0_2534
+# Loading work.datapath__0_2442
+# Loading work.datapath__0_2436
+# Loading work.datapath__0_2433
+# Loading work.datapath__0_2432
+# Loading work.datapath__0_2431
+# Loading work.datapath__0_2430
+# Loading work.datapath__0_2435
+# Loading work.datapath__0_2434
+# Loading work.datapath__0_2429
+# Loading work.datapath__0_2426
+# Loading work.datapath__0_2425
+# Loading work.datapath__0_2424
+# Loading work.datapath__0_2423
+# Loading work.datapath__0_2420
+# Loading work.datapath__0_2421
+# Loading work.datapath__0_2422
+# Loading work.datapath__0_2402
+# Loading work.datapath__0_2403
+# Loading work.datapath__0_2404
+# Loading work.datapath__0_2400
+# Loading work.datapath__0_2401
+# Loading work.datapath__0_2399
+# Loading work.datapath__0_2397
+# Loading work.datapath__0_2412
+# Loading work.datapath__0_2398
+# Loading work.datapath__0_2410
+# Loading work.datapath__0_2409
+# Loading work.datapath__0_2408
+# Loading work.datapath__0_2407
+# Loading work.datapath__0_2411
+# Loading work.datapath__0_2405
+# Loading work.datapath__0_2406
+# Loading work.datapath__0_2413
+# Loading work.datapath__0_2414
+# Loading work.datapath__0_2415
+# Loading work.datapath__0_2418
+# Loading work.datapath__0_2417
+# Loading work.datapath__0_2416
+# Loading work.datapath__0_2419
+# Loading work.datapath__0_2141
+# Loading work.datapath__0_2325
+# Loading work.datapath__0_2324
+# Loading work.datapath__0_2316
+# Loading work.datapath__0_2319
+# Loading work.datapath__0_2320
+# Loading work.datapath__0_2322
+# Loading work.datapath__0_2318
+# Loading work.datapath__0_2317
+# Loading work.datapath__0_2311
+# Loading work.datapath__0_2312
+# Loading work.datapath__0_2326
+# Loading work.datapath__0_2323
+# Loading work.datapath__0_2307
+# Loading work.datapath__0_2306
+# Loading work.datapath__0_2308
+# Loading work.datapath__0_2309
+# Loading work.datapath__0_2321
+# Loading work.datapath__0_2313
+# Loading work.datapath__0_2314
+# Loading work.datapath__0_2315
+# Loading work.datapath__0_2287
+# Loading work.datapath__0_2288
+# Loading work.datapath__0_2297
+# Loading work.datapath__0_2286
+# Loading work.datapath__0_2285
+# Loading work.datapath__0_2284
+# Loading work.datapath__0_2282
+# Loading work.datapath__0_2283
+# Loading work.datapath__0_2289
+# Loading work.datapath__0_2292
+# Loading work.datapath__0_2293
+# Loading work.datapath__0_2294
+# Loading work.datapath__0_2295
+# Loading work.datapath__0_2290
+# Loading work.datapath__0_2291
+# Loading work.datapath__0_2296
+# Loading work.datapath__0_2546
+# Loading work.datapath__0_2299
+# Loading work.datapath__0_2303
+# Loading work.datapath__0_2300
+# Loading work.datapath__0_2301
+# Loading work.datapath__0_2302
+# Loading work.datapath__0_2333
+# Loading work.datapath__0_2335
+# Loading work.datapath__0_2334
+# Loading work.datapath__0_2348
+# Loading work.datapath__0_2347
+# Loading work.datapath__0_2349
+# Loading work.datapath__0_2350
+# Loading work.datapath__0_2336
+# Loading work.datapath__0_2542
+# Loading work.datapath__0_2338
+# Loading work.datapath__0_2337
+# Loading work.datapath__0_2340
+# Loading work.datapath__0_2341
+# Loading work.datapath__0_2342
+# Loading work.datapath__0_2339
+# Loading work.datapath__0_2344
+# Loading work.datapath__0_2343
+# Loading work.datapath__0_2346
+# Loading work.datapath__0_2345
+# Loading work.datapath__0_2332
+# Loading work.datapath__0_2331
+# Loading work.datapath__0_2330
+# Loading work.datapath__0_2329
+# Loading work.datapath__0_2328
+# Loading work.DLH_X1
+# Loading work.HA_X1
+# Loading work.FA_X1
+# Loading work.seq_DLH_X1
+# ** Warning: Design size of 193374 instances exceeds ModelSim - Intel FPGA Starter Edition recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim - Intel FPGA Edition. Expect performance to be adversely affected.
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 0 ps ###############
+#       Signal: /decompress_test_bench/decompress_module/i_19_0_2504/#implicit-wire#2 @ sub-iteration 0 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3090)
+#       Signal: /decompress_test_bench/decompress_module/i_19_0_2504/#implicit-wire#14 @ sub-iteration 0 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3102)
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5755/#OR#288 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:288
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5709/#OR#288 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:288
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_15/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_32/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_49/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_66/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_84/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_101/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_118/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_135/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_153/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_170/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_187/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_204/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_222/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_240/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_258/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_297/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_67/#AND#2667 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2667
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_136/#AND#2667 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2667
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_205/#AND#2667 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2667
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_224/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_298/#AND#2722 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2722
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_302/#NOT#2490 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2490
+#   Active process: /decompress_test_bench/decompress_module/i_52_0_370/#XOR#5318 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:5318
+#   Active process: /decompress_test_bench/decompress_module/i_52_0_371/#OR#3577 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3577
+#   Active process: /decompress_test_bench/decompress_module/i_19_0_2504/#OR#3085 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3085
+#   Active process: /decompress_test_bench/decompress_module/i_19_0_2516/#AND#2620 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2620
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5662/#NOT#287 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5616/#NOT#287 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_257/#NOT#2781 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_256/#NOT#2781 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_255/#NOT#2781 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_280/#NOT#2619 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2619
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_282/#NOT#2619 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2619
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_284/#NOT#2619 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2619
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_286/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_19_0_2524/#OR#3673 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3673
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5732/#OR#288 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:288
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5733/#OR#351 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:351
+#   Active process: /decompress_test_bench/decompress_module/i_28_2282_3950/#OR#698 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:698
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5593/#OR#288 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:288
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5594/#OR#351 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:351
+#   Active process: /decompress_test_bench/decompress_module/i_28_2282_3854/#OR#698 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:698
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5640/#OR#288 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:288
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5641/#OR#351 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:351
+#   Active process: /decompress_test_bench/decompress_module/i_28_2282_3886/#OR#698 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:698
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_288/#NOT#2781 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_291/#NOT#2781 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_294/#NOT#2781 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_259/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_3920/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_3936/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_3968/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_4064/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_4080/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_3952/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_4032/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_4016/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_4000/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_3984/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_4048/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_259/ZN @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2663)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_294/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2779)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_291/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2779)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_288/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2779)
+#       Signal: /decompress_test_bench/decompress_module/i_27_2563_5640/i_8 @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287)
+#       Signal: /decompress_test_bench/decompress_module/i_27_2563_5593/i_8 @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287)
+#       Signal: /decompress_test_bench/decompress_module/i_27_2563_5733/i_17 @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:350)
+#       Signal: /decompress_test_bench/decompress_module/i_19_0_2524/i_8 @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3672)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_286/ZN @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2663)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_284/ZN @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2617)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_282/ZN @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2617)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_280/ZN @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2617)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_255/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2779)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_256/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2779)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_257/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2779)
+#       Signal: /decompress_test_bench/decompress_module/i_27_2563_5616/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:285)
+#       Signal: /decompress_test_bench/decompress_module/i_27_2563_5662/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:285)
+#       Signal: /decompress_test_bench/decompress_module/i_19_0_2504/i_19 @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3082)
+#       Signal: /decompress_test_bench/decompress_module/i_52_0_371/ZN @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3575)
+#       Signal: /decompress_test_bench/decompress_module/i_48_2171/i_302/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2488)
+#       Signal: /decompress_test_bench/decompress_module/i_48_2171/i_298/i_13 @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2721)
+#       Signal: /decompress_test_bench/decompress_module/i_48_2171/i_224/i_10 @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_297/i_10 @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_258/i_10 @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781)
+#       Signal: /decompress_test_bench/decompress_module/i_27_2563_5709/i_8 @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287)
+#       Signal: /decompress_test_bench/decompress_module/i_27_2563_5755/i_8 @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287)
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5755/#NOT#287 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5709/#NOT#287 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_258/#NOT#2781 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_297/#NOT#2781 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_224/#NOT#2781 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_298/#AND#2721 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2721
+#   Active process: /decompress_test_bench/decompress_module/i_19_0_2504/#AND#3082 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3082
+#   Active process: /decompress_test_bench/decompress_module/i_19_0_2524/#OR#3672 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3672
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5733/#OR#350 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:350
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5593/#NOT#287 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5640/#NOT#287 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_3920/#NOT#2665 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 0 ps.
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 0 ps.
+# Buffer Output 1
+# 
+# Break key hit
+# Break at an unknown location
+break
+# invoked "break" outside of a loop
+do decompress_test_bench.do
+# End time: 01:20:09 on Jun 10,2021, Elapsed time: 0:02:24
+# Errors: 2, Warnings: 3
+# vsim -gui work.decompress_test_bench 
+# Start time: 01:20:09 on Jun 10,2021
+# Loading work.decompress_test_bench
+# Loading work.decompress
+# Loading work.AOI21_X1
+# Loading work.AOI221_X1
+# Loading work.NOR2_X1
+# Loading work.AOI22_X1
+# Loading work.NAND2_X1
+# Loading work.OAI211_X1
+# Loading work.NAND3_X1
+# Loading work.INV_X1
+# Loading work.OAI21_X1
+# Loading work.AND2_X1
+# Loading work.AOI222_X1
+# Loading work.AOI211_X1
+# Loading work.datapath__0_2351
+# Loading work.NAND4_X1
+# Loading work.datapath__0_2384
+# Loading work.datapath__0_2386
+# Loading work.datapath__0_2385
+# Loading work.datapath__0_2538
+# Loading work.datapath__0_2383
+# Loading work.datapath__0_2382
+# Loading work.datapath__0_2387
+# Loading work.datapath__0_2380
+# Loading work.datapath__0_2388
+# Loading work.datapath__0_2381
+# Loading work.datapath__0_2390
+# Loading work.datapath__0_2391
+# Loading work.datapath__0_2392
+# Loading work.datapath__0_2389
+# Loading work.datapath__0_2394
+# Loading work.datapath__0_2393
+# Loading work.datapath__0_2396
+# Loading work.datapath__0_2395
+# Loading work.datapath__0_2374
+# Loading work.datapath__0_2376
+# Loading work.datapath__0_2377
+# Loading work.datapath__0_2361
+# Loading work.datapath__0_2379
+# Loading work.datapath__0_2378
+# Loading work.XNOR2_X1
+# Loading work.OR2_X1
+# Loading work.datapath__0_2373
+# Loading work.datapath__0_2366
+# Loading work.datapath__0_2365
+# Loading work.datapath__0_2368
+# Loading work.datapath__0_2367
+# Loading work.datapath__0_2372
+# Loading work.datapath__0_2369
+# Loading work.datapath__0_2364
+# Loading work.datapath__0_2363
+# Loading work.datapath__0_2371
+# Loading work.datapath__0_2370
+# Loading work.datapath__0_2362
+# Loading work.datapath__0_2357
+# Loading work.datapath__0_2356
+# Loading work.datapath__0_2355
+# Loading work.datapath__0_2540
+# Loading work.datapath__0_2353
+# Loading work.datapath__0_2354
+# Loading work.datapath__0_2358
+# Loading work.datapath__0_2352
+# Loading work.datapath__0_2360
+# Loading work.datapath__0_2359
+# Loading work.datapath__0_2470
+# Loading work.datapath__0_2481
+# Loading work.datapath__0_2482
+# Loading work.datapath__0_2471
+# Loading work.datapath__0_2469
+# Loading work.datapath__0_2468
+# Loading work.datapath__0_2480
+# Loading work.datapath__0_2479
+# Loading work.datapath__0_2467
+# Loading work.datapath__0_2477
+# Loading work.datapath__0_2476
+# Loading work.datapath__0_2475
+# Loading work.datapath__0_2474
+# Loading work.datapath__0_2478
+# Loading work.datapath__0_2472
+# Loading work.datapath__0_2473
+# Loading work.datapath__0_2483
+# Loading work.datapath__0_2487
+# Loading work.datapath__0_2485
+# Loading work.datapath__0_2486
+# Loading work.OR3_X1
+# Loading work.XOR2_X1
+# Loading work.NOR3_X1
+# Loading work.AND3_X1
+# Loading work.datapath__0_2490
+# Loading work.datapath__0_2491
+# Loading work.datapath__0_2492
+# Loading work.datapath__0_2493
+# Loading work.datapath__0_2496
+# Loading work.datapath__0_2495
+# Loading work.datapath__0_2494
+# Loading work.AND4_X1
+# Loading work.OAI22_X1
+# Loading work.OAI222_X1
+# Loading work.OAI221_X1
+# Loading work.OAI33_X1
+# Loading work.MUX2_X1
+# Loading work.datapath__0_2497
+# Loading work.datapath__0_2528
+# Loading work.datapath__0_2508
+# Loading work.datapath__0_2507
+# Loading work.datapath__0_2506
+# Loading work.datapath__0_2511
+# Loading work.datapath__0_2504
+# Loading work.datapath__0_2505
+# Loading work.datapath__0_2502
+# Loading work.datapath__0_2503
+# Loading work.datapath__0_2500
+# Loading work.datapath__0_2499
+# Loading work.datapath__0_2501
+# Loading work.datapath__0_2509
+# Loading work.datapath__0_2510
+# Loading work.datapath__0_2498
+# Loading work.NOR4_X1
+# Loading work.OR4_X1
+# Loading work.datapath__0_2458
+# Loading work.datapath__0_2455
+# Loading work.datapath__0_2456
+# Loading work.datapath__0_2454
+# Loading work.datapath__0_2462
+# Loading work.datapath__0_2461
+# Loading work.datapath__0_2465
+# Loading work.datapath__0_2464
+# Loading work.datapath__0_2463
+# Loading work.datapath__0_2459
+# Loading work.datapath__0_2532
+# Loading work.datapath__0_2446
+# Loading work.datapath__0_2444
+# Loading work.datapath__0_2450
+# Loading work.datapath__0_2449
+# Loading work.datapath__0_2448
+# Loading work.datapath__0_2445
+# Loading work.datapath__0_2457
+# Loading work.datapath__0_2438
+# Loading work.datapath__0_2437
+# Loading work.datapath__0_2428
+# Loading work.datapath__0_2439
+# Loading work.datapath__0_2440
+# Loading work.datapath__0_2441
+# Loading work.datapath__0_2534
+# Loading work.datapath__0_2442
+# Loading work.datapath__0_2436
+# Loading work.datapath__0_2433
+# Loading work.datapath__0_2432
+# Loading work.datapath__0_2431
+# Loading work.datapath__0_2430
+# Loading work.datapath__0_2435
+# Loading work.datapath__0_2434
+# Loading work.datapath__0_2429
+# Loading work.datapath__0_2426
+# Loading work.datapath__0_2425
+# Loading work.datapath__0_2424
+# Loading work.datapath__0_2423
+# Loading work.datapath__0_2420
+# Loading work.datapath__0_2421
+# Loading work.datapath__0_2422
+# Loading work.datapath__0_2402
+# Loading work.datapath__0_2403
+# Loading work.datapath__0_2404
+# Loading work.datapath__0_2400
+# Loading work.datapath__0_2401
+# Loading work.datapath__0_2399
+# Loading work.datapath__0_2397
+# Loading work.datapath__0_2412
+# Loading work.datapath__0_2398
+# Loading work.datapath__0_2410
+# Loading work.datapath__0_2409
+# Loading work.datapath__0_2408
+# Loading work.datapath__0_2407
+# Loading work.datapath__0_2411
+# Loading work.datapath__0_2405
+# Loading work.datapath__0_2406
+# Loading work.datapath__0_2413
+# Loading work.datapath__0_2414
+# Loading work.datapath__0_2415
+# Loading work.datapath__0_2418
+# Loading work.datapath__0_2417
+# Loading work.datapath__0_2416
+# Loading work.datapath__0_2419
+# Loading work.datapath__0_2141
+# Loading work.datapath__0_2325
+# Loading work.datapath__0_2324
+# Loading work.datapath__0_2316
+# Loading work.datapath__0_2319
+# Loading work.datapath__0_2320
+# Loading work.datapath__0_2322
+# Loading work.datapath__0_2318
+# Loading work.datapath__0_2317
+# Loading work.datapath__0_2311
+# Loading work.datapath__0_2312
+# Loading work.datapath__0_2326
+# Loading work.datapath__0_2323
+# Loading work.datapath__0_2307
+# Loading work.datapath__0_2306
+# Loading work.datapath__0_2308
+# Loading work.datapath__0_2309
+# Loading work.datapath__0_2321
+# Loading work.datapath__0_2313
+# Loading work.datapath__0_2314
+# Loading work.datapath__0_2315
+# Loading work.datapath__0_2287
+# Loading work.datapath__0_2288
+# Loading work.datapath__0_2297
+# Loading work.datapath__0_2286
+# Loading work.datapath__0_2285
+# Loading work.datapath__0_2284
+# Loading work.datapath__0_2282
+# Loading work.datapath__0_2283
+# Loading work.datapath__0_2289
+# Loading work.datapath__0_2292
+# Loading work.datapath__0_2293
+# Loading work.datapath__0_2294
+# Loading work.datapath__0_2295
+# Loading work.datapath__0_2290
+# Loading work.datapath__0_2291
+# Loading work.datapath__0_2296
+# Loading work.datapath__0_2546
+# Loading work.datapath__0_2299
+# Loading work.datapath__0_2303
+# Loading work.datapath__0_2300
+# Loading work.datapath__0_2301
+# Loading work.datapath__0_2302
+# Loading work.datapath__0_2333
+# Loading work.datapath__0_2335
+# Loading work.datapath__0_2334
+# Loading work.datapath__0_2348
+# Loading work.datapath__0_2347
+# Loading work.datapath__0_2349
+# Loading work.datapath__0_2350
+# Loading work.datapath__0_2336
+# Loading work.datapath__0_2542
+# Loading work.datapath__0_2338
+# Loading work.datapath__0_2337
+# Loading work.datapath__0_2340
+# Loading work.datapath__0_2341
+# Loading work.datapath__0_2342
+# Loading work.datapath__0_2339
+# Loading work.datapath__0_2344
+# Loading work.datapath__0_2343
+# Loading work.datapath__0_2346
+# Loading work.datapath__0_2345
+# Loading work.datapath__0_2332
+# Loading work.datapath__0_2331
+# Loading work.datapath__0_2330
+# Loading work.datapath__0_2329
+# Loading work.datapath__0_2328
+# Loading work.DLH_X1
+# Loading work.HA_X1
+# Loading work.FA_X1
+# Loading work.seq_DLH_X1
+# ** Warning: Design size of 193374 instances exceeds ModelSim - Intel FPGA Starter Edition recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim - Intel FPGA Edition. Expect performance to be adversely affected.
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 0 ps ###############
+#       Signal: /decompress_test_bench/decompress_module/i_19_0_2504/#implicit-wire#2 @ sub-iteration 0 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3090)
+#       Signal: /decompress_test_bench/decompress_module/i_19_0_2504/#implicit-wire#14 @ sub-iteration 0 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3102)
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5755/#OR#288 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:288
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5709/#OR#288 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:288
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_15/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_32/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_49/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_66/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_84/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_101/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_118/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_135/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_153/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_170/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_187/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_204/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_222/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_240/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_258/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_297/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_67/#AND#2667 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2667
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_136/#AND#2667 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2667
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_205/#AND#2667 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2667
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_224/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_298/#AND#2722 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2722
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_302/#NOT#2490 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2490
+#   Active process: /decompress_test_bench/decompress_module/i_52_0_370/#XOR#5318 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:5318
+#   Active process: /decompress_test_bench/decompress_module/i_52_0_371/#OR#3577 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3577
+#   Active process: /decompress_test_bench/decompress_module/i_19_0_2504/#OR#3085 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3085
+#   Active process: /decompress_test_bench/decompress_module/i_19_0_2516/#AND#2620 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2620
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5662/#NOT#287 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5616/#NOT#287 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_257/#NOT#2781 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_256/#NOT#2781 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_255/#NOT#2781 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_280/#NOT#2619 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2619
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_282/#NOT#2619 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2619
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_284/#NOT#2619 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2619
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_286/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_19_0_2524/#OR#3673 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3673
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5732/#OR#288 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:288
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5733/#OR#351 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:351
+#   Active process: /decompress_test_bench/decompress_module/i_28_2282_3950/#OR#698 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:698
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5593/#OR#288 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:288
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5594/#OR#351 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:351
+#   Active process: /decompress_test_bench/decompress_module/i_28_2282_3854/#OR#698 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:698
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5640/#OR#288 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:288
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5641/#OR#351 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:351
+#   Active process: /decompress_test_bench/decompress_module/i_28_2282_3886/#OR#698 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:698
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_288/#NOT#2781 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_291/#NOT#2781 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_294/#NOT#2781 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_259/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_3920/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_3936/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_3968/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_4064/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_4080/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_3952/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_4032/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_4016/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_4000/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_3984/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_4048/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_259/ZN @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2663)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_294/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2779)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_291/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2779)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_288/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2779)
+#       Signal: /decompress_test_bench/decompress_module/i_27_2563_5640/i_8 @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287)
+#       Signal: /decompress_test_bench/decompress_module/i_27_2563_5593/i_8 @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287)
+#       Signal: /decompress_test_bench/decompress_module/i_27_2563_5733/i_17 @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:350)
+#       Signal: /decompress_test_bench/decompress_module/i_19_0_2524/i_8 @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3672)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_286/ZN @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2663)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_284/ZN @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2617)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_282/ZN @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2617)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_280/ZN @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2617)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_255/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2779)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_256/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2779)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_257/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2779)
+#       Signal: /decompress_test_bench/decompress_module/i_27_2563_5616/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:285)
+#       Signal: /decompress_test_bench/decompress_module/i_27_2563_5662/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:285)
+#       Signal: /decompress_test_bench/decompress_module/i_19_0_2504/i_19 @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3082)
+#       Signal: /decompress_test_bench/decompress_module/i_52_0_371/ZN @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3575)
+#       Signal: /decompress_test_bench/decompress_module/i_48_2171/i_302/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2488)
+#       Signal: /decompress_test_bench/decompress_module/i_48_2171/i_298/i_13 @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2721)
+#       Signal: /decompress_test_bench/decompress_module/i_48_2171/i_224/i_10 @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_297/i_10 @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_258/i_10 @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781)
+#       Signal: /decompress_test_bench/decompress_module/i_27_2563_5709/i_8 @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287)
+#       Signal: /decompress_test_bench/decompress_module/i_27_2563_5755/i_8 @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287)
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5755/#NOT#287 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5709/#NOT#287 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_258/#NOT#2781 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_297/#NOT#2781 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_224/#NOT#2781 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_298/#AND#2721 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2721
+#   Active process: /decompress_test_bench/decompress_module/i_19_0_2504/#AND#3082 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3082
+#   Active process: /decompress_test_bench/decompress_module/i_19_0_2524/#OR#3672 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3672
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5733/#OR#350 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:350
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5593/#NOT#287 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5640/#NOT#287 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_3920/#NOT#2665 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 0 ps.
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 0 ps.
+# Buffer Output 1
+# 
+# Break key hit
+# Break at an unknown location
+do decompress_test_bench.do
+# End time: 01:21:41 on Jun 10,2021, Elapsed time: 0:01:32
+# Errors: 2, Warnings: 2
+# vsim -gui work.decompress_test_bench 
+# Start time: 01:21:41 on Jun 10,2021
+# Loading work.decompress_test_bench
+# Loading work.decompress
+# Loading work.AOI21_X1
+# Loading work.AOI221_X1
+# Loading work.NOR2_X1
+# Loading work.AOI22_X1
+# Loading work.NAND2_X1
+# Loading work.OAI211_X1
+# Loading work.NAND3_X1
+# Loading work.INV_X1
+# Loading work.OAI21_X1
+# Loading work.AND2_X1
+# Loading work.AOI222_X1
+# Loading work.AOI211_X1
+# Loading work.datapath__0_2351
+# Loading work.NAND4_X1
+# Loading work.datapath__0_2384
+# Loading work.datapath__0_2386
+# Loading work.datapath__0_2385
+# Loading work.datapath__0_2538
+# Loading work.datapath__0_2383
+# Loading work.datapath__0_2382
+# Loading work.datapath__0_2387
+# Loading work.datapath__0_2380
+# Loading work.datapath__0_2388
+# Loading work.datapath__0_2381
+# Loading work.datapath__0_2390
+# Loading work.datapath__0_2391
+# Loading work.datapath__0_2392
+# Loading work.datapath__0_2389
+# Loading work.datapath__0_2394
+# Loading work.datapath__0_2393
+# Loading work.datapath__0_2396
+# Loading work.datapath__0_2395
+# Loading work.datapath__0_2374
+# Loading work.datapath__0_2376
+# Loading work.datapath__0_2377
+# Loading work.datapath__0_2361
+# Loading work.datapath__0_2379
+# Loading work.datapath__0_2378
+# Loading work.XNOR2_X1
+# Loading work.OR2_X1
+# Loading work.datapath__0_2373
+# Loading work.datapath__0_2366
+# Loading work.datapath__0_2365
+# Loading work.datapath__0_2368
+# Loading work.datapath__0_2367
+# Loading work.datapath__0_2372
+# Loading work.datapath__0_2369
+# Loading work.datapath__0_2364
+# Loading work.datapath__0_2363
+# Loading work.datapath__0_2371
+# Loading work.datapath__0_2370
+# Loading work.datapath__0_2362
+# Loading work.datapath__0_2357
+# Loading work.datapath__0_2356
+# Loading work.datapath__0_2355
+# Loading work.datapath__0_2540
+# Loading work.datapath__0_2353
+# Loading work.datapath__0_2354
+# Loading work.datapath__0_2358
+# Loading work.datapath__0_2352
+# Loading work.datapath__0_2360
+# Loading work.datapath__0_2359
+# Loading work.datapath__0_2470
+# Loading work.datapath__0_2481
+# Loading work.datapath__0_2482
+# Loading work.datapath__0_2471
+# Loading work.datapath__0_2469
+# Loading work.datapath__0_2468
+# Loading work.datapath__0_2480
+# Loading work.datapath__0_2479
+# Loading work.datapath__0_2467
+# Loading work.datapath__0_2477
+# Loading work.datapath__0_2476
+# Loading work.datapath__0_2475
+# Loading work.datapath__0_2474
+# Loading work.datapath__0_2478
+# Loading work.datapath__0_2472
+# Loading work.datapath__0_2473
+# Loading work.datapath__0_2483
+# Loading work.datapath__0_2487
+# Loading work.datapath__0_2485
+# Loading work.datapath__0_2486
+# Loading work.OR3_X1
+# Loading work.XOR2_X1
+# Loading work.NOR3_X1
+# Loading work.AND3_X1
+# Loading work.datapath__0_2490
+# Loading work.datapath__0_2491
+# Loading work.datapath__0_2492
+# Loading work.datapath__0_2493
+# Loading work.datapath__0_2496
+# Loading work.datapath__0_2495
+# Loading work.datapath__0_2494
+# Loading work.AND4_X1
+# Loading work.OAI22_X1
+# Loading work.OAI222_X1
+# Loading work.OAI221_X1
+# Loading work.OAI33_X1
+# Loading work.MUX2_X1
+# Loading work.datapath__0_2497
+# Loading work.datapath__0_2528
+# Loading work.datapath__0_2508
+# Loading work.datapath__0_2507
+# Loading work.datapath__0_2506
+# Loading work.datapath__0_2511
+# Loading work.datapath__0_2504
+# Loading work.datapath__0_2505
+# Loading work.datapath__0_2502
+# Loading work.datapath__0_2503
+# Loading work.datapath__0_2500
+# Loading work.datapath__0_2499
+# Loading work.datapath__0_2501
+# Loading work.datapath__0_2509
+# Loading work.datapath__0_2510
+# Loading work.datapath__0_2498
+# Loading work.NOR4_X1
+# Loading work.OR4_X1
+# Loading work.datapath__0_2458
+# Loading work.datapath__0_2455
+# Loading work.datapath__0_2456
+# Loading work.datapath__0_2454
+# Loading work.datapath__0_2462
+# Loading work.datapath__0_2461
+# Loading work.datapath__0_2465
+# Loading work.datapath__0_2464
+# Loading work.datapath__0_2463
+# Loading work.datapath__0_2459
+# Loading work.datapath__0_2532
+# Loading work.datapath__0_2446
+# Loading work.datapath__0_2444
+# Loading work.datapath__0_2450
+# Loading work.datapath__0_2449
+# Loading work.datapath__0_2448
+# Loading work.datapath__0_2445
+# Loading work.datapath__0_2457
+# Loading work.datapath__0_2438
+# Loading work.datapath__0_2437
+# Loading work.datapath__0_2428
+# Loading work.datapath__0_2439
+# Loading work.datapath__0_2440
+# Loading work.datapath__0_2441
+# Loading work.datapath__0_2534
+# Loading work.datapath__0_2442
+# Loading work.datapath__0_2436
+# Loading work.datapath__0_2433
+# Loading work.datapath__0_2432
+# Loading work.datapath__0_2431
+# Loading work.datapath__0_2430
+# Loading work.datapath__0_2435
+# Loading work.datapath__0_2434
+# Loading work.datapath__0_2429
+# Loading work.datapath__0_2426
+# Loading work.datapath__0_2425
+# Loading work.datapath__0_2424
+# Loading work.datapath__0_2423
+# Loading work.datapath__0_2420
+# Loading work.datapath__0_2421
+# Loading work.datapath__0_2422
+# Loading work.datapath__0_2402
+# Loading work.datapath__0_2403
+# Loading work.datapath__0_2404
+# Loading work.datapath__0_2400
+# Loading work.datapath__0_2401
+# Loading work.datapath__0_2399
+# Loading work.datapath__0_2397
+# Loading work.datapath__0_2412
+# Loading work.datapath__0_2398
+# Loading work.datapath__0_2410
+# Loading work.datapath__0_2409
+# Loading work.datapath__0_2408
+# Loading work.datapath__0_2407
+# Loading work.datapath__0_2411
+# Loading work.datapath__0_2405
+# Loading work.datapath__0_2406
+# Loading work.datapath__0_2413
+# Loading work.datapath__0_2414
+# Loading work.datapath__0_2415
+# Loading work.datapath__0_2418
+# Loading work.datapath__0_2417
+# Loading work.datapath__0_2416
+# Loading work.datapath__0_2419
+# Loading work.datapath__0_2141
+# Loading work.datapath__0_2325
+# Loading work.datapath__0_2324
+# Loading work.datapath__0_2316
+# Loading work.datapath__0_2319
+# Loading work.datapath__0_2320
+# Loading work.datapath__0_2322
+# Loading work.datapath__0_2318
+# Loading work.datapath__0_2317
+# Loading work.datapath__0_2311
+# Loading work.datapath__0_2312
+# Loading work.datapath__0_2326
+# Loading work.datapath__0_2323
+# Loading work.datapath__0_2307
+# Loading work.datapath__0_2306
+# Loading work.datapath__0_2308
+# Loading work.datapath__0_2309
+# Loading work.datapath__0_2321
+# Loading work.datapath__0_2313
+# Loading work.datapath__0_2314
+# Loading work.datapath__0_2315
+# Loading work.datapath__0_2287
+# Loading work.datapath__0_2288
+# Loading work.datapath__0_2297
+# Loading work.datapath__0_2286
+# Loading work.datapath__0_2285
+# Loading work.datapath__0_2284
+# Loading work.datapath__0_2282
+# Loading work.datapath__0_2283
+# Loading work.datapath__0_2289
+# Loading work.datapath__0_2292
+# Loading work.datapath__0_2293
+# Loading work.datapath__0_2294
+# Loading work.datapath__0_2295
+# Loading work.datapath__0_2290
+# Loading work.datapath__0_2291
+# Loading work.datapath__0_2296
+# Loading work.datapath__0_2546
+# Loading work.datapath__0_2299
+# Loading work.datapath__0_2303
+# Loading work.datapath__0_2300
+# Loading work.datapath__0_2301
+# Loading work.datapath__0_2302
+# Loading work.datapath__0_2333
+# Loading work.datapath__0_2335
+# Loading work.datapath__0_2334
+# Loading work.datapath__0_2348
+# Loading work.datapath__0_2347
+# Loading work.datapath__0_2349
+# Loading work.datapath__0_2350
+# Loading work.datapath__0_2336
+# Loading work.datapath__0_2542
+# Loading work.datapath__0_2338
+# Loading work.datapath__0_2337
+# Loading work.datapath__0_2340
+# Loading work.datapath__0_2341
+# Loading work.datapath__0_2342
+# Loading work.datapath__0_2339
+# Loading work.datapath__0_2344
+# Loading work.datapath__0_2343
+# Loading work.datapath__0_2346
+# Loading work.datapath__0_2345
+# Loading work.datapath__0_2332
+# Loading work.datapath__0_2331
+# Loading work.datapath__0_2330
+# Loading work.datapath__0_2329
+# Loading work.datapath__0_2328
+# Loading work.DLH_X1
+# Loading work.HA_X1
+# Loading work.FA_X1
+# Loading work.seq_DLH_X1
+# ** Warning: Design size of 193374 instances exceeds ModelSim - Intel FPGA Starter Edition recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim - Intel FPGA Edition. Expect performance to be adversely affected.
+# Break key hit
+# Simulation stop requested.
+# Compile of decompress_test_bench.v was successful.
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 0 ps ###############
+#       Signal: /decompress_test_bench/decompress_module/i_19_0_2504/#implicit-wire#2 @ sub-iteration 0 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3090)
+#       Signal: /decompress_test_bench/decompress_module/i_19_0_2504/#implicit-wire#14 @ sub-iteration 0 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3102)
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5755/#OR#288 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:288
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5709/#OR#288 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:288
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_15/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_32/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_49/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_66/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_84/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_101/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_118/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_135/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_153/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_170/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_187/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_204/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_222/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_240/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_258/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_297/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_67/#AND#2667 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2667
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_136/#AND#2667 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2667
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_205/#AND#2667 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2667
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_224/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_298/#AND#2722 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2722
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_302/#NOT#2490 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2490
+#   Active process: /decompress_test_bench/decompress_module/i_52_0_370/#XOR#5318 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:5318
+#   Active process: /decompress_test_bench/decompress_module/i_52_0_371/#OR#3577 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3577
+#   Active process: /decompress_test_bench/decompress_module/i_19_0_2504/#OR#3085 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3085
+#   Active process: /decompress_test_bench/decompress_module/i_19_0_2516/#AND#2620 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2620
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5662/#NOT#287 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5616/#NOT#287 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_257/#NOT#2781 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_256/#NOT#2781 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_255/#NOT#2781 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_280/#NOT#2619 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2619
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_282/#NOT#2619 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2619
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_284/#NOT#2619 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2619
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_286/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_19_0_2524/#OR#3673 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3673
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5732/#OR#288 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:288
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5733/#OR#351 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:351
+#   Active process: /decompress_test_bench/decompress_module/i_28_2282_3950/#OR#698 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:698
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5593/#OR#288 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:288
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5594/#OR#351 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:351
+#   Active process: /decompress_test_bench/decompress_module/i_28_2282_3854/#OR#698 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:698
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5640/#OR#288 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:288
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5641/#OR#351 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:351
+#   Active process: /decompress_test_bench/decompress_module/i_28_2282_3886/#OR#698 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:698
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_288/#NOT#2781 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_291/#NOT#2781 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_294/#NOT#2781 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_259/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_3920/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_3936/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_3968/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_4064/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_4080/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_3952/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_4032/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_4016/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_4000/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_3984/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_4048/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_259/ZN @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2663)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_294/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2779)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_291/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2779)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_288/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2779)
+#       Signal: /decompress_test_bench/decompress_module/i_27_2563_5640/i_8 @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287)
+#       Signal: /decompress_test_bench/decompress_module/i_27_2563_5593/i_8 @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287)
+#       Signal: /decompress_test_bench/decompress_module/i_27_2563_5733/i_17 @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:350)
+#       Signal: /decompress_test_bench/decompress_module/i_19_0_2524/i_8 @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3672)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_286/ZN @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2663)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_284/ZN @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2617)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_282/ZN @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2617)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_280/ZN @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2617)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_255/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2779)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_256/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2779)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_257/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2779)
+#       Signal: /decompress_test_bench/decompress_module/i_27_2563_5616/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:285)
+#       Signal: /decompress_test_bench/decompress_module/i_27_2563_5662/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:285)
+#       Signal: /decompress_test_bench/decompress_module/i_19_0_2504/i_19 @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3082)
+#       Signal: /decompress_test_bench/decompress_module/i_52_0_371/ZN @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3575)
+#       Signal: /decompress_test_bench/decompress_module/i_48_2171/i_302/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2488)
+#       Signal: /decompress_test_bench/decompress_module/i_48_2171/i_298/i_13 @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2721)
+#       Signal: /decompress_test_bench/decompress_module/i_48_2171/i_224/i_10 @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_297/i_10 @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_258/i_10 @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781)
+#       Signal: /decompress_test_bench/decompress_module/i_27_2563_5709/i_8 @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287)
+#       Signal: /decompress_test_bench/decompress_module/i_27_2563_5755/i_8 @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287)
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5755/#NOT#287 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5709/#NOT#287 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_258/#NOT#2781 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_297/#NOT#2781 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_224/#NOT#2781 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_298/#AND#2721 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2721
+#   Active process: /decompress_test_bench/decompress_module/i_19_0_2504/#AND#3082 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3082
+#   Active process: /decompress_test_bench/decompress_module/i_19_0_2524/#OR#3672 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3672
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5733/#OR#350 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:350
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5593/#NOT#287 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5640/#NOT#287 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_3920/#NOT#2665 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 0 ps.
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 0 ps.
+quit -sim
+# End time: 01:22:03 on Jun 10,2021, Elapsed time: 0:00:22
+# Errors: 2, Warnings: 3
+# Compile of NangateOpenCellLibrary.v was successful.
+# Compile of ram.syn.v was successful.
+# Compile of ram_test_bench.v was successful with warnings.
+# Compile of decompress.syn.v was successful.
+# Compile of decompress_test_bench.v was successful.
+# 5 compiles, 0 failed with no errors.
+do decompress_test_bench.do
+# vsim -gui work.decompress_test_bench 
+# Start time: 01:22:57 on Jun 10,2021
+# Loading work.decompress_test_bench
+# Loading work.decompress
+# Loading work.AOI21_X1
+# Loading work.AOI221_X1
+# Loading work.NOR2_X1
+# Loading work.AOI22_X1
+# Loading work.NAND2_X1
+# Loading work.OAI211_X1
+# Loading work.NAND3_X1
+# Loading work.INV_X1
+# Loading work.OAI21_X1
+# Loading work.AND2_X1
+# Loading work.AOI222_X1
+# Loading work.AOI211_X1
+# Loading work.datapath__0_2351
+# Loading work.NAND4_X1
+# Loading work.datapath__0_2384
+# Loading work.datapath__0_2386
+# Loading work.datapath__0_2385
+# Loading work.datapath__0_2538
+# Loading work.datapath__0_2383
+# Loading work.datapath__0_2382
+# Loading work.datapath__0_2387
+# Loading work.datapath__0_2380
+# Loading work.datapath__0_2388
+# Loading work.datapath__0_2381
+# Loading work.datapath__0_2390
+# Loading work.datapath__0_2391
+# Loading work.datapath__0_2392
+# Loading work.datapath__0_2389
+# Loading work.datapath__0_2394
+# Loading work.datapath__0_2393
+# Loading work.datapath__0_2396
+# Loading work.datapath__0_2395
+# Loading work.datapath__0_2374
+# Loading work.datapath__0_2376
+# Loading work.datapath__0_2377
+# Loading work.datapath__0_2361
+# Loading work.datapath__0_2379
+# Loading work.datapath__0_2378
+# Loading work.XNOR2_X1
+# Loading work.OR2_X1
+# Loading work.datapath__0_2373
+# Loading work.datapath__0_2366
+# Loading work.datapath__0_2365
+# Loading work.datapath__0_2368
+# Loading work.datapath__0_2367
+# Loading work.datapath__0_2372
+# Loading work.datapath__0_2369
+# Loading work.datapath__0_2364
+# Loading work.datapath__0_2363
+# Loading work.datapath__0_2371
+# Loading work.datapath__0_2370
+# Loading work.datapath__0_2362
+# Loading work.datapath__0_2357
+# Loading work.datapath__0_2356
+# Loading work.datapath__0_2355
+# Loading work.datapath__0_2540
+# Loading work.datapath__0_2353
+# Loading work.datapath__0_2354
+# Loading work.datapath__0_2358
+# Loading work.datapath__0_2352
+# Loading work.datapath__0_2360
+# Loading work.datapath__0_2359
+# Loading work.datapath__0_2470
+# Loading work.datapath__0_2481
+# Loading work.datapath__0_2482
+# Loading work.datapath__0_2471
+# Loading work.datapath__0_2469
+# Loading work.datapath__0_2468
+# Loading work.datapath__0_2480
+# Loading work.datapath__0_2479
+# Loading work.datapath__0_2467
+# Loading work.datapath__0_2477
+# Loading work.datapath__0_2476
+# Loading work.datapath__0_2475
+# Loading work.datapath__0_2474
+# Loading work.datapath__0_2478
+# Loading work.datapath__0_2472
+# Loading work.datapath__0_2473
+# Loading work.datapath__0_2483
+# Loading work.datapath__0_2487
+# Loading work.datapath__0_2485
+# Loading work.datapath__0_2486
+# Loading work.OR3_X1
+# Loading work.XOR2_X1
+# Loading work.NOR3_X1
+# Loading work.AND3_X1
+# Loading work.datapath__0_2490
+# Loading work.datapath__0_2491
+# Loading work.datapath__0_2492
+# Loading work.datapath__0_2493
+# Loading work.datapath__0_2496
+# Loading work.datapath__0_2495
+# Loading work.datapath__0_2494
+# Loading work.AND4_X1
+# Loading work.OAI22_X1
+# Loading work.OAI222_X1
+# Loading work.OAI221_X1
+# Loading work.OAI33_X1
+# Loading work.MUX2_X1
+# Loading work.datapath__0_2497
+# Loading work.datapath__0_2528
+# Loading work.datapath__0_2508
+# Loading work.datapath__0_2507
+# Loading work.datapath__0_2506
+# Loading work.datapath__0_2511
+# Loading work.datapath__0_2504
+# Loading work.datapath__0_2505
+# Loading work.datapath__0_2502
+# Loading work.datapath__0_2503
+# Loading work.datapath__0_2500
+# Loading work.datapath__0_2499
+# Loading work.datapath__0_2501
+# Loading work.datapath__0_2509
+# Loading work.datapath__0_2510
+# Loading work.datapath__0_2498
+# Loading work.NOR4_X1
+# Loading work.OR4_X1
+# Loading work.datapath__0_2458
+# Loading work.datapath__0_2455
+# Loading work.datapath__0_2456
+# Loading work.datapath__0_2454
+# Loading work.datapath__0_2462
+# Loading work.datapath__0_2461
+# Loading work.datapath__0_2465
+# Loading work.datapath__0_2464
+# Loading work.datapath__0_2463
+# Loading work.datapath__0_2459
+# Loading work.datapath__0_2532
+# Loading work.datapath__0_2446
+# Loading work.datapath__0_2444
+# Loading work.datapath__0_2450
+# Loading work.datapath__0_2449
+# Loading work.datapath__0_2448
+# Loading work.datapath__0_2445
+# Loading work.datapath__0_2457
+# Loading work.datapath__0_2438
+# Loading work.datapath__0_2437
+# Loading work.datapath__0_2428
+# Loading work.datapath__0_2439
+# Loading work.datapath__0_2440
+# Loading work.datapath__0_2441
+# Loading work.datapath__0_2534
+# Loading work.datapath__0_2442
+# Loading work.datapath__0_2436
+# Loading work.datapath__0_2433
+# Loading work.datapath__0_2432
+# Loading work.datapath__0_2431
+# Loading work.datapath__0_2430
+# Loading work.datapath__0_2435
+# Loading work.datapath__0_2434
+# Loading work.datapath__0_2429
+# Loading work.datapath__0_2426
+# Loading work.datapath__0_2425
+# Loading work.datapath__0_2424
+# Loading work.datapath__0_2423
+# Loading work.datapath__0_2420
+# Loading work.datapath__0_2421
+# Loading work.datapath__0_2422
+# Loading work.datapath__0_2402
+# Loading work.datapath__0_2403
+# Loading work.datapath__0_2404
+# Loading work.datapath__0_2400
+# Loading work.datapath__0_2401
+# Loading work.datapath__0_2399
+# Loading work.datapath__0_2397
+# Loading work.datapath__0_2412
+# Loading work.datapath__0_2398
+# Loading work.datapath__0_2410
+# Loading work.datapath__0_2409
+# Loading work.datapath__0_2408
+# Loading work.datapath__0_2407
+# Loading work.datapath__0_2411
+# Loading work.datapath__0_2405
+# Loading work.datapath__0_2406
+# Loading work.datapath__0_2413
+# Loading work.datapath__0_2414
+# Loading work.datapath__0_2415
+# Loading work.datapath__0_2418
+# Loading work.datapath__0_2417
+# Loading work.datapath__0_2416
+# Loading work.datapath__0_2419
+# Loading work.datapath__0_2141
+# Loading work.datapath__0_2325
+# Loading work.datapath__0_2324
+# Loading work.datapath__0_2316
+# Loading work.datapath__0_2319
+# Loading work.datapath__0_2320
+# Loading work.datapath__0_2322
+# Loading work.datapath__0_2318
+# Loading work.datapath__0_2317
+# Loading work.datapath__0_2311
+# Loading work.datapath__0_2312
+# Loading work.datapath__0_2326
+# Loading work.datapath__0_2323
+# Loading work.datapath__0_2307
+# Loading work.datapath__0_2306
+# Loading work.datapath__0_2308
+# Loading work.datapath__0_2309
+# Loading work.datapath__0_2321
+# Loading work.datapath__0_2313
+# Loading work.datapath__0_2314
+# Loading work.datapath__0_2315
+# Loading work.datapath__0_2287
+# Loading work.datapath__0_2288
+# Loading work.datapath__0_2297
+# Loading work.datapath__0_2286
+# Loading work.datapath__0_2285
+# Loading work.datapath__0_2284
+# Loading work.datapath__0_2282
+# Loading work.datapath__0_2283
+# Loading work.datapath__0_2289
+# Loading work.datapath__0_2292
+# Loading work.datapath__0_2293
+# Loading work.datapath__0_2294
+# Loading work.datapath__0_2295
+# Loading work.datapath__0_2290
+# Loading work.datapath__0_2291
+# Loading work.datapath__0_2296
+# Loading work.datapath__0_2546
+# Loading work.datapath__0_2299
+# Loading work.datapath__0_2303
+# Loading work.datapath__0_2300
+# Loading work.datapath__0_2301
+# Loading work.datapath__0_2302
+# Loading work.datapath__0_2333
+# Loading work.datapath__0_2335
+# Loading work.datapath__0_2334
+# Loading work.datapath__0_2348
+# Loading work.datapath__0_2347
+# Loading work.datapath__0_2349
+# Loading work.datapath__0_2350
+# Loading work.datapath__0_2336
+# Loading work.datapath__0_2542
+# Loading work.datapath__0_2338
+# Loading work.datapath__0_2337
+# Loading work.datapath__0_2340
+# Loading work.datapath__0_2341
+# Loading work.datapath__0_2342
+# Loading work.datapath__0_2339
+# Loading work.datapath__0_2344
+# Loading work.datapath__0_2343
+# Loading work.datapath__0_2346
+# Loading work.datapath__0_2345
+# Loading work.datapath__0_2332
+# Loading work.datapath__0_2331
+# Loading work.datapath__0_2330
+# Loading work.datapath__0_2329
+# Loading work.datapath__0_2328
+# Loading work.DLH_X1
+# Loading work.HA_X1
+# Loading work.FA_X1
+# Loading work.seq_DLH_X1
+# ** Warning: Design size of 193374 instances exceeds ModelSim - Intel FPGA Starter Edition recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim - Intel FPGA Edition. Expect performance to be adversely affected.
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 0 ps ###############
+#       Signal: /decompress_test_bench/decompress_module/i_19_0_2504/#implicit-wire#2 @ sub-iteration 0 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3090)
+#       Signal: /decompress_test_bench/decompress_module/i_19_0_2504/#implicit-wire#14 @ sub-iteration 0 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3102)
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5755/#OR#288 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:288
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5709/#OR#288 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:288
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_15/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_32/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_49/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_66/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_84/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_101/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_118/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_135/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_153/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_170/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_187/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_204/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_222/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_240/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_258/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_297/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_67/#AND#2667 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2667
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_136/#AND#2667 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2667
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_205/#AND#2667 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2667
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_224/#OR#2782 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2782
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_298/#AND#2722 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2722
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_302/#NOT#2490 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2490
+#   Active process: /decompress_test_bench/decompress_module/i_52_0_370/#XOR#5318 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:5318
+#   Active process: /decompress_test_bench/decompress_module/i_52_0_371/#OR#3577 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3577
+#   Active process: /decompress_test_bench/decompress_module/i_19_0_2504/#OR#3085 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3085
+#   Active process: /decompress_test_bench/decompress_module/i_19_0_2516/#AND#2620 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2620
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5662/#NOT#287 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5616/#NOT#287 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_257/#NOT#2781 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_256/#NOT#2781 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_255/#NOT#2781 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_280/#NOT#2619 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2619
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_282/#NOT#2619 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2619
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_284/#NOT#2619 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2619
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_286/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_19_0_2524/#OR#3673 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3673
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5732/#OR#288 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:288
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5733/#OR#351 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:351
+#   Active process: /decompress_test_bench/decompress_module/i_28_2282_3950/#OR#698 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:698
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5593/#OR#288 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:288
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5594/#OR#351 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:351
+#   Active process: /decompress_test_bench/decompress_module/i_28_2282_3854/#OR#698 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:698
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5640/#OR#288 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:288
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5641/#OR#351 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:351
+#   Active process: /decompress_test_bench/decompress_module/i_28_2282_3886/#OR#698 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:698
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_288/#NOT#2781 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_291/#NOT#2781 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_294/#NOT#2781 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_259/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_3920/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_3936/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_3968/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_4064/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_4080/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_3952/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_4032/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_4016/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_4000/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_3984/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_4048/#NOT#2665 @ sub-iteration 1
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_259/ZN @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2663)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_294/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2779)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_291/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2779)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_288/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2779)
+#       Signal: /decompress_test_bench/decompress_module/i_27_2563_5640/i_8 @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287)
+#       Signal: /decompress_test_bench/decompress_module/i_27_2563_5593/i_8 @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287)
+#       Signal: /decompress_test_bench/decompress_module/i_27_2563_5733/i_17 @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:350)
+#       Signal: /decompress_test_bench/decompress_module/i_19_0_2524/i_8 @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3672)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_286/ZN @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2663)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_284/ZN @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2617)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_282/ZN @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2617)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_280/ZN @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2617)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_255/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2779)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_256/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2779)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_257/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2779)
+#       Signal: /decompress_test_bench/decompress_module/i_27_2563_5616/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:285)
+#       Signal: /decompress_test_bench/decompress_module/i_27_2563_5662/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:285)
+#       Signal: /decompress_test_bench/decompress_module/i_19_0_2504/i_19 @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3082)
+#       Signal: /decompress_test_bench/decompress_module/i_52_0_371/ZN @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3575)
+#       Signal: /decompress_test_bench/decompress_module/i_48_2171/i_302/ZN @ sub-iteration 2 at Value St0 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2488)
+#       Signal: /decompress_test_bench/decompress_module/i_48_2171/i_298/i_13 @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2721)
+#       Signal: /decompress_test_bench/decompress_module/i_48_2171/i_224/i_10 @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_297/i_10 @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781)
+#       Signal: /decompress_test_bench/decompress_module/i_47_2172/i_258/i_10 @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781)
+#       Signal: /decompress_test_bench/decompress_module/i_27_2563_5709/i_8 @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287)
+#       Signal: /decompress_test_bench/decompress_module/i_27_2563_5755/i_8 @ sub-iteration 2 at Value St1 (/home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287)
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5755/#NOT#287 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5709/#NOT#287 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_258/#NOT#2781 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_47_2172/i_297/#NOT#2781 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_224/#NOT#2781 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2781
+#   Active process: /decompress_test_bench/decompress_module/i_48_2171/i_298/#AND#2721 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2721
+#   Active process: /decompress_test_bench/decompress_module/i_19_0_2504/#AND#3082 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3082
+#   Active process: /decompress_test_bench/decompress_module/i_19_0_2524/#OR#3672 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:3672
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5733/#OR#350 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:350
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5593/#NOT#287 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287
+#   Active process: /decompress_test_bench/decompress_module/i_27_2563_5640/#NOT#287 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:287
+#   Active process: /decompress_test_bench/decompress_module/i_110_2301_3920/#NOT#2665 @ sub-iteration 3
+#     Source: /home/bahaa/Downloads/vlsi/NangateOpenCellLibrary.v:2665
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 0 ps.
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 0 ps.
+# Break key hit
+# Break at an unknown location
+# Compile of NangateOpenCellLibrary.v was successful.
+# Compile of ram.syn.v was successful.
+# Compile of ram_test_bench.v was successful with warnings.
+# Compile of decompress_1.v was successful.
+# Compile of decompress_test_bench.v was successful.
+# 5 compiles, 0 failed with no errors.
+do decompress_test_bench.do
+# End time: 01:29:00 on Jun 10,2021, Elapsed time: 0:06:03
+# Errors: 2, Warnings: 7
+# vsim -gui work.decompress_test_bench 
+# Start time: 01:29:00 on Jun 10,2021
+# Loading work.decompress_test_bench
+# Loading work.decompress
+# Loading work.DLH_X1
+# Loading work.HA_X1
+# Loading work.FA_X1
+# Loading work.AND2_X1
+# Loading work.AOI21_X1
+# Loading work.OAI21_X1
+# Loading work.OAI211_X1
+# Loading work.NAND2_X1
+# Loading work.MUX2_X1
+# Loading work.NOR2_X1
+# Loading work.INV_X1
+# Loading work.seq_DLH_X1
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+do decompress_test_bench.do
+# End time: 01:30:13 on Jun 10,2021, Elapsed time: 0:01:13
+# Errors: 0, Warnings: 1
+# vsim -gui work.decompress_test_bench 
+# Start time: 01:30:13 on Jun 10,2021
+# Loading work.decompress_test_bench
+# Loading work.decompress
+# Loading work.DLH_X1
+# Loading work.HA_X1
+# Loading work.FA_X1
+# Loading work.AND2_X1
+# Loading work.AOI21_X1
+# Loading work.OAI21_X1
+# Loading work.OAI211_X1
+# Loading work.NAND2_X1
+# Loading work.MUX2_X1
+# Loading work.NOR2_X1
+# Loading work.INV_X1
+# Loading work.seq_DLH_X1
+# Compile of decompress_test_bench.v was successful.
+do decompress_test_bench.do
+# End time: 01:30:26 on Jun 10,2021, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 2
+# vsim -gui work.decompress_test_bench 
+# Start time: 01:30:26 on Jun 10,2021
+# Loading work.decompress_test_bench
+# Loading work.decompress
+# Loading work.DLH_X1
+# Loading work.HA_X1
+# Loading work.FA_X1
+# Loading work.AND2_X1
+# Loading work.AOI21_X1
+# Loading work.OAI21_X1
+# Loading work.OAI211_X1
+# Loading work.NAND2_X1
+# Loading work.MUX2_X1
+# Loading work.NOR2_X1
+# Loading work.INV_X1
+# Loading work.seq_DLH_X1
+# Buffer Output 1
+# 
+# ** Note: $stop    : /home/bahaa/Downloads/vlsi/decompress_test_bench.v(28)
+#    Time: 200 ps  Iteration: 0  Instance: /decompress_test_bench
+# Break in Module decompress_test_bench at /home/bahaa/Downloads/vlsi/decompress_test_bench.v line 28
+# Compile of decompress_test_bench.v was successful.
+do decompress_test_bench.do
+# End time: 01:32:42 on Jun 10,2021, Elapsed time: 0:02:16
+# Errors: 0, Warnings: 2
+# vsim -gui work.decompress_test_bench 
+# Start time: 01:32:42 on Jun 10,2021
+# Loading work.decompress_test_bench
+# Loading work.decompress
+# Loading work.DLH_X1
+# Loading work.HA_X1
+# Loading work.FA_X1
+# Loading work.AND2_X1
+# Loading work.AOI21_X1
+# Loading work.OAI21_X1
+# Loading work.OAI211_X1
+# Loading work.NAND2_X1
+# Loading work.MUX2_X1
+# Loading work.NOR2_X1
+# Loading work.INV_X1
+# Loading work.seq_DLH_X1
+# Buffer Output 1
+# 
+# Buffer Output 1
+# 
+do decompress_test_bench.do
+# End time: 01:33:03 on Jun 10,2021, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 1
+# vsim -gui work.decompress_test_bench 
+# Start time: 01:33:03 on Jun 10,2021
+# Loading work.decompress_test_bench
+# Loading work.decompress
+# Loading work.DLH_X1
+# Loading work.HA_X1
+# Loading work.FA_X1
+# Loading work.AND2_X1
+# Loading work.AOI21_X1
+# Loading work.OAI21_X1
+# Loading work.OAI211_X1
+# Loading work.NAND2_X1
+# Loading work.MUX2_X1
+# Loading work.NOR2_X1
+# Loading work.INV_X1
+# Loading work.seq_DLH_X1
+# Buffer Output 1
+# 
+# Buffer Output 1
+# 
+# Buffer Output 1
+# 
+# ** Note: $stop    : /home/bahaa/Downloads/vlsi/decompress_test_bench.v(29)
+#    Time: 500 ps  Iteration: 0  Instance: /decompress_test_bench
+# Break in Module decompress_test_bench at /home/bahaa/Downloads/vlsi/decompress_test_bench.v line 29
