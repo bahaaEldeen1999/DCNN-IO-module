@@ -1,15 +1,16 @@
 module test_bench(clk);
 parameter clockCycleTime = 100;
 parameter delayDecompress = (clockCycleTime*34);
-parameter numberOfLayers = 3;
+parameter numberOfLayers = 5;
+parameter numberOfLayersDense = 2;
 parameter maxnumberOfLayers = 10;
-parameter  filterSize = 1;
+parameter  filterSize = 5;
 
 // starting from the last
-parameter [8*(maxnumberOfLayers-1)-1:0] noOfFilterLayers  = {16'd10,16'd20,16'd30,16'd40,16'd50,16'd60,16'd70,16'd6,16'd6,16'd6}  ;
-parameter [8*(maxnumberOfLayers-1)-1:0] typeOfFilterLayers  = {16'd10,16'd20,16'd30,16'd40,16'd50,16'd60,16'd70,16'd1,16'd1,16'd0}  ;
-parameter [8*(maxnumberOfLayers-2)-1:0] noOfDenseLayers = {16'd10,16'd20,16'd30,16'd40,16'd50,16'd60,16'd70,16'd12,16'd12}  ;
-parameter [8*(maxnumberOfLayers-2)-1:0] noOfWrightLayers = {16'd10,16'd20,16'd30,16'd40,16'd50,16'd60,16'd70,16'd12,16'd12}  ;
+parameter [16*(maxnumberOfLayers-1)-1:0] noOfFilterLayers  = {16'd10,16'd20,16'd30,16'd40,16'd50,16'd1920,16'd0,16'd96,16'd0,16'd6}  ;
+parameter [16*(maxnumberOfLayers-1)-1:0] typeOfFilterLayers  = {16'd10,16'd20,16'd30,16'd40,16'd50,16'd0,16'd1,16'd0,16'd1,16'd0}  ;
+parameter [16*(maxnumberOfLayers-2)-1:0] noOfDenseLayers = {16'd10,16'd20,16'd30,16'd40,16'd50,16'd60,16'd6,16'd10,16'd84}  ;
+parameter [16*(maxnumberOfLayers-2)-1:0] noOfWrightLayers = {16'd10,16'd20,16'd30,16'd40,16'd50,16'd60,16'd6,16'd840,16'd10080}  ;
 input clk;
 reg RST,load,cnn,interrupt;
 reg[15:0] Din;
@@ -45,21 +46,24 @@ initial begin
     ramDataIn = numberOfLayers;
     #100
     // calculate filter offset in ram 
-    filterStartingOffset = 2+4*numberOfLayers;
+    filterStartingOffset = 4+2*numberOfLayers+2*numberOfLayersDense;
     ramAddress = 2;
     ramDataIn = filterStartingOffset;
     #100 
     // write starting offset of dense
     denseStartingOffset = filterStartingOffset;
+    $display("filterStartingOffset  %d\n",filterStartingOffset);
+
     i=0;
     repeat (numberOfLayers) begin
         denseStartingOffset = denseStartingOffset+noOfFilterLayers[16*i +: 16] + noOfFilterLayers[16*i +: 16]*filterSize*filterSize;
-     
+     $display("noOfFilterLayers %d\n",noOfFilterLayers[16*i +: 16]);
         i = i+1;
     end
     ramAddress = 3;
     ramDataIn = denseStartingOffset;
     #100 
+    $display("denseStartingOffset  %d\n",denseStartingOffset);
     // write no of filters of each layer in memory 
     i=0;
     repeat (numberOfLayers) begin
@@ -80,7 +84,7 @@ initial begin
     end
     // write no of dense of each layer in memory and weights
     i=0;
-    repeat (numberOfLayers-1) begin
+    repeat (numberOfLayersDense) begin
         ramAddress = ramAddress+1;
         ramDataIn = noOfDenseLayers[16*i +: 16];
         $display("accessing dense index %d value %d \n",i,noOfDenseLayers[16*i +: 16]);

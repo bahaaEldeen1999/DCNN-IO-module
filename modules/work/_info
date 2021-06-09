@@ -11,7 +11,7 @@ cModel Technology
 dD:/CMP/CMP 3/CMP 302/VLSI/In_Proj
 X_16_bit_mux_v_unit
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1622074533
+Z1 !s110 1622378252
 V1BlDc[RoiG2g23TLU648`0
 r1
 !s85 0
@@ -24,11 +24,11 @@ Z2 d/run/media/bahaa/CMP/projects/VLSI20/modules
 Z3 w1622038482
 Z4 8/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/16_bit_mux.v
 Z5 F/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/16_bit_mux.v
-!i122 439
+!i122 592
 L0 48 0
 Z6 OV;L;2020.1;71
 31
-Z7 !s108 1622074533.000000
+Z7 !s108 1622378251.000000
 Z8 !s107 /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/16_bit_mux.v|
 Z9 !s90 -reportprogress|300|-work|work|-stats=none|/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/16_bit_mux.v|
 !i113 1
@@ -46,15 +46,15 @@ R2
 Z14 w1622071898
 Z15 8/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/cpu.v
 Z16 F/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/cpu.v
-!i122 440
+!i122 593
 Z17 L0 1 50
 R6
 r1
 !s85 0
 31
-R7
-Z18 !s107 /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/cpu.v|
-Z19 !s90 -reportprogress|300|-work|work|-stats=none|/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/cpu.v|
+Z18 !s108 1622378252.000000
+Z19 !s107 /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/cpu.v|
+Z20 !s90 -reportprogress|300|-work|work|-stats=none|/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/cpu.v|
 !i113 1
 R10
 R11
@@ -73,13 +73,13 @@ R2
 R14
 R15
 R16
-!i122 440
-Z20 L0 50 0
+!i122 593
+Z21 L0 50 0
 R6
 31
-R7
 R18
 R19
+R20
 !i113 1
 R10
 R11
@@ -91,18 +91,18 @@ R12
 IF;Q4N=dcQzRCekM?WJbI`3
 R13
 R2
-Z21 w1622071930
-Z22 8/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/decompress.v
-Z23 F/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/decompress.v
-!i122 441
+Z22 w1622071930
+Z23 8/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/decompress.v
+Z24 F/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/decompress.v
+!i122 594
 R17
 R6
 r1
 !s85 0
 31
-R7
-Z24 !s107 /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/decompress.v|
-Z25 !s90 -reportprogress|300|-work|work|-stats=none|/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/decompress.v|
+R18
+Z25 !s107 /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/decompress.v|
+Z26 !s90 -reportprogress|300|-work|work|-stats=none|/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/decompress.v|
 !i113 1
 R10
 R11
@@ -114,18 +114,18 @@ R12
 Ia0JfnA?9@Sf1ZZKBUmVDc1
 R13
 R2
-Z26 w1622072133
-Z27 8/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/decompress_handler.v
-Z28 F/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/decompress_handler.v
-!i122 442
+Z27 w1622072133
+Z28 8/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/decompress_handler.v
+Z29 F/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/decompress_handler.v
+!i122 595
 L0 5 110
 R6
 r1
 !s85 0
 31
-R7
-Z29 !s107 /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/decompress_handler.v|
-Z30 !s90 -reportprogress|300|-work|work|-stats=none|/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/decompress_handler.v|
+R18
+Z30 !s107 /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/decompress_handler.v|
+Z31 !s90 -reportprogress|300|-work|work|-stats=none|/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/decompress_handler.v|
 !i113 1
 R10
 R11
@@ -141,16 +141,16 @@ I18KbMXb_oR8icl3=LM[]d1
 !i103 1
 S1
 R2
-R26
 R27
 R28
-!i122 442
+R29
+!i122 595
 L0 114 0
 R6
 31
-R7
-R29
+R18
 R30
+R31
 !i113 1
 R10
 R11
@@ -166,69 +166,69 @@ I09b8hVEkQ2Dhm8=V`e5eQ1
 !i103 1
 S1
 R2
-R21
 R22
 R23
-!i122 441
-R20
+R24
+!i122 594
+R21
 R6
 31
-R7
-R24
+R18
 R25
+R26
 !i113 1
 R10
 R11
 vDMA
-Z31 !s110 1622074534
+R1
 !i10b 1
-!s100 3CcPaYD_mn:G1AbljE_eU1
+!s100 c:fi3mT^AHzji1I2]iA[W1
 R12
-IbXHU9M9?bjee4BleOA[561
+I<ej;3@B95RWg9P?o=E0?c3
 R13
 R2
-Z32 w1622069500
+Z32 w1622374427
 Z33 8/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/ram.v
 Z34 F/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/ram.v
-!i122 446
+!i122 599
 L0 1 40
 R6
 r1
 !s85 0
 31
-Z35 !s108 1622074534.000000
-Z36 !s107 /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/ram.v|
-Z37 !s90 -reportprogress|300|-work|work|-stats=none|/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/ram.v|
+R18
+Z35 !s107 /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/ram.v|
+Z36 !s90 -reportprogress|300|-work|work|-stats=none|/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/ram.v|
 !i113 1
 R10
 R11
 n@d@m@a
 vfile_handler
-R31
+R1
 !i10b 1
 !s100 MEE2BAcX`oCR3`??cR^f[2
 R12
 I2M]FI?k5cRW4:k`nNIQ:_3
 R13
 R2
-Z38 w1622070330
-Z39 8/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/file_handler.v
-Z40 F/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/file_handler.v
-!i122 443
+Z37 w1622070330
+Z38 8/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/file_handler.v
+Z39 F/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/file_handler.v
+!i122 596
 L0 1 26
 R6
 r1
 !s85 0
 31
-R7
-Z41 !s107 /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/file_handler.v|
-Z42 !s90 -reportprogress|300|-work|work|-stats=none|/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/file_handler.v|
+R18
+Z40 !s107 /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/file_handler.v|
+Z41 !s90 -reportprogress|300|-work|work|-stats=none|/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/file_handler.v|
 !i113 1
 R10
 R11
 Xfile_handler_v_unit
 R0
-R31
+R1
 VbO0Ie>j>3h[@N3Yb0W<n33
 r1
 !s85 0
@@ -238,46 +238,46 @@ IbO0Ie>j>3h[@N3Yb0W<n33
 !i103 1
 S1
 R2
+R37
 R38
 R39
-R40
-!i122 443
+!i122 596
 L0 26 0
 R6
 31
-R7
+R18
+R40
 R41
-R42
 !i113 1
 R10
 R11
 vMUX
-R31
+R1
 !i10b 1
 !s100 0aCa0Zf?LLD7R?0Ib4DX61
 R12
 IRdF]Z2a>S8j^IBh5b;iK<0
 R13
 R2
-Z43 w1622069688
-Z44 8/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/mux.v
-Z45 F/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/mux.v
-!i122 444
+Z42 w1622069688
+Z43 8/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/mux.v
+Z44 F/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/mux.v
+!i122 597
 L0 1 47
 R6
 r1
 !s85 0
 31
-R35
-Z46 !s107 /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/mux.v|
-Z47 !s90 -reportprogress|300|-work|work|-stats=none|/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/mux.v|
+R18
+Z45 !s107 /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/mux.v|
+Z46 !s90 -reportprogress|300|-work|work|-stats=none|/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/mux.v|
 !i113 1
 R10
 R11
 n@m@u@x
 Xmux_v_unit
 R0
-R31
+R1
 VX9Y9oD]02hz84@`>fo5F_2
 r1
 !s85 0
@@ -287,21 +287,21 @@ IX9Y9oD]02hz84@`>fo5F_2
 !i103 1
 S1
 R2
+R42
 R43
 R44
-R45
-!i122 444
+!i122 597
 L0 47 0
 R6
 31
-R35
+R18
+R45
 R46
-R47
 !i113 1
 R10
 R11
 vOne_Bit_MUX
-R31
+R1
 !i10b 1
 !s100 D?PSVlIf[Uk]Lg8;00U[D0
 R12
@@ -309,24 +309,24 @@ Id7?DKUbJK@z7zV0nQ?1[l3
 R13
 R2
 R3
-Z48 8/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/one_bit_mux.v
-Z49 F/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/one_bit_mux.v
-!i122 445
+Z47 8/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/one_bit_mux.v
+Z48 F/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/one_bit_mux.v
+!i122 598
 L0 1 45
 R6
 r1
 !s85 0
 31
-R35
-Z50 !s107 /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/one_bit_mux.v|
-Z51 !s90 -reportprogress|300|-work|work|-stats=none|/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/one_bit_mux.v|
+R18
+Z49 !s107 /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/one_bit_mux.v|
+Z50 !s90 -reportprogress|300|-work|work|-stats=none|/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/one_bit_mux.v|
 !i113 1
 R10
 R11
 n@one_@bit_@m@u@x
 Xone_bit_mux_v_unit
 R0
-R31
+R1
 Vo@_BN`ZQlNEBG<MM7T1Uo1
 r1
 !s85 0
@@ -337,21 +337,21 @@ Io@_BN`ZQlNEBG<MM7T1Uo1
 S1
 R2
 R3
+R47
 R48
-R49
-!i122 445
+!i122 598
 L0 45 0
 R6
 31
-R35
+R18
+R49
 R50
-R51
 !i113 1
 R10
 R11
 Xram_v_unit
 R0
-R31
+R1
 VhM3Fe1l^JGJ:g:FU:U_922
 r1
 !s85 0
@@ -364,18 +364,18 @@ R2
 R32
 R33
 R34
-!i122 446
+!i122 599
 L0 40 0
 R6
 31
+R18
 R35
 R36
-R37
 !i113 1
 R10
 R11
 vST_Bit_MUX
-R1
+!s110 1622378251
 !i10b 1
 !s100 jNGe4Hf2FNPoN3`]`AzB>2
 R12
@@ -385,7 +385,7 @@ R2
 R3
 R4
 R5
-!i122 439
+!i122 592
 L0 1 48
 R6
 r1
@@ -399,50 +399,50 @@ R10
 R11
 n@s@t_@bit_@m@u@x
 vtest_bench
-R31
+R1
 !i10b 1
-!s100 lVFVU@2F7h;UjUG9XRSMP1
+!s100 j[i<07?lkK7ReL_4GoHFf0
 R12
-IR`Rc]9P^aLQg8BdYU:[iM2
+I_0TKz_HgZ`gMI[Z8llUUS2
 R13
 R2
-Z52 w1622074525
-Z53 8/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v
-Z54 F/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v
-!i122 447
-L0 1 212
+Z51 w1622378235
+Z52 8/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v
+Z53 F/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v
+!i122 600
+L0 1 216
 R6
 r1
 !s85 0
 31
-R35
+R18
 !s107 /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v|
-Z55 !s90 -reportprogress|300|-work|work|-stats=none|/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v|
+Z54 !s90 -reportprogress|300|-work|work|-stats=none|/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v|
 !i113 1
 R10
 R11
 Xtest_bench_v_unit
 R0
-R31
-VLkP[j2H;0O:>lF1hM0JzN1
+R1
+VYOP?YZ[K?WoTonNgXR`EA3
 r1
 !s85 0
 !i10b 1
-!s100 12`XAR0;<6k>GZCQ_@Kn?1
-ILkP[j2H;0O:>lF1hM0JzN1
+!s100 ^XXC8HKdOMan07H[m;f@:1
+IYOP?YZ[K?WoTonNgXR`EA3
 !i103 1
 S1
 R2
+R51
 R52
 R53
-R54
-!i122 447
-L0 212 0
+!i122 600
+L0 216 0
 R6
 31
-R35
-Z56 !s107 /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v|
-R55
+R18
+Z55 !s107 /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v|
+R54
 !i113 1
 R10
 R11

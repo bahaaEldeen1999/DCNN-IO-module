@@ -4,7 +4,7 @@ input[15:0] data;
 output[15:0] dataout;
 input[15:0] address;
 reg[15:0] temp;
-reg[15:0] mem[0:32768];
+reg[15:0] mem[0:62768];
 output doneRead;
 integer done_read=0;
 integer done_write=0;

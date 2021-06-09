@@ -14,4 +14,4 @@ sim:/test_bench/readSignal\
 sim:/test_bench/writeSignal
 force -freeze sim:/test_bench/clk 1 0, 0 {50 ps} -r 100
 
-run 10000000
+run 100000000

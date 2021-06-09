@@ -1,6 +1,6 @@
 f = open("compressOutput.txt", "r")
 f2 = open("memOutput.txt", "r")
-startingOffset=14
+startingOffset=18
 imageSize=1024
 for i in range(startingOffset):
     f2.readline()

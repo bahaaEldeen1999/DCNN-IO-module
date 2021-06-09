@@ -1,14 +1,4 @@
-/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/cpu.v {2 {vlog -work work -stats=none /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/cpu.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module coordinator
-** Warning: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/cpu.v(50): (vlog-2283) Extra semicolon in $unit (global) scope.
-** Warning: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/cpu.v(50): (vlog-2284) Empty $unit scope found.
--- Compiling package cpu_v_unit
-
-Top level modules:
-	coordinator
-
-} {} {}} /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/ram.v {2 {vlog -work work -stats=none /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/ram.v
+/run/media/bahaa/CMP/projects/VLSI20/modules/verilog/ram.v {2 {vlog -work work -stats=none /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/ram.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module DMA
 ** Warning: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/ram.v(40): (vlog-2283) Extra semicolon in $unit (global) scope.
@@ -17,6 +7,16 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	DMA
+
+} {} {}} /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/cpu.v {2 {vlog -work work -stats=none /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/cpu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module coordinator
+** Warning: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/cpu.v(50): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/cpu.v(50): (vlog-2284) Empty $unit scope found.
+-- Compiling package cpu_v_unit
+
+Top level modules:
+	coordinator
 
 } {} {}} /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/decompress.v {2 {vlog -work work -stats=none /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/decompress.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -77,5 +77,15 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	ST_Bit_MUX
+
+} {} {}} /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v {2 {vlog -work work -stats=none /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module test_bench
+** Warning: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v(216): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: /run/media/bahaa/CMP/projects/VLSI20/modules/verilog/test_bench.v(217): (vlog-2284) Empty $unit scope found.
+-- Compiling package test_bench_v_unit
+
+Top level modules:
+	test_bench
 
 } {} {}}
