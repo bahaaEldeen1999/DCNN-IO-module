@@ -10,8 +10,5 @@ sim:/ram_test_bench/dataout \
 sim:/ram_test_bench/doneRead \
 sim:/ram_test_bench/doneWrite
 force -freeze sim:/ram_test_bench/clk 1 0, 0 {50 ps} -r 100
-run
-run
-run
-run
-run
+run 2100
+
