@@ -1,0 +1,66 @@
+nitro-SoC
+Floorplanning
+Placement and Routing
+
+constraints (Timing + Power) +
+verilog     (output from the synthesis)
+
+source clean_nitro.sh
+cd work
+nitro -log  LOGs/nitor.log -journal LOGs/nitro.journal
+clear
+# generate scripts
+setup_nrf
+#"Nitro Reference Flow"
+
+
+import_variables.tcl > libraries , source file , constraints 
+
+   set MGC_no_exit true
+   
+   set MGC_physical_library_tech    ".tech.lef"
+   set MGC_physical_libraries       ".macro.lef"
+   
+
+
+    set MGC_libDbPath
+	set MGC_parasitic_library(new_rc)  ".ptf"
+    set MGC_timing_library(new_pvt)  ".ptf"       >> process,voltage and temperature
+
+    set MGC_corners (corner_0_0) ; temperature - parasitics - processes 
+   
+    set MGC_importVerilogNetlist 
+	set MGC_floorLoadDefFile 
+	
+	
+_________________________________________
+
+floorplan_variables.tcl > 
+ unit of floorplan 
+ top parition 
+ 
+ don't do power planning 
+ 
+ 
+ 
+_________________________________________
+
+ 
+flow_variables.tcl
+MGC_cpus
+MGC_no_exit
+
+MaxRouteLayer(metla8)
+
+_________________________________________
+
+source flow_scripts/import_variables.tcl > LOGs/import.log 
+#do floorplanning and placement  
+source flow_scripts/0_import.tcl  > LOGs/import0.log 
+source flow_scripts/3_route.tcl   > LOGs/route3.log 
+write_verilog -file netlist.v
+
+
+start 
+
+
