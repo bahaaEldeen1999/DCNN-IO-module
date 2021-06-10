@@ -3,7 +3,7 @@ Preparing nets ...
 Processing nets: 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
 
 Report 'report_lvs': Detail Routing LVS Report
-Generated on Thu May 6 06:56:06 2021
+Generated on Thu May 6 08:06:23 2021
   
 --------------------------------------------------------------------------------
 |                    LVS detail routing verification report                    |
@@ -18,7 +18,7 @@ Generated on Thu May 6 06:56:06 2021
 --------------------------------------------------------------------------------
 
 
-info UI33: performed LVS verification for 0 sec (CPU time: 0 sec; MEM: RSS - 361M, CVMEM - 1752M, PVMEM - 1992M)
+info UI33: performed LVS verification for 0 sec (CPU time: 0 sec; MEM: RSS - 362M, CVMEM - 1752M, PVMEM - 1992M)
 info DRC201: Only violations caused by detail_route shapes are being checked.
 DRC verification progress:
 Processing metal1: 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
@@ -33,7 +33,7 @@ Processing metal9: 100%
 Processing metal10: 100% 
 
 Report 'report_drc': Report Drc
-Generated on Thu May 6 06:56:07 2021
+Generated on Thu May 6 08:06:24 2021
   
 --------------------------------------------------------------------------------------------------------
 |                                       DRC verification report                                        |
@@ -55,7 +55,7 @@ Generated on Thu May 6 06:56:07 2021
 --------------------------------------------------------------------------------------------------------
 
 
-info UI33: performed DRC verification for 0 sec (CPU time: 0 sec; MEM: RSS - 361M, CVMEM - 1752M, PVMEM - 1992M)
+info UI33: performed DRC verification for 0 sec (CPU time: 0 sec; MEM: RSS - 362M, CVMEM - 1752M, PVMEM - 1992M)
 info CHK10: Checking placement...
 info Found 6920 movable and 0 fixed cells in partition DMA
 info DP136: Found 0 moveable cells and 0 fixed cells to be illegal.
@@ -79,7 +79,7 @@ info Report for partition DMA:
 --------------------------------------------------------------------------------------------------------
 
 
-info UI33: performed placement checks for 0 sec (CPU time: 0 sec; MEM: RSS - 361M, CVMEM - 1752M, PVMEM - 1992M)
+info UI33: performed placement checks for 0 sec (CPU time: 0 sec; MEM: RSS - 362M, CVMEM - 1752M, PVMEM - 1992M)
 info running report region utilization in global placement context: 
     - utilization = (mobile_cell_area/(row_area - obstruction_area)).
     - obstruction area include hard and soft blockages, fixed std cells, fixed macros and pads.
@@ -88,7 +88,7 @@ info running report region utilization in global placement context:
 
 info  report_region_utilization is restricted to regions with property member_hard set to TRUE. 
 Report 'Region_Utilization': Region Utilization Report
-Generated on Thu May 6 06:56:07 2021
+Generated on Thu May 6 08:06:24 2021
   
 ------------------------------------------------------------------------------------------------------------------
 |                                           Report Region Utilization                                            |
@@ -99,4 +99,4 @@ Generated on Thu May 6 06:56:07 2021
 ------------------------------------------------------------------------------------------------------------------
 
 
-info UI33: performed report region utilization for 0 sec (CPU time: 0 sec; MEM: RSS - 361M, CVMEM - 1752M, PVMEM - 1992M)
+info UI33: performed report region utilization for 0 sec (CPU time: 0 sec; MEM: RSS - 362M, CVMEM - 1752M, PVMEM - 1992M)

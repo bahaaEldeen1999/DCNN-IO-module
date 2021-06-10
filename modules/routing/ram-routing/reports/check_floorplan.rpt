@@ -236,4 +236,4 @@ info  report_region_utilization is restricted to regions with property member_ha
 -------------------------------------------------------------------------------------------------------------------------------
 
 
-info UI33: performed floorplan checks for 0 sec (CPU time: 0 sec; MEM: RSS - 193M, CVMEM - 1687M, PVMEM - 1992M)
+info UI33: performed floorplan checks for 0 sec (CPU time: 0 sec; MEM: RSS - 191M, CVMEM - 1687M, PVMEM - 1992M)

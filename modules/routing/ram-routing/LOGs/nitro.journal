@@ -1,7 +1,7 @@
 #---------------------------------------------------------------------
-# start session at Thu May 6 06:48:31 2021
+# start session at Thu May 6 07:59:45 2021
 # version 2019.1.R2 1.68700.2.290 Fri Nov 29 21:06:00 PST 2019 
-# Running on localhost.localdomain 4cores 7.8GBytes 2.6GHz 64bits mode pid 28930 
+# Running on localhost.localdomain 4cores 7.8GBytes 2.6GHz 64bits mode pid 31668 
 # Exec path is /home/vlsi/Installation/Nitro/nitroPack-2019.1.R2a/nitro/arch/linux/x86_64/2.12/64/bin
 #---------------------------------------------------------------------
 setup_nrf
@@ -17,211 +17,18 @@ set_option -name toolbar:main:zoom:location -value {310 20}
 set_option -name toolbar:main:custom_editing:location -value {508 20}
 set_option -name toolbar:main:objects:location -value {735 20}
 set_option -name toolbar:main:cross_probe:location -value {412 48}
-zoom_to -target area -xl_area -194082a -yb_area -63203a -xr_area 2044725a -yt_area 2178725a
-zoom_to -target area -xl_area -247584a -yb_area -12001a -xr_area 1543460a -yt_area 1781540a
-zoom_to -target area -xl_area -290385a -yb_area 28960a -xr_area 1142448a -yt_area 1463792a
-zoom_to -target area -xl_area -324626a -yb_area 61729a -xr_area 821639a -yt_area 1209594a
-zoom_to -target area -xl_area -352019a -yb_area 87944a -xr_area 564992a -yt_area 1006236a
-zoom_to -target area -xl_area -370268a -yb_area 108916a -xr_area 363339a -yt_area 843548a
-zoom_to -target area -xl_area -384867a -yb_area 125693a -xr_area 202017a -yt_area 713398a
-zoom_to -target area -xl_area -396546a -yb_area 139114a -xr_area 72960a -yt_area 609278a
-zoom_to -target area -xl_area -384866a -yb_area 125692a -xr_area 202015a -yt_area 713396a
-zoom_to -target area -xl_area -370266a -yb_area 108914a -xr_area 363334a -yt_area 843544a
-zoom_to -target area -xl_area -352015a -yb_area 87942a -xr_area 564983a -yt_area 1006229a
-zoom_to -target area -xl_area -348029a -yb_area 88787a -xr_area 568969a -yt_area 1007074a
-zoom_to -target area -xl_area -341921a -yb_area 88787a -xr_area 575077a -yt_area 1007074a
-zoom_to -target area -xl_area -333776a -yb_area 88787a -xr_area 583222a -yt_area 1007074a
-zoom_to -target area -xl_area -327668a -yb_area 88787a -xr_area 589330a -yt_area 1007074a
-zoom_to -target area -xl_area -321560a -yb_area 88787a -xr_area 595438a -yt_area 1007074a
-zoom_to -target area -xl_area -309343a -yb_area 88787a -xr_area 607655a -yt_area 1007074a
-zoom_to -target area -xl_area -303235a -yb_area 88787a -xr_area 613763a -yt_area 1007074a
-zoom_to -target area -xl_area -297126a -yb_area 88787a -xr_area 619872a -yt_area 1007074a
-zoom_to -target area -xl_area -291018a -yb_area 88787a -xr_area 625980a -yt_area 1007074a
-zoom_to -target area -xl_area -284910a -yb_area 88787a -xr_area 632088a -yt_area 1007074a
-zoom_to -target area -xl_area -272693a -yb_area 88787a -xr_area 644305a -yt_area 1007074a
-zoom_to -target area -xl_area -266585a -yb_area 88787a -xr_area 650413a -yt_area 1007074a
-zoom_to -target area -xl_area -258440a -yb_area 88787a -xr_area 658558a -yt_area 1007074a
-zoom_to -target area -xl_area -252332a -yb_area 88787a -xr_area 664666a -yt_area 1007074a
-zoom_to -target area -xl_area -240115a -yb_area 88787a -xr_area 676883a -yt_area 1007074a
-zoom_to -target area -xl_area -227899a -yb_area 88787a -xr_area 689099a -yt_area 1007074a
-zoom_to -target area -xl_area -221790a -yb_area 88787a -xr_area 695208a -yt_area 1007074a
-zoom_to -target area -xl_area -215682a -yb_area 88787a -xr_area 701316a -yt_area 1007074a
-zoom_to -target area -xl_area -203465a -yb_area 88787a -xr_area 713533a -yt_area 1007074a
-zoom_to -target area -xl_area -189212a -yb_area 88787a -xr_area 727786a -yt_area 1007074a
-zoom_to -target area -xl_area -183104a -yb_area 88787a -xr_area 733894a -yt_area 1007074a
-zoom_to -target area -xl_area -176996a -yb_area 88787a -xr_area 740002a -yt_area 1007074a
-zoom_to -target area -xl_area -164779a -yb_area 88787a -xr_area 752219a -yt_area 1007074a
-zoom_to -target area -xl_area -152562a -yb_area 88787a -xr_area 764436a -yt_area 1007074a
-zoom_to -target area -xl_area -140346a -yb_area 88787a -xr_area 776652a -yt_area 1007074a
-zoom_to -target area -xl_area -134237a -yb_area 88787a -xr_area 782761a -yt_area 1007074a
-zoom_to -target area -xl_area -128129a -yb_area 88787a -xr_area 788869a -yt_area 1007074a
-zoom_to -target area -xl_area -113876a -yb_area 88787a -xr_area 803122a -yt_area 1007074a
-zoom_to -target area -xl_area -89443a -yb_area 88787a -xr_area 827555a -yt_area 1007074a
-zoom_to -target area -xl_area -83335a -yb_area 88787a -xr_area 833663a -yt_area 1007074a
-zoom_to -target area -xl_area -58901a -yb_area 88787a -xr_area 858097a -yt_area 1007074a
-zoom_to -target area -xl_area -44648a -yb_area 88787a -xr_area 872350a -yt_area 1007074a
-zoom_to -target area -xl_area -20215a -yb_area 88787a -xr_area 896783a -yt_area 1007074a
-zoom_to -target area -xl_area -1890a -yb_area 88787a -xr_area 915108a -yt_area 1007074a
-zoom_to -target area -xl_area 30688a -yb_area 88787a -xr_area 947686a -yt_area 1007074a
-zoom_to -target area -xl_area 42904a -yb_area 88787a -xr_area 959902a -yt_area 1007074a
-zoom_to -target area -xl_area 61230a -yb_area 88787a -xr_area 978228a -yt_area 1007074a
-zoom_to -target area -xl_area 79555a -yb_area 88787a -xr_area 996553a -yt_area 1007074a
-zoom_to -target area -xl_area 112132a -yb_area 88787a -xr_area 1029130a -yt_area 1007074a
-zoom_to -target area -xl_area 124349a -yb_area 88787a -xr_area 1041347a -yt_area 1007074a
-zoom_to -target area -xl_area 136566a -yb_area 88787a -xr_area 1053564a -yt_area 1007074a
-zoom_to -target area -xl_area 142674a -yb_area 88787a -xr_area 1059672a -yt_area 1007074a
-zoom_to -target area -xl_area 175252a -yb_area 88787a -xr_area 1092250a -yt_area 1007074a
-zoom_to -target area -xl_area 193577a -yb_area 88787a -xr_area 1110575a -yt_area 1007074a
-zoom_to -target area -xl_area 205794a -yb_area 88787a -xr_area 1122792a -yt_area 1007074a
-zoom_to -target area -xl_area 211902a -yb_area 88787a -xr_area 1128900a -yt_area 1007074a
-zoom_to -target area -xl_area 230227a -yb_area 88787a -xr_area 1147225a -yt_area 1007074a
-zoom_to -target area -xl_area 236335a -yb_area 88787a -xr_area 1153333a -yt_area 1007074a
-zoom_to -target area -xl_area 250588a -yb_area 88787a -xr_area 1167586a -yt_area 1007074a
-zoom_to -target area -xl_area 287238a -yb_area 88787a -xr_area 1204236a -yt_area 1007074a
-zoom_to -target area -xl_area 305563a -yb_area 88787a -xr_area 1222561a -yt_area 1007074a
-zoom_to -target area -xl_area 319816a -yb_area 88787a -xr_area 1236814a -yt_area 1007074a
-zoom_to -target area -xl_area 332033a -yb_area 88787a -xr_area 1249031a -yt_area 1007074a
-zoom_to -target area -xl_area 344249a -yb_area 88787a -xr_area 1261247a -yt_area 1007074a
-zoom_to -target area -xl_area 350358a -yb_area 88787a -xr_area 1267356a -yt_area 1007074a
-zoom_to -target area -xl_area 356466a -yb_area 88787a -xr_area 1273464a -yt_area 1007074a
-zoom_to -target area -xl_area 368683a -yb_area 88787a -xr_area 1285681a -yt_area 1007074a
-zoom_to -target area -xl_area 374791a -yb_area 88787a -xr_area 1291789a -yt_area 1007074a
-zoom_to -target area -xl_area 389044a -yb_area 88787a -xr_area 1306042a -yt_area 1007074a
-zoom_to -target area -xl_area 413477a -yb_area 88787a -xr_area 1330475a -yt_area 1007074a
-zoom_to -target area -xl_area 437910a -yb_area 88787a -xr_area 1354908a -yt_area 1007074a
-zoom_to -target area -xl_area 351791a -yb_area -12254a -xr_area 1498037a -yt_area 1135603a
-zoom_to -target area -xl_area 244142a -yb_area -138556a -xr_area 1676949a -yt_area 1296264a
-zoom_to -target area -xl_area 351790a -yb_area -12253a -xr_area 1498035a -yt_area 1135602a
-zoom_to -target area -xl_area 437909a -yb_area 88788a -xr_area 1354905a -yt_area 1007072a
 ## trigger_gui -name design:create_pg_rings
 set_option -name window:design:create_pg_rings:state -value visible
 set_option -name window:design:create_pg_rings:size -value {936 603}
+set_option -name window:design:create_pg_rings:location -value {-40 53}
+set_option -name trigger:design:create_pg_rings:step -value 2700
+set_option -name trigger:design:create_pg_rings:step -value 1350
 set_option -name trigger:design:create_pg_rings:hor_ver_layer_link -value true
 set_option -name trigger:design:create_pg_rings:vertical_wire -value METAL8
 set_option -name trigger:design:create_pg_rings:horizontal_wire -value METAL8
-set_option -name trigger:design:create_pg_rings:location_offset -value internal
-set_option -name trigger:design:create_pg_rings:location_offset -value external
-set_option -name trigger:design:create_pg_rings:location_offset -value internal
-set_option -name trigger:design:create_pg_rings:location_offset -value auto
-set_option -name window:design:create_pg_rings:state -value hidden
-zoom_to -target area -xl_area 451559a -yb_area -81990a -xr_area 1597804a -yt_area 1065864a
-zoom_to -target area -xl_area 468621a -yb_area -295462a -xr_area 1901427a -yt_area 1139354a
-zoom_to -target area -xl_area 477223a -yb_area -533669a -xr_area 2268230a -yt_area 1259849a
-zoom_to -target area -xl_area 470211a -yb_area -299437a -xr_area 1903016a -yt_area 1135376a
-zoom_to -target area -xl_area 464601a -yb_area -112052a -xr_area 1610845a -yt_area 1035797a
-zoom_to -target area -xl_area 460113a -yb_area 37855a -xr_area 1377108a -yt_area 956134a
-zoom_to -target area -xl_area 679679a -yb_area 82445a -xr_area 1413275a -yt_area 817068a
-zoom_to -target area -xl_area 855332a -yb_area 118117a -xr_area 1442208a -yt_area 705815a
-zoom_to -target area -xl_area 679679a -yb_area 82444a -xr_area 1413274a -yt_area 817066a
-zoom_to -target area -xl_area 460113a -yb_area 37853a -xr_area 1377106a -yt_area 956130a
-zoom_to -target area -xl_area 458252a -yb_area 52178a -xr_area 1375245a -yt_area 970455a
-zoom_to -target area -xl_area 458252a -yb_area 64395a -xr_area 1375245a -yt_area 982672a
-zoom_to -target area -xl_area 458252a -yb_area 88828a -xr_area 1375245a -yt_area 1007105a
-zoom_to -target area -xl_area 458252a -yb_area 137694a -xr_area 1375245a -yt_area 1055971a
-zoom_to -target area -xl_area 458252a -yb_area 174344a -xr_area 1375245a -yt_area 1092621a
-zoom_to -target area -xl_area 458252a -yb_area 208957a -xr_area 1375245a -yt_area 1127234a
-zoom_to -target area -xl_area 458252a -yb_area 282256a -xr_area 1375245a -yt_area 1200533a
-zoom_to -target area -xl_area 458252a -yb_area 355556a -xr_area 1375245a -yt_area 1273833a
-zoom_to -target area -xl_area 458252a -yb_area 428855a -xr_area 1375245a -yt_area 1347132a
-zoom_to -target area -xl_area 458252a -yb_area 477721a -xr_area 1375245a -yt_area 1395998a
-zoom_to -target area -xl_area 458252a -yb_area 536768a -xr_area 1375245a -yt_area 1455045a
-zoom_to -target area -xl_area 458252a -yb_area 585634a -xr_area 1375245a -yt_area 1503911a
-zoom_to -target area -xl_area 458252a -yb_area 756666a -xr_area 1375245a -yt_area 1674943a
-zoom_to -target area -xl_area 458252a -yb_area 793315a -xr_area 1375245a -yt_area 1711592a
-zoom_to -target area -xl_area 458252a -yb_area 827929a -xr_area 1375245a -yt_area 1746206a
-zoom_to -target area -xl_area 458252a -yb_area 876795a -xr_area 1375245a -yt_area 1795072a
-zoom_to -target area -xl_area 458252a -yb_area 1011177a -xr_area 1375245a -yt_area 1929454a
-zoom_to -target area -xl_area 458252a -yb_area 1072260a -xr_area 1375245a -yt_area 1990537a
-zoom_to -target area -xl_area 458252a -yb_area 1096693a -xr_area 1375245a -yt_area 2014970a
-zoom_to -target area -xl_area 458252a -yb_area 1121126a -xr_area 1375245a -yt_area 2039403a
-zoom_to -target area -xl_area 458252a -yb_area 1143523a -xr_area 1375245a -yt_area 2061800a
-zoom_to -target area -xl_area 458252a -yb_area 1155739a -xr_area 1375245a -yt_area 2074016a
-zoom_to -target area -xl_area 458252a -yb_area 1192389a -xr_area 1375245a -yt_area 2110666a
-zoom_to -target area -xl_area 458252a -yb_area 1253472a -xr_area 1375245a -yt_area 2171749a
-zoom_to -target area -xl_area 458252a -yb_area 1290121a -xr_area 1375245a -yt_area 2208398a
-zoom_to -target area -xl_area 458252a -yb_area 1351204a -xr_area 1375245a -yt_area 2269481a
-zoom_to -target area -xl_area 458252a -yb_area 1400070a -xr_area 1375245a -yt_area 2318347a
-zoom_to -target area -xl_area 458252a -yb_area 1459117a -xr_area 1375245a -yt_area 2377394a
-zoom_to -target area -xl_area 458252a -yb_area 1507983a -xr_area 1375245a -yt_area 2426260a
-zoom_to -target area -xl_area 458252a -yb_area 1532416a -xr_area 1375245a -yt_area 2450693a
-zoom_to -target area -xl_area 458252a -yb_area 1581282a -xr_area 1375245a -yt_area 2499559a
-zoom_to -target area -xl_area 458252a -yb_area 1630149a -xr_area 1375245a -yt_area 2548426a
-zoom_to -target area -xl_area 458252a -yb_area 1654582a -xr_area 1375245a -yt_area 2572859a
-zoom_to -target area -xl_area 458252a -yb_area 1666798a -xr_area 1375245a -yt_area 2585075a
-zoom_to -target area -xl_area 458252a -yb_area 1679015a -xr_area 1375245a -yt_area 2597292a
-zoom_to -target area -xl_area 458252a -yb_area 1691231a -xr_area 1375245a -yt_area 2609508a
-zoom_to -target area -xl_area 458252a -yb_area 1703448a -xr_area 1375245a -yt_area 2621725a
-zoom_to -target area -xl_area 458252a -yb_area 1715664a -xr_area 1375245a -yt_area 2633941a
-zoom_to -target area -xl_area 458252a -yb_area 1740098a -xr_area 1375245a -yt_area 2658375a
-zoom_to -target area -xl_area 458252a -yb_area 1764531a -xr_area 1375245a -yt_area 2682808a
-zoom_to -target area -xl_area 458252a -yb_area 1786928a -xr_area 1375245a -yt_area 2705205a
-zoom_to -target area -xl_area 458252a -yb_area 1799144a -xr_area 1375245a -yt_area 2717421a
-zoom_to -target area -xl_area 458252a -yb_area 1811361a -xr_area 1375245a -yt_area 2729638a
-zoom_to -target area -xl_area 458252a -yb_area 1848010a -xr_area 1375245a -yt_area 2766287a
-zoom_to -target area -xl_area 458252a -yb_area 1872443a -xr_area 1375245a -yt_area 2790720a
-zoom_to -target area -xl_area 458252a -yb_area 1884660a -xr_area 1375245a -yt_area 2802937a
-zoom_to -target area -xl_area 458252a -yb_area 1896876a -xr_area 1375245a -yt_area 2815153a
-zoom_to -target area -xl_area 458252a -yb_area 1921310a -xr_area 1375245a -yt_area 2839587a
-zoom_to -target area -xl_area 458252a -yb_area 1933526a -xr_area 1375245a -yt_area 2851803a
-zoom_to -target area -xl_area 458252a -yb_area 1945743a -xr_area 1375245a -yt_area 2864020a
-zoom_to -target area -xl_area 458252a -yb_area 1970176a -xr_area 1375245a -yt_area 2888453a
-zoom_to -target area -xl_area 458252a -yb_area 2006825a -xr_area 1375245a -yt_area 2925102a
-zoom_to -target area -xl_area 458252a -yb_area 2031258a -xr_area 1375245a -yt_area 2949535a
-zoom_to -target area -xl_area 458252a -yb_area 2067908a -xr_area 1375245a -yt_area 2986185a
-zoom_to -target area -xl_area 458252a -yb_area 2092341a -xr_area 1375245a -yt_area 3010618a
-zoom_to -target area -xl_area 458252a -yb_area 2102522a -xr_area 1375245a -yt_area 3020799a
-zoom_to -target area -xl_area 458252a -yb_area 2151388a -xr_area 1375245a -yt_area 3069665a
-zoom_to -target area -xl_area 458252a -yb_area 2163604a -xr_area 1375245a -yt_area 3081881a
-zoom_to -target area -xl_area 458252a -yb_area 2175821a -xr_area 1375245a -yt_area 3094098a
-zoom_to -target area -xl_area 458252a -yb_area 2163605a -xr_area 1375245a -yt_area 3081882a
-zoom_to -target area -xl_area 458252a -yb_area 2102523a -xr_area 1375245a -yt_area 3020800a
-zoom_to -target area -xl_area 458252a -yb_area 2043476a -xr_area 1375245a -yt_area 2961753a
-zoom_to -target area -xl_area 458252a -yb_area 1994610a -xr_area 1375245a -yt_area 2912887a
-zoom_to -target area -xl_area 458252a -yb_area 1957960a -xr_area 1375245a -yt_area 2876237a
-zoom_to -target area -xl_area 458252a -yb_area 1823578a -xr_area 1375245a -yt_area 2741855a
-zoom_to -target area -xl_area 458252a -yb_area 1764532a -xr_area 1375245a -yt_area 2682809a
-zoom_to -target area -xl_area 458252a -yb_area 1691232a -xr_area 1375245a -yt_area 2609509a
-zoom_to -target area -xl_area 458252a -yb_area 1630150a -xr_area 1375245a -yt_area 2548427a
-zoom_to -target area -xl_area 458252a -yb_area 1532417a -xr_area 1375245a -yt_area 2450694a
-zoom_to -target area -xl_area 458252a -yb_area 1495768a -xr_area 1375245a -yt_area 2414045a
-zoom_to -target area -xl_area 458252a -yb_area 1471334a -xr_area 1375245a -yt_area 2389611a
-zoom_to -target area -xl_area 458252a -yb_area 1436721a -xr_area 1375245a -yt_area 2354998a
-zoom_to -target area -xl_area 452144a -yb_area 1438756a -xr_area 1369137a -yt_area 2357033a
-zoom_to -target area -xl_area 446036a -yb_area 1438756a -xr_area 1363029a -yt_area 2357033a
-zoom_to -target area -xl_area 439927a -yb_area 1438756a -xr_area 1356920a -yt_area 2357033a
-zoom_to -target area -xl_area 433819a -yb_area 1438756a -xr_area 1350812a -yt_area 2357033a
-zoom_to -target area -xl_area 427711a -yb_area 1438756a -xr_area 1344704a -yt_area 2357033a
-zoom_to -target area -xl_area 401242a -yb_area 1438756a -xr_area 1318235a -yt_area 2357033a
-zoom_to -target area -xl_area 382917a -yb_area 1438756a -xr_area 1299910a -yt_area 2357033a
-zoom_to -target area -xl_area 358484a -yb_area 1438756a -xr_area 1275477a -yt_area 2357033a
-zoom_to -target area -xl_area 338123a -yb_area 1438756a -xr_area 1255116a -yt_area 2357033a
-zoom_to -target area -xl_area 307581a -yb_area 1438756a -xr_area 1224574a -yt_area 2357033a
-zoom_to -target area -xl_area 289257a -yb_area 1438756a -xr_area 1206250a -yt_area 2357033a
-zoom_to -target area -xl_area 275004a -yb_area 1438756a -xr_area 1191997a -yt_area 2357033a
-zoom_to -target area -xl_area 262787a -yb_area 1438756a -xr_area 1179780a -yt_area 2357033a
-zoom_to -target area -xl_area 256679a -yb_area 1438756a -xr_area 1173672a -yt_area 2357033a
-zoom_to -target area -xl_area 250571a -yb_area 1438756a -xr_area 1167564a -yt_area 2357033a
-zoom_to -target area -xl_area 238354a -yb_area 1438756a -xr_area 1155347a -yt_area 2357033a
-zoom_to -target area -xl_area 232246a -yb_area 1438756a -xr_area 1149239a -yt_area 2357033a
-zoom_to -target area -xl_area 226138a -yb_area 1438756a -xr_area 1143131a -yt_area 2357033a
-zoom_to -target area -xl_area 211885a -yb_area 1438756a -xr_area 1128878a -yt_area 2357033a
-zoom_to -target area -xl_area 205777a -yb_area 1438756a -xr_area 1122770a -yt_area 2357033a
-zoom_to -target area -xl_area 199669a -yb_area 1438756a -xr_area 1116662a -yt_area 2357033a
-zoom_to -target area -xl_area 193560a -yb_area 1438756a -xr_area 1110553a -yt_area 2357033a
-zoom_to -target area -xl_area 187452a -yb_area 1438756a -xr_area 1104445a -yt_area 2357033a
-zoom_to -target area -xl_area 181344a -yb_area 1438756a -xr_area 1098337a -yt_area 2357033a
-zoom_to -target area -xl_area 175235a -yb_area 1438756a -xr_area 1092228a -yt_area 2357033a
-zoom_to -target area -xl_area 270599a -yb_area 1476423a -xr_area 1004193a -yt_area 2211044a
-zoom_to -target area -xl_area 346890a -yb_area 1507208a -xr_area 933765a -yt_area 2094904a
-zoom_to -target area -xl_area 270925a -yb_area 1476096a -xr_area 1004518a -yt_area 2210715a
-zoom_to -target area -xl_area 176783a -yb_area 1436392a -xr_area 1093773a -yt_area 2354665a
-zoom_to -target area -xl_area 59105a -yb_area 1386762a -xr_area 1205342a -yt_area 2534603a
-zoom_to -target area -xl_area -87355a -yb_area 1324089a -xr_area 1345440a -yt_area 2758890a
-zoom_to -target area -xl_area 59106a -yb_area 1386762a -xr_area 1205341a -yt_area 2534602a
-zoom_to -target area -xl_area 176274a -yb_area 1436900a -xr_area 1093262a -yt_area 2355172a
-## trigger_gui -name design:create_pg_rings
-set_option -name window:design:create_pg_rings:state -value visible
-set_option -name trigger:design:create_pg_rings:step -value 16000
+set_option -name trigger:design:create_pg_rings:step -value 8
+set_option -name trigger:design:create_pg_rings:step -value 80
+set_option -name trigger:design:create_pg_rings:step -value 800
 set_option -name trigger:design:create_pg_rings:step -value 8000
 set_option -name trigger:design:create_pg_rings:location_left -value 1
 set_option -name trigger:design:create_pg_rings:location_right -value 1
@@ -239,12 +46,15 @@ set_option -name trigger:design:create_pg_rings:location_left -value 1400
 set_option -name trigger:design:create_pg_rings:location_right -value 1400
 set_option -name trigger:design:create_pg_rings:location_bottom -value 1400
 set_option -name trigger:design:create_pg_rings:location_top -value 1400
-create_pg_rings -nets "VDD" -window false -layers { metal8 metal8 } -widths 4000a -step 8000a -offset { 1400a 1400a 1400a 1400a } -keep_pattern all -bridge_pattern single -ignore_blockages { placement } -measure_from edge -corner_style concentric -insert_vias true -location auto
+create_pg_rings -partitions "DMA" -nets "VDD" -window false -layers { metal8 metal8 } -widths 4000a -step 8000a -offset { 1400a 1400a 1400a 1400a } -keep_pattern all -bridge_pattern single -ignore_blockages { placement } -measure_from edge -corner_style concentric -insert_vias true -location auto
 set_option -name window:design:create_pg_rings:state -value hidden
 ## trigger_gui -name design:create_pg_rings
 set_option -name window:design:create_pg_rings:state -value visible
+set_option -name window:design:create_pg_rings:location -value {50 60}
 set_option -name trigger:design:create_pg_rings:step -value 16000
 set_option -name trigger:design:create_pg_rings:step -value 8000
+set_option -name trigger:design:create_pg_rings:vertical_wire -value METAL7
+set_option -name trigger:design:create_pg_rings:horizontal_wire -value METAL7
 set_option -name trigger:design:create_pg_rings:location_left -value 400
 set_option -name trigger:design:create_pg_rings:location_right -value 400
 set_option -name trigger:design:create_pg_rings:location_bottom -value 400
@@ -253,59 +63,51 @@ set_option -name trigger:design:create_pg_rings:location_left -value 9400
 set_option -name trigger:design:create_pg_rings:location_right -value 9400
 set_option -name trigger:design:create_pg_rings:location_bottom -value 9400
 set_option -name trigger:design:create_pg_rings:location_top -value 9400
-set_option -name trigger:design:create_pg_rings:vertical_wire -value METAL7
-set_option -name trigger:design:create_pg_rings:horizontal_wire -value METAL7
-create_pg_rings -nets "VSS" -window false -layers { metal7 metal7 } -widths 4000a -step 8000a -offset { 9400a 9400a 9400a 9400a } -keep_pattern all -bridge_pattern single -ignore_blockages { placement } -measure_from edge -corner_style concentric -insert_vias true -location auto
+create_pg_rings -partitions "DMA" -nets "VSS" -window false -layers { metal7 metal7 } -widths 4000a -step 8000a -offset { 9400a 9400a 9400a 9400a } -keep_pattern all -bridge_pattern single -ignore_blockages { placement } -measure_from edge -corner_style concentric -insert_vias true -location auto
 set_option -name window:design:create_pg_rings:state -value hidden
-zoom_to -target area -xl_area 222364a -yb_area 1501036a -xr_area 955954a -yt_area 2235653a
-zoom_to -target area -xl_area 259236a -yb_area 1552345a -xr_area 846107a -yt_area 2140038a
-zoom_to -target area -xl_area 222363a -yb_area 1501036a -xr_area 955951a -yt_area 2235651a
-zoom_to -target area -xl_area 176272a -yb_area 1436900a -xr_area 1093256a -yt_area 2355168a
-zoom_to -target area -xl_area 118659a -yb_area 1356729a -xr_area 1264889a -yt_area 2504564a
 ## trigger_gui -name design:create_pg_stripes
 set_option -name window:design:create_pg_stripes:state -value visible
 set_option -name window:design:create_pg_stripes:size -value {758 575}
-set_option -name trigger:design:create_pg_stripes:layers -value METAL8
 set_option -name trigger:design:create_pg_stripes:offset_link -value true
-set_option -name trigger:design:create_pg_stripes:first_stripe -value 1
-set_option -name trigger:design:create_pg_stripes:last_stripe -value 1
-set_option -name trigger:design:create_pg_stripes:first_stripe -value 17
-set_option -name trigger:design:create_pg_stripes:last_stripe -value 17
-set_option -name trigger:design:create_pg_stripes:first_stripe -value 174
-set_option -name trigger:design:create_pg_stripes:last_stripe -value 174
-set_option -name trigger:design:create_pg_stripes:first_stripe -value 1740
-set_option -name trigger:design:create_pg_stripes:last_stripe -value 1740
+set_option -name trigger:design:create_pg_stripes:margin_link -value true
+set_option -name trigger:design:create_pg_stripes:offset_link -value false
+set_option -name trigger:design:create_pg_stripes:offset_link -value true
+set_option -name trigger:design:create_pg_stripes:layers -value METAL8
+set_option -name trigger:design:create_pg_stripes:first_stripe -value 70
+set_option -name trigger:design:create_pg_stripes:last_stripe -value 70
+set_option -name trigger:design:create_pg_stripes:first_stripe -value 740
+set_option -name trigger:design:create_pg_stripes:last_stripe -value 740
+set_option -name trigger:design:create_pg_stripes:first_stripe -value 7400
+set_option -name trigger:design:create_pg_stripes:last_stripe -value 7400
+set_option -name trigger:design:create_pg_stripes:first_stripe -value 74100
+set_option -name trigger:design:create_pg_stripes:last_stripe -value 74100
+set_option -name trigger:design:create_pg_stripes:first_stripe -value 7400
+set_option -name trigger:design:create_pg_stripes:last_stripe -value 7400
 set_option -name trigger:design:create_pg_stripes:first_stripe -value 17400
 set_option -name trigger:design:create_pg_stripes:last_stripe -value 17400
+set_option -name trigger:design:create_pg_stripes:start_length -value 1
+set_option -name trigger:design:create_pg_stripes:stop_length -value 1
+set_option -name trigger:design:create_pg_stripes:start_length -value 14
+set_option -name trigger:design:create_pg_stripes:stop_length -value 14
+set_option -name trigger:design:create_pg_stripes:start_length -value 140
+set_option -name trigger:design:create_pg_stripes:stop_length -value 140
+set_option -name trigger:design:create_pg_stripes:start_length -value 1400
+set_option -name trigger:design:create_pg_stripes:stop_length -value 1400
 set_option -name trigger:design:create_pg_stripes:step -value 16000
 set_option -name trigger:design:create_pg_stripes:step -value 8000
-set_option -name trigger:design:create_pg_stripes:start_length -value 1
-set_option -name trigger:design:create_pg_stripes:start_length -value 14
-set_option -name trigger:design:create_pg_stripes:start_length -value 140
-set_option -name trigger:design:create_pg_stripes:start_length -value 1400
-set_option -name trigger:design:create_pg_stripes:margin_link -value true
-set_option -name trigger:design:create_pg_stripes:stop_length -value 1
-set_option -name trigger:design:create_pg_stripes:start_length -value 1
-set_option -name trigger:design:create_pg_stripes:stop_length -value 14
-set_option -name trigger:design:create_pg_stripes:start_length -value 14
-set_option -name trigger:design:create_pg_stripes:stop_length -value 140
-set_option -name trigger:design:create_pg_stripes:start_length -value 140
-set_option -name trigger:design:create_pg_stripes:stop_length -value 1400
-set_option -name trigger:design:create_pg_stripes:start_length -value 1400
 create_pg_stripes -partitions "DMA" -nets "VDD" -window false -layer metal8 -widths 4000a -step 8000a -direction vertical -offset { 17400a 17400a } -margin { 1400a 1400a } -measure_from center_line -keep_pattern false -ignore_blockages { placement }
 set_option -name window:design:create_pg_stripes:state -value hidden
 ## trigger_gui -name design:create_pg_stripes
 set_option -name window:design:create_pg_stripes:state -value visible
-set_option -name trigger:design:create_pg_stripes:layers -value METAL7
-set_option -name trigger:design:create_pg_stripes:step -value 16000
-set_option -name trigger:design:create_pg_stripes:step -value 8000
 set_option -name trigger:design:create_pg_stripes:start_length -value 400
 set_option -name trigger:design:create_pg_stripes:stop_length -value 400
 set_option -name trigger:design:create_pg_stripes:start_length -value 9400
 set_option -name trigger:design:create_pg_stripes:stop_length -value 9400
+set_option -name trigger:design:create_pg_stripes:layers -value METAL7
+set_option -name trigger:design:create_pg_stripes:step -value 16000
+set_option -name trigger:design:create_pg_stripes:step -value 8000
 create_pg_stripes -partitions "DMA" -nets "VSS" -window false -layer metal7 -widths 4000a -step 8000a -direction horizontal -offset { 17400a 17400a } -margin { 9400a 9400a } -measure_from center_line -keep_pattern false -ignore_blockages { placement }
 set_option -name window:design:create_pg_stripes:state -value hidden
-set_option -name window:main:view:location -value {94 38}
 ## trigger_gui -name design:check_design
 set_option -name window:design:check_design:state -value visible
 set_option -name window:design:check_design:size -value {600 300}
@@ -443,13 +245,6 @@ source flow_scripts/3_route.tcl   > LOGs/route3.log
 # save_db -directory dbs/route.db -overwrite true -data design -cpus 4 -description 
 # config_shell -echo false
 set_option -name window:main:errors:state -value visible
-set_option -name window:main:errors:state -value hidden
-## trigger_gui -name design:check_design
-set_option -name window:design:check_design:state -value visible
-set_option -name window:design:check_design:state -value hidden
-trigger_gui -name main:view_errors
-set_option -name window:main:errors:state -value visible
+set_option -name window:main:errors:location -value {30 192}
 set_option -name window:main:errors:state -value hidden
 write_verilog -file netlist.v
-set_option -name window:main:errors:state -value visible
-set_option -name window:main:errors:state -value hidden

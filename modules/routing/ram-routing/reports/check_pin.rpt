@@ -105,4 +105,4 @@ PASSED: pin no internal leaf pin
 -----------------------------------------------------------------------------------------------------------
 
 
-info UI33: performed pin placement checker for 0 sec (CPU time: 0 sec; MEM: RSS - 192M, CVMEM - 1687M, PVMEM - 1992M)
+info UI33: performed pin placement checker for 0 sec (CPU time: 0 sec; MEM: RSS - 190M, CVMEM - 1687M, PVMEM - 1992M)

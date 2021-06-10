@@ -6,15 +6,15 @@
 ## design for NRF place and route.                 ##
 #####################################################
 
-info UI33: performed source of import_variables.tcl for 0 sec (CPU time: 0 sec; MEM: RSS - 154M, CVMEM - 1656M, PVMEM - 1656M)
+info UI33: performed source of import_variables.tcl for 0 sec (CPU time: 0 sec; MEM: RSS - 153M, CVMEM - 1656M, PVMEM - 1656M)
 NRF info: Sourcing standard NRF script /home/vlsi/Installation/Nitro/nitroPack-2019.1.R2a/nitro/ref_flows/tcl/scr/kit_utils.tcl
-info UI33: performed source of /home/vlsi/Installation/Nitro/nitroPack-2019.1.R2a/nitro/ref_flows/tcl/scr/kit_utils.tcl for 0 sec (CPU time: 0 sec; MEM: RSS - 154M, CVMEM - 1656M, PVMEM - 1656M)
+info UI33: performed source of /home/vlsi/Installation/Nitro/nitroPack-2019.1.R2a/nitro/ref_flows/tcl/scr/kit_utils.tcl for 0 sec (CPU time: 0 sec; MEM: RSS - 153M, CVMEM - 1656M, PVMEM - 1656M)
 Loading utility util::nrf_utils
 Loading utility util::save_nrf_import_vars
 NRF info: Checking import variables
-info UI33: performed source of /home/vlsi/Installation/Nitro/nitroPack-2019.1.R2a/nitro/tcl/tm.tcl for 0 sec (CPU time: 0 sec; MEM: RSS - 154M, CVMEM - 1656M, PVMEM - 1656M)
-info UI33: performed source of /home/vlsi/Installation/Nitro/nitroPack-2019.1.R2a/nitro/tcl/8.5/msgcat-1.4.2.tm for 0 sec (CPU time: 0 sec; MEM: RSS - 154M, CVMEM - 1656M, PVMEM - 1656M)
-info UI33: performed source of /home/vlsi/Installation/Nitro/nitroPack-2019.1.R2a/nitro/tcl/clock.tcl for 0 sec (CPU time: 0 sec; MEM: RSS - 155M, CVMEM - 1656M, PVMEM - 1656M)
+info UI33: performed source of /home/vlsi/Installation/Nitro/nitroPack-2019.1.R2a/nitro/tcl/tm.tcl for 0 sec (CPU time: 0 sec; MEM: RSS - 153M, CVMEM - 1656M, PVMEM - 1656M)
+info UI33: performed source of /home/vlsi/Installation/Nitro/nitroPack-2019.1.R2a/nitro/tcl/8.5/msgcat-1.4.2.tm for 0 sec (CPU time: 0 sec; MEM: RSS - 153M, CVMEM - 1656M, PVMEM - 1656M)
+info UI33: performed source of /home/vlsi/Installation/Nitro/nitroPack-2019.1.R2a/nitro/tcl/clock.tcl for 0 sec (CPU time: 0 sec; MEM: RSS - 154M, CVMEM - 1656M, PVMEM - 1656M)
 Storing TCL variables as db root property
 NRF info: MGC_libDbPath :  doesn't exist, Running library setup part of import stage and generate libs.db
 NRF info: Since TECHNO RULE File is not provided or does not exist, technology rules must come from tech lef
@@ -64,27 +64,27 @@ info SDBLEF15: Via rule 'Via7Array-0' added.
 info SDBLEF15: Via rule 'Via8Array-0' added.
 info SDBLEF15: Via rule 'Via9Array-0' added.
 info SDB2: Layer 'CO' added.
-info UI33: performed LEF read for 0 sec (CPU time: 0 sec; MEM: RSS - 157M, CVMEM - 1656M, PVMEM - 1656M)
+info UI33: performed LEF read for 0 sec (CPU time: 0 sec; MEM: RSS - 156M, CVMEM - 1656M, PVMEM - 1656M)
 NRF info: Reading Cell LEF Files
 info UI35: Reading LEF file '/home/vlsi/Desktop/Lab3PnR/lib_data/NangateOpenCellLibrary.macro.lef'.
 info SDBLEF119: Processing 'NangateOpenCellLibrary.macro' library...
-info UI33: performed LEF read for 0 sec (CPU time: 0 sec; MEM: RSS - 157M, CVMEM - 1656M, PVMEM - 1656M)
+info UI33: performed LEF read for 0 sec (CPU time: 0 sec; MEM: RSS - 156M, CVMEM - 1656M, PVMEM - 1656M)
 NRF info: Load new_rc technology .PTF
 info LIB65: Identified 'ptf' format in file 'NCSU_FreePDK_45nm.ptf'
 warning LIB47: Unknown library keyword 'thickness_unit' at line 15.
 warning LIB4: Layer 'contact' is not defined in LEF.
 warning LIB4: Layer 'diffco' is not defined in LEF.
 info LIB40: Library file '/home/vlsi/Desktop/Lab3PnR/lib_data/NCSU_FreePDK_45nm.ptf' containing library group(s) 'master_techFreePDK45 ' (renamed using prefix: 'new_rc') successfully read.
-info UI33: performed library read for 0 sec (CPU time: 0 sec; MEM: RSS - 159M, CVMEM - 1656M, PVMEM - 1656M)
+info UI33: performed library read for 0 sec (CPU time: 0 sec; MEM: RSS - 158M, CVMEM - 1656M, PVMEM - 1656M)
 info LIB65: Identified 'liberty' format in file 'NangateOpenCellLibrary_typical.lib'
 info LIB40: Library file '/home/vlsi/Desktop/Lab3PnR/lib_data/NangateOpenCellLibrary_typical.lib' containing library group(s) 'NangateOpenCellLibrary ' (renamed using prefix: 'new_pvt') successfully read.
-info UI33: performed library read for 0 sec (CPU time: 0 sec; MEM: RSS - 165M, CVMEM - 1656M, PVMEM - 1656M)
+info UI33: performed library read for 0 sec (CPU time: 0 sec; MEM: RSS - 164M, CVMEM - 1656M, PVMEM - 1656M)
 warning UI7: Argument '-select' already specified; using last value 'true'.
 Routing lib vias have been created
 Routing lib vias have been selected
 info UI36: Writing folded database file '/home/vlsi/Desktop/Lab3PnR/work/dbs/libs.db'.
 info Writing libraries...
-info UI33: performed database save for 0 sec (CPU time: 0 sec; MEM: RSS - 167M, CVMEM - 1687M, PVMEM - 1778M)
+info UI33: performed database save for 0 sec (CPU time: 0 sec; MEM: RSS - 166M, CVMEM - 1687M, PVMEM - 1778M)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Corner     | Enable | Setup | Hold  | CRPR       | SI   | Power   | EM   | Voltage Drop | DRC        | Process                    | RC Temp | Scale Factor | 
 |------------+--------+-------+-------+------------+------+---------+------+--------------+------------+----------------------------+---------+--------------|
@@ -100,7 +100,7 @@ NRF info: Reading netlist /home/vlsi/Desktop/Lab3Syn/outputs/verilog/demo_adder.
 info VLOG8: Reading verilog file '/home/vlsi/Desktop/Lab3Syn/outputs/verilog/demo_adder.syn.v'.
 info VLOG2: Parsed 1 modules.
 info SDB3: Top design set to 'DMA'.
-info UI33: performed verilog read for 0 sec (CPU time: 0 sec; MEM: RSS - 171M, CVMEM - 1687M, PVMEM - 1778M)
+info UI33: performed verilog read for 0 sec (CPU time: 0 sec; MEM: RSS - 170M, CVMEM - 1687M, PVMEM - 1778M)
 NRF info: Info: Setting delay model to voltage
 ------------------------------
 | Name  | Model | Base Model | 
@@ -128,7 +128,7 @@ NRF info: Sourcing standard NRF script /home/vlsi/Installation/Nitro/nitroPack-2
 ########################
 
 ### FLOORPLAN: Sourcing floorplan variable settings file. ###
-info UI33: performed source of floorplan_variables.tcl for 0 sec (CPU time: 0 sec; MEM: RSS - 170M, CVMEM - 1687M, PVMEM - 1778M)
+info UI33: performed source of floorplan_variables.tcl for 0 sec (CPU time: 0 sec; MEM: RSS - 169M, CVMEM - 1687M, PVMEM - 1778M)
 Loading utility util::nrf_utils
 NRF info: Checking floorplan variables
 
@@ -138,7 +138,7 @@ NRF info: Design is not MV, but reading UPF file for power intent.
 info UI420: Supply net 'VDD' inferred as power.
 info UI420: Supply net 'VSS' inferred as ground.
 info UI419: Adding port 'VDD' to current scope '/'.
-info UI33: performed source of /home/vlsi/Desktop/Lab3PnR/constraints/demo_adder.85.upf for 0 sec (CPU time: 0 sec; MEM: RSS - 172M, CVMEM - 1687M, PVMEM - 1778M)
+info UI33: performed source of /home/vlsi/Desktop/Lab3PnR/constraints/demo_adder.85.upf for 0 sec (CPU time: 0 sec; MEM: RSS - 171M, CVMEM - 1687M, PVMEM - 1778M)
 
 ### FLOORPLAN: Creating the chip based on utilization ###
 info CSDB79: Snapped chip dimensions to manufacturing grid.
@@ -184,7 +184,7 @@ info CHK10: Checking placement...
 info CHK10: Checking routing...
 PLX-INFO: Evaluating region utilizations.
 info  report_region_utilization is restricted to regions with property member_hard set to TRUE. 
-info UI30: performing global placement on partition DMA (started at Thu May 6 06:48:57 2021)
+info UI30: performing global placement on partition DMA (started at Thu May 6 08:00:16 2021)
 warning PLC2012: The port 'address[3]' is not fixed.
 warning PLC2012: The port 'address[2]' is not fixed.
 warning PLC2012: The port 'address[1]' is not fixed.
@@ -253,7 +253,7 @@ info DUM207: place_timing: re-initialized cell-density map for partition DMA old
 info DUM204: place_timing: re-initialized cell-density map for partition DMA old max-util 100 new max-util 100.
 info Total Bounding-Box Half-Perimeter Wirelength  = 3.589054e+08
 Report 'placement': Placement Report
-Generated on Thu May 6 06:49:00 2021
+Generated on Thu May 6 08:00:20 2021
   
 Cell Density Map Utilization - 529 objects 
     --- get_objects cell_density_rect -of [get_objects cell_density_map] -fi --->
@@ -290,9 +290,9 @@ Cell Density Map Utilization - 529 objects
 150 |
     V      get_property -name utilization -object %object%
 
-info UI33: performed global placement for 3 sec (CPU time: 5 sec; MEM: RSS - 184M, CVMEM - 1687M, PVMEM - 1992M)
+info UI33: performed global placement for 4 sec (CPU time: 6 sec; MEM: RSS - 183M, CVMEM - 1687M, PVMEM - 1992M)
 info CHK10: Checking placement...
-info UI30: performing detailed placement on partition DMA (started at Thu May 6 06:49:00 2021)
+info UI30: performing detailed placement on partition DMA (started at Thu May 6 08:00:20 2021)
 
 All Parameters are Set to Default Values for 'config_place_detail'
 
@@ -307,7 +307,7 @@ Calculated access for 533 core library pins:
  None    :     0 pins (no access)
  None NDR:     0 pins (no NDR via access)
 Pitch/Offset X: 1900/1000, Y: 1400/400
-Done in 0.1 (0.3 CPU) seconds, used 0 MB
+Done in 0.2 (0.5 CPU) seconds, used 0 MB
 error PG grid is not there yet.
 ----------------
 | PG structure |
@@ -322,7 +322,7 @@ error PG grid is not there yet.
 ----------------
 
 
-info UI33: performed Library cell PG blockage preparation for 0 sec (CPU time: 0 sec; MEM: RSS - 190M, CVMEM - 1687M, PVMEM - 1992M)
+info UI33: performed Library cell PG blockage preparation for 0 sec (CPU time: 0 sec; MEM: RSS - 188M, CVMEM - 1687M, PVMEM - 1992M)
 info Found 6856 movable and 0 fixed cells in partition DMA
 info DP107: Legalizer for site FreePDK45_38x28_10R_NP_162NW_34O, has 179 cut rows, with average utilization 9.28893%, utilization with cell bloats 9.28893%.
 info DP116: Legalizer has initial 6856 illegal movable cells and 0 illegal fixed cells.
@@ -350,7 +350,7 @@ info DP111: Legalization summary: total movable cells: 6856, cells moved: 6856, 
 
 info DUM207: place_detail: re-initialized cell-density map for partition DMA old bin-size 8x8 rows new bin-size 8x8 rows.
 info DUM203: place_detail: created cell-density map for partition DMA with max-util 100 and bin-size 8x8 rows.
-info UI33: performed detailed placement for 0 sec (CPU time: 0 sec; MEM: RSS - 191M, CVMEM - 1687M, PVMEM - 1992M)
+info UI33: performed detailed placement for 0 sec (CPU time: 1 sec; MEM: RSS - 190M, CVMEM - 1687M, PVMEM - 1992M)
 
 ### FLOORPLAN: Placing ports/pins ###
 info using min_layer = metal2
@@ -359,7 +359,7 @@ info Collected pin constraints
 info Placing scalar pins ...
 info Placed 2 random ports (out of 2).
 info Placed 54 pins (out of 54).
-info UI33: performed fast pin placer for 0 sec (CPU time: 0 sec; MEM: RSS - 192M, CVMEM - 1687M, PVMEM - 1992M)
+info UI33: performed fast pin placer for 0 sec (CPU time: 0 sec; MEM: RSS - 190M, CVMEM - 1687M, PVMEM - 1992M)
 
 ### FLOORPLAN: Checking pin placement ###
 
@@ -367,24 +367,24 @@ info UI33: performed fast pin placer for 0 sec (CPU time: 0 sec; MEM: RSS - 192M
 
 ### FLOORPLAN: Saving database: dbs/floorplan.db   ###
 info UI36: Writing folded database file '/home/vlsi/Desktop/Lab3PnR/work/dbs/floorplan.db'.
-info Writing partitions...
 info Writing design...
+info Writing partitions...
 info Writing timer configuration...
 info Writing SI configuration...
 info Writing Parasitic Models and Extractor configuration...
 info Writing Scan data
 info Writing Trailing data
-info UI33: performed database save for 0 sec (CPU time: 0 sec; MEM: RSS - 194M, CVMEM - 1687M, PVMEM - 1992M)
+info UI33: performed database save for 0 sec (CPU time: 0 sec; MEM: RSS - 192M, CVMEM - 1687M, PVMEM - 1992M)
 
 ### FLOORPLAN: Reporting Errors ###
 Report 'messages': Messages Report
-Generated on Thu May 6 06:49:01 2021
+Generated on Thu May 6 08:00:21 2021
 Total number of error messages:  0
 
 ########################
 ### FLOORPLAN: End ###
 ########################
-info UI33: performed source of /home/vlsi/Installation/Nitro/nitroPack-2019.1.R2a/nitro/ref_flows/tcl/scr/floorplan.tcl for 4 sec (CPU time: 6 sec; MEM: RSS - 194M, CVMEM - 1687M, PVMEM - 1992M)
+info UI33: performed source of /home/vlsi/Installation/Nitro/nitroPack-2019.1.R2a/nitro/ref_flows/tcl/scr/floorplan.tcl for 5 sec (CPU time: 8 sec; MEM: RSS - 192M, CVMEM - 1687M, PVMEM - 1992M)
 info CHK10: Checking cells...
 --------------------------------------------------------------------------------------
 |                                    Cell Errors                                     |
@@ -397,7 +397,7 @@ info CHK10: Checking cells...
 --------------------------------------------------------------------------------------
 
 
-info UI33: performed design checks for 0 sec (CPU time: 0 sec; MEM: RSS - 193M, CVMEM - 1687M, PVMEM - 1992M)
+info UI33: performed design checks for 0 sec (CPU time: 0 sec; MEM: RSS - 192M, CVMEM - 1687M, PVMEM - 1992M)
 info UI34: no objects were found for '*'
 info UI34: no objects were found for '*'
 NRF info: Creating new tracks on all layers
@@ -423,8 +423,8 @@ info Applicable corner(s) : All
 info Clock suffix : _new_mode
 info UI34: no objects were found for 'reset_n'
 error TA_CMDS1611: No valid start-points are specified for the -from argument.
-info UI33: performed read constraints of /home/vlsi/Desktop/Lab3PnR/constraints/demo_adder_func.sdc for 0 sec (CPU time: 0 sec; MEM: RSS - 193M, CVMEM - 1687M, PVMEM - 1992M)
-info UI33: performed source of nrf_customization.tcl for 0 sec (CPU time: 0 sec; MEM: RSS - 193M, CVMEM - 1687M, PVMEM - 1992M)
+info UI33: performed read constraints of /home/vlsi/Desktop/Lab3PnR/constraints/demo_adder_func.sdc for 0 sec (CPU time: 0 sec; MEM: RSS - 192M, CVMEM - 1687M, PVMEM - 1992M)
+info UI33: performed source of nrf_customization.tcl for 0 sec (CPU time: 0 sec; MEM: RSS - 192M, CVMEM - 1687M, PVMEM - 1992M)
 info UI36: Writing folded database file '/home/vlsi/Desktop/Lab3PnR/work/dbs/import.db'.
 info Writing partitions...
 info Writing design...
@@ -433,7 +433,7 @@ info Writing SI configuration...
 info Writing Parasitic Models and Extractor configuration...
 info Writing Scan data
 info Writing Trailing data
-info UI33: performed database save for 0 sec (CPU time: 0 sec; MEM: RSS - 193M, CVMEM - 1687M, PVMEM - 1992M)
+info UI33: performed database save for 0 sec (CPU time: 0 sec; MEM: RSS - 192M, CVMEM - 1687M, PVMEM - 1992M)
 NRF info: Sourcing standard NRF script /home/vlsi/Installation/Nitro/nitroPack-2019.1.R2a/nitro/ref_flows/tcl/scr/import_checks.tcl
 
  
@@ -640,7 +640,7 @@ info running report region utilization in global placement context:
 
 info  report_region_utilization is restricted to regions with property member_hard set to TRUE. 
 Report 'temp_rru': Region Utilization Report
-Generated on Thu May 6 06:49:01 2021
+Generated on Thu May 6 08:00:22 2021
   
                                          Report Region Utilization                                         
    Partition/Region MH NMH Cell Area Placeable Area Useable Area Placer Utilization(%) Silicon Utilization(%) 
@@ -657,7 +657,7 @@ NRF info: Please check the number of associated libraries in table below, each c
 
 NRF info: Please review layer resistance and capacitance values in tables below
 Report 'capacitance': Capacitance Report
-Generated on Thu May 6 06:49:02 2021
+Generated on Thu May 6 08:00:22 2021
   
                                                                 Layer Capacitance                                                                 
                             metal1      metal2      metal3    metal4     metal5     metal6     metal7    metal8     metal9     metal10    poly 
@@ -665,7 +665,7 @@ Generated on Thu May 6 06:49:02 2021
 
 
 Report 'resistance': Resistance Report
-Generated on Thu May 6 06:49:02 2021
+Generated on Thu May 6 08:00:22 2021
   
                                                                                Layer Resistance                                                                                
                                      metal1  metal2  metal3  metal4  metal5  metal6  metal7  metal8  metal9 metal10 via1  via2  via3  via4  via5  via6  via7  via8  via9   poly 
@@ -674,7 +674,7 @@ Generated on Thu May 6 06:49:02 2021
 
 NRF info: Please check timing constraints summary in table below
 Report 'report_read_constraints': User Constraints
-Generated on Thu May 6 06:49:02 2021
+Generated on Thu May 6 08:00:22 2021
   
                   USER CONSTRAINTS                  
                       MODE default MODE new_mode Total 
@@ -712,9 +712,9 @@ NRF info: Design has 9.28893 initial placement utilization.
                          FINISHED IMPORT DESIGN CHECKS PLEASE REVIEW ABOVE BEFORE PROCEEDING FURTHER  
     ###################################################################################################################### 
 
-info UI33: performed source of /home/vlsi/Installation/Nitro/nitroPack-2019.1.R2a/nitro/ref_flows/tcl/scr/import_checks.tcl for 0 sec (CPU time: 0 sec; MEM: RSS - 196M, CVMEM - 1687M, PVMEM - 1992M)
+info UI33: performed source of /home/vlsi/Installation/Nitro/nitroPack-2019.1.R2a/nitro/ref_flows/tcl/scr/import_checks.tcl for 0 sec (CPU time: 0 sec; MEM: RSS - 195M, CVMEM - 1687M, PVMEM - 1992M)
 Report 'messages': Messages Report
-Generated on Thu May 6 06:49:02 2021
+Generated on Thu May 6 08:00:22 2021
   
 --------------------------------------------------------------------------------------------------
 |                                         Error Messages                                         |
@@ -764,4 +764,4 @@ Total number of error messages:  1
 
 
 Total number of warning messages:  84
-info UI33: performed source of flow_scripts/0_import.tcl for 6 sec (CPU time: 8 sec; MEM: RSS - 196M, CVMEM - 1687M, PVMEM - 1992M)
+info UI33: performed source of flow_scripts/0_import.tcl for 7 sec (CPU time: 10 sec; MEM: RSS - 195M, CVMEM - 1687M, PVMEM - 1992M)
