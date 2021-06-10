@@ -7,6 +7,4 @@ sim:/decompress_test_bench/done \
 sim:/decompress_test_bench/out \
 sim:/decompress_test_bench/byteIndx \
 sim:/decompress_test_bench/bitIndx
-run
-run
-run
+run 900
