@@ -3,34 +3,34 @@ Report Physical info:
                         |             |Area (squm)|Leakage (uW)
 ------------------------+-------------+-----------+------------
 Design Name             |DMA          |           |            
-  Total Instances       |         4557|      12073|     225.767
+  Total Instances       |         6856|       5825|     127.123
     Macros              |            0|          0|       0.000
     Pads                |            0|          0|       0.000
     Phys                |            0|          0|       0.000
     Blackboxes          |            0|          0|       0.000
-    Cells               |         4557|      12073|     225.767
+    Cells               |         6856|       5825|     127.123
       Buffers           |            0|          0|       0.000
-      Inverters         |           11|          6|       0.158
+      Inverters         |         3705|       1971|      53.179
       Clock-Gates       |            0|          0|       0.000
-      Combinational     |         2914|       4687|      96.498
+      Combinational     |         2959|       2931|      55.048
       Latches           |            0|          0|       0.000
-      FlipFlops         |         1632|       7380|     129.111
-       Single-Bit FF    |         1632|       7380|     129.111
+      FlipFlops         |          192|        923|      18.897
+       Single-Bit FF    |          192|        923|      18.897
        Multi-Bit FF     |            0|          0|       0.000
        Clock-Gated      |            0|           |            
-       Bits             |         1632|       7380|     129.111
+       Bits             |          192|        923|      18.897
          Load-Enabled   |            0|           |            
          Clock-Gated    |            0|           |            
   Tristate Pin Count    |            0|           |            
 Physical Info           |Placed       |           |            
-  Chip Size (mm x mm)   |0.202 x 0.202|      40743|            
+  Chip Size (mm x mm)   |0.159 x 0.159|      25130|            
   Fixed Cell Area       |             |          0|            
     Phys Only           |            0|          0|            
-  Placeable Area        |             |      20042|            
-  Movable Cell Area     |             |      12073|            
+  Placeable Area        |             |       9645|            
+  Movable Cell Area     |             |       5825|            
   Utilization (%)       |           60|           |            
   Chip Utilization (%)  |           60|           |            
-  Total Wire Length (mm)|      166.118|           |            
-  Longest Wire (mm)     |        0.182|           |            
-  Average Wire (mm)     |        0.094|           |            
+  Total Wire Length (mm)|        4.202|           |            
+  Longest Wire (mm)     |        0.083|           |            
+  Average Wire (mm)     |        0.081|           |            
 ------------------------+-------------+-----------+------------
