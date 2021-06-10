@@ -1,0 +1,196 @@
+ Timing Path to bitIndx[0] 
+  
+ Path Start Point : in2[0] 
+ Path End Point   : bitIndx[0] 
+                       (rising IO latch clocked by vsysclk_new_mode) 
+ Mode             : new_mode 
+ Corner           : corner_0_0 
+ Data Cell Derate : 1 
+ Data Net Derate  : 1 
+ Clock Cell Derate: Early = 1 / Late = 1 
+ Clock Net Derate : Early = 1 / Late = 1 
+ Path Type        : min 
+ Path Group       : **feedthroughs** 
+ CRPR Threshold   : 5 
+  
+ Attributes  : U - cell is dont use 
+             : M - cell is dont modify 
+             : m - net is dont modify 
+             : n - connected (sub)net is dont modify 
+             : S - cell is size only 
+             : F - cell is fixed 
+             : C - cell has annotated timing constraints 
+             : c - pin has annotated timing constraints 
+             : A - cell is affected by case analysis 
+             : L - Estimated latency 
+             : O - CTS offset 
+  
+ Opt Attr    : I - is ideal 
+             : L - is internal logic const 
+             : K - is in clock network 
+             : M - has only don't modify nets 
+             : N - has no load pin 
+             : D - has zero or multiple drivers 
+             : G - is valid global net 
+             : T - is not switching 
+
+
+----------------------------------------------------------------------------------------------------------------------
+| Pin            Cell   Edge Arrival Delay  Slew   Wire Cap Pin Cap Total Cap Derate  Fanout  Bin Util Attr Opt Attr | 
+|--------------------------------------------------------------------------------------------------------------------|
+|    in2[0]             Rise  0.7000 0.0000 0.1000 2.58965  7.52384 10.1135           4       14.7822  cA            | 
+|    i_0_0_0/A   HA_X1  Rise  0.7000 0.0000 0.1000          3.18586                                                  | 
+|    i_0_0_0/S   HA_X1  Fall  0.7220 0.0220 0.0130 0.464048 1.54936 2.01341           1       14.7822                | 
+|    i_0_0_23/A  INV_X1 Fall  0.7220 0.0000 0.0130          1.54936                                                  | 
+|    i_0_0_23/ZN INV_X1 Rise  0.7580 0.0360 0.0270 0.587945 10      10.5879           1       14.7822                | 
+|    bitIndx[0]         Rise  0.7580 0.0000 0.0270          10                                         cA            | 
+----------------------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------
+|                                           | Time     Total    | 
+|---------------------------------------------------------------|
+| target clock vsysclk_new_mode (rise edge) |   0.0000   0.0000 | 
+| target clock cycle shift                  |   0.0000   0.0000 | 
+| output delay                              | -18.0000 -18.0000 | 
+| data required time                        | -18.0000          | 
+|                                           |                   | 
+| data arrival time                         |   0.7580          | 
+| data required time                        |  18.0000          | 
+| pessimism                                 |   0.0000          | 
+|                                           |                   | 
+| slack                                     |  18.7580          | 
+-----------------------------------------------------------------
+
+
+ Timing Path to bitIndx[1] 
+  
+ Path Start Point : in1[1] 
+ Path End Point   : bitIndx[1] 
+                       (rising IO latch clocked by vsysclk_new_mode) 
+ Mode             : new_mode 
+ Corner           : corner_0_0 
+ Data Cell Derate : 1 
+ Data Net Derate  : 1 
+ Clock Cell Derate: Early = 1 / Late = 1 
+ Clock Net Derate : Early = 1 / Late = 1 
+ Path Type        : min 
+ Path Group       : **feedthroughs** 
+ CRPR Threshold   : 5 
+  
+ Attributes  : U - cell is dont use 
+             : M - cell is dont modify 
+             : m - net is dont modify 
+             : n - connected (sub)net is dont modify 
+             : S - cell is size only 
+             : F - cell is fixed 
+             : C - cell has annotated timing constraints 
+             : c - pin has annotated timing constraints 
+             : A - cell is affected by case analysis 
+             : L - Estimated latency 
+             : O - CTS offset 
+  
+ Opt Attr    : I - is ideal 
+             : L - is internal logic const 
+             : K - is in clock network 
+             : M - has only don't modify nets 
+             : N - has no load pin 
+             : D - has zero or multiple drivers 
+             : G - is valid global net 
+             : T - is not switching 
+
+
+----------------------------------------------------------------------------------------------------------------------
+| Pin            Cell   Edge Arrival Delay  Slew   Wire Cap Pin Cap Total Cap Derate  Fanout  Bin Util Attr Opt Attr | 
+|--------------------------------------------------------------------------------------------------------------------|
+|    in1[1]             Rise  0.7000 0.0000 0.1000 3.69746  12.634  16.3314           7       14.7822  cA            | 
+|    i_0_0_1/B   FA_X1  Rise  0.7000 0.0000 0.1000          3.47199                                                  | 
+|    i_0_0_1/S   FA_X1  Rise  0.7570 0.0570 0.0100 0.383263 1.54936 1.93262           1       14.7822                | 
+|    i_0_0_22/A  INV_X1 Rise  0.7570 0.0000 0.0100          1.70023                                                  | 
+|    i_0_0_22/ZN INV_X1 Fall  0.7770 0.0200 0.0130 0.504601 10      10.5046           1       14.7822                | 
+|    bitIndx[1]         Fall  0.7770 0.0000 0.0130          10                                         cA            | 
+----------------------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------
+|                                           | Time     Total    | 
+|---------------------------------------------------------------|
+| target clock vsysclk_new_mode (rise edge) |   0.0000   0.0000 | 
+| target clock cycle shift                  |   0.0000   0.0000 | 
+| output delay                              | -18.0000 -18.0000 | 
+| data required time                        | -18.0000          | 
+|                                           |                   | 
+| data arrival time                         |   0.7770          | 
+| data required time                        |  18.0000          | 
+| pessimism                                 |   0.0000          | 
+|                                           |                   | 
+| slack                                     |  18.7770          | 
+-----------------------------------------------------------------
+
+
+ Timing Path to bitIndx[2] 
+  
+ Path Start Point : in2[1] 
+ Path End Point   : bitIndx[2] 
+                       (rising IO latch clocked by vsysclk_new_mode) 
+ Mode             : new_mode 
+ Corner           : corner_0_0 
+ Data Cell Derate : 1 
+ Data Net Derate  : 1 
+ Clock Cell Derate: Early = 1 / Late = 1 
+ Clock Net Derate : Early = 1 / Late = 1 
+ Path Type        : min 
+ Path Group       : **feedthroughs** 
+ CRPR Threshold   : 5 
+  
+ Attributes  : U - cell is dont use 
+             : M - cell is dont modify 
+             : m - net is dont modify 
+             : n - connected (sub)net is dont modify 
+             : S - cell is size only 
+             : F - cell is fixed 
+             : C - cell has annotated timing constraints 
+             : c - pin has annotated timing constraints 
+             : A - cell is affected by case analysis 
+             : L - Estimated latency 
+             : O - CTS offset 
+  
+ Opt Attr    : I - is ideal 
+             : L - is internal logic const 
+             : K - is in clock network 
+             : M - has only don't modify nets 
+             : N - has no load pin 
+             : D - has zero or multiple drivers 
+             : G - is valid global net 
+             : T - is not switching 
+
+
+---------------------------------------------------------------------------------------------------------------------
+| Pin           Cell   Edge Arrival Delay  Slew   Wire Cap Pin Cap Total Cap Derate  Fanout  Bin Util Attr Opt Attr | 
+|-------------------------------------------------------------------------------------------------------------------|
+|    in2[1]            Rise  0.7000 0.0000 0.1000 3.74481  10.9094 14.6542           6       14.7822  cA            | 
+|    i_0_0_1/A  FA_X1  Rise  0.7000 0.0000 0.1000          3.74571                                                  | 
+|    i_0_0_1/CO FA_X1  Rise  0.7650 0.0650 0.0140 1.01146  2.44348 3.45494           2       14.7822                | 
+|    i_0_1/A    INV_X1 Rise  0.7650 0.0000 0.0140          1.70023                                                  | 
+|    i_0_1/ZN   INV_X1 Fall  0.7860 0.0210 0.0130 0.4252   10      10.4252           1       14.7822                | 
+|    bitIndx[2]        Fall  0.7860 0.0000 0.0130          10                                         cA            | 
+---------------------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------
+|                                           | Time     Total    | 
+|---------------------------------------------------------------|
+| target clock vsysclk_new_mode (rise edge) |   0.0000   0.0000 | 
+| target clock cycle shift                  |   0.0000   0.0000 | 
+| output delay                              | -18.0000 -18.0000 | 
+| data required time                        | -18.0000          | 
+|                                           |                   | 
+| data arrival time                         |   0.7860          | 
+| data required time                        |  18.0000          | 
+| pessimism                                 |   0.0000          | 
+|                                           |                   | 
+| slack                                     |  18.7860          | 
+-----------------------------------------------------------------
+
+
+info UI33: performed report_timing for 0 sec (CPU time: 0 sec; MEM: RSS - 263M, CVMEM - 1752M, PVMEM - 1992M)

@@ -1,0 +1,802 @@
+#---------------------------------------------------------------------
+# start session at Thu May 6 05:50:39 2021
+# version 2019.1.R2 1.68700.2.290 Fri Nov 29 21:06:00 PST 2019 
+# Running on localhost.localdomain 4cores 7.8GBytes 2.6GHz 64bits mode pid 26582 
+# Exec path is /home/vlsi/Installation/Nitro/nitroPack-2019.1.R2a/nitro/arch/linux/x86_64/2.12/64/bin
+#---------------------------------------------------------------------
+setup_nrf
+source flow_scripts/import_variables.tcl > LOGs/import.log 
+source flow_scripts/0_import.tcl  > LOGs/import0.log 
+start
+## trigger_gui -name main:activate_window -param design:view
+set_option -name toolbar:main:floorplan:location -value {0 0}
+set_option -name toolbar:main:layers:location -value {0 0}
+set_option -name toolbar:main:interactive_modes:location -value {0 77}
+set_option -name toolbar:main:windows:location -value {60 20}
+set_option -name toolbar:main:zoom:location -value {310 20}
+set_option -name toolbar:main:custom_editing:location -value {508 20}
+set_option -name toolbar:main:objects:location -value {735 20}
+set_option -name toolbar:main:cross_probe:location -value {412 48}
+## trigger_gui -name design:create_pg_rings
+set_option -name window:design:create_pg_rings:state -value visible
+set_option -name window:design:create_pg_rings:size -value {936 603}
+set_option -name trigger:design:create_pg_rings:step -value 2700
+set_option -name trigger:design:create_pg_rings:step -value 1350
+set_option -name trigger:design:create_pg_rings:vertical_wire -value METAL8
+set_option -name trigger:design:create_pg_rings:location_left -value 1
+set_option -name trigger:design:create_pg_rings:location_right -value 1
+set_option -name trigger:design:create_pg_rings:location_bottom -value 1
+set_option -name trigger:design:create_pg_rings:location_top -value 1
+set_option -name trigger:design:create_pg_rings:location_left -value 14
+set_option -name trigger:design:create_pg_rings:location_right -value 14
+set_option -name trigger:design:create_pg_rings:location_bottom -value 14
+set_option -name trigger:design:create_pg_rings:location_top -value 14
+set_option -name trigger:design:create_pg_rings:location_left -value 140
+set_option -name trigger:design:create_pg_rings:location_right -value 140
+set_option -name trigger:design:create_pg_rings:location_bottom -value 140
+set_option -name trigger:design:create_pg_rings:location_top -value 140
+set_option -name trigger:design:create_pg_rings:location_left -value 1400
+set_option -name trigger:design:create_pg_rings:location_right -value 1400
+set_option -name trigger:design:create_pg_rings:location_bottom -value 1400
+set_option -name trigger:design:create_pg_rings:location_top -value 1400
+create_pg_rings -partitions "decompress" -nets "VDD" -window false -layers { metal1 metal8 } -widths 700a -step 1350a -offset { 1400a 1400a 1400a 1400a } -keep_pattern all -bridge_pattern single -ignore_blockages { placement } -measure_from edge -corner_style concentric -insert_vias true -location auto
+set_option -name window:design:create_pg_rings:state -value hidden
+## trigger_gui -name design:create_pg_rings
+set_option -name window:design:create_pg_rings:state -value visible
+set_option -name trigger:design:create_pg_rings:hor_ver_layer_link -value true
+set_option -name trigger:design:create_pg_rings:horizontal_wire -value METAL8
+create_pg_rings -partitions "decompress" -nets "VDD" -window false -layers { metal8 metal8 } -widths 700a -step 1350a -offset { 1400a 1400a 1400a 1400a } -keep_pattern all -bridge_pattern single -ignore_blockages { placement } -measure_from edge -corner_style concentric -insert_vias true -location auto
+set_option -name window:design:create_pg_rings:state -value hidden
+set_option -name window:main:view_options_panel:location -value {62 77}
+set_option -name window:main:view_options_panel:size -value {260 701}
+set_option -name window:hierarchy:explorer:location -value {-760 -1201}
+set_option -name window:hierarchy:explorer:size -value {260 701}
+zoom_to -target area -xl_area -18100a -yb_area 16489a -xr_area 180867a -yt_area 224977a
+zoom_to -target area -xl_area -29749a -yb_area 64136a -xr_area 83945a -yt_area 183272a
+zoom_to -target area -xl_area -32855a -yb_area 76842a -xr_area 58098a -yt_area 172150a
+zoom_to -target area -xl_area -35340a -yb_area 87007a -xr_area 37421a -yt_area 163253a
+zoom_to -target area -xl_area -37328a -yb_area 95139a -xr_area 20879a -yt_area 156135a
+zoom_to -target area -xl_area -38918a -yb_area 101644a -xr_area 7645a -yt_area 150440a
+## trigger_gui -name design:create_pg_rings
+set_option -name window:design:create_pg_rings:state -value visible
+set_option -name trigger:design:create_pg_rings:step -value 8
+set_option -name trigger:design:create_pg_rings:step -value 80
+set_option -name trigger:design:create_pg_rings:step -value 800
+set_option -name trigger:design:create_pg_rings:step -value 8000
+create_pg_rings -partitions "decompress" -nets "VDD" -window false -layers { metal8 metal8 } -widths 4000a -step 8000a -offset { 1400a 1400a 1400a 1400a } -keep_pattern all -bridge_pattern single -ignore_blockages { placement } -measure_from edge -corner_style concentric -insert_vias true -location auto
+set_option -name window:design:create_pg_rings:state -value hidden
+zoom_to -target area -xl_area -29694a -yb_area 109748a -xr_area 7554a -yt_area 148784a
+zoom_to -target area -xl_area -17398a -yb_area 120552a -xr_area 7433a -yt_area 146576a
+zoom_to -target area -xl_area -12479a -yb_area 124874a -xr_area 7384a -yt_area 145693a
+zoom_to -target area -xl_area -8544a -yb_area 128331a -xr_area 7345a -yt_area 144986a
+zoom_to -target area -xl_area -12477a -yb_area 124874a -xr_area 7382a -yt_area 145692a
+zoom_to -target area -xl_area -91153a -yb_area 55730a -xr_area 8142a -yt_area 159820a
+zoom_to -target area -xl_area -115738a -yb_area 34122a -xr_area 8379a -yt_area 164233a
+zoom_to -target area -xl_area -146470a -yb_area 7112a -xr_area 8675a -yt_area 169750a
+zoom_to -target area -xl_area -184885a -yb_area -26650a -xr_area 9045a -yt_area 176646a
+zoom_to -target area -xl_area -312935a -yb_area -139190a -xr_area 10280a -yt_area 199635a
+zoom_to -target area -xl_area -392966a -yb_area -209527a -xr_area 11051a -yt_area 214003a
+zoom_to -target area -xl_area -312934a -yb_area -139188a -xr_area 10278a -yt_area 199634a
+zoom_to -target area -xl_area -248908a -yb_area -82917a -xr_area 9660a -yt_area 188139a
+zoom_to -target area -xl_area -197687a -yb_area -37900a -xr_area 9165a -yt_area 178943a
+zoom_to -target area -xl_area -156711a -yb_area -1887a -xr_area 8769a -yt_area 171586a
+zoom_to -target area -xl_area -123930a -yb_area 26922a -xr_area 8452a -yt_area 165700a
+zoom_to -target area -xl_area -97705a -yb_area 49970a -xr_area 8199a -yt_area 160991a
+zoom_to -target area -xl_area -76725a -yb_area 68408a -xr_area 7996a -yt_area 157224a
+zoom_to -target area -xl_area -59941a -yb_area 83158a -xr_area 7834a -yt_area 154210a
+zoom_to -target area -xl_area -46514a -yb_area 94958a -xr_area 7704a -yt_area 151799a
+## trigger_gui -name design:create_pg_rings
+set_option -name window:design:create_pg_rings:state -value visible
+set_option -name trigger:design:create_pg_rings:step -value 16000
+set_option -name trigger:design:create_pg_rings:step -value 8000
+set_option -name trigger:design:create_pg_rings:location_left -value 400
+set_option -name trigger:design:create_pg_rings:location_right -value 400
+set_option -name trigger:design:create_pg_rings:location_bottom -value 400
+set_option -name trigger:design:create_pg_rings:location_top -value 400
+set_option -name trigger:design:create_pg_rings:location_left -value 9400
+set_option -name trigger:design:create_pg_rings:location_right -value 9400
+set_option -name trigger:design:create_pg_rings:location_bottom -value 9400
+set_option -name trigger:design:create_pg_rings:location_top -value 9400
+set_option -name trigger:design:create_pg_rings:vertical_wire -value METAL7
+set_option -name trigger:design:create_pg_rings:horizontal_wire -value METAL7
+create_pg_rings -partitions "decompress" -nets "VSS" -window false -layers { metal7 metal7 } -widths 4000a -step 8000a -offset { 9400a 9400a 9400a 9400a } -keep_pattern all -bridge_pattern single -ignore_blockages { placement } -measure_from edge -corner_style concentric -insert_vias true -location auto
+set_option -name window:design:create_pg_rings:state -value hidden
+zoom_to -target area -xl_area -35621a -yb_area 98600a -xr_area 7752a -yt_area 144072a
+zoom_to -target area -xl_area -46512a -yb_area 94957a -xr_area 7703a -yt_area 151797a
+zoom_to -target area -xl_area -128195a -yb_area 67640a -xr_area 7341a -yt_area 209740a
+zoom_to -target area -xl_area -162230a -yb_area 56257a -xr_area 7190a -yt_area 233882a
+zoom_to -target area -xl_area -204773a -yb_area 42029a -xr_area 7001a -yt_area 264060a
+zoom_to -target area -xl_area -346584a -yb_area -5396a -xr_area 6371a -yt_area 364654a
+zoom_to -target area -xl_area -582935a -yb_area -84437a -xr_area 5322a -yt_area 532311a
+zoom_to -target area -xl_area -464758a -yb_area -44915a -xr_area 5846a -yt_area 448482a
+zoom_to -target area -xl_area -370217a -yb_area -13298a -xr_area 6265a -yt_area 381418a
+zoom_to -target area -xl_area -294584a -yb_area 11995a -xr_area 6600a -yt_area 327767a
+## trigger_gui -name design:create_pg_stripes
+set_option -name window:design:create_pg_stripes:state -value visible
+set_option -name window:design:create_pg_stripes:size -value {758 575}
+set_option -name trigger:design:create_pg_stripes:layers -value METAL8
+set_option -name trigger:design:create_pg_stripes:step -value 16000
+set_option -name trigger:design:create_pg_stripes:step -value 8000
+set_option -name trigger:design:create_pg_stripes:offset_link -value true
+set_option -name trigger:design:create_pg_stripes:first_stripe -value 1
+set_option -name trigger:design:create_pg_stripes:last_stripe -value 1
+set_option -name trigger:design:create_pg_stripes:first_stripe -value 17
+set_option -name trigger:design:create_pg_stripes:last_stripe -value 17
+set_option -name trigger:design:create_pg_stripes:first_stripe -value 174
+set_option -name trigger:design:create_pg_stripes:last_stripe -value 174
+set_option -name trigger:design:create_pg_stripes:first_stripe -value 1740
+set_option -name trigger:design:create_pg_stripes:last_stripe -value 1740
+set_option -name trigger:design:create_pg_stripes:first_stripe -value 17400
+set_option -name trigger:design:create_pg_stripes:last_stripe -value 17400
+set_option -name trigger:design:create_pg_stripes:margin_link -value true
+set_option -name trigger:design:create_pg_stripes:margin_link -value false
+set_option -name trigger:design:create_pg_stripes:margin_link -value true
+set_option -name trigger:design:create_pg_stripes:start_length -value 1
+set_option -name trigger:design:create_pg_stripes:stop_length -value 1
+set_option -name trigger:design:create_pg_stripes:start_length -value 14
+set_option -name trigger:design:create_pg_stripes:stop_length -value 14
+set_option -name trigger:design:create_pg_stripes:start_length -value 140
+set_option -name trigger:design:create_pg_stripes:stop_length -value 140
+set_option -name trigger:design:create_pg_stripes:start_length -value 1400
+set_option -name trigger:design:create_pg_stripes:stop_length -value 1400
+create_pg_stripes -partitions "decompress" -nets "VDD" -window false -layer metal8 -widths 4000a -step 8000a -direction vertical -offset { 17400a 17400a } -margin { 1400a 1400a } -measure_from center_line -keep_pattern false -ignore_blockages { placement }
+set_option -name window:design:create_pg_stripes:state -value hidden
+zoom_to -target area -xl_area -370915a -yb_area 705a -xr_area 5564a -yt_area 395420a
+zoom_to -target area -xl_area -466328a -yb_area -13407a -xr_area 4269a -yt_area 479985a
+zoom_to -target area -xl_area -585595a -yb_area -31047a -xr_area 2650a -yt_area 585692a
+zoom_to -target area -xl_area -734679a -yb_area -53097a -xr_area 626a -yt_area 717825a
+zoom_to -target area -xl_area -585594a -yb_area -31046a -xr_area 2649a -yt_area 585690a
+zoom_to -target area -xl_area -466325a -yb_area -13405a -xr_area 4267a -yt_area 479982a
+zoom_to -target area -xl_area -370910a -yb_area 707a -xr_area 5562a -yt_area 395416a
+zoom_to -target area -xl_area -294578a -yb_area 11996a -xr_area 6598a -yt_area 327763a
+zoom_to -target area -xl_area -233512a -yb_area 21027a -xr_area 7427a -yt_area 273640a
+zoom_to -target area -xl_area -184660a -yb_area 28252a -xr_area 8090a -yt_area 230342a
+zoom_to -target area -xl_area -145579a -yb_area 34032a -xr_area 8620a -yt_area 195704a
+zoom_to -target area -xl_area -114313a -yb_area 38656a -xr_area 9044a -yt_area 167993a
+## trigger_gui -name design:create_pg_stripes
+set_option -name window:design:create_pg_stripes:state -value visible
+set_option -name trigger:design:create_pg_stripes:layers -value METAL7
+set_option -name trigger:design:create_pg_stripes:step -value 16000
+set_option -name trigger:design:create_pg_stripes:step -value 8000
+set_option -name trigger:design:create_pg_stripes:step -value 16000
+set_option -name trigger:design:create_pg_stripes:step -value 8000
+set_option -name trigger:design:create_pg_stripes:start_length -value 400
+set_option -name trigger:design:create_pg_stripes:stop_length -value 400
+set_option -name trigger:design:create_pg_stripes:start_length -value 9400
+set_option -name trigger:design:create_pg_stripes:stop_length -value 9400
+create_pg_stripes -partitions "decompress" -nets "VSS" -window false -layer metal7 -widths 4000a -step 8000a -direction horizontal -offset { 17400a 17400a } -margin { 9400a 9400a } -measure_from center_line -keep_pattern false -ignore_blockages { placement }
+set_option -name window:design:create_pg_stripes:state -value hidden
+## trigger_gui -name design:check_design
+set_option -name window:design:check_design:state -value visible
+set_option -name window:design:check_design:size -value {600 300}
+set_option -name window:design:check_design:state -value hidden
+trigger_gui -name main:view_errors
+set_option -name window:main:errors:state -value visible
+set_option -name window:main:errors:size -value {757 600}
+set_option -name window:main:errors:state -value hidden
+source flow_scripts/3_route.tcl   > LOGs/route3.log 
+# get_config -name process -param node
+# config_lib_vias -use_generated true -create true -select true -use_asymmetrical true -use_4cut true
+# config_shell -echo false
+# config_shell -echo false
+# config_timing -disable_clock_gating_checks false
+# set_crpr_spec -method graph_based
+# config_flows -preserve_rcd false
+# config_shell -echo false
+# source scr/config.tcl
+# config_timing -rc_degrade_min_slew_when_rd_less_than_rnet false
+# config_timing -disable_recovery_removal false
+# config_timing -enable_exception_proxy true
+# config_timing -disable_time_borrow false
+# config_timing -disable_annotation_factor_calc true
+# config_timing -enable_clock_propagation_through_three_state_enable_pins false
+# config_timing -disable_internal_inout_cell_paths true
+# config_timing -enable_cond_arcs_with_default true 
+# config_timing -enable_default_for_cond_arcs true
+# config_timing -enable_setup_independent_hold_checks true
+# config_timing -enable_ideal_clock_data_tags true
+# config_timing -enable_clock_gating_propagate true
+# config_timing -disable_seq_case_analysis true
+# config_timing -early_launch_at_borrowing_latches false
+# config_timing -enable_preset_clear_arcs false
+# config_timing -enable_non_unate_clock_paths true
+# config_timing -pt_min_max_compatibility on_chip_variation
+# config_timing -enable_non_unate_clock_paths true
+# config_timing -disable_sequential_generation_of_waveform_preserving_clocks false
+# config_timing -capacitance_violation_threshold 0
+# config_timing -disable_clock_gating_checks false
+# config_timing -enable_default_input_delay false
+# config_extraction -gr_short_route_gcell_span 3
+# config_extraction -search_distance_multiple 15
+# config_extraction -use_thickness_variation false
+# config_extraction -use_thickness_variation_for_cap false
+# config_extraction -use_thickness_variation_for_res true
+# config_extraction -coupling_abs_threshold 0.1f
+# config_extraction -coupling_rel_threshold 1.0
+# ta_debug -cc_ratio 0
+# config_route_timing -name dvia_mode -value dfm
+# config_place_detail -name follow_drc_for
+# source nrf_customization.tcl
+# config_extraction -use_thickness_variation false
+# config_extraction -use_thickness_variation_for_cap false
+# config_extraction -use_thickness_variation_for_res true
+# set_crpr_spec -crpr_threshold 5p
+# set_crpr_spec -method graph_based
+# set_crpr_spec -transition same_transition
+# fk_msg Max Length Constraint
+# new_config_flow -name flow_msg_prompt -quiet
+# new_config_flow -name verbose_level
+# set_max_length -length_threshold 1000u
+# report_max_length
+# fk_msg Max Length Set to 10000000
+# new_config_flow -name flow_msg_prompt -quiet
+# new_config_flow -name verbose_level
+# fk_msg Running RRT with Interleave Optimization
+# new_config_flow -name flow_msg_prompt -quiet
+# new_config_flow -name verbose_level
+# run_route_timing -mode interleave_opt -cpus 2 -messages verbose
+# help run_route_timing -return
+# print_table -title Start run_route_timing flow -column_names Argument Value -values cpus 2 messages verbose timing_mode si preserve_clocks auto save_db_stages {} stop_after false start_from false resume false skip_stages {} run_stages {} mode interleave_opt trial false dump_qor_stages {} user_params {}
+# fk_msg Setting up run_route_timing flow ...
+
+# new_config_flow -name flow_msg_prompt -quiet
+# new_config_flow -name verbose_level
+# config_messages -message_id UI24 -max_messages 0
+# config_messages -message_id UI24 -max_log_messages 0
+# config_messages -message_id UI34 -max_messages 0
+# config_messages -message_id UI34 -max_log_messages 0
+# config_messages -message_id UI54 -max_messages 0
+# config_messages -message_id UI54 -max_log_messages 0
+# config_messages -message_id UI705 -max_messages 0
+# config_messages -message_id UI705 -max_log_messages 0
+# config_messages -message_id UI156 -max_messages 0
+# config_messages -message_id UI156 -max_log_messages 0
+# config_messages -message_id config1 -max_messages 0
+# config_messages -message_id config1 -max_log_messages 0
+# config_messages -message_id config3 -max_messages 0
+# config_messages -message_id config3 -max_log_messages 0
+# config_messages -message_id config5 -max_messages 0
+# config_messages -message_id config5 -max_log_messages 0
+# config_messages -message_id CSDB57 -max_messages 0
+# config_messages -message_id CSDB57 -max_log_messages 0
+# config_messages -message_id CSDB87 -max_messages 0
+# config_messages -message_id CSDB87 -max_log_messages 0
+# config_messages -message_id TA_CMDS1618 -max_messages 0
+# config_messages -message_id TA_CMDS1618 -max_log_messages 0
+# config_messages -message_id TA_CMDS1619 -max_messages 0
+# config_messages -message_id TA_CMDS1619 -max_log_messages 0
+# config_messages -message_id TA_CMDS7412 -max_messages 0
+# config_messages -message_id TA_CMDS7412 -max_log_messages 0
+# config_messages -message_id SDB43 -max_messages 0
+# config_messages -message_id SDB43 -max_log_messages 0
+# config_messages -message_id CSDB45 -max_messages 0
+# config_messages -message_id CSDB45 -max_log_messages 0
+# fk_msg 'design' variable does not exist, using 'top_partition' as design name
+# new_config_flow -name flow_msg_prompt -quiet
+# new_config_flow -name verbose_level
+# get_top_partition
+# create_property -name tdro_last_stage -object_type root -data_type string -storage sparse -persistent true -init_value null
+# create_property -name follow_gr -object_type net -data_type integer -storage sparse -persistent true -init_value 0
+# create_property -name preserve_layer -object_type net -data_type integer -storage sparse -persistent true -init_value 0
+# create_property -name preserve_channel -object_type net -data_type integer -storage sparse -persistent true -init_value 0
+# fk_msg -set_prompt RRT
+# new_config_flow -name flow_msg_prompt -quiet
+# new_config_flow -name flow_msg_prompt -value RRT -descr Flow prefix - will appear in all messages printed by flow_msg -quiet
+# config_shell -level _d%ve_
+# fk_msg -set_verbosity_filter debug
+# new_config_flow -name verbose_level
+# new_config_flow -name verbose_level -value debug -quiet
+# config_shell -echo false
+# config_shell -ignore_errors false
+# config_application -cpus 2
+# config_timing -cpus 2
+# config_default_value -command route_global -argument check -value  technology libraries routing 
+# config_default_value -command route_global -argument messages -value normal
+# config_default_value -command route_track -argument check -value  technology libraries routing 
+# config_default_value -command route_track -argument messages -value normal
+# config_default_value -command route_final -argument check -value  technology libraries routing 
+# config_default_value -command route_final -argument messages -value normal
+# config_default_value -command route_si_repair -argument check -value  
+# config_default_value -command route_si_repair -argument messages -value normal
+# config_route_final -opt_strict_drc false
+# write_db -data design -file dbs/route.db
+# save_db -directory dbs/route.db -overwrite true -data design -cpus 4 -description 
+# config_shell -echo false
+set_option -name window:main:errors:state -value visible
+set_option -name window:main:errors:state -value hidden
+zoom_to -target area -xl_area -93373a -yb_area 44707a -xr_area 5311a -yt_area 148176a
+zoom_to -target area -xl_area -76621a -yb_area 49547a -xr_area 2325a -yt_area 132322a
+zoom_to -target area -xl_area -63219a -yb_area 53419a -xr_area -63a -yt_area 119638a
+zoom_to -target area -xl_area -52497a -yb_area 56517a -xr_area -1973a -yt_area 109491a
+zoom_to -target area -xl_area -52098a -yb_area 56598a -xr_area -1574a -yt_area 109572a
+zoom_to -target area -xl_area -48105a -yb_area 56598a -xr_area 2419a -yt_area 109572a
+zoom_to -target area -xl_area -44816a -yb_area 56598a -xr_area 5708a -yt_area 109572a
+zoom_to -target area -xl_area -29664a -yb_area 56598a -xr_area 20860a -yt_area 109572a
+zoom_to -target area -xl_area -17918a -yb_area 56598a -xr_area 32606a -yt_area 109572a
+zoom_to -target area -xl_area -10166a -yb_area 56598a -xr_area 40358a -yt_area 109572a
+zoom_to -target area -xl_area -1708a -yb_area 56598a -xr_area 48816a -yt_area 109572a
+zoom_to -target area -xl_area 2755a -yb_area 56598a -xr_area 53279a -yt_area 109572a
+zoom_to -target area -xl_area 7218a -yb_area 56598a -xr_area 57742a -yt_area 109572a
+zoom_to -target area -xl_area 15088a -yb_area 56598a -xr_area 65612a -yt_area 109572a
+zoom_to -target area -xl_area 20609a -yb_area 56598a -xr_area 71133a -yt_area 109572a
+zoom_to -target area -xl_area 33999a -yb_area 56598a -xr_area 84523a -yt_area 109572a
+zoom_to -target area -xl_area 68767a -yb_area 56598a -xr_area 119291a -yt_area 109572a
+zoom_to -target area -xl_area 90497a -yb_area 56598a -xr_area 141021a -yt_area 109572a
+zoom_to -target area -xl_area 101773a -yb_area 56598a -xr_area 152297a -yt_area 109572a
+zoom_to -target area -xl_area 105062a -yb_area 56598a -xr_area 155586a -yt_area 109572a
+zoom_to -target area -xl_area 105649a -yb_area 56598a -xr_area 156173a -yt_area 109572a
+zoom_to -target area -xl_area 107293a -yb_area 56598a -xr_area 157817a -yt_area 109572a
+zoom_to -target area -xl_area 111170a -yb_area 56598a -xr_area 161694a -yt_area 109572a
+zoom_to -target area -xl_area 117843a -yb_area 60345a -xr_area 158262a -yt_area 102724a
+zoom_to -target area -xl_area 131189a -yb_area 67838a -xr_area 151398a -yt_area 89027a
+zoom_to -target area -xl_area 133858a -yb_area 69336a -xr_area 150025a -yt_area 86287a
+zoom_to -target area -xl_area 135993a -yb_area 70535a -xr_area 148926a -yt_area 84095a
+zoom_to -target area -xl_area 133857a -yb_area 69336a -xr_area 150023a -yt_area 86286a
+zoom_to -target area -xl_area 131188a -yb_area 67837a -xr_area 151395a -yt_area 89024a
+zoom_to -target area -xl_area 127852a -yb_area 65964a -xr_area 153110a -yt_area 92446a
+zoom_to -target area -xl_area 123682a -yb_area 63622a -xr_area 155254a -yt_area 96724a
+zoom_to -target area -xl_area 118469a -yb_area 60695a -xr_area 157934a -yt_area 102072a
+zoom_to -target area -xl_area 111953a -yb_area 57036a -xr_area 161284a -yt_area 108757a
+zoom_to -target area -xl_area 103808a -yb_area 52463a -xr_area 165471a -yt_area 117113a
+zoom_to -target area -xl_area 93627a -yb_area 46747a -xr_area 170705a -yt_area 127558a
+zoom_to -target area -xl_area 80901a -yb_area 39602a -xr_area 177248a -yt_area 140615a
+zoom_to -target area -xl_area 64994a -yb_area 30671a -xr_area 185427a -yt_area 156936a
+zoom_to -target area -xl_area 45110a -yb_area 19507a -xr_area 195651a -yt_area 177338a
+zoom_to -target area -xl_area 20256a -yb_area 5552a -xr_area 208431a -yt_area 202840a
+zoom_to -target area -xl_area 45110a -yb_area 19506a -xr_area 195649a -yt_area 177336a
+zoom_to -target area -xl_area 64993a -yb_area 30669a -xr_area 185424a -yt_area 156933a
+zoom_to -target area -xl_area 45110a -yb_area 19505a -xr_area 195648a -yt_area 177334a
+set_option -name view:design:scheme0:layer1:global_route:wire:visible -value true
+set_option -name view:design:scheme0:layer3:global_route:wire:visible -value true
+set_option -name view:design:scheme0:layer5:global_route:wire:visible -value true
+set_option -name view:design:scheme0:layer7:global_route:wire:visible -value true
+set_option -name view:design:scheme0:layer9:global_route:wire:visible -value true
+set_option -name view:design:scheme0:layer11:global_route:wire:visible -value true
+set_option -name view:design:scheme0:layer13:global_route:wire:visible -value true
+set_option -name view:design:scheme0:layer15:global_route:wire:visible -value true
+set_option -name view:design:scheme0:layer17:global_route:wire:visible -value true
+set_option -name view:design:scheme0:layer19:global_route:wire:visible -value true
+zoom_to -target area -xl_area 92370a -yb_area 63346a -xr_area 159275a -yt_area 133491a
+set_option -name view:design:scheme0:layer1:global_route:wire:visible -value false
+set_option -name view:design:scheme0:layer3:global_route:wire:visible -value false
+set_option -name view:design:scheme0:layer5:global_route:wire:visible -value false
+set_option -name view:design:scheme0:layer7:global_route:wire:visible -value false
+set_option -name view:design:scheme0:layer9:global_route:wire:visible -value false
+set_option -name view:design:scheme0:layer11:global_route:wire:visible -value false
+set_option -name view:design:scheme0:layer13:global_route:wire:visible -value false
+set_option -name view:design:scheme0:layer15:global_route:wire:visible -value false
+set_option -name view:design:scheme0:layer17:global_route:wire:visible -value false
+set_option -name view:design:scheme0:layer19:global_route:wire:visible -value false
+set_option -name view:design:scheme0:layer1:pre_route:via_top:visible -value false
+set_option -name view:design:scheme0:layer1:pre_route:via_bottom:visible -value false
+set_option -name view:design:scheme0:layer13:pre_route:via_top:visible -value false
+set_option -name view:design:scheme0:layer13:pre_route:via_bottom:visible -value false
+set_option -name view:design:scheme0:layer15:pre_route:via_top:visible -value false
+set_option -name view:design:scheme0:layer15:pre_route:via_bottom:visible -value false
+set_option -name view:design:scheme0:layer1:pre_route:via_top:visible -value true
+set_option -name view:design:scheme0:layer1:pre_route:via_bottom:visible -value true
+set_option -name view:design:scheme0:layer0:pre_route:via_cut:visible -value true
+set_option -name view:design:scheme0:layer3:pre_route:via_top:visible -value true
+set_option -name view:design:scheme0:layer3:pre_route:via_bottom:visible -value true
+set_option -name view:design:scheme0:layer2:pre_route:via_cut:visible -value true
+set_option -name view:design:scheme0:layer5:pre_route:via_top:visible -value true
+set_option -name view:design:scheme0:layer5:pre_route:via_bottom:visible -value true
+set_option -name view:design:scheme0:layer4:pre_route:via_cut:visible -value true
+set_option -name view:design:scheme0:layer7:pre_route:via_top:visible -value true
+set_option -name view:design:scheme0:layer7:pre_route:via_bottom:visible -value true
+set_option -name view:design:scheme0:layer6:pre_route:via_cut:visible -value true
+set_option -name view:design:scheme0:layer9:pre_route:via_top:visible -value true
+set_option -name view:design:scheme0:layer9:pre_route:via_bottom:visible -value true
+set_option -name view:design:scheme0:layer8:pre_route:via_cut:visible -value true
+set_option -name view:design:scheme0:layer11:pre_route:via_top:visible -value true
+set_option -name view:design:scheme0:layer11:pre_route:via_bottom:visible -value true
+set_option -name view:design:scheme0:layer10:pre_route:via_cut:visible -value true
+set_option -name view:design:scheme0:layer13:pre_route:via_top:visible -value true
+set_option -name view:design:scheme0:layer13:pre_route:via_bottom:visible -value true
+set_option -name view:design:scheme0:layer12:pre_route:via_cut:visible -value true
+set_option -name view:design:scheme0:layer15:pre_route:via_top:visible -value true
+set_option -name view:design:scheme0:layer15:pre_route:via_bottom:visible -value true
+set_option -name view:design:scheme0:layer14:pre_route:via_cut:visible -value true
+set_option -name view:design:scheme0:layer17:pre_route:via_top:visible -value true
+set_option -name view:design:scheme0:layer17:pre_route:via_bottom:visible -value true
+set_option -name view:design:scheme0:layer16:pre_route:via_cut:visible -value true
+set_option -name view:design:scheme0:layer19:pre_route:via_top:visible -value true
+set_option -name view:design:scheme0:layer19:pre_route:via_bottom:visible -value true
+set_option -name view:design:scheme0:layer18:pre_route:via_cut:visible -value true
+set_option -name view:design:scheme0:layer1:cell_layout:visible -value true
+set_option -name view:design:scheme0:layer3:cell_layout:visible -value true
+set_option -name view:design:scheme0:layer5:cell_layout:visible -value true
+set_option -name view:design:scheme0:layer7:cell_layout:visible -value true
+set_option -name view:design:scheme0:layer9:cell_layout:visible -value true
+set_option -name view:design:scheme0:layer11:cell_layout:visible -value true
+set_option -name view:design:scheme0:layer13:cell_layout:visible -value true
+set_option -name view:design:scheme0:layer15:cell_layout:visible -value true
+set_option -name view:design:scheme0:layer17:cell_layout:visible -value true
+set_option -name view:design:scheme0:layer19:cell_layout:visible -value true
+set_option -name view:design:scheme0:layer1:cell_layout:visible -value false
+set_option -name view:design:scheme0:layer3:cell_layout:visible -value false
+set_option -name view:design:scheme0:layer5:cell_layout:visible -value false
+set_option -name view:design:scheme0:layer7:cell_layout:visible -value false
+set_option -name view:design:scheme0:layer9:cell_layout:visible -value false
+set_option -name view:design:scheme0:layer11:cell_layout:visible -value false
+set_option -name view:design:scheme0:layer13:cell_layout:visible -value false
+set_option -name view:design:scheme0:layer15:cell_layout:visible -value false
+set_option -name view:design:scheme0:layer17:cell_layout:visible -value false
+set_option -name view:design:scheme0:layer19:cell_layout:visible -value false
+set_option -name view:design:scheme0:layer108:blockage:visible -value true
+set_option -name view:design:scheme0:layer108:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer107:blockage:visible -value true
+set_option -name view:design:scheme0:layer107:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer106:blockage:visible -value true
+set_option -name view:design:scheme0:layer106:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer105:blockage:visible -value true
+set_option -name view:design:scheme0:layer105:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer104:blockage:visible -value true
+set_option -name view:design:scheme0:layer104:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer103:blockage:visible -value true
+set_option -name view:design:scheme0:layer103:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer102:blockage:visible -value true
+set_option -name view:design:scheme0:layer102:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer101:blockage:visible -value true
+set_option -name view:design:scheme0:layer101:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer100:blockage:visible -value true
+set_option -name view:design:scheme0:layer100:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer87:blockage:visible -value true
+set_option -name view:design:scheme0:layer87:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer86:blockage:visible -value true
+set_option -name view:design:scheme0:layer86:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer85:blockage:visible -value true
+set_option -name view:design:scheme0:layer85:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer84:blockage:visible -value true
+set_option -name view:design:scheme0:layer84:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer83:blockage:visible -value true
+set_option -name view:design:scheme0:layer83:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer82:blockage:visible -value true
+set_option -name view:design:scheme0:layer82:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer81:blockage:visible -value true
+set_option -name view:design:scheme0:layer81:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer80:blockage:visible -value true
+set_option -name view:design:scheme0:layer80:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer19:blockage:visible -value true
+set_option -name view:design:scheme0:layer19:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer18:blockage:visible -value true
+set_option -name view:design:scheme0:layer18:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer17:blockage:visible -value true
+set_option -name view:design:scheme0:layer17:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer16:blockage:visible -value true
+set_option -name view:design:scheme0:layer16:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer15:blockage:visible -value true
+set_option -name view:design:scheme0:layer15:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer14:blockage:visible -value true
+set_option -name view:design:scheme0:layer14:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer13:blockage:visible -value true
+set_option -name view:design:scheme0:layer13:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer12:blockage:visible -value true
+set_option -name view:design:scheme0:layer12:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer11:blockage:visible -value true
+set_option -name view:design:scheme0:layer11:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer10:blockage:visible -value true
+set_option -name view:design:scheme0:layer10:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer9:blockage:visible -value true
+set_option -name view:design:scheme0:layer9:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer8:blockage:visible -value true
+set_option -name view:design:scheme0:layer8:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer7:blockage:visible -value true
+set_option -name view:design:scheme0:layer7:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer6:blockage:visible -value true
+set_option -name view:design:scheme0:layer6:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer5:blockage:visible -value true
+set_option -name view:design:scheme0:layer5:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer4:blockage:visible -value true
+set_option -name view:design:scheme0:layer4:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer3:blockage:visible -value true
+set_option -name view:design:scheme0:layer3:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer2:blockage:visible -value true
+set_option -name view:design:scheme0:layer2:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer1:blockage:visible -value true
+set_option -name view:design:scheme0:layer1:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer0:blockage:visible -value true
+set_option -name view:design:scheme0:layer0:cell_blockage:visible -value true
+set_option -name view:design:scheme0:layer108:blockage:visible -value false
+set_option -name view:design:scheme0:layer108:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer107:blockage:visible -value false
+set_option -name view:design:scheme0:layer107:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer106:blockage:visible -value false
+set_option -name view:design:scheme0:layer106:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer105:blockage:visible -value false
+set_option -name view:design:scheme0:layer105:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer104:blockage:visible -value false
+set_option -name view:design:scheme0:layer104:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer103:blockage:visible -value false
+set_option -name view:design:scheme0:layer103:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer102:blockage:visible -value false
+set_option -name view:design:scheme0:layer102:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer101:blockage:visible -value false
+set_option -name view:design:scheme0:layer101:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer100:blockage:visible -value false
+set_option -name view:design:scheme0:layer100:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer87:blockage:visible -value false
+set_option -name view:design:scheme0:layer87:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer86:blockage:visible -value false
+set_option -name view:design:scheme0:layer86:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer85:blockage:visible -value false
+set_option -name view:design:scheme0:layer85:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer84:blockage:visible -value false
+set_option -name view:design:scheme0:layer84:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer83:blockage:visible -value false
+set_option -name view:design:scheme0:layer83:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer82:blockage:visible -value false
+set_option -name view:design:scheme0:layer82:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer81:blockage:visible -value false
+set_option -name view:design:scheme0:layer81:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer80:blockage:visible -value false
+set_option -name view:design:scheme0:layer80:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer19:blockage:visible -value false
+set_option -name view:design:scheme0:layer19:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer18:blockage:visible -value false
+set_option -name view:design:scheme0:layer18:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer17:blockage:visible -value false
+set_option -name view:design:scheme0:layer17:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer16:blockage:visible -value false
+set_option -name view:design:scheme0:layer16:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer15:blockage:visible -value false
+set_option -name view:design:scheme0:layer15:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer14:blockage:visible -value false
+set_option -name view:design:scheme0:layer14:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer13:blockage:visible -value false
+set_option -name view:design:scheme0:layer13:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer12:blockage:visible -value false
+set_option -name view:design:scheme0:layer12:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer11:blockage:visible -value false
+set_option -name view:design:scheme0:layer11:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer10:blockage:visible -value false
+set_option -name view:design:scheme0:layer10:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer9:blockage:visible -value false
+set_option -name view:design:scheme0:layer9:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer8:blockage:visible -value false
+set_option -name view:design:scheme0:layer8:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer7:blockage:visible -value false
+set_option -name view:design:scheme0:layer7:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer6:blockage:visible -value false
+set_option -name view:design:scheme0:layer6:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer5:blockage:visible -value false
+set_option -name view:design:scheme0:layer5:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer4:blockage:visible -value false
+set_option -name view:design:scheme0:layer4:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer3:blockage:visible -value false
+set_option -name view:design:scheme0:layer3:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer2:blockage:visible -value false
+set_option -name view:design:scheme0:layer2:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer1:blockage:visible -value false
+set_option -name view:design:scheme0:layer1:cell_blockage:visible -value false
+set_option -name view:design:scheme0:layer0:blockage:visible -value false
+set_option -name view:design:scheme0:layer0:cell_blockage:visible -value false
+zoom_to -target area -xl_area 84901a -yb_area 55200a -xr_area 168532a -yt_area 142881a
+zoom_to -target area -xl_area 92175a -yb_area 63151a -xr_area 159079a -yt_area 133295a
+zoom_to -target area -xl_area 97994a -yb_area 69512a -xr_area 151517a -yt_area 125627a
+zoom_to -target area -xl_area 102649a -yb_area 74600a -xr_area 145467a -yt_area 119492a
+zoom_to -target area -xl_area 106373a -yb_area 78671a -xr_area 140627a -yt_area 114584a
+zoom_to -target area -xl_area 111338a -yb_area 84099a -xr_area 134174a -yt_area 108041a
+zoom_to -target area -xl_area 114648a -yb_area 87717a -xr_area 129872a -yt_area 103678a
+zoom_to -target area -xl_area 117958a -yb_area 91335a -xr_area 125570a -yt_area 99315a
+zoom_to -target area -xl_area 118620a -yb_area 92059a -xr_area 124709a -yt_area 98442a
+zoom_to -target area -xl_area 117958a -yb_area 91335a -xr_area 125569a -yt_area 99313a
+zoom_to -target area -xl_area 104718a -yb_area 76863a -xr_area 142773a -yt_area 116753a
+zoom_to -target area -xl_area 38518a -yb_area 4515a -xr_area 228793a -yt_area 203965a
+zoom_to -target area -xl_area 17829a -yb_area -18094a -xr_area 255672a -yt_area 231217a
+zoom_to -target area -xl_area 38517a -yb_area 4515a -xr_area 228791a -yt_area 203963a
+zoom_to -target area -xl_area 55068a -yb_area 22602a -xr_area 207286a -yt_area 182160a
+zoom_to -target area -xl_area 68308a -yb_area 37072a -xr_area 190082a -yt_area 164718a
+set_option -name view:design:scheme0:layer1:cell_layout:visible -value true
+set_option -name view:design:scheme0:layer3:cell_layout:visible -value true
+set_option -name view:design:scheme0:layer5:cell_layout:visible -value true
+set_option -name view:design:scheme0:layer7:cell_layout:visible -value true
+set_option -name view:design:scheme0:layer9:cell_layout:visible -value true
+set_option -name view:design:scheme0:layer11:cell_layout:visible -value true
+set_option -name view:design:scheme0:layer13:cell_layout:visible -value true
+set_option -name view:design:scheme0:layer15:cell_layout:visible -value true
+set_option -name view:design:scheme0:layer17:cell_layout:visible -value true
+set_option -name view:design:scheme0:layer19:cell_layout:visible -value true
+set_option -name view:design:scheme0:layer1:final_route:via_top:visible -value true
+set_option -name view:design:scheme0:layer1:final_route:via_bottom:visible -value true
+set_option -name view:design:scheme0:layer0:final_route:via_cut:visible -value true
+set_option -name view:design:scheme0:layer3:final_route:via_top:visible -value true
+set_option -name view:design:scheme0:layer3:final_route:via_bottom:visible -value true
+set_option -name view:design:scheme0:layer2:final_route:via_cut:visible -value true
+set_option -name view:design:scheme0:layer5:final_route:via_top:visible -value true
+set_option -name view:design:scheme0:layer5:final_route:via_bottom:visible -value true
+set_option -name view:design:scheme0:layer4:final_route:via_cut:visible -value true
+set_option -name view:design:scheme0:layer7:final_route:via_top:visible -value true
+set_option -name view:design:scheme0:layer7:final_route:via_bottom:visible -value true
+set_option -name view:design:scheme0:layer6:final_route:via_cut:visible -value true
+set_option -name view:design:scheme0:layer9:final_route:via_top:visible -value true
+set_option -name view:design:scheme0:layer9:final_route:via_bottom:visible -value true
+set_option -name view:design:scheme0:layer8:final_route:via_cut:visible -value true
+set_option -name view:design:scheme0:layer11:final_route:via_top:visible -value true
+set_option -name view:design:scheme0:layer11:final_route:via_bottom:visible -value true
+set_option -name view:design:scheme0:layer10:final_route:via_cut:visible -value true
+set_option -name view:design:scheme0:layer13:final_route:via_top:visible -value true
+set_option -name view:design:scheme0:layer13:final_route:via_bottom:visible -value true
+set_option -name view:design:scheme0:layer12:final_route:via_cut:visible -value true
+set_option -name view:design:scheme0:layer15:final_route:via_top:visible -value true
+set_option -name view:design:scheme0:layer15:final_route:via_bottom:visible -value true
+set_option -name view:design:scheme0:layer14:final_route:via_cut:visible -value true
+set_option -name view:design:scheme0:layer17:final_route:via_top:visible -value true
+set_option -name view:design:scheme0:layer17:final_route:via_bottom:visible -value true
+set_option -name view:design:scheme0:layer16:final_route:via_cut:visible -value true
+set_option -name view:design:scheme0:layer19:final_route:via_top:visible -value true
+set_option -name view:design:scheme0:layer19:final_route:via_bottom:visible -value true
+set_option -name view:design:scheme0:layer18:final_route:via_cut:visible -value true
+set_option -name view:design:scheme0:layer1:final_route:via_top:visible -value false
+set_option -name view:design:scheme0:layer1:final_route:via_bottom:visible -value false
+set_option -name view:design:scheme0:layer0:final_route:via_cut:visible -value false
+set_option -name view:design:scheme0:layer3:final_route:via_top:visible -value false
+set_option -name view:design:scheme0:layer3:final_route:via_bottom:visible -value false
+set_option -name view:design:scheme0:layer2:final_route:via_cut:visible -value false
+set_option -name view:design:scheme0:layer5:final_route:via_top:visible -value false
+set_option -name view:design:scheme0:layer5:final_route:via_bottom:visible -value false
+set_option -name view:design:scheme0:layer4:final_route:via_cut:visible -value false
+set_option -name view:design:scheme0:layer7:final_route:via_top:visible -value false
+set_option -name view:design:scheme0:layer7:final_route:via_bottom:visible -value false
+set_option -name view:design:scheme0:layer6:final_route:via_cut:visible -value false
+set_option -name view:design:scheme0:layer9:final_route:via_top:visible -value false
+set_option -name view:design:scheme0:layer9:final_route:via_bottom:visible -value false
+set_option -name view:design:scheme0:layer8:final_route:via_cut:visible -value false
+set_option -name view:design:scheme0:layer11:final_route:via_top:visible -value false
+set_option -name view:design:scheme0:layer11:final_route:via_bottom:visible -value false
+set_option -name view:design:scheme0:layer10:final_route:via_cut:visible -value false
+set_option -name view:design:scheme0:layer13:final_route:via_top:visible -value false
+set_option -name view:design:scheme0:layer13:final_route:via_bottom:visible -value false
+set_option -name view:design:scheme0:layer12:final_route:via_cut:visible -value false
+set_option -name view:design:scheme0:layer15:final_route:via_top:visible -value false
+set_option -name view:design:scheme0:layer15:final_route:via_bottom:visible -value false
+set_option -name view:design:scheme0:layer14:final_route:via_cut:visible -value false
+set_option -name view:design:scheme0:layer17:final_route:via_top:visible -value false
+set_option -name view:design:scheme0:layer17:final_route:via_bottom:visible -value false
+set_option -name view:design:scheme0:layer16:final_route:via_cut:visible -value false
+set_option -name view:design:scheme0:layer19:final_route:via_top:visible -value false
+set_option -name view:design:scheme0:layer19:final_route:via_bottom:visible -value false
+set_option -name view:design:scheme0:layer18:final_route:via_cut:visible -value false
+set_option -name view:design:scheme0:layer1:pre_route:wire:visible -value false
+set_option -name view:design:scheme0:layer13:pre_route:wire:visible -value false
+set_option -name view:design:scheme0:layer15:pre_route:wire:visible -value false
+set_option -name view:design:scheme0:layer1:final_route:wire:visible -value true
+set_option -name view:design:scheme0:layer3:final_route:wire:visible -value true
+set_option -name view:design:scheme0:layer5:final_route:wire:visible -value true
+set_option -name view:design:scheme0:layer7:final_route:wire:visible -value true
+set_option -name view:design:scheme0:layer9:final_route:wire:visible -value true
+set_option -name view:design:scheme0:layer11:final_route:wire:visible -value true
+set_option -name view:design:scheme0:layer13:final_route:wire:visible -value true
+set_option -name view:design:scheme0:layer15:final_route:wire:visible -value true
+set_option -name view:design:scheme0:layer17:final_route:wire:visible -value true
+set_option -name view:design:scheme0:layer19:final_route:wire:visible -value true
+set_option -name view:design:scheme0:layer1:pre_route:wire:visible -value true
+set_option -name view:design:scheme0:layer3:pre_route:wire:visible -value true
+set_option -name view:design:scheme0:layer5:pre_route:wire:visible -value true
+set_option -name view:design:scheme0:layer7:pre_route:wire:visible -value true
+set_option -name view:design:scheme0:layer9:pre_route:wire:visible -value true
+set_option -name view:design:scheme0:layer11:pre_route:wire:visible -value true
+set_option -name view:design:scheme0:layer13:pre_route:wire:visible -value true
+set_option -name view:design:scheme0:layer15:pre_route:wire:visible -value true
+set_option -name view:design:scheme0:layer17:pre_route:wire:visible -value true
+set_option -name view:design:scheme0:layer19:pre_route:wire:visible -value true
+set_option -name view:design:scheme0:layer1:global_route:wire:visible -value true
+set_option -name view:design:scheme0:layer3:global_route:wire:visible -value true
+set_option -name view:design:scheme0:layer5:global_route:wire:visible -value true
+set_option -name view:design:scheme0:layer7:global_route:wire:visible -value true
+set_option -name view:design:scheme0:layer9:global_route:wire:visible -value true
+set_option -name view:design:scheme0:layer11:global_route:wire:visible -value true
+set_option -name view:design:scheme0:layer13:global_route:wire:visible -value true
+set_option -name view:design:scheme0:layer15:global_route:wire:visible -value true
+set_option -name view:design:scheme0:layer17:global_route:wire:visible -value true
+set_option -name view:design:scheme0:layer19:global_route:wire:visible -value true
+zoom_to -target area -xl_area 83655a -yb_area 50459a -xr_area 181074a -yt_area 152575a
+zoom_to -target area -xl_area 114349a -yb_area 77233a -xr_area 163058a -yt_area 128290a
+zoom_to -target area -xl_area 124580a -yb_area 86157a -xr_area 157052a -yt_area 120195a
+zoom_to -target area -xl_area 128672a -yb_area 89727a -xr_area 154649a -yt_area 116956a
+zoom_to -target area -xl_area 131946a -yb_area 92582a -xr_area 152727a -yt_area 114365a
+zoom_to -target area -xl_area 134565a -yb_area 94866a -xr_area 151189a -yt_area 112292a
+zoom_to -target area -xl_area 131946a -yb_area 92581a -xr_area 152726a -yt_area 114363a
+zoom_to -target area -xl_area 128672a -yb_area 89725a -xr_area 154647a -yt_area 116952a
+zoom_to -target area -xl_area 40223a -yb_area 89771a -xr_area 66198a -yt_area 116998a
+zoom_to -target area -xl_area 39679a -yb_area 89771a -xr_area 65654a -yt_area 116998a
+zoom_to -target area -xl_area 39076a -yb_area 89771a -xr_area 65051a -yt_area 116998a
+zoom_to -target area -xl_area 37446a -yb_area 89771a -xr_area 63421a -yt_area 116998a
+zoom_to -target area -xl_area 36842a -yb_area 89771a -xr_area 62817a -yt_area 116998a
+zoom_to -target area -xl_area 30141a -yb_area 89771a -xr_area 56116a -yt_area 116998a
+zoom_to -target area -xl_area 22896a -yb_area 89771a -xr_area 48871a -yt_area 116998a
+zoom_to -target area -xl_area 12271a -yb_area 89771a -xr_area 38246a -yt_area 116998a
+zoom_to -target area -xl_area 7261a -yb_area 89771a -xr_area 33236a -yt_area 116998a
+zoom_to -target area -xl_area 3337a -yb_area 89771a -xr_area 29312a -yt_area 116998a
+zoom_to -target area -xl_area -5598a -yb_area 89771a -xr_area 20377a -yt_area 116998a
+zoom_to -target area -xl_area -9522a -yb_area 89771a -xr_area 16453a -yt_area 116998a
+zoom_to -target area -xl_area -20148a -yb_area 89771a -xr_area 5827a -yt_area 116998a
+zoom_to -target area -xl_area -23529a -yb_area 89771a -xr_area 2446a -yt_area 116998a
+zoom_to -target area -xl_area -26306a -yb_area 89771a -xr_area -331a -yt_area 116998a
+zoom_to -target area -xl_area -29083a -yb_area 89771a -xr_area -3108a -yt_area 116998a
+zoom_to -target area -xl_area -30230a -yb_area 89771a -xr_area -4255a -yt_area 116998a
+zoom_to -target area -xl_area -31921a -yb_area 89771a -xr_area -5946a -yt_area 116998a
+zoom_to -target area -xl_area -31378a -yb_area 89771a -xr_area -5403a -yt_area 116998a
+zoom_to -target area -xl_area -29084a -yb_area 89771a -xr_area -3109a -yt_area 116998a
+zoom_to -target area -xl_area -25221a -yb_area 89771a -xr_area 754a -yt_area 116998a
+zoom_to -target area -xl_area -15139a -yb_area 89771a -xr_area 10836a -yt_area 116998a
+zoom_to -target area -xl_area -11758a -yb_area 89771a -xr_area 14217a -yt_area 116998a
+zoom_to -target area -xl_area -7290a -yb_area 89771a -xr_area 18685a -yt_area 116998a
+zoom_to -target area -xl_area -5056a -yb_area 89771a -xr_area 20919a -yt_area 116998a
+zoom_to -target area -xl_area -3969a -yb_area 89771a -xr_area 22006a -yt_area 116998a
+zoom_to -target area -xl_area -1736a -yb_area 89771a -xr_area 24239a -yt_area 116998a
+zoom_to -target area -xl_area -589a -yb_area 89771a -xr_area 25386a -yt_area 116998a
+zoom_to -target area -xl_area 1102a -yb_area 89771a -xr_area 27077a -yt_area 116998a
+zoom_to -target area -xl_area 7260a -yb_area 89771a -xr_area 33235a -yt_area 116998a
+zoom_to -target area -xl_area 13357a -yb_area 89771a -xr_area 39332a -yt_area 116998a
+zoom_to -target area -xl_area 17885a -yb_area 89771a -xr_area 43860a -yt_area 116998a
+zoom_to -target area -xl_area 20118a -yb_area 89771a -xr_area 46093a -yt_area 116998a
+zoom_to -target area -xl_area 22352a -yb_area 89771a -xr_area 48327a -yt_area 116998a
+zoom_to -target area -xl_area 23439a -yb_area 89771a -xr_area 49414a -yt_area 116998a
+zoom_to -target area -xl_area 25129a -yb_area 89771a -xr_area 51104a -yt_area 116998a
+zoom_to -target area -xl_area 27363a -yb_area 89771a -xr_area 53338a -yt_area 116998a
+zoom_to -target area -xl_area 28450a -yb_area 89771a -xr_area 54425a -yt_area 116998a
+zoom_to -target area -xl_area 29597a -yb_area 89771a -xr_area 55572a -yt_area 116998a
+zoom_to -target area -xl_area 26018a -yb_area 86005a -xr_area 58486a -yt_area 120038a
+zoom_to -target area -xl_area 14089a -yb_area 73454a -xr_area 68201a -yt_area 130175a
+set_option -name view:design:scheme0:layer1:pre_route:wire:visible -value false
+set_option -name view:design:scheme0:layer3:pre_route:wire:visible -value false
+set_option -name view:design:scheme0:layer5:pre_route:wire:visible -value false
+set_option -name view:design:scheme0:layer7:pre_route:wire:visible -value false
+set_option -name view:design:scheme0:layer9:pre_route:wire:visible -value false
+set_option -name view:design:scheme0:layer11:pre_route:wire:visible -value false
+set_option -name view:design:scheme0:layer13:pre_route:wire:visible -value false
+set_option -name view:design:scheme0:layer15:pre_route:wire:visible -value false
+set_option -name view:design:scheme0:layer17:pre_route:wire:visible -value false
+set_option -name view:design:scheme0:layer19:pre_route:wire:visible -value false
+set_option -name view:design:scheme0:layer1:final_route:wire:visible -value false
+set_option -name view:design:scheme0:layer3:final_route:wire:visible -value false
+set_option -name view:design:scheme0:layer5:final_route:wire:visible -value false
+set_option -name view:design:scheme0:layer7:final_route:wire:visible -value false
+set_option -name view:design:scheme0:layer9:final_route:wire:visible -value false
+set_option -name view:design:scheme0:layer11:final_route:wire:visible -value false
+set_option -name view:design:scheme0:layer13:final_route:wire:visible -value false
+set_option -name view:design:scheme0:layer15:final_route:wire:visible -value false
+set_option -name view:design:scheme0:layer17:final_route:wire:visible -value false
+set_option -name view:design:scheme0:layer19:final_route:wire:visible -value false
+set_option -name view:design:scheme0:layer1:global_route:wire:visible -value false
+set_option -name view:design:scheme0:layer3:global_route:wire:visible -value false
+set_option -name view:design:scheme0:layer5:global_route:wire:visible -value false
+set_option -name view:design:scheme0:layer7:global_route:wire:visible -value false
+set_option -name view:design:scheme0:layer9:global_route:wire:visible -value false
+set_option -name view:design:scheme0:layer11:global_route:wire:visible -value false
+set_option -name view:design:scheme0:layer13:global_route:wire:visible -value false
+set_option -name view:design:scheme0:layer15:global_route:wire:visible -value false
+set_option -name view:design:scheme0:layer17:global_route:wire:visible -value false
+set_option -name view:design:scheme0:layer19:global_route:wire:visible -value false
+set_option -name view:design:scheme0:layer1:pre_route:wire:visible -value true
+set_option -name view:design:scheme0:layer3:pre_route:wire:visible -value true
+set_option -name view:design:scheme0:layer5:pre_route:wire:visible -value true
+set_option -name view:design:scheme0:layer7:pre_route:wire:visible -value true
+set_option -name view:design:scheme0:layer9:pre_route:wire:visible -value true
+set_option -name view:design:scheme0:layer11:pre_route:wire:visible -value true
+set_option -name view:design:scheme0:layer13:pre_route:wire:visible -value true
+set_option -name view:design:scheme0:layer15:pre_route:wire:visible -value true
+set_option -name view:design:scheme0:layer17:pre_route:wire:visible -value true
+set_option -name view:design:scheme0:layer19:pre_route:wire:visible -value true
+set_option -name view:design:scheme0:layer1:pre_route:wire:visible -value false
+set_option -name view:design:scheme0:layer3:pre_route:wire:visible -value false
+set_option -name view:design:scheme0:layer5:pre_route:wire:visible -value false
+set_option -name view:design:scheme0:layer7:pre_route:wire:visible -value false
+set_option -name view:design:scheme0:layer9:pre_route:wire:visible -value false
+set_option -name view:design:scheme0:layer11:pre_route:wire:visible -value false
+set_option -name view:design:scheme0:layer13:pre_route:wire:visible -value false
+set_option -name view:design:scheme0:layer15:pre_route:wire:visible -value false
+set_option -name view:design:scheme0:layer17:pre_route:wire:visible -value false
+set_option -name view:design:scheme0:layer19:pre_route:wire:visible -value false
+set_option -name view:design:scheme0:layer1:pre_route:wire:visible -value true
+set_option -name view:design:scheme0:layer3:pre_route:wire:visible -value true
+set_option -name view:design:scheme0:layer5:pre_route:wire:visible -value true
+set_option -name view:design:scheme0:layer7:pre_route:wire:visible -value true
+set_option -name view:design:scheme0:layer9:pre_route:wire:visible -value true
+set_option -name view:design:scheme0:layer11:pre_route:wire:visible -value true
+set_option -name view:design:scheme0:layer13:pre_route:wire:visible -value true
+set_option -name view:design:scheme0:layer15:pre_route:wire:visible -value true
+set_option -name view:design:scheme0:layer17:pre_route:wire:visible -value true
+set_option -name view:design:scheme0:layer19:pre_route:wire:visible -value true
+write_verilog -file netlist.v
