@@ -7,8 +7,6 @@ module decompress_test_bench();
   wire[7:0] out;
   wire[31:0] byteIndx;
   wire[3:0] bitIndx;
-  reg[1:0] i=2'b01;
-  reg[1:0] j=2'b01;
   decompress decompress_module(in1,in2,out,byteIndx,bitIndx,done,work);
   initial begin
      
