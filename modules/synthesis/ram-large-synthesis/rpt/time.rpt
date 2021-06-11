@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------
+Startpoint: temp_reg[15]/Q
+    (Clocked by sysclk F)
+Endpoint: dataout[15]
+    (Clocked by vsysclk R)
+Path Group: default
+Data required time: -17250.0
+    (Clock shift: 750.0, minus Uncertainty: 0.0, plus Latency 0.0, minus Out delay: 18000.0)
+Data arrival time: 107.9
+Slack: -17357.9
+Logic depth: 0
+----------------------------------------------------------------------------------------------------
+                                                                 Arrival          Total             
+Path                     Module/Cell              Slew    Delay     Time  Edge     Load     Location
+                                                  (ps)     (ps)     (ps)           (ff)      (um,um)
+----------------------------------------------------------------------------------------------------
+clk                      {create_clock}                     0.0      0.0     f      0.0     0,  225 
+i_5_0_0/A->ZN            INV_X1                    0.0      0.0      0.0    fr      0.0     6,  225 
+temp_reg[15]/CK->Q       DFF_X1#                   0.0    107.9    107.9    rr     12.1     6,  225 
+dataout[15]                                       30.4      0.0    107.9     r              0,  227 
+----------------------------------------------------------------------------------------------------
