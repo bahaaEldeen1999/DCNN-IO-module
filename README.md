@@ -1,6 +1,7 @@
 # DCNN IO module
-It's a detailed hardware design for the I/O module that is built for sending/receiving data over a 16-bit bus interface with
-the CPU.
+It's a detailed hardware design for the I/O module that is built for sending/receiving data over a 16-bit bus interface with the CPU.
+<br/>
+<br/>
 ![IOmodule](IOmodule.PNG)
 <br/>
 <br/>
